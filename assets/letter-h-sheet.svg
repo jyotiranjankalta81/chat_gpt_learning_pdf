@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420">
+  <defs>
+    <filter id="ds" x="-25%" y="-25%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#000" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <g filter="url(#ds)">
+    <g transform="translate(52 28) rotate(14)">
+      <path d="M26 0h240a26 26 0 0 1 26 26v280a26 26 0 0 1-26 26H26A26 26 0 0 1 0 306V26A26 26 0 0 1 26 0z" fill="#ffffff"/>
+      <path d="M0 34C58 52 110 50 160 34c52-16 94-18 132-12v46H0z" fill="#ff2fb3" opacity=".95"/>
+      <path d="M0 76h292v40H0z" fill="#21a6e2" opacity=".95"/>
+      <path d="M0 116h292v36H0z" fill="#ffd24b" opacity=".95"/>
+      <path d="M26 0h240a26 26 0 0 1 26 26v280a26 26 0 0 1-26 26H26A26 26 0 0 1 0 306V26A26 26 0 0 1 26 0z" fill="none" stroke="#e7e7e7" stroke-width="8"/>
+
+      <g transform="translate(66 146)">
+        <path d="M0 0h160v182H0z" fill="#ffffff"/>
+        <path d="M24 22h34v140H24z" fill="#ffffff" stroke="#a9a9a9" stroke-width="10"/>
+        <path d="M102 22h34v140h-34z" fill="#ffffff" stroke="#a9a9a9" stroke-width="10"/>
+        <path d="M58 92h44" stroke="#ff2fb3" stroke-width="14" stroke-linecap="round"/>
+        <path d="M58 34v120" stroke="#ff2fb3" stroke-width="14" stroke-linecap="round"/>
+        <path d="M102 34v120" stroke="#ff2fb3" stroke-width="14" stroke-linecap="round"/>
+        <path d="M62 60c10 10 10 22 0 32" fill="none" stroke="#ff2fb3" stroke-width="10" stroke-linecap="round"/>
+        <path d="M100 60c-10 10-10 22 0 32" fill="none" stroke="#ff2fb3" stroke-width="10" stroke-linecap="round"/>
+      </g>
+
+      <path d="M248 240c18 20 18 46 0 66" fill="none" stroke="#8bc34a" stroke-width="14" stroke-linecap="round"/>
+      <path d="M256 308l16 16 32-40" fill="none" stroke="#8bc34a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
