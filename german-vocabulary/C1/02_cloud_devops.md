@@ -1,4 +1,4 @@
-# C1 — Cloud Computing & DevOps (Cloud-Computing & DevOps)
+# C1 â€” Cloud Computing & DevOps (Cloud-Computing & DevOps)
 
 > ~130 entries covering enterprise cloud architecture, DevOps practices, SRE, platform engineering, and production operations vocabulary for IT professionals in Germany.
 
@@ -8,21 +8,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 1 | Cloud-native Architektur | cloud-native architecture | klowd-neh-tiv-ar-khee-tek-toor | die | n. | Cloud-native Architektur nutzt alle Cloud-Vorteile. | Cloud-native architecture uses all cloud advantages. | Cloud | — | — | — | legacy Architektur |
-| 2 | Microservices-Architektur | microservices architecture | my-kroh-zer-vi-ses-ar-khee-tek-toor | die | n. | Die Microservices-Architektur ermöglicht unabhängige Deployments. | Microservices architecture enables independent deployments. | Cloud | — | — | — | monolithische Architektur |
-| 3 | Service Mesh | service mesh | zer-vis-mesh | das | n. | Ein Service Mesh verwaltet die Kommunikation zwischen Services. | A service mesh manages communication between services. | Cloud | — | Istio, Linkerd | — | — |
-| 4 | API-Gateway | API gateway | ah-pee-eye-gayt-vay | das | n. | Das API-Gateway bündelt alle API-Aufrufe. | The API gateway bundles all API calls. | Cloud | API-Gateways | — | — | direkte API-Kommunikation |
-| 5 | Lastverteilung | load balancing | last-fer-ty-loong | die | n. | Die Lastverteilung verhindert Überlastung. | Load balancing prevents overload. | Cloud | — | — | Load Balancing | — |
-| 6 | Auto-Scaling | auto-scaling | ow-toh-skeh-ling | das | n. | Auto-Scaling passt Ressourcen automatisch an. | Auto-scaling automatically adjusts resources. | Cloud | — | horizontales/vertikales Auto-Scaling | — | manuelle Skalierung |
-| 7 | Verfügbarkeitszonen | availability zones | fer-fyoog-bar-kyts-tsoh-nen | — | n. (pl.) | Wir nutzen drei Verfügbarkeitszonen für Ausfallsicherheit. | We use three availability zones for fault tolerance. | Cloud | — | — | — | — |
-| 8 | Multi-Region-Deployment | multi-region deployment | mol-tee-reh-gee-ohn-deh-ploy-ment | das | n. | Multi-Region-Deployment reduziert Latenz weltweit. | Multi-region deployment reduces latency worldwide. | Cloud | — | — | — | Single-Region |
-| 9 | Chaos Engineering | chaos engineering | keh-os-en-ji-nee-ring | das | n. | Chaos Engineering testet die Resilienz des Systems. | Chaos engineering tests system resilience. | Cloud | — | Chaos Monkey | — | — |
-| 10 | Disaster Recovery | disaster recovery | dih-zas-ter-ri-ko-ve-ree | das | n. | Der Disaster Recovery Plan muss getestet werden. | The disaster recovery plan must be tested. | Cloud | — | DR-Plan, RTO, RPO | — | normale Betriebsführung |
-| 11 | RTO (Recovery Time Objective) | RTO | er-teh-oh | das | n. | Das RTO beträgt 4 Stunden. | The RTO is 4 hours. | Cloud | — | — | — | — |
-| 12 | RPO (Recovery Point Objective) | RPO | er-peh-oh | das | n. | Das RPO beträgt 1 Stunde. | The RPO is 1 hour. | Cloud | — | — | — | — |
-| 13 | Blue/Green Deployment | blue/green deployment | bloo-green-deh-ploy-ment | das | n. | Blue/Green Deployment ermöglicht unterbrechungsfreie Releases. | Blue/green deployment enables seamless releases. | Cloud/DevOps | — | — | — | — |
-| 14 | Canary Deployment | canary deployment | keh-neh-ree-deh-ploy-ment | das | n. | Canary Deployment rollt Updates schrittweise aus. | Canary deployment rolls out updates gradually. | Cloud/DevOps | — | — | — | — |
-| 15 | Feature Flags | feature flags | fee-tschur-fleks | — | n. (pl.) | Feature Flags erlauben kontrollierten Funktionsrollout. | Feature flags allow controlled feature rollout. | Cloud/DevOps | — | — | Feature Toggle | — |
+| 1 | Cloud-native Architektur | cloud-native architecture | klowd-neh-tiv-ar-khee-tek-toor | die | n. | Cloud-native Architektur nutzt alle Cloud-Vorteile. | Cloud-native architecture uses all cloud advantages. | Cloud | â€” | â€” | â€” | legacy Architektur |
+| 2 | Microservices-Architektur | microservices architecture | my-kroh-zer-vi-ses-ar-khee-tek-toor | die | n. | Die Microservices-Architektur ermÃ¶glicht unabhÃ¤ngige Deployments. | Microservices architecture enables independent deployments. | Cloud | â€” | â€” | â€” | monolithische Architektur |
+| 3 | Service Mesh | service mesh | zer-vis-mesh | das | n. | Ein Service Mesh verwaltet die Kommunikation zwischen Services. | A service mesh manages communication between services. | Cloud | â€” | Istio, Linkerd | â€” | â€” |
+| 4 | API-Gateway | API gateway | ah-pee-eye-gayt-vay | das | n. | Das API-Gateway bÃ¼ndelt alle API-Aufrufe. | The API gateway bundles all API calls. | Cloud | API-Gateways | â€” | â€” | direkte API-Kommunikation |
+| 5 | Lastverteilung | load balancing | last-fer-ty-loong | die | n. | Die Lastverteilung verhindert Ãœberlastung. | Load balancing prevents overload. | Cloud | â€” | â€” | Load Balancing | â€” |
+| 6 | Auto-Scaling | auto-scaling | ow-toh-skeh-ling | das | n. | Auto-Scaling passt Ressourcen automatisch an. | Auto-scaling automatically adjusts resources. | Cloud | â€” | horizontales/vertikales Auto-Scaling | â€” | manuelle Skalierung |
+| 7 | VerfÃ¼gbarkeitszonen | availability zones | fer-fyoog-bar-kyts-tsoh-nen | â€” | n. (pl.) | Wir nutzen drei VerfÃ¼gbarkeitszonen fÃ¼r Ausfallsicherheit. | We use three availability zones for fault tolerance. | Cloud | â€” | â€” | â€” | â€” |
+| 8 | Multi-Region-Deployment | multi-region deployment | mol-tee-reh-gee-ohn-deh-ploy-ment | das | n. | Multi-Region-Deployment reduziert Latenz weltweit. | Multi-region deployment reduces latency worldwide. | Cloud | â€” | â€” | â€” | Single-Region |
+| 9 | Chaos Engineering | chaos engineering | keh-os-en-ji-nee-ring | das | n. | Chaos Engineering testet die Resilienz des Systems. | Chaos engineering tests system resilience. | Cloud | â€” | Chaos Monkey | â€” | â€” |
+| 10 | Disaster Recovery | disaster recovery | dih-zas-ter-ri-ko-ve-ree | das | n. | Der Disaster Recovery Plan muss getestet werden. | The disaster recovery plan must be tested. | Cloud | â€” | DR-Plan, RTO, RPO | â€” | normale BetriebsfÃ¼hrung |
+| 11 | RTO (Recovery Time Objective) | RTO | er-teh-oh | das | n. | Das RTO betrÃ¤gt 4 Stunden. | The RTO is 4 hours. | Cloud | â€” | â€” | â€” | â€” |
+| 12 | RPO (Recovery Point Objective) | RPO | er-peh-oh | das | n. | Das RPO betrÃ¤gt 1 Stunde. | The RPO is 1 hour. | Cloud | â€” | â€” | â€” | â€” |
+| 13 | Blue/Green Deployment | blue/green deployment | bloo-green-deh-ploy-ment | das | n. | Blue/Green Deployment ermÃ¶glicht unterbrechungsfreie Releases. | Blue/green deployment enables seamless releases. | Cloud/DevOps | â€” | â€” | â€” | â€” |
+| 14 | Canary Deployment | canary deployment | keh-neh-ree-deh-ploy-ment | das | n. | Canary Deployment rollt Updates schrittweise aus. | Canary deployment rolls out updates gradually. | Cloud/DevOps | â€” | â€” | â€” | â€” |
+| 15 | Feature Flags | feature flags | fee-tschur-fleks | â€” | n. (pl.) | Feature Flags erlauben kontrollierten Funktionsrollout. | Feature flags allow controlled feature rollout. | Cloud/DevOps | â€” | â€” | Feature Toggle | â€” |
 
 ---
 
@@ -30,21 +30,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 16 | DevOps-Kultur | DevOps culture | dev-ops-kool-toor | die | n. | Eine echte DevOps-Kultur überwindet Silodenken. | A true DevOps culture overcomes silo thinking. | DevOps | — | — | — | Silokultur |
-| 17 | gemeinsame Verantwortung | shared responsibility | geh-myne-zah-meh fer-ant-vor-toong | die | n. | DevOps bedeutet gemeinsame Verantwortung für Code und Betrieb. | DevOps means shared responsibility for code and operations. | DevOps | — | — | — | — |
-| 18 | Feedback-Schleifen | feedback loops | feed-bek-shly-fen | — | n. (pl.) | Kurze Feedback-Schleifen beschleunigen die Entwicklung. | Short feedback loops accelerate development. | DevOps | — | — | — | lange Feedback-Zyklen |
-| 19 | Shift Left | shift left | shift-left | das | n. | Shift Left verlagert Tests früher in den Entwicklungsprozess. | Shift left moves testing earlier in the development process. | DevOps | — | — | — | — |
-| 20 | Versionskontrolle | version control | fer-zee-ohns-kon-troh-leh | die | n. | Alles in Versionskontrolle — auch Konfiguration. | Everything in version control — including configuration. | DevOps | — | Git, SVN | — | — |
-| 21 | Code-Review | code review | koht-ri-vyoo | das | n. | Code-Reviews verbessern die Codequalität. | Code reviews improve code quality. | DevOps | Code-Reviews | Pull Request, Merge Request | — | — |
-| 22 | Pull Request (PR) | pull request | pool-ri-kvest | der | n. | Ich erstelle einen Pull Request für das Feature. | I create a pull request for the feature. | DevOps | Pull Requests | PR reviewen, PR mergen | — | — |
-| 23 | Merge | merge | merdzh | das | n. | Der Merge in main erfolgt nach Review. | The merge into main happens after review. | DevOps | — | mergen, Merge-Konflikt | — | — |
-| 24 | Branching-Strategie | branching strategy | bran-tshing-shtra-teh-ghee | die | n. | GitFlow ist eine Branching-Strategie. | GitFlow is a branching strategy. | DevOps | — | Gitflow, Trunk-Based Development | — | — |
-| 25 | technische Schulden | technical debt | tekh-nish-eh shool-den | — | n. (pl.) | Technische Schulden müssen aktiv abgebaut werden. | Technical debt must be actively reduced. | DevOps | — | Tech Debt | — | sauberer Code |
-| 26 | Refactoring | refactoring | ree-fak-to-ring | das | n. | Refactoring verbessert die Codequalität ohne neue Features. | Refactoring improves code quality without new features. | Development | — | Code refactoren | — | neue Features |
-| 27 | Test-Driven Development (TDD) | TDD | teh-deh-deh | das | n. | TDD schreibt Tests vor dem Code. | TDD writes tests before the code. | Development | — | — | testgetriebene Entwicklung | — |
-| 28 | Behaviour-Driven Development (BDD) | BDD | beh-deh-deh | das | n. | BDD beschreibt Verhalten aus Benutzersicht. | BDD describes behaviour from the user's perspective. | Development | — | Gherkin, Cucumber | — | — |
-| 29 | Acceptance Testing | acceptance testing | ak-sep-tans-tes-ting | das | n. | Acceptance Testing verifiziert die Anforderungen. | Acceptance testing verifies requirements. | Development | — | — | Abnahmetesting | — |
-| 30 | Smoke Test | smoke test | smohk-test | der | n. | Nach jedem Deploy führen wir Smoke Tests durch. | After each deploy we run smoke tests. | DevOps | Smoke Tests | — | — | vollständige Testsuiten |
+| 16 | DevOps-Kultur | DevOps culture | dev-ops-kool-toor | die | n. | Eine echte DevOps-Kultur Ã¼berwindet Silodenken. | A true DevOps culture overcomes silo thinking. | DevOps | â€” | â€” | â€” | Silokultur |
+| 17 | gemeinsame Verantwortung | shared responsibility | geh-myne-zah-meh fer-ant-vor-toong | die | n. | DevOps bedeutet gemeinsame Verantwortung fÃ¼r Code und Betrieb. | DevOps means shared responsibility for code and operations. | DevOps | â€” | â€” | â€” | â€” |
+| 18 | Feedback-Schleifen | feedback loops | feed-bek-shly-fen | â€” | n. (pl.) | Kurze Feedback-Schleifen beschleunigen die Entwicklung. | Short feedback loops accelerate development. | DevOps | â€” | â€” | â€” | lange Feedback-Zyklen |
+| 19 | Shift Left | shift left | shift-left | das | n. | Shift Left verlagert Tests frÃ¼her in den Entwicklungsprozess. | Shift left moves testing earlier in the development process. | DevOps | â€” | â€” | â€” | â€” |
+| 20 | Versionskontrolle | version control | fer-zee-ohns-kon-troh-leh | die | n. | Alles in Versionskontrolle â€” auch Konfiguration. | Everything in version control â€” including configuration. | DevOps | â€” | Git, SVN | â€” | â€” |
+| 21 | Code-Review | code review | koht-ri-vyoo | das | n. | Code-Reviews verbessern die CodequalitÃ¤t. | Code reviews improve code quality. | DevOps | Code-Reviews | Pull Request, Merge Request | â€” | â€” |
+| 22 | Pull Request (PR) | pull request | pool-ri-kvest | der | n. | Ich erstelle einen Pull Request fÃ¼r das Feature. | I create a pull request for the feature. | DevOps | Pull Requests | PR reviewen, PR mergen | â€” | â€” |
+| 23 | Merge | merge | merdzh | das | n. | Der Merge in main erfolgt nach Review. | The merge into main happens after review. | DevOps | â€” | mergen, Merge-Konflikt | â€” | â€” |
+| 24 | Branching-Strategie | branching strategy | bran-tshing-shtra-teh-ghee | die | n. | GitFlow ist eine Branching-Strategie. | GitFlow is a branching strategy. | DevOps | â€” | Gitflow, Trunk-Based Development | â€” | â€” |
+| 25 | technische Schulden | technical debt | tekh-nish-eh shool-den | â€” | n. (pl.) | Technische Schulden mÃ¼ssen aktiv abgebaut werden. | Technical debt must be actively reduced. | DevOps | â€” | Tech Debt | â€” | sauberer Code |
+| 26 | Refactoring | refactoring | ree-fak-to-ring | das | n. | Refactoring verbessert die CodequalitÃ¤t ohne neue Features. | Refactoring improves code quality without new features. | Development | â€” | Code refactoren | â€” | neue Features |
+| 27 | Test-Driven Development (TDD) | TDD | teh-deh-deh | das | n. | TDD schreibt Tests vor dem Code. | TDD writes tests before the code. | Development | â€” | â€” | testgetriebene Entwicklung | â€” |
+| 28 | Behaviour-Driven Development (BDD) | BDD | beh-deh-deh | das | n. | BDD beschreibt Verhalten aus Benutzersicht. | BDD describes behaviour from the user's perspective. | Development | â€” | Gherkin, Cucumber | â€” | â€” |
+| 29 | Acceptance Testing | acceptance testing | ak-sep-tans-tes-ting | das | n. | Acceptance Testing verifiziert die Anforderungen. | Acceptance testing verifies requirements. | Development | â€” | â€” | Abnahmetesting | â€” |
+| 30 | Smoke Test | smoke test | smohk-test | der | n. | Nach jedem Deploy fÃ¼hren wir Smoke Tests durch. | After each deploy we run smoke tests. | DevOps | Smoke Tests | â€” | â€” | vollstÃ¤ndige Testsuiten |
 
 ---
 
@@ -52,21 +52,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 31 | Site Reliability Engineering (SRE) | SRE | es-ar-ee | das | n. | SRE verbindet Software-Engineering mit Betrieb. | SRE combines software engineering with operations. | SRE | — | — | Zuverlässigkeits-Engineering | — |
-| 32 | Service Level Agreement (SLA) | SLA | es-el-ah | das | n. | Das SLA garantiert 99,9% Verfügbarkeit. | The SLA guarantees 99.9% availability. | SRE | SLAs | — | Dienstgütevereinbarung | — |
-| 33 | Service Level Objective (SLO) | SLO | es-el-oh | das | n. | Das SLO definiert interne Verfügbarkeitsziele. | The SLO defines internal availability targets. | SRE | SLOs | — | — | SLA (external) |
-| 34 | Service Level Indicator (SLI) | SLI | es-el-ee | das | n. | SLIs messen die tatsächliche Systemleistung. | SLIs measure actual system performance. | SRE | SLIs | — | — | — |
-| 35 | Error Budget | error budget | eh-ror-boo-dzhit | das | n. | Das Error Budget bestimmt, wann Deployments riskant sind. | The error budget determines when deployments are risky. | SRE | Error Budgets | — | Fehlerkontingent | — |
-| 36 | Toil | toil (SRE term) | toyl | das | n. | Toil sind manuelle, repetitive Tätigkeiten. | Toil refers to manual, repetitive tasks. | SRE | — | Toil reduzieren | — | Automatisierung |
-| 37 | Postmortem | postmortem | pohst-mor-tem | das | n. | Nach jedem Ausfall schreiben wir ein Postmortem. | After every outage we write a postmortem. | SRE | Postmortems | blameless Postmortem | — | — |
-| 38 | blameless Postmortem | blameless postmortem | bley-mes-pohst-mor-tem | das | n. | Blameless Postmortems fokussieren auf Systemverbesserung. | Blameless postmortems focus on system improvement. | SRE | — | — | — | Schuldzuweisung |
-| 39 | Incident Management | incident management | in-tsi-dent-ma-neh-jment | das | n. | Gutes Incident Management minimiert Downtime. | Good incident management minimises downtime. | SRE | — | — | Vorfallmanagement | — |
-| 40 | On-Call | on-call | on-kohl | das | n. | Ich habe diese Woche On-Call-Bereitschaft. | I am on call this week. | SRE | — | On-Call-Rotationen | Bereitschaftsdienst | — |
-| 41 | Runbook | runbook | ron-bookh | das | n. | Das Runbook beschreibt die Reaktion auf Vorfälle. | The runbook describes the response to incidents. | SRE | Runbooks | — | — | — |
-| 42 | Playbook | playbook | pley-bookh | das | n. | Das Playbook enthält bewährte Lösungen. | The playbook contains proven solutions. | SRE | Playbooks | — | — | — |
-| 43 | Monitoring | monitoring | mo-ni-to-ring | das | n. | Gutes Monitoring erkennt Probleme früh. | Good monitoring detects problems early. | SRE | — | Alerting, Observability | Überwachung | — |
-| 44 | Observability | observability | ob-zer-vah-bil-i-tee | die | n. | Observability umfasst Metriken, Logs und Traces. | Observability includes metrics, logs and traces. | SRE | — | Traces, Logs, Metrics | — | — |
-| 45 | Distributed Tracing | distributed tracing | dis-tri-byoo-ted-trey-sing | das | n. | Distributed Tracing verfolgt Anfragen durch Microservices. | Distributed tracing follows requests through microservices. | SRE | — | Jaeger, Zipkin | — | — |
+| 31 | Site Reliability Engineering (SRE) | SRE | es-ar-ee | das | n. | SRE verbindet Software-Engineering mit Betrieb. | SRE combines software engineering with operations. | SRE | â€” | â€” | ZuverlÃ¤ssigkeits-Engineering | â€” |
+| 32 | Service Level Agreement (SLA) | SLA | es-el-ah | das | n. | Das SLA garantiert 99,9% VerfÃ¼gbarkeit. | The SLA guarantees 99.9% availability. | SRE | SLAs | â€” | DienstgÃ¼tevereinbarung | â€” |
+| 33 | Service Level Objective (SLO) | SLO | es-el-oh | das | n. | Das SLO definiert interne VerfÃ¼gbarkeitsziele. | The SLO defines internal availability targets. | SRE | SLOs | â€” | â€” | SLA (external) |
+| 34 | Service Level Indicator (SLI) | SLI | es-el-ee | das | n. | SLIs messen die tatsÃ¤chliche Systemleistung. | SLIs measure actual system performance. | SRE | SLIs | â€” | â€” | â€” |
+| 35 | Error Budget | error budget | eh-ror-boo-dzhit | das | n. | Das Error Budget bestimmt, wann Deployments riskant sind. | The error budget determines when deployments are risky. | SRE | Error Budgets | â€” | Fehlerkontingent | â€” |
+| 36 | Toil | toil (SRE term) | toyl | das | n. | Toil sind manuelle, repetitive TÃ¤tigkeiten. | Toil refers to manual, repetitive tasks. | SRE | â€” | Toil reduzieren | â€” | Automatisierung |
+| 37 | Postmortem | postmortem | pohst-mor-tem | das | n. | Nach jedem Ausfall schreiben wir ein Postmortem. | After every outage we write a postmortem. | SRE | Postmortems | blameless Postmortem | â€” | â€” |
+| 38 | blameless Postmortem | blameless postmortem | bley-mes-pohst-mor-tem | das | n. | Blameless Postmortems fokussieren auf Systemverbesserung. | Blameless postmortems focus on system improvement. | SRE | â€” | â€” | â€” | Schuldzuweisung |
+| 39 | Incident Management | incident management | in-tsi-dent-ma-neh-jment | das | n. | Gutes Incident Management minimiert Downtime. | Good incident management minimises downtime. | SRE | â€” | â€” | Vorfallmanagement | â€” |
+| 40 | On-Call | on-call | on-kohl | das | n. | Ich habe diese Woche On-Call-Bereitschaft. | I am on call this week. | SRE | â€” | On-Call-Rotationen | Bereitschaftsdienst | â€” |
+| 41 | Runbook | runbook | ron-bookh | das | n. | Das Runbook beschreibt die Reaktion auf VorfÃ¤lle. | The runbook describes the response to incidents. | SRE | Runbooks | â€” | â€” | â€” |
+| 42 | Playbook | playbook | pley-bookh | das | n. | Das Playbook enthÃ¤lt bewÃ¤hrte LÃ¶sungen. | The playbook contains proven solutions. | SRE | Playbooks | â€” | â€” | â€” |
+| 43 | Monitoring | monitoring | mo-ni-to-ring | das | n. | Gutes Monitoring erkennt Probleme frÃ¼h. | Good monitoring detects problems early. | SRE | â€” | Alerting, Observability | Ãœberwachung | â€” |
+| 44 | Observability | observability | ob-zer-vah-bil-i-tee | die | n. | Observability umfasst Metriken, Logs und Traces. | Observability includes metrics, logs and traces. | SRE | â€” | Traces, Logs, Metrics | â€” | â€” |
+| 45 | Distributed Tracing | distributed tracing | dis-tri-byoo-ted-trey-sing | das | n. | Distributed Tracing verfolgt Anfragen durch Microservices. | Distributed tracing follows requests through microservices. | SRE | â€” | Jaeger, Zipkin | â€” | â€” |
 
 ---
 
@@ -74,19 +74,19 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 46 | Pod | pod (Kubernetes) | pot | der | n. | Ein Pod enthält einen oder mehrere Container. | A pod contains one or more containers. | Kubernetes | Pods | — | — | — |
-| 47 | Deployment | deployment (K8s) | deh-ploy-ment | das | n. | Das Kubernetes Deployment verwaltet Replikas. | The Kubernetes Deployment manages replicas. | Kubernetes | Deployments | — | — | — |
-| 48 | Service (K8s) | service (K8s) | zer-vis | der | n. | Der Kubernetes Service exponiert Pods. | The Kubernetes Service exposes pods. | Kubernetes | Services | ClusterIP, NodePort, LoadBalancer | — | — |
-| 49 | Namespace | namespace | nehm-shpeys | der | n. | Namespaces isolieren Workloads. | Namespaces isolate workloads. | Kubernetes | Namespaces | — | — | — |
-| 50 | ConfigMap | ConfigMap | kon-fig-map | die | n. | ConfigMaps speichern nicht-sensitive Konfigurationen. | ConfigMaps store non-sensitive configurations. | Kubernetes | ConfigMaps | — | — | Secret |
-| 51 | Secret | secret (K8s) | see-kret | das | n. | Secrets speichern sensible Daten verschlüsselt. | Secrets store sensitive data encrypted. | Kubernetes | Secrets | — | — | ConfigMap |
-| 52 | Ingress | ingress | in-gres | der | n. | Der Ingress-Controller routet externen Traffic. | The Ingress controller routes external traffic. | Kubernetes | Ingresses | — | — | — |
-| 53 | Horizontal Pod Autoscaler (HPA) | HPA | hah-peh-ah | der | n. | HPA skaliert Pods basierend auf CPU-Auslastung. | HPA scales pods based on CPU utilisation. | Kubernetes | HPAs | — | — | — |
-| 54 | StatefulSet | StatefulSet | stehyt-fool-set | das | n. | StatefulSets verwalten zustandsbehaftete Anwendungen. | StatefulSets manage stateful applications. | Kubernetes | StatefulSets | — | — | Deployment (stateless) |
-| 55 | Persistent Volume (PV) | persistent volume | per-sis-tent-voh-loo-men | das | n. | Persistent Volumes speichern Daten über Pod-Neustarts hinaus. | Persistent volumes store data beyond pod restarts. | Kubernetes | Persistent Volumes | PVC | — | ephemeral storage |
-| 56 | Helm | Helm | helm | das | n. | Helm ist der Paketmanager für Kubernetes. | Helm is the package manager for Kubernetes. | Kubernetes | — | Helm Chart | — | — |
-| 57 | Operator Pattern | operator pattern | o-pe-reh-tor-pa-tern | das | n. | Kubernetes Operator automatisiert komplexe Aufgaben. | A Kubernetes operator automates complex tasks. | Kubernetes | — | — | — | — |
-| 58 | Service Mesh (Istio) | service mesh | zer-vis-mesh | das | n. | Istio implementiert ein Service Mesh. | Istio implements a service mesh. | Kubernetes | — | mTLS, Envoy Proxy | — | — |
+| 46 | Pod | pod (Kubernetes) | pot | der | n. | Ein Pod enthÃ¤lt einen oder mehrere Container. | A pod contains one or more containers. | Kubernetes | Pods | â€” | â€” | â€” |
+| 47 | Deployment | deployment (K8s) | deh-ploy-ment | das | n. | Das Kubernetes Deployment verwaltet Replikas. | The Kubernetes Deployment manages replicas. | Kubernetes | Deployments | â€” | â€” | â€” |
+| 48 | Service (K8s) | service (K8s) | zer-vis | der | n. | Der Kubernetes Service exponiert Pods. | The Kubernetes Service exposes pods. | Kubernetes | Services | ClusterIP, NodePort, LoadBalancer | â€” | â€” |
+| 49 | Namespace | namespace | nehm-shpeys | der | n. | Namespaces isolieren Workloads. | Namespaces isolate workloads. | Kubernetes | Namespaces | â€” | â€” | â€” |
+| 50 | ConfigMap | ConfigMap | kon-fig-map | die | n. | ConfigMaps speichern nicht-sensitive Konfigurationen. | ConfigMaps store non-sensitive configurations. | Kubernetes | ConfigMaps | â€” | â€” | Secret |
+| 51 | Secret | secret (K8s) | see-kret | das | n. | Secrets speichern sensible Daten verschlÃ¼sselt. | Secrets store sensitive data encrypted. | Kubernetes | Secrets | â€” | â€” | ConfigMap |
+| 52 | Ingress | ingress | in-gres | der | n. | Der Ingress-Controller routet externen Traffic. | The Ingress controller routes external traffic. | Kubernetes | Ingresses | â€” | â€” | â€” |
+| 53 | Horizontal Pod Autoscaler (HPA) | HPA | hah-peh-ah | der | n. | HPA skaliert Pods basierend auf CPU-Auslastung. | HPA scales pods based on CPU utilisation. | Kubernetes | HPAs | â€” | â€” | â€” |
+| 54 | StatefulSet | StatefulSet | stehyt-fool-set | das | n. | StatefulSets verwalten zustandsbehaftete Anwendungen. | StatefulSets manage stateful applications. | Kubernetes | StatefulSets | â€” | â€” | Deployment (stateless) |
+| 55 | Persistent Volume (PV) | persistent volume | per-sis-tent-voh-loo-men | das | n. | Persistent Volumes speichern Daten Ã¼ber Pod-Neustarts hinaus. | Persistent volumes store data beyond pod restarts. | Kubernetes | Persistent Volumes | PVC | â€” | ephemeral storage |
+| 56 | Helm | Helm | helm | das | n. | Helm ist der Paketmanager fÃ¼r Kubernetes. | Helm is the package manager for Kubernetes. | Kubernetes | â€” | Helm Chart | â€” | â€” |
+| 57 | Operator Pattern | operator pattern | o-pe-reh-tor-pa-tern | das | n. | Kubernetes Operator automatisiert komplexe Aufgaben. | A Kubernetes operator automates complex tasks. | Kubernetes | â€” | â€” | â€” | â€” |
+| 58 | Service Mesh (Istio) | service mesh | zer-vis-mesh | das | n. | Istio implementiert ein Service Mesh. | Istio implements a service mesh. | Kubernetes | â€” | mTLS, Envoy Proxy | â€” | â€” |
 
 ---
 
@@ -94,16 +94,16 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 59 | Deployment-Pipeline | deployment pipeline | deh-ploy-ment-pipe-line | die | n. | Die Deployment-Pipeline automatisiert den Release-Prozess. | The deployment pipeline automates the release process. | CI/CD | Deployment-Pipelines | — | — | manuelles Deployment |
-| 60 | Build-Artefakt | build artefact | bilt-ar-teh-fakt | das | n. | Build-Artefakte werden in einer Registry gespeichert. | Build artefacts are stored in a registry. | CI/CD | Build-Artefakte | — | — | — |
-| 61 | Docker Registry | container registry | dok-er-reh-gi-stree | die | n. | Images werden in der Docker Registry gespeichert. | Images are stored in the Docker Registry. | CI/CD | — | — | Container Registry | — |
-| 62 | Image | container image | i-midzh | das | n. | Das Docker Image enthält alles für die App. | The Docker image contains everything for the app. | CI/CD | Images | Image bauen, Image pushen | — | — |
-| 63 | Rollback | rollback | rohl-bek | das | n. | Bei einem Fehler führen wir einen Rollback durch. | In case of an error we perform a rollback. | CI/CD | Rollbacks | — | — | Rollforward |
-| 64 | Staging-Umgebung | staging environment | steh-dzhing-oom-geh-boong | die | n. | Wir testen in der Staging-Umgebung. | We test in the staging environment. | CI/CD | Staging-Umgebungen | — | — | Produktionsumgebung |
-| 65 | Produktionsumgebung | production environment | pro-dook-tsee-ohns-oom-geh-boong | die | n. | Nur getesteter Code kommt in die Produktion. | Only tested code goes into production. | CI/CD | — | — | Prod | Entwicklungsumgebung |
-| 66 | Umgebungsvariable | environment variable | oom-geh-boongs-vah-ree-ah-bleh | die | n. | Secrets werden als Umgebungsvariablen gesetzt. | Secrets are set as environment variables. | CI/CD | Umgebungsvariablen | ENV-Variable | — | — |
-| 67 | Artefakt-Repository | artifact repository | ar-teh-fakt-reh-poh-zi-toh-ree | das | n. | Nexus ist ein Artefakt-Repository. | Nexus is an artifact repository. | CI/CD | — | Nexus, Artifactory | — | — |
-| 68 | Release-Management | release management | reh-lees-ma-neh-jment | das | n. | Release-Management koordiniert neue Versionen. | Release management coordinates new versions. | CI/CD | — | — | — | — |
+| 59 | Deployment-Pipeline | deployment pipeline | deh-ploy-ment-pipe-line | die | n. | Die Deployment-Pipeline automatisiert den Release-Prozess. | The deployment pipeline automates the release process. | CI/CD | Deployment-Pipelines | â€” | â€” | manuelles Deployment |
+| 60 | Build-Artefakt | build artefact | bilt-ar-teh-fakt | das | n. | Build-Artefakte werden in einer Registry gespeichert. | Build artefacts are stored in a registry. | CI/CD | Build-Artefakte | â€” | â€” | â€” |
+| 61 | Docker Registry | container registry | dok-er-reh-gi-stree | die | n. | Images werden in der Docker Registry gespeichert. | Images are stored in the Docker Registry. | CI/CD | â€” | â€” | Container Registry | â€” |
+| 62 | Image | container image | i-midzh | das | n. | Das Docker Image enthÃ¤lt alles fÃ¼r die App. | The Docker image contains everything for the app. | CI/CD | Images | Image bauen, Image pushen | â€” | â€” |
+| 63 | Rollback | rollback | rohl-bek | das | n. | Bei einem Fehler fÃ¼hren wir einen Rollback durch. | In case of an error we perform a rollback. | CI/CD | Rollbacks | â€” | â€” | Rollforward |
+| 64 | Staging-Umgebung | staging environment | steh-dzhing-oom-geh-boong | die | n. | Wir testen in der Staging-Umgebung. | We test in the staging environment. | CI/CD | Staging-Umgebungen | â€” | â€” | Produktionsumgebung |
+| 65 | Produktionsumgebung | production environment | pro-dook-tsee-ohns-oom-geh-boong | die | n. | Nur getesteter Code kommt in die Produktion. | Only tested code goes into production. | CI/CD | â€” | â€” | Prod | Entwicklungsumgebung |
+| 66 | Umgebungsvariable | environment variable | oom-geh-boongs-vah-ree-ah-bleh | die | n. | Secrets werden als Umgebungsvariablen gesetzt. | Secrets are set as environment variables. | CI/CD | Umgebungsvariablen | ENV-Variable | â€” | â€” |
+| 67 | Artefakt-Repository | artifact repository | ar-teh-fakt-reh-poh-zi-toh-ree | das | n. | Nexus ist ein Artefakt-Repository. | Nexus is an artifact repository. | CI/CD | â€” | Nexus, Artifactory | â€” | â€” |
+| 68 | Release-Management | release management | reh-lees-ma-neh-jment | das | n. | Release-Management koordiniert neue Versionen. | Release management coordinates new versions. | CI/CD | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -111,16 +111,16 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 69 | Datensouveränität | data sovereignty | dah-ten-zoo-veh-reh-ni-teht | die | n. | Datensouveränität ist in Europa gesetzlich geregelt. | Data sovereignty is legally regulated in Europe. | Cloud/Legal | — | — | — | — |
-| 70 | DSGVO-Konformität | GDPR compliance | deh-es-geh-fow-kon-for-mi-teht | die | n. | Alle Cloud-Dienste müssen DSGVO-konform sein. | All cloud services must be GDPR-compliant. | Cloud/Legal | — | — | — | — |
-| 71 | Verschlüsselung at rest | encryption at rest | fer-shlys-el-oong-at-rest | die | n. | Daten werden verschlüsselt at rest gespeichert. | Data is stored encrypted at rest. | Cloud Security | — | — | — | unverschlüsselte Speicherung |
-| 72 | Verschlüsselung in transit | encryption in transit | fer-shlys-el-oong-in-tran-sit | die | n. | TLS verschlüsselt Daten in transit. | TLS encrypts data in transit. | Cloud Security | — | TLS, SSL | — | unverschlüsselte Übertragung |
-| 73 | IAM (Identity and Access Management) | IAM | ee-ah-em | das | n. | IAM kontrolliert, wer was in der Cloud tun darf. | IAM controls who can do what in the cloud. | Cloud Security | — | — | Identitätsmanagement | — |
-| 74 | Least Privilege Prinzip | principle of least privilege | leest-pri-vi-lezh-prin-tsip | das | n. | Das Least Privilege Prinzip minimiert Sicherheitsrisiken. | The principle of least privilege minimises security risks. | Cloud Security | — | — | minimales Berechtigungsprinzip | — |
-| 75 | Netzwerksegmentierung | network segmentation | nets-vehrk-zeg-men-tee-roong | die | n. | Netzwerksegmentierung isoliert kritische Systeme. | Network segmentation isolates critical systems. | Cloud Security | — | — | — | — |
-| 76 | Security as Code | security as code | si-kyoo-ri-tee-as-koht | das | n. | Security as Code integriert Sicherheit früh. | Security as Code integrates security early. | Cloud Security | — | — | — | manuelle Sicherheitschecks |
-| 77 | Schwachstellen-Scan | vulnerability scan | shvakh-shtel-en-skan | der | n. | Regelmäßige Schwachstellen-Scans sind Pflicht. | Regular vulnerability scans are mandatory. | Cloud Security | Schwachstellen-Scans | — | Vulnerability Assessment | — |
-| 78 | CVE (Common Vulnerabilities and Exposures) | CVE | tseh-veh-eh | das | n. | Dieses CVE betrifft kritische Infrastruktur. | This CVE affects critical infrastructure. | Cloud Security | CVEs | — | — | — |
+| 69 | DatensouverÃ¤nitÃ¤t | data sovereignty | dah-ten-zoo-veh-reh-ni-teht | die | n. | DatensouverÃ¤nitÃ¤t ist in Europa gesetzlich geregelt. | Data sovereignty is legally regulated in Europe. | Cloud/Legal | â€” | â€” | â€” | â€” |
+| 70 | DSGVO-KonformitÃ¤t | GDPR compliance | deh-es-geh-fow-kon-for-mi-teht | die | n. | Alle Cloud-Dienste mÃ¼ssen DSGVO-konform sein. | All cloud services must be GDPR-compliant. | Cloud/Legal | â€” | â€” | â€” | â€” |
+| 71 | VerschlÃ¼sselung at rest | encryption at rest | fer-shlys-el-oong-at-rest | die | n. | Daten werden verschlÃ¼sselt at rest gespeichert. | Data is stored encrypted at rest. | Cloud Security | â€” | â€” | â€” | unverschlÃ¼sselte Speicherung |
+| 72 | VerschlÃ¼sselung in transit | encryption in transit | fer-shlys-el-oong-in-tran-sit | die | n. | TLS verschlÃ¼sselt Daten in transit. | TLS encrypts data in transit. | Cloud Security | â€” | TLS, SSL | â€” | unverschlÃ¼sselte Ãœbertragung |
+| 73 | IAM (Identity and Access Management) | IAM | ee-ah-em | das | n. | IAM kontrolliert, wer was in der Cloud tun darf. | IAM controls who can do what in the cloud. | Cloud Security | â€” | â€” | IdentitÃ¤tsmanagement | â€” |
+| 74 | Least Privilege Prinzip | principle of least privilege | leest-pri-vi-lezh-prin-tsip | das | n. | Das Least Privilege Prinzip minimiert Sicherheitsrisiken. | The principle of least privilege minimises security risks. | Cloud Security | â€” | â€” | minimales Berechtigungsprinzip | â€” |
+| 75 | Netzwerksegmentierung | network segmentation | nets-vehrk-zeg-men-tee-roong | die | n. | Netzwerksegmentierung isoliert kritische Systeme. | Network segmentation isolates critical systems. | Cloud Security | â€” | â€” | â€” | â€” |
+| 76 | Security as Code | security as code | si-kyoo-ri-tee-as-koht | das | n. | Security as Code integriert Sicherheit frÃ¼h. | Security as Code integrates security early. | Cloud Security | â€” | â€” | â€” | manuelle Sicherheitschecks |
+| 77 | Schwachstellen-Scan | vulnerability scan | shvakh-shtel-en-skan | der | n. | RegelmÃ¤ÃŸige Schwachstellen-Scans sind Pflicht. | Regular vulnerability scans are mandatory. | Cloud Security | Schwachstellen-Scans | â€” | Vulnerability Assessment | â€” |
+| 78 | CVE (Common Vulnerabilities and Exposures) | CVE | tseh-veh-eh | das | n. | Dieses CVE betrifft kritische Infrastruktur. | This CVE affects critical infrastructure. | Cloud Security | CVEs | â€” | â€” | â€” |
 
 ---
 
@@ -128,15 +128,15 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 79 | Metriken | metrics | meh-tri-ken | — | n. (pl.) | Wir sammeln Metriken mit Prometheus. | We collect metrics with Prometheus. | Observability | — | — | Kennzahlen | — |
-| 80 | Logs | logs | logs | — | n. (pl.) | Logs werden in Elasticsearch gespeichert. | Logs are stored in Elasticsearch. | Observability | — | Log-Aggregation | Protokolldateien | — |
-| 81 | Traces | traces | trey-ses | — | n. (pl.) | Traces zeigen den Weg einer Anfrage. | Traces show the path of a request. | Observability | — | Distributed Tracing | Ablaufverfolgung | — |
-| 82 | Alert | alert | ah-lert | der | n. | Der Alert wurde um 3 Uhr getriggert. | The alert was triggered at 3 AM. | Monitoring | Alerts | — | Alarm, Benachrichtigung | — |
-| 83 | Dashboard | dashboard | dash-bort | das | n. | Das Grafana-Dashboard zeigt alle Metriken. | The Grafana dashboard shows all metrics. | Monitoring | Dashboards | — | — | — |
-| 84 | SLI/SLO-Tracking | SLI/SLO tracking | es-el-ee/es-el-oh-trek-ing | das | n. | Kontinuierliches SLI/SLO-Tracking verhindert SLA-Verletzungen. | Continuous SLI/SLO tracking prevents SLA violations. | SRE | — | — | — | — |
-| 85 | MTTR (Mean Time to Recovery) | MTTR | em-teh-teh-er | der | n. | Ein gutes Team hat eine niedrige MTTR. | A good team has a low MTTR. | SRE | — | — | mittlere Wiederherstellungszeit | — |
-| 86 | MTTD (Mean Time to Detection) | MTTD | em-teh-teh-deh | der | n. | Eine niedrige MTTD verbessert die Reaktionsfähigkeit. | A low MTTD improves responsiveness. | SRE | — | — | mittlere Erkennungszeit | — |
-| 87 | Anomalieerkennung | anomaly detection | ah-noh-mah-lee-er-ken-noong | die | n. | KI-gestützte Anomalieerkennung findet Probleme früh. | AI-supported anomaly detection finds problems early. | Monitoring | — | — | — | — |
+| 79 | Metriken | metrics | meh-tri-ken | â€” | n. (pl.) | Wir sammeln Metriken mit Prometheus. | We collect metrics with Prometheus. | Observability | â€” | â€” | Kennzahlen | â€” |
+| 80 | Logs | logs | logs | â€” | n. (pl.) | Logs werden in Elasticsearch gespeichert. | Logs are stored in Elasticsearch. | Observability | â€” | Log-Aggregation | Protokolldateien | â€” |
+| 81 | Traces | traces | trey-ses | â€” | n. (pl.) | Traces zeigen den Weg einer Anfrage. | Traces show the path of a request. | Observability | â€” | Distributed Tracing | Ablaufverfolgung | â€” |
+| 82 | Alert | alert | ah-lert | der | n. | Der Alert wurde um 3 Uhr getriggert. | The alert was triggered at 3 AM. | Monitoring | Alerts | â€” | Alarm, Benachrichtigung | â€” |
+| 83 | Dashboard | dashboard | dash-bort | das | n. | Das Grafana-Dashboard zeigt alle Metriken. | The Grafana dashboard shows all metrics. | Monitoring | Dashboards | â€” | â€” | â€” |
+| 84 | SLI/SLO-Tracking | SLI/SLO tracking | es-el-ee/es-el-oh-trek-ing | das | n. | Kontinuierliches SLI/SLO-Tracking verhindert SLA-Verletzungen. | Continuous SLI/SLO tracking prevents SLA violations. | SRE | â€” | â€” | â€” | â€” |
+| 85 | MTTR (Mean Time to Recovery) | MTTR | em-teh-teh-er | der | n. | Ein gutes Team hat eine niedrige MTTR. | A good team has a low MTTR. | SRE | â€” | â€” | mittlere Wiederherstellungszeit | â€” |
+| 86 | MTTD (Mean Time to Detection) | MTTD | em-teh-teh-deh | der | n. | Eine niedrige MTTD verbessert die ReaktionsfÃ¤higkeit. | A low MTTD improves responsiveness. | SRE | â€” | â€” | mittlere Erkennungszeit | â€” |
+| 87 | Anomalieerkennung | anomaly detection | ah-noh-mah-lee-er-ken-noong | die | n. | KI-gestÃ¼tzte Anomalieerkennung findet Probleme frÃ¼h. | AI-supported anomaly detection finds problems early. | Monitoring | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -144,14 +144,14 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 88 | Internal Developer Platform | internal developer platform | in-ter-nahl-deh-vel-oh-per-plat-form | die | n. | Eine IDP verbessert die Developer Experience. | An IDP improves the developer experience. | Platform | — | — | IDP | — |
-| 89 | Developer Experience (DX) | developer experience | deh-vel-oh-per-eks-peh-ree-ens | die | n. | Gute DX steigert die Produktivität. | Good DX increases productivity. | Platform | — | — | Entwicklererfahrung | — |
-| 90 | Golden Path | golden path | gohl-den-path | der | n. | Der Golden Path bietet empfohlene Toolchains. | The golden path provides recommended toolchains. | Platform | — | — | — | — |
-| 91 | Self-Service-Infrastruktur | self-service infrastructure | self-zer-vis-in-frah-shtrook-toor | die | n. | Self-Service-Infrastruktur reduziert Abhängigkeiten. | Self-service infrastructure reduces dependencies. | Platform | — | — | — | manuelle Infrastrukturbereitstellung |
-| 92 | Backstage | Backstage | bek-steydzh | — | n. | Backstage ist ein Open-Source-Portal für Developer. | Backstage is an open-source portal for developers. | Platform | — | — | Developer Portal | — |
-| 93 | GitOps | GitOps | git-ops | das | n. | GitOps verwendet Git als einzige Quelle der Wahrheit. | GitOps uses Git as the single source of truth. | DevOps | — | ArgoCD, Flux | — | — |
-| 94 | ArgoCD | ArgoCD | ar-go-tseh-deh | — | n. | ArgoCD implementiert GitOps für Kubernetes. | ArgoCD implements GitOps for Kubernetes. | DevOps | — | — | — | — |
-| 95 | Crossplane | Crossplane | kros-pleyn | — | n. | Crossplane verwaltet Cloud-Ressourcen als Kubernetes-Objekte. | Crossplane manages cloud resources as Kubernetes objects. | Platform | — | — | — | — |
+| 88 | Internal Developer Platform | internal developer platform | in-ter-nahl-deh-vel-oh-per-plat-form | die | n. | Eine IDP verbessert die Developer Experience. | An IDP improves the developer experience. | Platform | â€” | â€” | IDP | â€” |
+| 89 | Developer Experience (DX) | developer experience | deh-vel-oh-per-eks-peh-ree-ens | die | n. | Gute DX steigert die ProduktivitÃ¤t. | Good DX increases productivity. | Platform | â€” | â€” | Entwicklererfahrung | â€” |
+| 90 | Golden Path | golden path | gohl-den-path | der | n. | Der Golden Path bietet empfohlene Toolchains. | The golden path provides recommended toolchains. | Platform | â€” | â€” | â€” | â€” |
+| 91 | Self-Service-Infrastruktur | self-service infrastructure | self-zer-vis-in-frah-shtrook-toor | die | n. | Self-Service-Infrastruktur reduziert AbhÃ¤ngigkeiten. | Self-service infrastructure reduces dependencies. | Platform | â€” | â€” | â€” | manuelle Infrastrukturbereitstellung |
+| 92 | Backstage | Backstage | bek-steydzh | â€” | n. | Backstage ist ein Open-Source-Portal fÃ¼r Developer. | Backstage is an open-source portal for developers. | Platform | â€” | â€” | Developer Portal | â€” |
+| 93 | GitOps | GitOps | git-ops | das | n. | GitOps verwendet Git als einzige Quelle der Wahrheit. | GitOps uses Git as the single source of truth. | DevOps | â€” | ArgoCD, Flux | â€” | â€” |
+| 94 | ArgoCD | ArgoCD | ar-go-tseh-deh | â€” | n. | ArgoCD implementiert GitOps fÃ¼r Kubernetes. | ArgoCD implements GitOps for Kubernetes. | DevOps | â€” | â€” | â€” | â€” |
+| 95 | Crossplane | Crossplane | kros-pleyn | â€” | n. | Crossplane verwaltet Cloud-Ressourcen als Kubernetes-Objekte. | Crossplane manages cloud resources as Kubernetes objects. | Platform | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -159,8 +159,8 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 96 | IT-Betrieb | IT operations | ee-teh-beh-treep | der | n. | Der IT-Betrieb ist für die Systemverfügbarkeit zuständig. | IT operations is responsible for system availability. | IT Work | — | — | Operations | Entwicklung |
-| 97 | technische Leitung | technical leadership | tekh-nish-eh ly-toong | die | n. | Die technische Leitung entscheidet über die Architektur. | Technical leadership decides on architecture. | IT Work | — | — | Tech Lead | — |
-| 98 | Architekturentscheidung | architectural decision | ar-khee-tek-toor-ent-shy-doong | die | n. | Architekturentscheidungen haben langfristige Auswirkungen. | Architectural decisions have long-term consequences. | IT Work | Architekturentscheidungen | ADR (Architecture Decision Record) | — | — |
-| 99 | Sprint-Retrospektive | sprint retrospective | shprint-reh-troh-spek-tee-veh | die | n. | Die Sprint-Retrospektive verbessert den Prozess kontinuierlich. | The sprint retrospective continuously improves the process. | Agile | Sprint-Retrospektiven | — | Retro | — |
-| 100 | Velocity | velocity (agile) | veh-loh-tsi-tee | die | n. | Die Team-Velocity verbessert sich über Zeit. | Team velocity improves over time. | Agile | — | — | Teamgeschwindigkeit | — |
+| 96 | IT-Betrieb | IT operations | ee-teh-beh-treep | der | n. | Der IT-Betrieb ist fÃ¼r die SystemverfÃ¼gbarkeit zustÃ¤ndig. | IT operations is responsible for system availability. | IT Work | â€” | â€” | Operations | Entwicklung |
+| 97 | technische Leitung | technical leadership | tekh-nish-eh ly-toong | die | n. | Die technische Leitung entscheidet Ã¼ber die Architektur. | Technical leadership decides on architecture. | IT Work | â€” | â€” | Tech Lead | â€” |
+| 98 | Architekturentscheidung | architectural decision | ar-khee-tek-toor-ent-shy-doong | die | n. | Architekturentscheidungen haben langfristige Auswirkungen. | Architectural decisions have long-term consequences. | IT Work | Architekturentscheidungen | ADR (Architecture Decision Record) | â€” | â€” |
+| 99 | Sprint-Retrospektive | sprint retrospective | shprint-reh-troh-spek-tee-veh | die | n. | Die Sprint-Retrospektive verbessert den Prozess kontinuierlich. | The sprint retrospective continuously improves the process. | Agile | Sprint-Retrospektiven | â€” | Retro | â€” |
+| 100 | Velocity | velocity (agile) | veh-loh-tsi-tee | die | n. | Die Team-Velocity verbessert sich Ã¼ber Zeit. | Team velocity improves over time. | Agile | â€” | â€” | Teamgeschwindigkeit | â€” |

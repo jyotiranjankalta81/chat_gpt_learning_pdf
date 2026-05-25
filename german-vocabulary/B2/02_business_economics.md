@@ -1,48 +1,48 @@
-# B2 — Business & Economics (Wirtschaft & Ökonomie)
+# B2 â€” Business & Economics (Wirtschaft & Ã–konomie)
 
 > ~130 entries covering macroeconomics, business operations, supply chains, marketing, and advanced finance.
 
 ---
 
-## Section 1: Macroeconomics (Makroökonomie)
+## Section 1: Macroeconomics (MakroÃ¶konomie)
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 1 | Wirtschaft | economy | virt-shaft | die | n. | Die deutsche Wirtschaft ist stark. | The German economy is strong. | Economics | — | — | Volkswirtschaft | — |
-| 2 | Wirtschaftswachstum | economic growth | virt-shafts-vakhs-toom | das | n. | Das Wirtschaftswachstum beträgt 2%. | Economic growth is 2%. | Economics | — | — | BIP-Wachstum | — |
-| 3 | Bruttoinlandsprodukt (BIP) | gross domestic product (GDP) | broo-toh-in-lants-pro-dookt | das | n. | Das BIP Deutschlands steigt. | Germany's GDP is rising. | Economics | — | — | GDP | — |
-| 4 | Rezession | recession | reh-tses-see-ohn | die | n. | Die Wirtschaft steckt in einer Rezession. | The economy is in a recession. | Economics | Rezessionen | — | — | Boom |
-| 5 | Konjunktur | economic cycle / business cycle | kon-yoonk-toor | die | n. | Die Konjunktur erholt sich langsam. | The economy is recovering slowly. | Economics | — | Konjunkturaufschwung | — | — |
-| 6 | Konjunkturaufschwung | economic upturn | kon-yoonk-toor-owf-shvoong | der | n. | Der Konjunkturaufschwung beginnt. | The economic upturn is beginning. | Economics | — | — | — | Konjunkturabschwung |
-| 7 | Konjunkturabschwung | economic downturn | kon-yoonk-toor-ab-shvoong | der | n. | Der Konjunkturabschwung trifft alle. | The economic downturn affects everyone. | Economics | — | — | — | Konjunkturaufschwung |
-| 8 | Deflation | deflation | deh-flah-tsee-ohn | die | n. | Deflation kann die Wirtschaft lähmen. | Deflation can paralyse the economy. | Economics | — | — | — | Inflation |
-| 9 | Stagflation | stagflation | shtahk-flah-tsee-ohn | die | n. | Stagflation ist besonders schwierig zu bekämpfen. | Stagflation is particularly difficult to combat. | Economics | — | — | — | — |
-| 10 | Fiskalpolitik | fiscal policy | fis-kahl-poh-li-tik | die | n. | Die Fiskalpolitik beeinflusst die Wirtschaft. | Fiscal policy influences the economy. | Economics | — | — | — | Geldpolitik |
-| 11 | Geldpolitik | monetary policy | gelt-poh-li-tik | die | n. | Die EZB steuert die Geldpolitik. | The ECB controls monetary policy. | Economics | — | — | — | Fiskalpolitik |
-| 12 | Handelsdefizit | trade deficit | han-dels-deh-fi-tsit | das | n. | Ein Handelsdefizit bedeutet mehr Importe als Exporte. | A trade deficit means more imports than exports. | Economics | Handelsdefizite | — | — | Handelsüberschuss |
-| 13 | Handelsüberschuss | trade surplus | han-dels-yoo-ber-shoos | der | n. | Deutschland hat einen hohen Handelsüberschuss. | Germany has a high trade surplus. | Economics | Handelsüberschüsse | — | — | Handelsdefizit |
-| 14 | Globalisierung | globalisation | gloh-bah-li-zee-roong | die | n. | Globalisierung schafft Chancen und Risiken. | Globalisation creates opportunities and risks. | Economics | — | — | — | Deglobalisierung |
-| 15 | Freihandel | free trade | fry-han-del | der | n. | Freihandel fördert den Wohlstand. | Free trade promotes prosperity. | Economics | — | Freihandelsabkommen | — | Protektionismus |
+| 1 | Wirtschaft | economy | virt-shaft | die | n. | Die deutsche Wirtschaft ist stark. | The German economy is strong. | Economics | â€” | â€” | Volkswirtschaft | â€” |
+| 2 | Wirtschaftswachstum | economic growth | virt-shafts-vakhs-toom | das | n. | Das Wirtschaftswachstum betrÃ¤gt 2%. | Economic growth is 2%. | Economics | â€” | â€” | BIP-Wachstum | â€” |
+| 3 | Bruttoinlandsprodukt (BIP) | gross domestic product (GDP) | broo-toh-in-lants-pro-dookt | das | n. | Das BIP Deutschlands steigt. | Germany's GDP is rising. | Economics | â€” | â€” | GDP | â€” |
+| 4 | Rezession | recession | reh-tses-see-ohn | die | n. | Die Wirtschaft steckt in einer Rezession. | The economy is in a recession. | Economics | Rezessionen | â€” | â€” | Boom |
+| 5 | Konjunktur | economic cycle / business cycle | kon-yoonk-toor | die | n. | Die Konjunktur erholt sich langsam. | The economy is recovering slowly. | Economics | â€” | Konjunkturaufschwung | â€” | â€” |
+| 6 | Konjunkturaufschwung | economic upturn | kon-yoonk-toor-owf-shvoong | der | n. | Der Konjunkturaufschwung beginnt. | The economic upturn is beginning. | Economics | â€” | â€” | â€” | Konjunkturabschwung |
+| 7 | Konjunkturabschwung | economic downturn | kon-yoonk-toor-ab-shvoong | der | n. | Der Konjunkturabschwung trifft alle. | The economic downturn affects everyone. | Economics | â€” | â€” | â€” | Konjunkturaufschwung |
+| 8 | Deflation | deflation | deh-flah-tsee-ohn | die | n. | Deflation kann die Wirtschaft lÃ¤hmen. | Deflation can paralyse the economy. | Economics | â€” | â€” | â€” | Inflation |
+| 9 | Stagflation | stagflation | shtahk-flah-tsee-ohn | die | n. | Stagflation ist besonders schwierig zu bekÃ¤mpfen. | Stagflation is particularly difficult to combat. | Economics | â€” | â€” | â€” | â€” |
+| 10 | Fiskalpolitik | fiscal policy | fis-kahl-poh-li-tik | die | n. | Die Fiskalpolitik beeinflusst die Wirtschaft. | Fiscal policy influences the economy. | Economics | â€” | â€” | â€” | Geldpolitik |
+| 11 | Geldpolitik | monetary policy | gelt-poh-li-tik | die | n. | Die EZB steuert die Geldpolitik. | The ECB controls monetary policy. | Economics | â€” | â€” | â€” | Fiskalpolitik |
+| 12 | Handelsdefizit | trade deficit | han-dels-deh-fi-tsit | das | n. | Ein Handelsdefizit bedeutet mehr Importe als Exporte. | A trade deficit means more imports than exports. | Economics | Handelsdefizite | â€” | â€” | HandelsÃ¼berschuss |
+| 13 | HandelsÃ¼berschuss | trade surplus | han-dels-yoo-ber-shoos | der | n. | Deutschland hat einen hohen HandelsÃ¼berschuss. | Germany has a high trade surplus. | Economics | HandelsÃ¼berschÃ¼sse | â€” | â€” | Handelsdefizit |
+| 14 | Globalisierung | globalisation | gloh-bah-li-zee-roong | die | n. | Globalisierung schafft Chancen und Risiken. | Globalisation creates opportunities and risks. | Economics | â€” | â€” | â€” | Deglobalisierung |
+| 15 | Freihandel | free trade | fry-han-del | der | n. | Freihandel fÃ¶rdert den Wohlstand. | Free trade promotes prosperity. | Economics | â€” | Freihandelsabkommen | â€” | Protektionismus |
 
 ---
 
-## Section 2: Business Operations (Geschäftsbetrieb)
+## Section 2: Business Operations (GeschÃ¤ftsbetrieb)
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 16 | Lieferkette | supply chain | lee-fer-ket-teh | die | n. | Die Lieferkette wurde durch die Pandemie gestört. | The supply chain was disrupted by the pandemic. | Business | Lieferketten | — | Versorgungskette | — |
-| 17 | Logistik | logistics | loh-gis-tik | die | n. | Gute Logistik ist der Schlüssel zum Erfolg. | Good logistics is the key to success. | Business | — | — | — | — |
-| 18 | Outsourcing | outsourcing | owt-sors-ing | das | n. | Wir lagern den IT-Support aus. | We outsource the IT support. | Business | — | — | Auslagerung | Insourcing |
-| 19 | Insourcing | insourcing | in-sors-ing | das | n. | Wir holen die Produktion zurück ins Insourcing. | We bring production back in-house. | Business | — | — | — | Outsourcing |
-| 20 | Kernkompetenzen | core competencies | kehrn-kom-peh-tent-tsen | — | n. (pl.) | Wir fokussieren uns auf unsere Kernkompetenzen. | We focus on our core competencies. | Business | — | — | — | — |
-| 21 | Wertschöpfungskette | value chain | vehrt-shupf-oongs-ket-teh | die | n. | Die Wertschöpfungskette muss optimiert werden. | The value chain must be optimised. | Business | Wertschöpfungsketten | — | — | — |
-| 22 | Skalierbarkeit | scalability | skah-lee-er-bar-kyte | die | n. | Die Skalierbarkeit des Geschäftsmodells ist wichtig. | The scalability of the business model is important. | Business | — | — | — | — |
-| 23 | Synergieeffekte | synergy effects | zyoo-nehr-ghee-eh-fek-teh | — | n. (pl.) | Die Fusion schafft Synergieeffekte. | The merger creates synergy effects. | Business | — | — | — | — |
-| 24 | Kostensenkung | cost reduction | kos-ten-zenk-oong | die | n. | Kostensenkung ist das Ziel des Restrukturierungsprogramms. | Cost reduction is the goal of the restructuring programme. | Business | — | — | — | Kostenerhöhung |
-| 25 | Effizienzsteigerung | efficiency improvement | ef-fi-tsee-ents-shty-geh-roong | die | n. | Effizienzsteigerung durch Automatisierung. | Efficiency improvement through automation. | Business | — | — | — | — |
-| 26 | Produktivität | productivity | pro-dook-ti-vi-teht | die | n. | Die Produktivität ist gestiegen. | Productivity has risen. | Business | — | Produktivität steigern | — | — |
-| 27 | Benchmark | benchmark | bench-mark | der | n. | Wir setzen uns an den Benchmark der Branche. | We benchmark against industry standards. | Business | Benchmarks | Benchmarking | — | — |
-| 28 | KPIs (Key Performance Indicators) | KPIs | kah-peh-ees | — | n. (pl.) | Wir messen den Erfolg durch KPIs. | We measure success through KPIs. | Business | — | — | Leistungskennzahlen | — |
+| 16 | Lieferkette | supply chain | lee-fer-ket-teh | die | n. | Die Lieferkette wurde durch die Pandemie gestÃ¶rt. | The supply chain was disrupted by the pandemic. | Business | Lieferketten | â€” | Versorgungskette | â€” |
+| 17 | Logistik | logistics | loh-gis-tik | die | n. | Gute Logistik ist der SchlÃ¼ssel zum Erfolg. | Good logistics is the key to success. | Business | â€” | â€” | â€” | â€” |
+| 18 | Outsourcing | outsourcing | owt-sors-ing | das | n. | Wir lagern den IT-Support aus. | We outsource the IT support. | Business | â€” | â€” | Auslagerung | Insourcing |
+| 19 | Insourcing | insourcing | in-sors-ing | das | n. | Wir holen die Produktion zurÃ¼ck ins Insourcing. | We bring production back in-house. | Business | â€” | â€” | â€” | Outsourcing |
+| 20 | Kernkompetenzen | core competencies | kehrn-kom-peh-tent-tsen | â€” | n. (pl.) | Wir fokussieren uns auf unsere Kernkompetenzen. | We focus on our core competencies. | Business | â€” | â€” | â€” | â€” |
+| 21 | WertschÃ¶pfungskette | value chain | vehrt-shupf-oongs-ket-teh | die | n. | Die WertschÃ¶pfungskette muss optimiert werden. | The value chain must be optimised. | Business | WertschÃ¶pfungsketten | â€” | â€” | â€” |
+| 22 | Skalierbarkeit | scalability | skah-lee-er-bar-kyte | die | n. | Die Skalierbarkeit des GeschÃ¤ftsmodells ist wichtig. | The scalability of the business model is important. | Business | â€” | â€” | â€” | â€” |
+| 23 | Synergieeffekte | synergy effects | zyoo-nehr-ghee-eh-fek-teh | â€” | n. (pl.) | Die Fusion schafft Synergieeffekte. | The merger creates synergy effects. | Business | â€” | â€” | â€” | â€” |
+| 24 | Kostensenkung | cost reduction | kos-ten-zenk-oong | die | n. | Kostensenkung ist das Ziel des Restrukturierungsprogramms. | Cost reduction is the goal of the restructuring programme. | Business | â€” | â€” | â€” | KostenerhÃ¶hung |
+| 25 | Effizienzsteigerung | efficiency improvement | ef-fi-tsee-ents-shty-geh-roong | die | n. | Effizienzsteigerung durch Automatisierung. | Efficiency improvement through automation. | Business | â€” | â€” | â€” | â€” |
+| 26 | ProduktivitÃ¤t | productivity | pro-dook-ti-vi-teht | die | n. | Die ProduktivitÃ¤t ist gestiegen. | Productivity has risen. | Business | â€” | ProduktivitÃ¤t steigern | â€” | â€” |
+| 27 | Benchmark | benchmark | bench-mark | der | n. | Wir setzen uns an den Benchmark der Branche. | We benchmark against industry standards. | Business | Benchmarks | Benchmarking | â€” | â€” |
+| 28 | KPIs (Key Performance Indicators) | KPIs | kah-peh-ees | â€” | n. (pl.) | Wir messen den Erfolg durch KPIs. | We measure success through KPIs. | Business | â€” | â€” | Leistungskennzahlen | â€” |
 
 ---
 
@@ -50,38 +50,38 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 29 | Marketing | marketing | mar-ke-ting | das | n. | Marketing ist essenziell für den Erfolg. | Marketing is essential for success. | Business | — | — | — | — |
-| 30 | Marketingmix | marketing mix | mar-ke-ting-miks | der | n. | Der Marketingmix umfasst die 4Ps. | The marketing mix includes the 4Ps. | Business | — | — | — | — |
-| 31 | Zielgruppenanalyse | target group analysis | tseel-groo-pen-ah-nah-lee-zeh | die | n. | Die Zielgruppenanalyse ist die Basis. | The target group analysis is the foundation. | Marketing | Zielgruppenanalysen | — | — | — |
-| 32 | Customer Journey | customer journey | kus-toh-mer dzher-nee | die | n. | Die Customer Journey beginnt mit dem ersten Kontakt. | The customer journey starts with the first contact. | Marketing | — | — | Kundenreise | — |
-| 33 | Conversion Rate | conversion rate | kon-ver-zhun reyt | die | n. | Die Conversion Rate liegt bei 3%. | The conversion rate is 3%. | Marketing | — | — | — | — |
-| 34 | SEO (Suchmaschinenoptimierung) | SEO | zeh-eh-oh | die | n. | SEO verbessert die Sichtbarkeit der Webseite. | SEO improves website visibility. | Marketing | — | — | — | — |
-| 35 | Content Marketing | content marketing | kon-tent-mar-ke-ting | das | n. | Content Marketing schafft Vertrauen. | Content marketing creates trust. | Marketing | — | — | — | — |
-| 36 | Brand Awareness | brand awareness | brent uh-wehr-nes | die | n. | Wir steigern die Brand Awareness. | We increase brand awareness. | Marketing | — | — | Markenbekanntheit | — |
-| 37 | Leadgenerierung | lead generation | leed-geh-neh-ree-roong | die | n. | Leadgenerierung ist das Ziel unserer Kampagne. | Lead generation is the goal of our campaign. | Marketing | — | — | — | — |
-| 38 | Vertrieb | sales | fer-treep | der | n. | Der Vertrieb hat die Quartalsziele erreicht. | The sales team has reached the quarterly targets. | Business | — | — | Sales | — |
-| 39 | Vertriebsstrategie | sales strategy | fer-treeps-shtra-teh-ghee | die | n. | Die Vertriebsstrategie muss angepasst werden. | The sales strategy must be adjusted. | Business | Vertriebsstrategien | — | — | — |
-| 40 | Kundensegmentierung | customer segmentation | koon-den-zeg-men-tee-roong | die | n. | Kundensegmentierung ermöglicht gezieltes Marketing. | Customer segmentation enables targeted marketing. | Marketing | — | — | — | — |
-| 41 | Preisgestaltung | pricing | prys-geh-shtal-toong | die | n. | Die Preisgestaltung beeinflusst die Nachfrage. | Pricing influences demand. | Business | — | dynamische Preisgestaltung | — | — |
-| 42 | Upselling | upselling | ap-sel-ing | das | n. | Upselling erhöht den Umsatz pro Kunde. | Upselling increases revenue per customer. | Sales | — | — | — | — |
-| 43 | Cross-Selling | cross-selling | kros-sel-ing | das | n. | Cross-Selling bietet komplementäre Produkte an. | Cross-selling offers complementary products. | Sales | — | — | — | — |
+| 29 | Marketing | marketing | mar-ke-ting | das | n. | Marketing ist essenziell fÃ¼r den Erfolg. | Marketing is essential for success. | Business | â€” | â€” | â€” | â€” |
+| 30 | Marketingmix | marketing mix | mar-ke-ting-miks | der | n. | Der Marketingmix umfasst die 4Ps. | The marketing mix includes the 4Ps. | Business | â€” | â€” | â€” | â€” |
+| 31 | Zielgruppenanalyse | target group analysis | tseel-groo-pen-ah-nah-lee-zeh | die | n. | Die Zielgruppenanalyse ist die Basis. | The target group analysis is the foundation. | Marketing | Zielgruppenanalysen | â€” | â€” | â€” |
+| 32 | Customer Journey | customer journey | kus-toh-mer dzher-nee | die | n. | Die Customer Journey beginnt mit dem ersten Kontakt. | The customer journey starts with the first contact. | Marketing | â€” | â€” | Kundenreise | â€” |
+| 33 | Conversion Rate | conversion rate | kon-ver-zhun reyt | die | n. | Die Conversion Rate liegt bei 3%. | The conversion rate is 3%. | Marketing | â€” | â€” | â€” | â€” |
+| 34 | SEO (Suchmaschinenoptimierung) | SEO | zeh-eh-oh | die | n. | SEO verbessert die Sichtbarkeit der Webseite. | SEO improves website visibility. | Marketing | â€” | â€” | â€” | â€” |
+| 35 | Content Marketing | content marketing | kon-tent-mar-ke-ting | das | n. | Content Marketing schafft Vertrauen. | Content marketing creates trust. | Marketing | â€” | â€” | â€” | â€” |
+| 36 | Brand Awareness | brand awareness | brent uh-wehr-nes | die | n. | Wir steigern die Brand Awareness. | We increase brand awareness. | Marketing | â€” | â€” | Markenbekanntheit | â€” |
+| 37 | Leadgenerierung | lead generation | leed-geh-neh-ree-roong | die | n. | Leadgenerierung ist das Ziel unserer Kampagne. | Lead generation is the goal of our campaign. | Marketing | â€” | â€” | â€” | â€” |
+| 38 | Vertrieb | sales | fer-treep | der | n. | Der Vertrieb hat die Quartalsziele erreicht. | The sales team has reached the quarterly targets. | Business | â€” | â€” | Sales | â€” |
+| 39 | Vertriebsstrategie | sales strategy | fer-treeps-shtra-teh-ghee | die | n. | Die Vertriebsstrategie muss angepasst werden. | The sales strategy must be adjusted. | Business | Vertriebsstrategien | â€” | â€” | â€” |
+| 40 | Kundensegmentierung | customer segmentation | koon-den-zeg-men-tee-roong | die | n. | Kundensegmentierung ermÃ¶glicht gezieltes Marketing. | Customer segmentation enables targeted marketing. | Marketing | â€” | â€” | â€” | â€” |
+| 41 | Preisgestaltung | pricing | prys-geh-shtal-toong | die | n. | Die Preisgestaltung beeinflusst die Nachfrage. | Pricing influences demand. | Business | â€” | dynamische Preisgestaltung | â€” | â€” |
+| 42 | Upselling | upselling | ap-sel-ing | das | n. | Upselling erhÃ¶ht den Umsatz pro Kunde. | Upselling increases revenue per customer. | Sales | â€” | â€” | â€” | â€” |
+| 43 | Cross-Selling | cross-selling | kros-sel-ing | das | n. | Cross-Selling bietet komplementÃ¤re Produkte an. | Cross-selling offers complementary products. | Sales | â€” | â€” | â€” | â€” |
 
 ---
 
-## Section 4: Financial Markets (Finanzmärkte)
+## Section 4: Financial Markets (FinanzmÃ¤rkte)
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 44 | Börse | stock exchange | bur-zeh | die | n. | Ich beobachte die Frankfurter Börse. | I watch the Frankfurt Stock Exchange. | Finance | Börsen | — | Aktienmarkt | — |
-| 45 | DAX (Deutscher Aktienindex) | DAX (German stock index) | daks | der | n. | Der DAX stieg um 2 Prozent. | The DAX rose by 2 percent. | Finance | — | — | — | — |
-| 46 | Aktienmarkt | stock market | ak-tsee-en-markt | der | n. | Der Aktienmarkt ist volatil. | The stock market is volatile. | Finance | Aktienmärkte | — | Börse | — |
-| 47 | Volatilität | volatility | voh-lah-ti-li-teht | die | n. | Die Volatilität an den Märkten ist hoch. | Volatility in the markets is high. | Finance | — | — | — | Stabilität |
-| 48 | Derivate | derivatives | deh-ree-vah-teh | — | n. (pl.) | Derivate sind komplexe Finanzinstrumente. | Derivatives are complex financial instruments. | Finance | — | — | — | — |
-| 49 | Hedge-Fonds | hedge fund | hedsh-fonds | der | n. | Hedge-Fonds setzen auf spekulative Strategien. | Hedge funds use speculative strategies. | Finance | Hedge-Fonds | — | — | — |
-| 50 | Risikokapital | venture capital / risk capital | ri-zee-koh-kah-pi-tahl | das | n. | Das Startup erhält Risikokapital. | The start-up receives venture capital. | Finance | — | — | Venture Capital | — |
-| 51 | Wertpapier | security / financial instrument | vehrt-pah-pee-er | das | n. | Ich investiere in verschiedene Wertpapiere. | I invest in various securities. | Finance | Wertpapiere | — | — | — |
-| 52 | Anleihe | bond | an-ly-heh | die | n. | Staatsanleihen gelten als sicher. | Government bonds are considered safe. | Finance | Anleihen | — | Obligation | Aktie |
-| 53 | Renditeoptimierung | yield optimisation | ren-dee-teh-op-ti-mee-roong | die | n. | Renditeoptimierung ist das Ziel. | Yield optimisation is the goal. | Finance | — | — | — | — |
+| 44 | BÃ¶rse | stock exchange | bur-zeh | die | n. | Ich beobachte die Frankfurter BÃ¶rse. | I watch the Frankfurt Stock Exchange. | Finance | BÃ¶rsen | â€” | Aktienmarkt | â€” |
+| 45 | DAX (Deutscher Aktienindex) | DAX (German stock index) | daks | der | n. | Der DAX stieg um 2 Prozent. | The DAX rose by 2 percent. | Finance | â€” | â€” | â€” | â€” |
+| 46 | Aktienmarkt | stock market | ak-tsee-en-markt | der | n. | Der Aktienmarkt ist volatil. | The stock market is volatile. | Finance | AktienmÃ¤rkte | â€” | BÃ¶rse | â€” |
+| 47 | VolatilitÃ¤t | volatility | voh-lah-ti-li-teht | die | n. | Die VolatilitÃ¤t an den MÃ¤rkten ist hoch. | Volatility in the markets is high. | Finance | â€” | â€” | â€” | StabilitÃ¤t |
+| 48 | Derivate | derivatives | deh-ree-vah-teh | â€” | n. (pl.) | Derivate sind komplexe Finanzinstrumente. | Derivatives are complex financial instruments. | Finance | â€” | â€” | â€” | â€” |
+| 49 | Hedge-Fonds | hedge fund | hedsh-fonds | der | n. | Hedge-Fonds setzen auf spekulative Strategien. | Hedge funds use speculative strategies. | Finance | Hedge-Fonds | â€” | â€” | â€” |
+| 50 | Risikokapital | venture capital / risk capital | ri-zee-koh-kah-pi-tahl | das | n. | Das Startup erhÃ¤lt Risikokapital. | The start-up receives venture capital. | Finance | â€” | â€” | Venture Capital | â€” |
+| 51 | Wertpapier | security / financial instrument | vehrt-pah-pee-er | das | n. | Ich investiere in verschiedene Wertpapiere. | I invest in various securities. | Finance | Wertpapiere | â€” | â€” | â€” |
+| 52 | Anleihe | bond | an-ly-heh | die | n. | Staatsanleihen gelten als sicher. | Government bonds are considered safe. | Finance | Anleihen | â€” | Obligation | Aktie |
+| 53 | Renditeoptimierung | yield optimisation | ren-dee-teh-op-ti-mee-roong | die | n. | Renditeoptimierung ist das Ziel. | Yield optimisation is the goal. | Finance | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -90,15 +90,15 @@
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
 | 54 | Export | export | eks-port | der | n. | Deutschland ist Exportweltmeister. | Germany is the world's export champion. | Trade | Exporte | Waren exportieren | Ausfuhr | Import |
-| 55 | Import | import | im-port | der | n. | Deutschland importiert viel Rohöl. | Germany imports a lot of crude oil. | Trade | Importe | Waren importieren | Einfuhr | Export |
-| 56 | Außenhandel | foreign trade | ows-sen-han-del | der | n. | Der Außenhandel Deutschlands ist bedeutend. | Germany's foreign trade is significant. | Trade | — | — | — | Binnenhandel |
-| 57 | Binnenhandel | domestic / internal trade | bin-nen-han-del | der | n. | Der Binnenhandel in der EU ist stark. | Internal trade in the EU is strong. | Trade | — | — | — | Außenhandel |
-| 58 | Handelsabkommen | trade agreement | han-dels-ab-kom-en | das | n. | Das Handelsabkommen begünstigt beide Seiten. | The trade agreement benefits both sides. | Trade | Handelsabkommen | — | Freihandelsabkommen | — |
-| 59 | Zoll | customs duty / tariff | tsol | der | n. | Der Zoll auf Stahl beträgt 25%. | The tariff on steel is 25%. | Trade | Zölle | — | Zollgebühr | — |
-| 60 | Protektionismus | protectionism | pro-tek-tsee-oh-nismoos | der | n. | Protektionismus schadet dem Welthandel. | Protectionism harms world trade. | Trade | — | — | — | Freihandel |
-| 61 | Embargo | embargo | em-bar-goh | das | n. | Das Embargo wurde verhängt. | The embargo was imposed. | Trade/Politics | Embargos | — | Handelssperre | — |
-| 62 | Währungsrisiko | currency risk | veh-roongs-ri-zee-koh | das | n. | Das Währungsrisiko muss abgesichert werden. | The currency risk must be hedged. | Trade | Währungsrisiken | — | — | — |
-| 63 | Währungsabsicherung | currency hedging | veh-roongs-ab-zi-khe-roong | die | n. | Währungsabsicherung minimiert das Risiko. | Currency hedging minimises risk. | Trade | — | — | — | — |
+| 55 | Import | import | im-port | der | n. | Deutschland importiert viel RohÃ¶l. | Germany imports a lot of crude oil. | Trade | Importe | Waren importieren | Einfuhr | Export |
+| 56 | AuÃŸenhandel | foreign trade | ows-sen-han-del | der | n. | Der AuÃŸenhandel Deutschlands ist bedeutend. | Germany's foreign trade is significant. | Trade | â€” | â€” | â€” | Binnenhandel |
+| 57 | Binnenhandel | domestic / internal trade | bin-nen-han-del | der | n. | Der Binnenhandel in der EU ist stark. | Internal trade in the EU is strong. | Trade | â€” | â€” | â€” | AuÃŸenhandel |
+| 58 | Handelsabkommen | trade agreement | han-dels-ab-kom-en | das | n. | Das Handelsabkommen begÃ¼nstigt beide Seiten. | The trade agreement benefits both sides. | Trade | Handelsabkommen | â€” | Freihandelsabkommen | â€” |
+| 59 | Zoll | customs duty / tariff | tsol | der | n. | Der Zoll auf Stahl betrÃ¤gt 25%. | The tariff on steel is 25%. | Trade | ZÃ¶lle | â€” | ZollgebÃ¼hr | â€” |
+| 60 | Protektionismus | protectionism | pro-tek-tsee-oh-nismoos | der | n. | Protektionismus schadet dem Welthandel. | Protectionism harms world trade. | Trade | â€” | â€” | â€” | Freihandel |
+| 61 | Embargo | embargo | em-bar-goh | das | n. | Das Embargo wurde verhÃ¤ngt. | The embargo was imposed. | Trade/Politics | Embargos | â€” | Handelssperre | â€” |
+| 62 | WÃ¤hrungsrisiko | currency risk | veh-roongs-ri-zee-koh | das | n. | Das WÃ¤hrungsrisiko muss abgesichert werden. | The currency risk must be hedged. | Trade | WÃ¤hrungsrisiken | â€” | â€” | â€” |
+| 63 | WÃ¤hrungsabsicherung | currency hedging | veh-roongs-ab-zi-khe-roong | die | n. | WÃ¤hrungsabsicherung minimiert das Risiko. | Currency hedging minimises risk. | Trade | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -106,16 +106,16 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 64 | Plattformökonomie | platform economy | plat-form-u-koh-noh-mee | die | n. | Die Plattformökonomie dominiert den Markt. | The platform economy dominates the market. | Business | — | — | — | — |
-| 65 | Netzwerkeffekt | network effect | nets-vehrk-ef-fekt | der | n. | Netzwerkeffekte stärken große Plattformen. | Network effects strengthen large platforms. | Business | Netzwerkeffekte | — | — | — |
-| 66 | disruptiv | disruptive | dis-roup-teef | — | adj. | Tesla ist ein disruptives Unternehmen. | Tesla is a disruptive company. | Business | — | disruptive Innovation | — | inkrementell |
-| 67 | Disruption | disruption | dis-roup-tsee-ohn | die | n. | Die Disruption durch KI verändert Branchen. | The disruption by AI is changing industries. | Business | — | — | — | — |
-| 68 | Geschäftsmodell | business model | geh-shefts-moh-del | das | n. | Unser Geschäftsmodell basiert auf Abonnements. | Our business model is based on subscriptions. | Business | Geschäftsmodelle | — | — | — |
-| 69 | Skalierung | scaling | skah-lee-roong | die | n. | Die Skalierung des Startups läuft gut. | The scaling of the start-up is going well. | Business | — | skalieren | — | — |
-| 70 | Freemium | freemium | free-mee-oom | das | n. | Das Freemium-Modell bietet Basis kostenlos. | The freemium model offers the base for free. | Business | — | — | — | — |
-| 71 | Subscription | subscription | sub-skrip-tsee-ohn | die | n. | Ich bezahle ein monatliches Subscription. | I pay a monthly subscription. | Business | Subscriptions | — | Abonnement | — |
-| 72 | B2B (Business-to-Business) | B2B | beh-tsoo-beh | — | adj. | Wir sind ein B2B-Unternehmen. | We are a B2B company. | Business | — | — | — | B2C |
-| 73 | B2C (Business-to-Consumer) | B2C | beh-tsoo-tseh | — | adj. | Das Produkt ist für den B2C-Markt. | The product is for the B2C market. | Business | — | — | — | B2B |
+| 64 | PlattformÃ¶konomie | platform economy | plat-form-u-koh-noh-mee | die | n. | Die PlattformÃ¶konomie dominiert den Markt. | The platform economy dominates the market. | Business | â€” | â€” | â€” | â€” |
+| 65 | Netzwerkeffekt | network effect | nets-vehrk-ef-fekt | der | n. | Netzwerkeffekte stÃ¤rken groÃŸe Plattformen. | Network effects strengthen large platforms. | Business | Netzwerkeffekte | â€” | â€” | â€” |
+| 66 | disruptiv | disruptive | dis-roup-teef | â€” | adj. | Tesla ist ein disruptives Unternehmen. | Tesla is a disruptive company. | Business | â€” | disruptive Innovation | â€” | inkrementell |
+| 67 | Disruption | disruption | dis-roup-tsee-ohn | die | n. | Die Disruption durch KI verÃ¤ndert Branchen. | The disruption by AI is changing industries. | Business | â€” | â€” | â€” | â€” |
+| 68 | GeschÃ¤ftsmodell | business model | geh-shefts-moh-del | das | n. | Unser GeschÃ¤ftsmodell basiert auf Abonnements. | Our business model is based on subscriptions. | Business | GeschÃ¤ftsmodelle | â€” | â€” | â€” |
+| 69 | Skalierung | scaling | skah-lee-roong | die | n. | Die Skalierung des Startups lÃ¤uft gut. | The scaling of the start-up is going well. | Business | â€” | skalieren | â€” | â€” |
+| 70 | Freemium | freemium | free-mee-oom | das | n. | Das Freemium-Modell bietet Basis kostenlos. | The freemium model offers the base for free. | Business | â€” | â€” | â€” | â€” |
+| 71 | Subscription | subscription | sub-skrip-tsee-ohn | die | n. | Ich bezahle ein monatliches Subscription. | I pay a monthly subscription. | Business | Subscriptions | â€” | Abonnement | â€” |
+| 72 | B2B (Business-to-Business) | B2B | beh-tsoo-beh | â€” | adj. | Wir sind ein B2B-Unternehmen. | We are a B2B company. | Business | â€” | â€” | â€” | B2C |
+| 73 | B2C (Business-to-Consumer) | B2C | beh-tsoo-tseh | â€” | adj. | Das Produkt ist fÃ¼r den B2C-Markt. | The product is for the B2C market. | Business | â€” | â€” | â€” | B2B |
 
 ---
 
@@ -123,16 +123,16 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 74 | SWOT-Analyse | SWOT analysis | svot-ah-nah-lee-zeh | die | n. | Wir machen eine SWOT-Analyse. | We carry out a SWOT analysis. | Strategy | — | — | — | — |
-| 75 | Stärken | strengths | shtehr-ken | — | n. (pl.) | Unsere Stärken liegen in der Qualität. | Our strengths lie in quality. | Strategy | — | — | — | Schwächen |
-| 76 | Schwächen | weaknesses | shveh-khen | — | n. (pl.) | Wir arbeiten an unseren Schwächen. | We work on our weaknesses. | Strategy | — | — | — | Stärken |
-| 77 | Chancen | opportunities | khan-tsen | — | n. (pl.) | Es gibt neue Chancen im Markt. | There are new opportunities in the market. | Strategy | — | — | — | Risiken |
-| 78 | Risiken | risks | ri-zee-ken | — | n. (pl.) | Die Risiken müssen bewertet werden. | The risks must be assessed. | Strategy | — | — | — | Chancen |
-| 79 | Porter's Five Forces | Porter's Five Forces | por-ters fyf fors-iz | — | n. | Porter's Five Forces analysiert die Branche. | Porter's Five Forces analyses the industry. | Strategy | — | — | — | — |
-| 80 | Wettbewerbsanalyse | competitive analysis | vet-beh-vehrps-ah-nah-lee-zeh | die | n. | Wir machen eine Wettbewerbsanalyse. | We carry out a competitive analysis. | Strategy | Wettbewerbsanalysen | — | — | — |
-| 81 | Alleinstellungsmerkmal (USP) | unique selling proposition (USP) | al-ayn-shtel-oongs-mehrkh-mahl | das | n. | Was ist unser USP? | What is our USP? | Strategy | — | — | Alleinstellungsmerkmal | — |
-| 82 | Wettbewerbsvorteil | competitive advantage | vet-beh-vehrps-for-tyle | der | n. | Qualität ist unser Wettbewerbsvorteil. | Quality is our competitive advantage. | Strategy | Wettbewerbsvorteile | — | — | Wettbewerbsnachteil |
-| 83 | nachhaltiges Wachstum | sustainable growth | nakh-hal-ti-ges vakhs-toom | das | n. | Wir streben nachhaltiges Wachstum an. | We aim for sustainable growth. | Strategy | — | — | — | kurzfristiges Wachstum |
+| 74 | SWOT-Analyse | SWOT analysis | svot-ah-nah-lee-zeh | die | n. | Wir machen eine SWOT-Analyse. | We carry out a SWOT analysis. | Strategy | â€” | â€” | â€” | â€” |
+| 75 | StÃ¤rken | strengths | shtehr-ken | â€” | n. (pl.) | Unsere StÃ¤rken liegen in der QualitÃ¤t. | Our strengths lie in quality. | Strategy | â€” | â€” | â€” | SchwÃ¤chen |
+| 76 | SchwÃ¤chen | weaknesses | shveh-khen | â€” | n. (pl.) | Wir arbeiten an unseren SchwÃ¤chen. | We work on our weaknesses. | Strategy | â€” | â€” | â€” | StÃ¤rken |
+| 77 | Chancen | opportunities | khan-tsen | â€” | n. (pl.) | Es gibt neue Chancen im Markt. | There are new opportunities in the market. | Strategy | â€” | â€” | â€” | Risiken |
+| 78 | Risiken | risks | ri-zee-ken | â€” | n. (pl.) | Die Risiken mÃ¼ssen bewertet werden. | The risks must be assessed. | Strategy | â€” | â€” | â€” | Chancen |
+| 79 | Porter's Five Forces | Porter's Five Forces | por-ters fyf fors-iz | â€” | n. | Porter's Five Forces analysiert die Branche. | Porter's Five Forces analyses the industry. | Strategy | â€” | â€” | â€” | â€” |
+| 80 | Wettbewerbsanalyse | competitive analysis | vet-beh-vehrps-ah-nah-lee-zeh | die | n. | Wir machen eine Wettbewerbsanalyse. | We carry out a competitive analysis. | Strategy | Wettbewerbsanalysen | â€” | â€” | â€” |
+| 81 | Alleinstellungsmerkmal (USP) | unique selling proposition (USP) | al-ayn-shtel-oongs-mehrkh-mahl | das | n. | Was ist unser USP? | What is our USP? | Strategy | â€” | â€” | Alleinstellungsmerkmal | â€” |
+| 82 | Wettbewerbsvorteil | competitive advantage | vet-beh-vehrps-for-tyle | der | n. | QualitÃ¤t ist unser Wettbewerbsvorteil. | Quality is our competitive advantage. | Strategy | Wettbewerbsvorteile | â€” | â€” | Wettbewerbsnachteil |
+| 83 | nachhaltiges Wachstum | sustainable growth | nakh-hal-ti-ges vakhs-toom | das | n. | Wir streben nachhaltiges Wachstum an. | We aim for sustainable growth. | Strategy | â€” | â€” | â€” | kurzfristiges Wachstum |
 
 ---
 
@@ -140,18 +140,18 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 84 | Angebot und Nachfrage | supply and demand | an-geh-boht oont nakh-frah-geh | — | phrase | Das Gesetz von Angebot und Nachfrage gilt. | The law of supply and demand applies. | Economics | — | — | — | — |
-| 85 | Nachfrage | demand | nakh-frah-geh | die | n. | Die Nachfrage nach Elektroautos steigt. | Demand for electric cars is rising. | Economics | — | — | — | Angebot |
-| 86 | Angebot | supply / offer | an-geh-boht | das | n. | Das Angebot kann die Nachfrage nicht decken. | Supply cannot cover demand. | Economics | — | — | — | Nachfrage |
-| 87 | Elastizität | elasticity | eh-las-ti-tsi-teht | die | n. | Die Preiselastizität bestimmt das Kaufverhalten. | Price elasticity determines buying behaviour. | Economics | — | — | — | Inelastizität |
-| 88 | Marktversagen | market failure | markt-fer-zah-gen | das | n. | Marktversagen erfordert staatliche Eingriffe. | Market failure requires government intervention. | Economics | — | — | — | funktionierender Markt |
-| 89 | Externalitäten | externalities | eks-tehr-nah-li-teh-ten | — | n. (pl.) | CO?-Ausstoß ist eine negative Externalität. | CO? emissions are a negative externality. | Economics | — | — | — | — |
-| 90 | öffentliche Güter | public goods | urf-ent-likh-eh gyoo-ter | — | n. (pl.) | Straßen sind öffentliche Güter. | Roads are public goods. | Economics | — | — | — | private Güter |
-| 91 | Monopol | monopoly | moh-noh-pol | das | n. | Das Unternehmen hat ein Monopol. | The company has a monopoly. | Economics | Monopole | — | — | freier Wettbewerb |
-| 92 | Oligopol | oligopoly | oh-li-goh-pol | das | n. | Der Smartphone-Markt ist ein Oligopol. | The smartphone market is an oligopoly. | Economics | Oligopole | — | — | — |
-| 93 | Kartell | cartel | kar-tel | das | n. | Das Kartell wurde vom Kartellamt zerschlagen. | The cartel was broken up by the competition authority. | Economics/Legal | Kartelle | — | — | — |
-| 94 | Arbeitsmarkt | labour market | ar-byts-markt | der | n. | Der Arbeitsmarkt ist angespannt. | The labour market is tight. | Economics | Arbeitsmärkte | — | — | — |
-| 95 | Fachkräftemangel | skilled worker shortage | fakh-kref-teh-man-gel | der | n. | Der Fachkräftemangel ist ein Problem. | The skilled worker shortage is a problem. | Economics | — | — | — | Fachkräfteüberschuss |
+| 84 | Angebot und Nachfrage | supply and demand | an-geh-boht oont nakh-frah-geh | â€” | phrase | Das Gesetz von Angebot und Nachfrage gilt. | The law of supply and demand applies. | Economics | â€” | â€” | â€” | â€” |
+| 85 | Nachfrage | demand | nakh-frah-geh | die | n. | Die Nachfrage nach Elektroautos steigt. | Demand for electric cars is rising. | Economics | â€” | â€” | â€” | Angebot |
+| 86 | Angebot | supply / offer | an-geh-boht | das | n. | Das Angebot kann die Nachfrage nicht decken. | Supply cannot cover demand. | Economics | â€” | â€” | â€” | Nachfrage |
+| 87 | ElastizitÃ¤t | elasticity | eh-las-ti-tsi-teht | die | n. | Die PreiselastizitÃ¤t bestimmt das Kaufverhalten. | Price elasticity determines buying behaviour. | Economics | â€” | â€” | â€” | InelastizitÃ¤t |
+| 88 | Marktversagen | market failure | markt-fer-zah-gen | das | n. | Marktversagen erfordert staatliche Eingriffe. | Market failure requires government intervention. | Economics | â€” | â€” | â€” | funktionierender Markt |
+| 89 | ExternalitÃ¤ten | externalities | eks-tehr-nah-li-teh-ten | â€” | n. (pl.) | CO?-AusstoÃŸ ist eine negative ExternalitÃ¤t. | CO? emissions are a negative externality. | Economics | â€” | â€” | â€” | â€” |
+| 90 | Ã¶ffentliche GÃ¼ter | public goods | urf-ent-likh-eh gyoo-ter | â€” | n. (pl.) | StraÃŸen sind Ã¶ffentliche GÃ¼ter. | Roads are public goods. | Economics | â€” | â€” | â€” | private GÃ¼ter |
+| 91 | Monopol | monopoly | moh-noh-pol | das | n. | Das Unternehmen hat ein Monopol. | The company has a monopoly. | Economics | Monopole | â€” | â€” | freier Wettbewerb |
+| 92 | Oligopol | oligopoly | oh-li-goh-pol | das | n. | Der Smartphone-Markt ist ein Oligopol. | The smartphone market is an oligopoly. | Economics | Oligopole | â€” | â€” | â€” |
+| 93 | Kartell | cartel | kar-tel | das | n. | Das Kartell wurde vom Kartellamt zerschlagen. | The cartel was broken up by the competition authority. | Economics/Legal | Kartelle | â€” | â€” | â€” |
+| 94 | Arbeitsmarkt | labour market | ar-byts-markt | der | n. | Der Arbeitsmarkt ist angespannt. | The labour market is tight. | Economics | ArbeitsmÃ¤rkte | â€” | â€” | â€” |
+| 95 | FachkrÃ¤ftemangel | skilled worker shortage | fakh-kref-teh-man-gel | der | n. | Der FachkrÃ¤ftemangel ist ein Problem. | The skilled worker shortage is a problem. | Economics | â€” | â€” | â€” | FachkrÃ¤fteÃ¼berschuss |
 
 ---
 
@@ -159,8 +159,8 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 96 | EBITDA | EBITDA | eh-bit-dah | das | n. | Das EBITDA stieg um 15 Prozent. | EBITDA rose by 15 percent. | Finance | — | — | — | — |
-| 97 | Return on Investment (ROI) | ROI | er-oh-eye | der | n. | Der ROI des Projekts ist positiv. | The ROI of the project is positive. | Finance | — | ROI berechnen | — | negativer ROI |
-| 98 | Kapitalrendite | return on capital | kah-pi-tahl-ren-dee-teh | die | n. | Die Kapitalrendite liegt bei 12%. | The return on capital is 12%. | Finance | — | — | — | — |
-| 99 | Working Capital | working capital | wer-king-kah-pi-tahl | das | n. | Das Working Capital muss positiv sein. | Working capital must be positive. | Finance | — | — | Betriebskapital | — |
-| 100 | Liquiditätsmanagement | liquidity management | li-kvid-i-tehts-ma-neh-jment | das | n. | Gutes Liquiditätsmanagement sichert den Betrieb. | Good liquidity management secures operations. | Finance | — | — | — | — |
+| 96 | EBITDA | EBITDA | eh-bit-dah | das | n. | Das EBITDA stieg um 15 Prozent. | EBITDA rose by 15 percent. | Finance | â€” | â€” | â€” | â€” |
+| 97 | Return on Investment (ROI) | ROI | er-oh-eye | der | n. | Der ROI des Projekts ist positiv. | The ROI of the project is positive. | Finance | â€” | ROI berechnen | â€” | negativer ROI |
+| 98 | Kapitalrendite | return on capital | kah-pi-tahl-ren-dee-teh | die | n. | Die Kapitalrendite liegt bei 12%. | The return on capital is 12%. | Finance | â€” | â€” | â€” | â€” |
+| 99 | Working Capital | working capital | wer-king-kah-pi-tahl | das | n. | Das Working Capital muss positiv sein. | Working capital must be positive. | Finance | â€” | â€” | Betriebskapital | â€” |
+| 100 | LiquiditÃ¤tsmanagement | liquidity management | li-kvid-i-tehts-ma-neh-jment | das | n. | Gutes LiquiditÃ¤tsmanagement sichert den Betrieb. | Good liquidity management secures operations. | Finance | â€” | â€” | â€” | â€” |

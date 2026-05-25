@@ -1,4 +1,4 @@
-# B1 — Office & Professional Communication (Büro & Berufliche Kommunikation)
+# B1 â€” Office & Professional Communication (BÃ¼ro & Berufliche Kommunikation)
 
 > ~150 entries covering professional German for the workplace: meetings, emails, reports, presentations, and workplace culture.
 
@@ -8,21 +8,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 1 | Korrespondenz | correspondence | kor-es-pon-dents | die | n. | Die Korrespondenz mit dem Kunden ist formell. | The correspondence with the client is formal. | Office | — | geschäftliche Korrespondenz | — | — |
-| 2 | Betreff | subject (email/letter) | beh-tref | der | n. | Was ist der Betreff der E-Mail? | What is the subject of the email? | Office | Betreffe | Betreff: Projekt X | — | — |
-| 3 | Anhang | attachment / appendix | an-hang | der | n. | Ich schicke den Bericht als Anhang. | I send the report as an attachment. | Office | Anhänge | im Anhang finden | — | — |
-| 4 | in Kopie setzen (CC) | to CC someone | in ko-pee zet-sen | — | phrase | Ich setze den Chef in Kopie. | I CC the boss. | Office | — | — | — | — |
-| 5 | Sehr geehrte/r | Dear (formal opening) | zehr geh-ehr-teh/ter | — | phrase | Sehr geehrte Frau Müller, … | Dear Ms Müller, … | Email/Letter | — | — | — | Liebe/r (informal) |
-| 6 | Mit freundlichen Grüßen | Kind regards / Best regards | mit froyn-likh-en gryo-sen | — | phrase | Mit freundlichen Grüßen, Thomas Schmidt | Kind regards, Thomas Schmidt | Email/Letter | — | — | — | — |
-| 7 | Hochachtungsvoll | Yours faithfully | hohkh-akh-toongs-fol | — | phrase | Hochachtungsvoll, Dr. Weber | Yours faithfully, Dr. Weber | Formal letter | — | — | — | — |
-| 8 | Ich beziehe mich auf … | I refer to … | ikh beh-tsee-eh mikh owf | — | phrase | Ich beziehe mich auf Ihre E-Mail vom 5. Mai. | I refer to your email of 5th May. | Office | — | — | — | — |
-| 9 | Anbei übersende ich … | Please find enclosed … | an-by yoo-ber-zen-deh ikh | — | phrase | Anbei übersende ich die Unterlagen. | Please find enclosed the documents. | Office | — | — | — | — |
-| 10 | Rückmeldung | feedback / reply | ruk-mel-doong | die | n. | Ich erwarte Ihre Rückmeldung bis Freitag. | I expect your feedback by Friday. | Office | Rückmeldungen | — | — | — |
-| 11 | Bitte um Rückmeldung | please respond | bit-eh oom ruk-mel-doong | — | phrase | Bitte geben Sie mir Rückmeldung bis Freitag. | Please give me feedback by Friday. | Office | — | — | — | — |
-| 12 | Kenntnis | knowledge / awareness | kent-nis | die | n. | Ich setze Sie in Kenntnis. | I inform you. | Office | Kenntnisse | zur Kenntnis nehmen | — | — |
-| 13 | in Auftrag geben | to commission / assign | in owf-trahk geh-ben | — | phrase | Ich gebe die Aufgabe in Auftrag. | I assign the task. | Office | — | — | — | — |
-| 14 | beauftragen | to commission / instruct | beh-owf-trah-gen | — | v. | Ich beauftrage das Team mit dem Projekt. | I instruct the team with the project. | Office | beauftrage/beauftragst | — | — | — |
-| 15 | Auftraggeber | client / principal | owf-trahk-geh-ber | der | n. | Der Auftraggeber hat neue Anforderungen. | The client has new requirements. | Business | Auftraggeber | — | Kunde, Klient | Auftragnehmer |
+| 1 | Korrespondenz | correspondence | kor-es-pon-dents | die | n. | Die Korrespondenz mit dem Kunden ist formell. | The correspondence with the client is formal. | Office | â€” | geschÃ¤ftliche Korrespondenz | â€” | â€” |
+| 2 | Betreff | subject (email/letter) | beh-tref | der | n. | Was ist der Betreff der E-Mail? | What is the subject of the email? | Office | Betreffe | Betreff: Projekt X | â€” | â€” |
+| 3 | Anhang | attachment / appendix | an-hang | der | n. | Ich schicke den Bericht als Anhang. | I send the report as an attachment. | Office | AnhÃ¤nge | im Anhang finden | â€” | â€” |
+| 4 | in Kopie setzen (CC) | to CC someone | in ko-pee zet-sen | â€” | phrase | Ich setze den Chef in Kopie. | I CC the boss. | Office | â€” | â€” | â€” | â€” |
+| 5 | Sehr geehrte/r | Dear (formal opening) | zehr geh-ehr-teh/ter | â€” | phrase | Sehr geehrte Frau MÃ¼ller, â€¦ | Dear Ms MÃ¼ller, â€¦ | Email/Letter | â€” | â€” | â€” | Liebe/r (informal) |
+| 6 | Mit freundlichen GrÃ¼ÃŸen | Kind regards / Best regards | mit froyn-likh-en gryo-sen | â€” | phrase | Mit freundlichen GrÃ¼ÃŸen, Thomas Schmidt | Kind regards, Thomas Schmidt | Email/Letter | â€” | â€” | â€” | â€” |
+| 7 | Hochachtungsvoll | Yours faithfully | hohkh-akh-toongs-fol | â€” | phrase | Hochachtungsvoll, Dr. Weber | Yours faithfully, Dr. Weber | Formal letter | â€” | â€” | â€” | â€” |
+| 8 | Ich beziehe mich auf â€¦ | I refer to â€¦ | ikh beh-tsee-eh mikh owf | â€” | phrase | Ich beziehe mich auf Ihre E-Mail vom 5. Mai. | I refer to your email of 5th May. | Office | â€” | â€” | â€” | â€” |
+| 9 | Anbei Ã¼bersende ich â€¦ | Please find enclosed â€¦ | an-by yoo-ber-zen-deh ikh | â€” | phrase | Anbei Ã¼bersende ich die Unterlagen. | Please find enclosed the documents. | Office | â€” | â€” | â€” | â€” |
+| 10 | RÃ¼ckmeldung | feedback / reply | ruk-mel-doong | die | n. | Ich erwarte Ihre RÃ¼ckmeldung bis Freitag. | I expect your feedback by Friday. | Office | RÃ¼ckmeldungen | â€” | â€” | â€” |
+| 11 | Bitte um RÃ¼ckmeldung | please respond | bit-eh oom ruk-mel-doong | â€” | phrase | Bitte geben Sie mir RÃ¼ckmeldung bis Freitag. | Please give me feedback by Friday. | Office | â€” | â€” | â€” | â€” |
+| 12 | Kenntnis | knowledge / awareness | kent-nis | die | n. | Ich setze Sie in Kenntnis. | I inform you. | Office | Kenntnisse | zur Kenntnis nehmen | â€” | â€” |
+| 13 | in Auftrag geben | to commission / assign | in owf-trahk geh-ben | â€” | phrase | Ich gebe die Aufgabe in Auftrag. | I assign the task. | Office | â€” | â€” | â€” | â€” |
+| 14 | beauftragen | to commission / instruct | beh-owf-trah-gen | â€” | v. | Ich beauftrage das Team mit dem Projekt. | I instruct the team with the project. | Office | beauftrage/beauftragst | â€” | â€” | â€” |
+| 15 | Auftraggeber | client / principal | owf-trahk-geh-ber | der | n. | Der Auftraggeber hat neue Anforderungen. | The client has new requirements. | Business | Auftraggeber | â€” | Kunde, Klient | Auftragnehmer |
 
 ---
 
@@ -30,21 +30,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 16 | Sitzung | meeting / session | zit-soong | die | n. | Die Sitzung beginnt um 10 Uhr. | The meeting starts at 10 o'clock. | Office | Sitzungen | eine Sitzung abhalten | Besprechung, Meeting | — |
-| 17 | Besprechung | meeting / discussion | beh-shpreh-khoong | die | n. | Ich habe eine Besprechung mit dem Kunden. | I have a meeting with the client. | Office | Besprechungen | — | Meeting, Sitzung | — |
-| 18 | Tagesordnung | agenda | tah-ges-ord-noong | die | n. | Was steht auf der Tagesordnung? | What is on the agenda? | Meeting | Tagesordnungen | — | Agenda | — |
-| 19 | Tagesordnungspunkt | agenda item | tah-ges-ord-noongs-poonkt | der | n. | Der erste Tagesordnungspunkt ist … | The first agenda item is … | Meeting | Tagesordnungspunkte | — | — | — |
-| 20 | Protokoll | minutes / record | proh-toh-kol | das | n. | Wer schreibt das Protokoll? | Who writes the minutes? | Meeting | Protokolle | Protokoll führen | — | — |
-| 21 | protokollieren | to take minutes | proh-toh-kol-ee-ren | — | v. | Ich protokolliere das Meeting. | I take the minutes of the meeting. | Meeting | protokolliere/protokollierst | — | — | — |
-| 22 | Videokonferenz | video conference | vee-deh-oh-kon-feh-rents | die | n. | Wir haben eine Videokonferenz um 14 Uhr. | We have a video conference at 2 PM. | Digital work | Videokonferenzen | — | — | Präsenzmeeting |
-| 23 | Hybridmeeting | hybrid meeting | hyb-rid-mee-ting | das | n. | Das Hybridmeeting hat Teilnehmer online und vor Ort. | The hybrid meeting has participants online and on-site. | Modern work | Hybridmeetings | — | — | — |
-| 24 | moderieren | to moderate / facilitate | mo-deh-ree-ren | — | v. | Ich moderiere die Diskussion. | I moderate the discussion. | Meeting | moderiere/moderierst | — | leiten | — |
-| 25 | Moderation | moderation / facilitation | mo-deh-rah-tsee-ohn | die | n. | Die Moderation liegt bei Herrn Klein. | The facilitation is with Mr Klein. | Meeting | — | — | — | — |
-| 26 | Teilnehmer | participant | tyle-neh-mer | der | n. | Wie viele Teilnehmer gibt es? | How many participants are there? | Meeting | Teilnehmer | — | — | — |
-| 27 | abstimmen über | to vote on | ab-shtim-en yoo-ber | — | phrase | Wir stimmen über den Vorschlag ab. | We vote on the proposal. | Meeting | stimme ab | — | entscheiden | — |
-| 28 | Beschluss | resolution / decision | beh-shlos | der | n. | Der Beschluss wurde einstimmig gefasst. | The resolution was passed unanimously. | Meeting | Beschlüsse | einen Beschluss fassen | — | — |
-| 29 | einstimmig | unanimous | ayn-shtim-ikh | — | adj. | Der Beschluss war einstimmig. | The decision was unanimous. | Meeting | — | einstimmig beschließen | — | umstritten |
-| 30 | Abstimmung | vote / decision | ab-shtim-oong | die | n. | Bei der Abstimmung gab es zehn Ja-Stimmen. | In the vote there were ten yes votes. | Meeting | Abstimmungen | — | Wahl | — |
+| 16 | Sitzung | meeting / session | zit-soong | die | n. | Die Sitzung beginnt um 10 Uhr. | The meeting starts at 10 o'clock. | Office | Sitzungen | eine Sitzung abhalten | Besprechung, Meeting | â€” |
+| 17 | Besprechung | meeting / discussion | beh-shpreh-khoong | die | n. | Ich habe eine Besprechung mit dem Kunden. | I have a meeting with the client. | Office | Besprechungen | â€” | Meeting, Sitzung | â€” |
+| 18 | Tagesordnung | agenda | tah-ges-ord-noong | die | n. | Was steht auf der Tagesordnung? | What is on the agenda? | Meeting | Tagesordnungen | â€” | Agenda | â€” |
+| 19 | Tagesordnungspunkt | agenda item | tah-ges-ord-noongs-poonkt | der | n. | Der erste Tagesordnungspunkt ist â€¦ | The first agenda item is â€¦ | Meeting | Tagesordnungspunkte | â€” | â€” | â€” |
+| 20 | Protokoll | minutes / record | proh-toh-kol | das | n. | Wer schreibt das Protokoll? | Who writes the minutes? | Meeting | Protokolle | Protokoll fÃ¼hren | â€” | â€” |
+| 21 | protokollieren | to take minutes | proh-toh-kol-ee-ren | â€” | v. | Ich protokolliere das Meeting. | I take the minutes of the meeting. | Meeting | protokolliere/protokollierst | â€” | â€” | â€” |
+| 22 | Videokonferenz | video conference | vee-deh-oh-kon-feh-rents | die | n. | Wir haben eine Videokonferenz um 14 Uhr. | We have a video conference at 2 PM. | Digital work | Videokonferenzen | â€” | â€” | PrÃ¤senzmeeting |
+| 23 | Hybridmeeting | hybrid meeting | hyb-rid-mee-ting | das | n. | Das Hybridmeeting hat Teilnehmer online und vor Ort. | The hybrid meeting has participants online and on-site. | Modern work | Hybridmeetings | â€” | â€” | â€” |
+| 24 | moderieren | to moderate / facilitate | mo-deh-ree-ren | â€” | v. | Ich moderiere die Diskussion. | I moderate the discussion. | Meeting | moderiere/moderierst | â€” | leiten | â€” |
+| 25 | Moderation | moderation / facilitation | mo-deh-rah-tsee-ohn | die | n. | Die Moderation liegt bei Herrn Klein. | The facilitation is with Mr Klein. | Meeting | â€” | â€” | â€” | â€” |
+| 26 | Teilnehmer | participant | tyle-neh-mer | der | n. | Wie viele Teilnehmer gibt es? | How many participants are there? | Meeting | Teilnehmer | â€” | â€” | â€” |
+| 27 | abstimmen Ã¼ber | to vote on | ab-shtim-en yoo-ber | â€” | phrase | Wir stimmen Ã¼ber den Vorschlag ab. | We vote on the proposal. | Meeting | stimme ab | â€” | entscheiden | â€” |
+| 28 | Beschluss | resolution / decision | beh-shlos | der | n. | Der Beschluss wurde einstimmig gefasst. | The resolution was passed unanimously. | Meeting | BeschlÃ¼sse | einen Beschluss fassen | â€” | â€” |
+| 29 | einstimmig | unanimous | ayn-shtim-ikh | â€” | adj. | Der Beschluss war einstimmig. | The decision was unanimous. | Meeting | â€” | einstimmig beschlieÃŸen | â€” | umstritten |
+| 30 | Abstimmung | vote / decision | ab-shtim-oong | die | n. | Bei der Abstimmung gab es zehn Ja-Stimmen. | In the vote there were ten yes votes. | Meeting | Abstimmungen | â€” | Wahl | â€” |
 
 ---
 
@@ -52,21 +52,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 31 | Projekt | project | pro-yekt | das | n. | Das Projekt läuft gut. | The project is going well. | Work | Projekte | — | — | — |
-| 32 | Projektleiter | project manager | pro-yekt-ly-ter | der | n. | Der Projektleiter koordiniert alles. | The project manager coordinates everything. | Work | Projektleiter | — | — | — |
-| 33 | Milestone / Meilenstein | milestone | myle-shyne | der | n. | Wir haben den ersten Meilenstein erreicht. | We have reached the first milestone. | Project management | Meilensteine | — | — | — |
-| 34 | Zeitplan | schedule / timeline | tsyt-plahn | der | n. | Der Zeitplan ist sehr straff. | The schedule is very tight. | Project management | Zeitpläne | — | — | — |
-| 35 | im Zeitplan | on schedule | im tsyt-plahn | — | phrase | Wir sind im Zeitplan. | We are on schedule. | Project management | — | — | — | in Verzug |
-| 36 | in Verzug | behind schedule | in fer-tsook | — | phrase | Das Projekt ist in Verzug. | The project is behind schedule. | Project management | — | — | — | im Zeitplan |
-| 37 | Abgabetermin | submission / delivery deadline | ab-gah-beh-tehr-meen | der | n. | Der Abgabetermin ist Freitag. | The submission deadline is Friday. | Work | Abgabetermine | — | Deadline, Frist | — |
-| 38 | Deliverable | deliverable | deh-li-ver-ab-el | das | n. | Das Deliverable ist ein Bericht. | The deliverable is a report. | Project management | Deliverables | — | Ergebnis | — |
-| 39 | Ressourcen | resources | res-oor-tsen | — | n. (pl.) | Wir haben begrenzte Ressourcen. | We have limited resources. | Project management | — | Ressourcen einsetzen | — | — |
-| 40 | Risiko | risk | ri-zee-koh | das | n. | Das Risiko muss bewertet werden. | The risk must be assessed. | Project management | Risiken | Risiko managen | — | Chance |
-| 41 | Risikomanagement | risk management | ri-zee-koh-ma-neh-jment | das | n. | Risikomanagement ist wichtig. | Risk management is important. | Project management | — | — | — | — |
-| 42 | Stakeholder | stakeholder | stehk-hohl-der | der | n. | Alle Stakeholder müssen informiert werden. | All stakeholders must be informed. | Project management | Stakeholder | — | Interessengruppe | — |
-| 43 | Aufgabenverteilung | task allocation | owf-gah-ben-fer-ty-loong | die | n. | Die Aufgabenverteilung ist klar. | The task allocation is clear. | Project management | — | — | — | — |
-| 44 | Priorität | priority | pree-oh-ri-teht | die | n. | Was hat höchste Priorität? | What has the highest priority? | Work | Prioritäten | Prioritäten setzen | — | — |
-| 45 | priorisieren | to prioritise | pree-oh-ri-zee-ren | — | v. | Wir müssen die Aufgaben priorisieren. | We need to prioritise the tasks. | Work | priorisiere/priorisierst | — | — | — |
+| 31 | Projekt | project | pro-yekt | das | n. | Das Projekt lÃ¤uft gut. | The project is going well. | Work | Projekte | â€” | â€” | â€” |
+| 32 | Projektleiter | project manager | pro-yekt-ly-ter | der | n. | Der Projektleiter koordiniert alles. | The project manager coordinates everything. | Work | Projektleiter | â€” | â€” | â€” |
+| 33 | Milestone / Meilenstein | milestone | myle-shyne | der | n. | Wir haben den ersten Meilenstein erreicht. | We have reached the first milestone. | Project management | Meilensteine | â€” | â€” | â€” |
+| 34 | Zeitplan | schedule / timeline | tsyt-plahn | der | n. | Der Zeitplan ist sehr straff. | The schedule is very tight. | Project management | ZeitplÃ¤ne | â€” | â€” | â€” |
+| 35 | im Zeitplan | on schedule | im tsyt-plahn | â€” | phrase | Wir sind im Zeitplan. | We are on schedule. | Project management | â€” | â€” | â€” | in Verzug |
+| 36 | in Verzug | behind schedule | in fer-tsook | â€” | phrase | Das Projekt ist in Verzug. | The project is behind schedule. | Project management | â€” | â€” | â€” | im Zeitplan |
+| 37 | Abgabetermin | submission / delivery deadline | ab-gah-beh-tehr-meen | der | n. | Der Abgabetermin ist Freitag. | The submission deadline is Friday. | Work | Abgabetermine | â€” | Deadline, Frist | â€” |
+| 38 | Deliverable | deliverable | deh-li-ver-ab-el | das | n. | Das Deliverable ist ein Bericht. | The deliverable is a report. | Project management | Deliverables | â€” | Ergebnis | â€” |
+| 39 | Ressourcen | resources | res-oor-tsen | â€” | n. (pl.) | Wir haben begrenzte Ressourcen. | We have limited resources. | Project management | â€” | Ressourcen einsetzen | â€” | â€” |
+| 40 | Risiko | risk | ri-zee-koh | das | n. | Das Risiko muss bewertet werden. | The risk must be assessed. | Project management | Risiken | Risiko managen | â€” | Chance |
+| 41 | Risikomanagement | risk management | ri-zee-koh-ma-neh-jment | das | n. | Risikomanagement ist wichtig. | Risk management is important. | Project management | â€” | â€” | â€” | â€” |
+| 42 | Stakeholder | stakeholder | stehk-hohl-der | der | n. | Alle Stakeholder mÃ¼ssen informiert werden. | All stakeholders must be informed. | Project management | Stakeholder | â€” | Interessengruppe | â€” |
+| 43 | Aufgabenverteilung | task allocation | owf-gah-ben-fer-ty-loong | die | n. | Die Aufgabenverteilung ist klar. | The task allocation is clear. | Project management | â€” | â€” | â€” | â€” |
+| 44 | PrioritÃ¤t | priority | pree-oh-ri-teht | die | n. | Was hat hÃ¶chste PrioritÃ¤t? | What has the highest priority? | Work | PrioritÃ¤ten | PrioritÃ¤ten setzen | â€” | â€” |
+| 45 | priorisieren | to prioritise | pree-oh-ri-zee-ren | â€” | v. | Wir mÃ¼ssen die Aufgaben priorisieren. | We need to prioritise the tasks. | Work | priorisiere/priorisierst | â€” | â€” | â€” |
 
 ---
 
@@ -74,21 +74,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 46 | Bericht | report | beh-rikht | der | n. | Der Monatsbericht liegt auf meinem Tisch. | The monthly report is on my desk. | Office | Berichte | Bericht erstellen | — | — |
-| 47 | Entwurf | draft | ent-vroof | der | n. | Das ist erst ein Entwurf. | That is only a draft. | Documents | Entwürfe | — | Vorentwurf | Endversion |
-| 48 | überarbeiten | to revise / edit | yoo-ber-ar-by-ten | — | v. | Ich überarbeite den Bericht. | I revise the report. | Documents | überarbeite/überarbeitest | — | überprüfen | — |
-| 49 | genehmigen | to approve | geh-neh-mi-gen | — | v. | Der Chef genehmigt das Budget. | The boss approves the budget. | Office | genehmige/genehmigst | — | freigeben | ablehnen |
-| 50 | Genehmigung | approval | geh-neh-mi-goong | die | n. | Ich brauche eine Genehmigung. | I need approval. | Office | Genehmigungen | — | Zustimmung | Ablehnung |
-| 51 | Vorlage | template / form | for-lah-geh | die | n. | Nutzen Sie bitte die Vorlage. | Please use the template. | Office | Vorlagen | — | Muster | — |
-| 52 | Formular | form | for-moo-lahr | das | n. | Füllen Sie bitte das Formular aus. | Please fill out the form. | Office | Formulare | — | — | — |
-| 53 | ausfüllen | to fill out | ows-fyl-en | — | v. | Ich fülle das Formular aus. | I fill out the form. | Office | fülle aus / füllst aus | — | — | — |
-| 54 | unterschreiben | to sign | oon-ter-shry-ben | — | v. | Bitte unterschreiben Sie hier. | Please sign here. | Office | unterschreibe / unterschreibst | — | unterzeichnen | — |
-| 55 | Unterlagen | documents / papers | oon-ter-lah-gen | — | n. (pl.) | Die Unterlagen sind vollständig. | The documents are complete. | Office | — | Unterlagen einreichen | Dokumente | — |
-| 56 | Vertrag | contract | fer-trahk | der | n. | Der Vertrag muss bis Montag unterzeichnet sein. | The contract must be signed by Monday. | Legal | Verträge | — | Vereinbarung | — |
-| 57 | Vereinbarung | agreement | fer-ayn-bah-roong | die | n. | Wir kommen zu einer Vereinbarung. | We reach an agreement. | Business | Vereinbarungen | — | Abkommen | — |
-| 58 | Datenschutz | data protection | dah-ten-shoots | der | n. | Datenschutz ist in Deutschland sehr wichtig. | Data protection is very important in Germany. | Legal | — | DSGVO | — | — |
-| 59 | vertraulich | confidential | fer-trow-likh | — | adj. | Diese Information ist vertraulich. | This information is confidential. | Office | — | als vertraulich kennzeichnen | — | öffentlich |
-| 60 | DSGVO (Datenschutz-Grundverordnung) | GDPR | deh-es-geh-fow | die | n. | Die DSGVO regelt den Datenschutz in der EU. | The GDPR regulates data protection in the EU. | Legal | — | — | — | — |
+| 46 | Bericht | report | beh-rikht | der | n. | Der Monatsbericht liegt auf meinem Tisch. | The monthly report is on my desk. | Office | Berichte | Bericht erstellen | â€” | â€” |
+| 47 | Entwurf | draft | ent-vroof | der | n. | Das ist erst ein Entwurf. | That is only a draft. | Documents | EntwÃ¼rfe | â€” | Vorentwurf | Endversion |
+| 48 | Ã¼berarbeiten | to revise / edit | yoo-ber-ar-by-ten | â€” | v. | Ich Ã¼berarbeite den Bericht. | I revise the report. | Documents | Ã¼berarbeite/Ã¼berarbeitest | â€” | Ã¼berprÃ¼fen | â€” |
+| 49 | genehmigen | to approve | geh-neh-mi-gen | â€” | v. | Der Chef genehmigt das Budget. | The boss approves the budget. | Office | genehmige/genehmigst | â€” | freigeben | ablehnen |
+| 50 | Genehmigung | approval | geh-neh-mi-goong | die | n. | Ich brauche eine Genehmigung. | I need approval. | Office | Genehmigungen | â€” | Zustimmung | Ablehnung |
+| 51 | Vorlage | template / form | for-lah-geh | die | n. | Nutzen Sie bitte die Vorlage. | Please use the template. | Office | Vorlagen | â€” | Muster | â€” |
+| 52 | Formular | form | for-moo-lahr | das | n. | FÃ¼llen Sie bitte das Formular aus. | Please fill out the form. | Office | Formulare | â€” | â€” | â€” |
+| 53 | ausfÃ¼llen | to fill out | ows-fyl-en | â€” | v. | Ich fÃ¼lle das Formular aus. | I fill out the form. | Office | fÃ¼lle aus / fÃ¼llst aus | â€” | â€” | â€” |
+| 54 | unterschreiben | to sign | oon-ter-shry-ben | â€” | v. | Bitte unterschreiben Sie hier. | Please sign here. | Office | unterschreibe / unterschreibst | â€” | unterzeichnen | â€” |
+| 55 | Unterlagen | documents / papers | oon-ter-lah-gen | â€” | n. (pl.) | Die Unterlagen sind vollstÃ¤ndig. | The documents are complete. | Office | â€” | Unterlagen einreichen | Dokumente | â€” |
+| 56 | Vertrag | contract | fer-trahk | der | n. | Der Vertrag muss bis Montag unterzeichnet sein. | The contract must be signed by Monday. | Legal | VertrÃ¤ge | â€” | Vereinbarung | â€” |
+| 57 | Vereinbarung | agreement | fer-ayn-bah-roong | die | n. | Wir kommen zu einer Vereinbarung. | We reach an agreement. | Business | Vereinbarungen | â€” | Abkommen | â€” |
+| 58 | Datenschutz | data protection | dah-ten-shoots | der | n. | Datenschutz ist in Deutschland sehr wichtig. | Data protection is very important in Germany. | Legal | â€” | DSGVO | â€” | â€” |
+| 59 | vertraulich | confidential | fer-trow-likh | â€” | adj. | Diese Information ist vertraulich. | This information is confidential. | Office | â€” | als vertraulich kennzeichnen | â€” | Ã¶ffentlich |
+| 60 | DSGVO (Datenschutz-Grundverordnung) | GDPR | deh-es-geh-fow | die | n. | Die DSGVO regelt den Datenschutz in der EU. | The GDPR regulates data protection in the EU. | Legal | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -96,21 +96,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 61 | Ich würde gern … | I would like to … | ikh vyoor-deh gehrn | — | phrase | Ich würde gern das Projekt besprechen. | I would like to discuss the project. | Professional | — | — | — | — |
-| 62 | Könnten Sie bitte … ? | Could you please … ? | ku-nen zee bit-eh | — | phrase | Könnten Sie bitte den Bericht senden? | Could you please send the report? | Professional | — | — | — | — |
-| 63 | Ich melde mich … | I'll be in touch … | ikh mel-deh mikh | — | phrase | Ich melde mich bis Donnerstag. | I'll be in touch by Thursday. | Professional | — | — | — | — |
-| 64 | Für Rückfragen … | For further questions … | fyoor ruk-frah-gen | — | phrase | Für Rückfragen stehe ich gern zur Verfügung. | For further questions I'm happy to help. | Professional | — | — | — | — |
-| 65 | zur Verfügung stehen | to be available | tsoor fer-fyoo-goong shteh-en | — | phrase | Ich stehe Ihnen gerne zur Verfügung. | I am happy to assist you. | Professional | — | — | — | — |
-| 66 | auf Wiederhören | goodbye (phone) | owf vee-der-huh-ren | — | phrase | Auf Wiederhören! | Goodbye! (on phone) | Phone | — | — | — | — |
-| 67 | Rückruf | callback / return call | ruk-roof | der | n. | Ich bitte um Rückruf. | I request a callback. | Phone | Rückrufe | — | — | — |
-| 68 | Sprachnachricht hinterlassen | to leave a voicemail | shprakh-nakh-rikht hin-ter-las-en | — | phrase | Bitte hinterlassen Sie eine Sprachnachricht. | Please leave a voice message. | Phone | — | — | — | — |
-| 69 | Ich habe gerade … bekommen | I just received … | ikh hah-beh geh-rah-deh beh-kom-en | — | phrase | Ich habe gerade Ihre E-Mail bekommen. | I just received your email. | Professional | — | — | — | — |
-| 70 | Das werde ich weiterleiten. | I will forward that. | das vehr-deh ikh vy-ter-ly-ten | — | phrase | Ich werde Ihre Nachricht weiterleiten. | I will forward your message. | Office | — | — | — | — |
-| 71 | in Bearbeitung | in progress / being processed | in beh-ar-by-toong | — | phrase | Ihre Anfrage ist in Bearbeitung. | Your request is being processed. | Office | — | — | — | abgeschlossen |
-| 72 | Anfrage | inquiry / request | an-frah-geh | die | n. | Ich habe eine Anfrage bekommen. | I received an inquiry. | Office | Anfragen | — | — | — |
-| 73 | Angebot | quote / offer | an-geh-boht | das | n. | Wir erstellen ein Angebot für Sie. | We prepare a quote for you. | Business | Angebote | Angebot erstellen | — | — |
-| 74 | Auftrag | order / commission | owf-trahk | der | n. | Wir haben einen Auftrag bekommen. | We received an order. | Business | Aufträge | — | Bestellung | — |
-| 75 | Rechnung stellen | to invoice | rekh-noong shtel-en | — | phrase | Ich stelle eine Rechnung. | I issue an invoice. | Finance | — | — | — | — |
+| 61 | Ich wÃ¼rde gern â€¦ | I would like to â€¦ | ikh vyoor-deh gehrn | â€” | phrase | Ich wÃ¼rde gern das Projekt besprechen. | I would like to discuss the project. | Professional | â€” | â€” | â€” | â€” |
+| 62 | KÃ¶nnten Sie bitte â€¦ ? | Could you please â€¦ ? | ku-nen zee bit-eh | â€” | phrase | KÃ¶nnten Sie bitte den Bericht senden? | Could you please send the report? | Professional | â€” | â€” | â€” | â€” |
+| 63 | Ich melde mich â€¦ | I'll be in touch â€¦ | ikh mel-deh mikh | â€” | phrase | Ich melde mich bis Donnerstag. | I'll be in touch by Thursday. | Professional | â€” | â€” | â€” | â€” |
+| 64 | FÃ¼r RÃ¼ckfragen â€¦ | For further questions â€¦ | fyoor ruk-frah-gen | â€” | phrase | FÃ¼r RÃ¼ckfragen stehe ich gern zur VerfÃ¼gung. | For further questions I'm happy to help. | Professional | â€” | â€” | â€” | â€” |
+| 65 | zur VerfÃ¼gung stehen | to be available | tsoor fer-fyoo-goong shteh-en | â€” | phrase | Ich stehe Ihnen gerne zur VerfÃ¼gung. | I am happy to assist you. | Professional | â€” | â€” | â€” | â€” |
+| 66 | auf WiederhÃ¶ren | goodbye (phone) | owf vee-der-huh-ren | â€” | phrase | Auf WiederhÃ¶ren! | Goodbye! (on phone) | Phone | â€” | â€” | â€” | â€” |
+| 67 | RÃ¼ckruf | callback / return call | ruk-roof | der | n. | Ich bitte um RÃ¼ckruf. | I request a callback. | Phone | RÃ¼ckrufe | â€” | â€” | â€” |
+| 68 | Sprachnachricht hinterlassen | to leave a voicemail | shprakh-nakh-rikht hin-ter-las-en | â€” | phrase | Bitte hinterlassen Sie eine Sprachnachricht. | Please leave a voice message. | Phone | â€” | â€” | â€” | â€” |
+| 69 | Ich habe gerade â€¦ bekommen | I just received â€¦ | ikh hah-beh geh-rah-deh beh-kom-en | â€” | phrase | Ich habe gerade Ihre E-Mail bekommen. | I just received your email. | Professional | â€” | â€” | â€” | â€” |
+| 70 | Das werde ich weiterleiten. | I will forward that. | das vehr-deh ikh vy-ter-ly-ten | â€” | phrase | Ich werde Ihre Nachricht weiterleiten. | I will forward your message. | Office | â€” | â€” | â€” | â€” |
+| 71 | in Bearbeitung | in progress / being processed | in beh-ar-by-toong | â€” | phrase | Ihre Anfrage ist in Bearbeitung. | Your request is being processed. | Office | â€” | â€” | â€” | abgeschlossen |
+| 72 | Anfrage | inquiry / request | an-frah-geh | die | n. | Ich habe eine Anfrage bekommen. | I received an inquiry. | Office | Anfragen | â€” | â€” | â€” |
+| 73 | Angebot | quote / offer | an-geh-boht | das | n. | Wir erstellen ein Angebot fÃ¼r Sie. | We prepare a quote for you. | Business | Angebote | Angebot erstellen | â€” | â€” |
+| 74 | Auftrag | order / commission | owf-trahk | der | n. | Wir haben einen Auftrag bekommen. | We received an order. | Business | AuftrÃ¤ge | â€” | Bestellung | â€” |
+| 75 | Rechnung stellen | to invoice | rekh-noong shtel-en | â€” | phrase | Ich stelle eine Rechnung. | I issue an invoice. | Finance | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -118,21 +118,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 76 | Personalwesen | human resources / HR | per-zoh-nahl-veh-zen | das | n. | Die Abteilung Personalwesen kümmert sich um Einstellungen. | The HR department handles hirings. | HR | — | — | Personalmanagement | — |
-| 77 | Abteilung | department | ab-ty-loong | die | n. | Welche Abteilung ist zuständig? | Which department is responsible? | Work | Abteilungen | — | — | — |
-| 78 | Stellenausschreibung | job advertisement | shtel-en-ows-shry-boong | die | n. | Ich habe die Stellenausschreibung online gefunden. | I found the job advertisement online. | HR | Stellenausschreibungen | — | Stellenanzeige | — |
-| 79 | Bewerbungsgespräch | job interview | beh-vehr-boongs-geh-shprech | das | n. | Ich habe ein Bewerbungsgespräch morgen. | I have a job interview tomorrow. | HR | Bewerbungsgespräche | — | Vorstellungsgespräch | — |
-| 80 | Onboarding | onboarding | on-bor-ding | das | n. | Das Onboarding bei neuen Mitarbeitern ist wichtig. | Onboarding for new employees is important. | HR | — | — | Einarbeitung | — |
-| 81 | Einarbeitung | induction / onboarding | ayn-ar-by-toong | die | n. | Die Einarbeitung dauert zwei Wochen. | The induction takes two weeks. | HR | — | — | — | — |
-| 82 | Mitarbeitergespräch | employee review | mit-ar-by-ter-geh-shprech | das | n. | Das jährliche Mitarbeitergespräch ist nächste Woche. | The annual employee review is next week. | HR | Mitarbeitergespräche | — | — | — |
-| 83 | Zielvereinbarung | target agreement | tseel-fer-ayn-bah-roong | die | n. | Ich vereinbare Ziele für das nächste Quartal. | I agree on targets for the next quarter. | HR | Zielvereinbarungen | — | — | — |
-| 84 | Teamarbeit | teamwork | tehm-ar-byt | die | n. | Teamarbeit ist wichtig in unserem Unternehmen. | Teamwork is important in our company. | Work | — | — | Zusammenarbeit | — |
-| 85 | Zusammenarbeit | collaboration | tsoo-zam-en-ar-byt | die | n. | Die Zusammenarbeit mit dem Kunden ist gut. | The collaboration with the client is good. | Work | — | — | Teamarbeit, Kooperation | — |
-| 86 | Führungskraft | manager / leader | fyoo-roongs-kraft | die | n. | Die Führungskraft leitet das Team. | The manager leads the team. | Work | Führungskräfte | — | Vorgesetzter | Mitarbeiter |
-| 87 | Vorgesetzter | supervisor / superior | for-geh-zets-ter | der | n. | Mein Vorgesetzter ist fair. | My supervisor is fair. | Work | Vorgesetzte | — | Führungskraft, Chef | Untergebener |
-| 88 | Untergebener | subordinate | oon-ter-geh-beh-ner | der | n. | Er behandelt seine Untergebenen respektvoll. | He treats his subordinates respectfully. | Work | Untergebene | — | — | Vorgesetzter |
-| 89 | Teamleiter | team leader | tehm-ly-ter | der | n. | Der Teamleiter koordiniert das Projekt. | The team leader coordinates the project. | Work | Teamleiter | — | — | — |
-| 90 | delegieren | to delegate | deh-leh-gee-ren | — | v. | Der Chef delegiert Aufgaben an das Team. | The boss delegates tasks to the team. | Work | delegiere/delegierst | — | — | — |
+| 76 | Personalwesen | human resources / HR | per-zoh-nahl-veh-zen | das | n. | Die Abteilung Personalwesen kÃ¼mmert sich um Einstellungen. | The HR department handles hirings. | HR | â€” | â€” | Personalmanagement | â€” |
+| 77 | Abteilung | department | ab-ty-loong | die | n. | Welche Abteilung ist zustÃ¤ndig? | Which department is responsible? | Work | Abteilungen | â€” | â€” | â€” |
+| 78 | Stellenausschreibung | job advertisement | shtel-en-ows-shry-boong | die | n. | Ich habe die Stellenausschreibung online gefunden. | I found the job advertisement online. | HR | Stellenausschreibungen | â€” | Stellenanzeige | â€” |
+| 79 | BewerbungsgesprÃ¤ch | job interview | beh-vehr-boongs-geh-shprech | das | n. | Ich habe ein BewerbungsgesprÃ¤ch morgen. | I have a job interview tomorrow. | HR | BewerbungsgesprÃ¤che | â€” | VorstellungsgesprÃ¤ch | â€” |
+| 80 | Onboarding | onboarding | on-bor-ding | das | n. | Das Onboarding bei neuen Mitarbeitern ist wichtig. | Onboarding for new employees is important. | HR | â€” | â€” | Einarbeitung | â€” |
+| 81 | Einarbeitung | induction / onboarding | ayn-ar-by-toong | die | n. | Die Einarbeitung dauert zwei Wochen. | The induction takes two weeks. | HR | â€” | â€” | â€” | â€” |
+| 82 | MitarbeitergesprÃ¤ch | employee review | mit-ar-by-ter-geh-shprech | das | n. | Das jÃ¤hrliche MitarbeitergesprÃ¤ch ist nÃ¤chste Woche. | The annual employee review is next week. | HR | MitarbeitergesprÃ¤che | â€” | â€” | â€” |
+| 83 | Zielvereinbarung | target agreement | tseel-fer-ayn-bah-roong | die | n. | Ich vereinbare Ziele fÃ¼r das nÃ¤chste Quartal. | I agree on targets for the next quarter. | HR | Zielvereinbarungen | â€” | â€” | â€” |
+| 84 | Teamarbeit | teamwork | tehm-ar-byt | die | n. | Teamarbeit ist wichtig in unserem Unternehmen. | Teamwork is important in our company. | Work | â€” | â€” | Zusammenarbeit | â€” |
+| 85 | Zusammenarbeit | collaboration | tsoo-zam-en-ar-byt | die | n. | Die Zusammenarbeit mit dem Kunden ist gut. | The collaboration with the client is good. | Work | â€” | â€” | Teamarbeit, Kooperation | â€” |
+| 86 | FÃ¼hrungskraft | manager / leader | fyoo-roongs-kraft | die | n. | Die FÃ¼hrungskraft leitet das Team. | The manager leads the team. | Work | FÃ¼hrungskrÃ¤fte | â€” | Vorgesetzter | Mitarbeiter |
+| 87 | Vorgesetzter | supervisor / superior | for-geh-zets-ter | der | n. | Mein Vorgesetzter ist fair. | My supervisor is fair. | Work | Vorgesetzte | â€” | FÃ¼hrungskraft, Chef | Untergebener |
+| 88 | Untergebener | subordinate | oon-ter-geh-beh-ner | der | n. | Er behandelt seine Untergebenen respektvoll. | He treats his subordinates respectfully. | Work | Untergebene | â€” | â€” | Vorgesetzter |
+| 89 | Teamleiter | team leader | tehm-ly-ter | der | n. | Der Teamleiter koordiniert das Projekt. | The team leader coordinates the project. | Work | Teamleiter | â€” | â€” | â€” |
+| 90 | delegieren | to delegate | deh-leh-gee-ren | â€” | v. | Der Chef delegiert Aufgaben an das Team. | The boss delegates tasks to the team. | Work | delegiere/delegierst | â€” | â€” | â€” |
 
 ---
 
@@ -140,16 +140,16 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 91 | Videokonferenz-Tool | video conferencing tool | vee-deh-oh-kon-feh-rents-tool | das | n. | Wir nutzen Teams als Videokonferenz-Tool. | We use Teams as a video conferencing tool. | Digital work | — | — | — | — |
-| 92 | Projektmanagement-Software | project management software | pro-yekt-ma-neh-jment-soft-veh-reh | die | n. | Wir nutzen Jira für das Projektmanagement. | We use Jira for project management. | Digital work | — | — | — | — |
-| 93 | geteiltes Dokument | shared document | geh-tylt-es doh-koo-ment | das | n. | Ich arbeite an einem geteilten Dokument. | I work on a shared document. | Digital work | — | — | — | — |
-| 94 | Cloud-Speicher | cloud storage | klowd-shpy-kher | der | n. | Die Dateien liegen im Cloud-Speicher. | The files are in cloud storage. | Technology | — | — | — | lokaler Speicher |
-| 95 | Freigabe | sharing / release | fry-gah-beh | die | n. | Ich gebe das Dokument für das Team frei. | I share the document with the team. | Digital work | Freigaben | — | — | — |
-| 96 | Benachrichtigung | notification | beh-nakh-rikht-i-goong | die | n. | Ich stelle die Benachrichtigungen ab. | I turn off the notifications. | Technology | Benachrichtigungen | — | — | — |
-| 97 | Aufgabenliste | task list / to-do list | owf-gah-ben-lis-teh | die | n. | Ich pflege eine Aufgabenliste. | I maintain a task list. | Work | Aufgabenlisten | — | To-do-Liste | — |
-| 98 | Kalender synchronisieren | to sync a calendar | kah-len-der zyng-kroh-ni-zee-ren | — | phrase | Ich synchronisiere meinen Kalender. | I sync my calendar. | Technology | — | — | — | — |
-| 99 | virtuelle Zusammenarbeit | virtual collaboration | vir-too-el-eh tsoo-zam-en-ar-byt | — | phrase | Virtuelle Zusammenarbeit ist die neue Norm. | Virtual collaboration is the new norm. | Modern work | — | — | — | Präsenzarbeit |
-| 100 | asynchron | asynchronous | ah-zyn-krohn | — | adj. | Wir arbeiten asynchron in verschiedenen Zeitzonen. | We work asynchronously in different time zones. | Modern work | — | — | — | synchron |
+| 91 | Videokonferenz-Tool | video conferencing tool | vee-deh-oh-kon-feh-rents-tool | das | n. | Wir nutzen Teams als Videokonferenz-Tool. | We use Teams as a video conferencing tool. | Digital work | â€” | â€” | â€” | â€” |
+| 92 | Projektmanagement-Software | project management software | pro-yekt-ma-neh-jment-soft-veh-reh | die | n. | Wir nutzen Jira fÃ¼r das Projektmanagement. | We use Jira for project management. | Digital work | â€” | â€” | â€” | â€” |
+| 93 | geteiltes Dokument | shared document | geh-tylt-es doh-koo-ment | das | n. | Ich arbeite an einem geteilten Dokument. | I work on a shared document. | Digital work | â€” | â€” | â€” | â€” |
+| 94 | Cloud-Speicher | cloud storage | klowd-shpy-kher | der | n. | Die Dateien liegen im Cloud-Speicher. | The files are in cloud storage. | Technology | â€” | â€” | â€” | lokaler Speicher |
+| 95 | Freigabe | sharing / release | fry-gah-beh | die | n. | Ich gebe das Dokument fÃ¼r das Team frei. | I share the document with the team. | Digital work | Freigaben | â€” | â€” | â€” |
+| 96 | Benachrichtigung | notification | beh-nakh-rikht-i-goong | die | n. | Ich stelle die Benachrichtigungen ab. | I turn off the notifications. | Technology | Benachrichtigungen | â€” | â€” | â€” |
+| 97 | Aufgabenliste | task list / to-do list | owf-gah-ben-lis-teh | die | n. | Ich pflege eine Aufgabenliste. | I maintain a task list. | Work | Aufgabenlisten | â€” | To-do-Liste | â€” |
+| 98 | Kalender synchronisieren | to sync a calendar | kah-len-der zyng-kroh-ni-zee-ren | â€” | phrase | Ich synchronisiere meinen Kalender. | I sync my calendar. | Technology | â€” | â€” | â€” | â€” |
+| 99 | virtuelle Zusammenarbeit | virtual collaboration | vir-too-el-eh tsoo-zam-en-ar-byt | â€” | phrase | Virtuelle Zusammenarbeit ist die neue Norm. | Virtual collaboration is the new norm. | Modern work | â€” | â€” | â€” | PrÃ¤senzarbeit |
+| 100 | asynchron | asynchronous | ah-zyn-krohn | â€” | adj. | Wir arbeiten asynchron in verschiedenen Zeitzonen. | We work asynchronously in different time zones. | Modern work | â€” | â€” | â€” | synchron |
 
 ---
 
@@ -157,21 +157,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 101 | Netzwerk | network | nets-vehrk | das | n. | Ich baue mein berufliches Netzwerk aus. | I expand my professional network. | Career | Netzwerke | — | — | — |
-| 102 | Netzwerken | networking | nets-vehr-ken | das | n. | Netzwerken ist essenziell für die Karriere. | Networking is essential for the career. | Career | — | — | — | — |
-| 103 | Visitenkarte | business card | vee-zi-ten-kar-teh | die | n. | Ich überreiche meine Visitenkarte. | I hand over my business card. | Networking | Visitenkarten | — | — | — |
-| 104 | Berufsmesse | career fair / trade fair | beh-roofs-mes-eh | die | n. | Ich besuche die Berufsmesse in Frankfurt. | I visit the career fair in Frankfurt. | Career | Berufsmessen | — | Jobmesse | — |
-| 105 | Mentoring | mentoring | men-to-ring | das | n. | Ich habe einen Mentor im Unternehmen. | I have a mentor in the company. | Career | — | — | — | — |
-| 106 | Mentor | mentor | men-tor | der | n. | Mein Mentor gibt mir wertvolle Ratschläge. | My mentor gives me valuable advice. | Career | Mentoren | — | — | Mentee |
-| 107 | Coaching | coaching | koh-ching | das | n. | Ich nehme an einem Coaching-Programm teil. | I take part in a coaching programme. | Career | — | — | — | — |
-| 108 | Seminär | seminar | ze-mi-nar | das | n. | Ich besuche ein Seminar über Führung. | I attend a seminar on leadership. | Training | Seminäre | — | Schulung | — |
-| 109 | Schulung | training (session) | shoo-loong | die | n. | Die Schulung dauert zwei Tage. | The training session takes two days. | Training | Schulungen | — | — | — |
-| 110 | Workshop | workshop | vork-shop | der | n. | Ich leite einen Workshop über Kreativität. | I lead a workshop on creativity. | Training | Workshops | — | — | — |
-| 111 | Fachkonferenz | professional conference | fakh-kon-feh-rents | die | n. | Ich halte einen Vortrag auf der Fachkonferenz. | I give a talk at the professional conference. | Career | Fachkonferenzen | — | — | — |
-| 112 | Vortrag | talk / lecture | for-trahk | der | n. | Der Vortrag dauert 30 Minuten. | The talk lasts 30 minutes. | Training | Vorträge | einen Vortrag halten | — | — |
-| 113 | Lebenslauf | CV / résumé | leh-bens-lowf | der | n. | Mein Lebenslauf ist aktualisiert. | My CV is updated. | Career | Lebensläufe | — | — | — |
-| 114 | LinkedIn | LinkedIn | link-t-in | — | n. | Ich bin auf LinkedIn vernetzt. | I am connected on LinkedIn. | Digital | — | LinkedIn-Profil | — | — |
-| 115 | Berufserfahrung | professional experience | beh-roofs-er-fah-roong | die | n. | Ich habe 10 Jahre Berufserfahrung. | I have 10 years of professional experience. | Career | — | — | — | — |
+| 101 | Netzwerk | network | nets-vehrk | das | n. | Ich baue mein berufliches Netzwerk aus. | I expand my professional network. | Career | Netzwerke | â€” | â€” | â€” |
+| 102 | Netzwerken | networking | nets-vehr-ken | das | n. | Netzwerken ist essenziell fÃ¼r die Karriere. | Networking is essential for the career. | Career | â€” | â€” | â€” | â€” |
+| 103 | Visitenkarte | business card | vee-zi-ten-kar-teh | die | n. | Ich Ã¼berreiche meine Visitenkarte. | I hand over my business card. | Networking | Visitenkarten | â€” | â€” | â€” |
+| 104 | Berufsmesse | career fair / trade fair | beh-roofs-mes-eh | die | n. | Ich besuche die Berufsmesse in Frankfurt. | I visit the career fair in Frankfurt. | Career | Berufsmessen | â€” | Jobmesse | â€” |
+| 105 | Mentoring | mentoring | men-to-ring | das | n. | Ich habe einen Mentor im Unternehmen. | I have a mentor in the company. | Career | â€” | â€” | â€” | â€” |
+| 106 | Mentor | mentor | men-tor | der | n. | Mein Mentor gibt mir wertvolle RatschlÃ¤ge. | My mentor gives me valuable advice. | Career | Mentoren | â€” | â€” | Mentee |
+| 107 | Coaching | coaching | koh-ching | das | n. | Ich nehme an einem Coaching-Programm teil. | I take part in a coaching programme. | Career | â€” | â€” | â€” | â€” |
+| 108 | SeminÃ¤r | seminar | ze-mi-nar | das | n. | Ich besuche ein Seminar Ã¼ber FÃ¼hrung. | I attend a seminar on leadership. | Training | SeminÃ¤re | â€” | Schulung | â€” |
+| 109 | Schulung | training (session) | shoo-loong | die | n. | Die Schulung dauert zwei Tage. | The training session takes two days. | Training | Schulungen | â€” | â€” | â€” |
+| 110 | Workshop | workshop | vork-shop | der | n. | Ich leite einen Workshop Ã¼ber KreativitÃ¤t. | I lead a workshop on creativity. | Training | Workshops | â€” | â€” | â€” |
+| 111 | Fachkonferenz | professional conference | fakh-kon-feh-rents | die | n. | Ich halte einen Vortrag auf der Fachkonferenz. | I give a talk at the professional conference. | Career | Fachkonferenzen | â€” | â€” | â€” |
+| 112 | Vortrag | talk / lecture | for-trahk | der | n. | Der Vortrag dauert 30 Minuten. | The talk lasts 30 minutes. | Training | VortrÃ¤ge | einen Vortrag halten | â€” | â€” |
+| 113 | Lebenslauf | CV / rÃ©sumÃ© | leh-bens-lowf | der | n. | Mein Lebenslauf ist aktualisiert. | My CV is updated. | Career | LebenslÃ¤ufe | â€” | â€” | â€” |
+| 114 | LinkedIn | LinkedIn | link-t-in | â€” | n. | Ich bin auf LinkedIn vernetzt. | I am connected on LinkedIn. | Digital | â€” | LinkedIn-Profil | â€” | â€” |
+| 115 | Berufserfahrung | professional experience | beh-roofs-er-fah-roong | die | n. | Ich habe 10 Jahre Berufserfahrung. | I have 10 years of professional experience. | Career | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -179,18 +179,18 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 116 | Umsatz | revenue / turnover | oom-zats | der | n. | Der Umsatz ist dieses Jahr gestiegen. | The revenue has risen this year. | Business | Umsätze | — | — | Kosten |
-| 117 | Gewinn | profit | geh-vin | der | n. | Das Unternehmen macht Gewinn. | The company makes a profit. | Business | Gewinne | — | — | Verlust |
-| 118 | Verlust | loss | fer-loost | der | n. | Das Quartal endet mit Verlust. | The quarter ends with a loss. | Business | Verluste | — | — | Gewinn |
-| 119 | Investition | investment | in-ves-ti-tsee-ohn | die | n. | Die Investition zahlt sich aus. | The investment pays off. | Business | Investitionen | — | — | — |
-| 120 | investieren | to invest | in-ves-tee-ren | — | v. | Wir investieren in neue Technologie. | We invest in new technology. | Business | investiere/investierst | — | — | — |
-| 121 | Marktanteil | market share | markt-an-tyle | der | n. | Wir erhöhen unseren Marktanteil. | We increase our market share. | Business | Marktanteile | — | — | — |
-| 122 | Wettbewerb | competition | vet-beh-vehrp | der | n. | Der Wettbewerb ist stark. | The competition is strong. | Business | — | — | Konkurrenz | — |
-| 123 | Konkurrent | competitor | kon-koo-rent | der | n. | Wer sind unsere Hauptkonkurrenten? | Who are our main competitors? | Business | Konkurrenten | — | — | Kooperationspartner |
-| 124 | Strategie | strategy | shtra-teh-ghee | die | n. | Wir brauchen eine klare Strategie. | We need a clear strategy. | Business | Strategien | — | — | — |
-| 125 | Zielgruppe | target group | tseel-groo-peh | die | n. | Wer ist unsere Zielgruppe? | Who is our target group? | Business | Zielgruppen | — | — | — |
-| 126 | Kundenbindung | customer retention | koon-den-bin-doong | die | n. | Kundenbindung ist wichtiger als Neukundengewinnung. | Customer retention is more important than new customer acquisition. | Business | — | — | — | Kundenabwanderung |
-| 127 | Kundenzufriedenheit | customer satisfaction | koon-den-tsoo-free-den-hyte | die | n. | Die Kundenzufriedenheit ist hoch. | Customer satisfaction is high. | Business | — | — | — | — |
-| 128 | Qualitätssicherung | quality assurance | kvah-li-tehts-zi-khe-roong | die | n. | Die Qualitätssicherung ist essenziell. | Quality assurance is essential. | Business | — | — | QA | — |
-| 129 | Nachhaltigkeit | sustainability | nakh-hal-tikh-kyte | die | n. | Nachhaltigkeit ist ein Kernwert unseres Unternehmens. | Sustainability is a core value of our company. | Business | — | — | — | — |
-| 130 | CSR (Corporate Social Responsibility) | CSR | tseh-es-ehr | die | n. | CSR ist wichtiger Bestandteil unserer Strategie. | CSR is an important part of our strategy. | Business | — | — | — | — |
+| 116 | Umsatz | revenue / turnover | oom-zats | der | n. | Der Umsatz ist dieses Jahr gestiegen. | The revenue has risen this year. | Business | UmsÃ¤tze | â€” | â€” | Kosten |
+| 117 | Gewinn | profit | geh-vin | der | n. | Das Unternehmen macht Gewinn. | The company makes a profit. | Business | Gewinne | â€” | â€” | Verlust |
+| 118 | Verlust | loss | fer-loost | der | n. | Das Quartal endet mit Verlust. | The quarter ends with a loss. | Business | Verluste | â€” | â€” | Gewinn |
+| 119 | Investition | investment | in-ves-ti-tsee-ohn | die | n. | Die Investition zahlt sich aus. | The investment pays off. | Business | Investitionen | â€” | â€” | â€” |
+| 120 | investieren | to invest | in-ves-tee-ren | â€” | v. | Wir investieren in neue Technologie. | We invest in new technology. | Business | investiere/investierst | â€” | â€” | â€” |
+| 121 | Marktanteil | market share | markt-an-tyle | der | n. | Wir erhÃ¶hen unseren Marktanteil. | We increase our market share. | Business | Marktanteile | â€” | â€” | â€” |
+| 122 | Wettbewerb | competition | vet-beh-vehrp | der | n. | Der Wettbewerb ist stark. | The competition is strong. | Business | â€” | â€” | Konkurrenz | â€” |
+| 123 | Konkurrent | competitor | kon-koo-rent | der | n. | Wer sind unsere Hauptkonkurrenten? | Who are our main competitors? | Business | Konkurrenten | â€” | â€” | Kooperationspartner |
+| 124 | Strategie | strategy | shtra-teh-ghee | die | n. | Wir brauchen eine klare Strategie. | We need a clear strategy. | Business | Strategien | â€” | â€” | â€” |
+| 125 | Zielgruppe | target group | tseel-groo-peh | die | n. | Wer ist unsere Zielgruppe? | Who is our target group? | Business | Zielgruppen | â€” | â€” | â€” |
+| 126 | Kundenbindung | customer retention | koon-den-bin-doong | die | n. | Kundenbindung ist wichtiger als Neukundengewinnung. | Customer retention is more important than new customer acquisition. | Business | â€” | â€” | â€” | Kundenabwanderung |
+| 127 | Kundenzufriedenheit | customer satisfaction | koon-den-tsoo-free-den-hyte | die | n. | Die Kundenzufriedenheit ist hoch. | Customer satisfaction is high. | Business | â€” | â€” | â€” | â€” |
+| 128 | QualitÃ¤tssicherung | quality assurance | kvah-li-tehts-zi-khe-roong | die | n. | Die QualitÃ¤tssicherung ist essenziell. | Quality assurance is essential. | Business | â€” | â€” | QA | â€” |
+| 129 | Nachhaltigkeit | sustainability | nakh-hal-tikh-kyte | die | n. | Nachhaltigkeit ist ein Kernwert unseres Unternehmens. | Sustainability is a core value of our company. | Business | â€” | â€” | â€” | â€” |
+| 130 | CSR (Corporate Social Responsibility) | CSR | tseh-es-ehr | die | n. | CSR ist wichtiger Bestandteil unserer Strategie. | CSR is an important part of our strategy. | Business | â€” | â€” | â€” | â€” |

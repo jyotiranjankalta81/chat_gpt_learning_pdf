@@ -1,4 +1,4 @@
-# A2 — Extended Adjectives & Adverbs (Erweiterte Adjektive & Adverbien)
+# A2 â€” Extended Adjectives & Adverbs (Erweiterte Adjektive & Adverbien)
 
 > ~100 entries covering intermediate-level descriptive vocabulary for A2 learners.
 
@@ -8,21 +8,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 1 | modern | modern | mo-dehn | — | adj. | Das ist ein modernes Bürogebäude. | That is a modern office building. | Description | — | — | zeitgemäß | altmodisch |
-| 2 | traditionell | traditional | trah-di-tsee-oh-nel | — | adj. | Das ist ein traditionelles Rezept. | That is a traditional recipe. | Description | — | — | — | modern |
-| 3 | gemütlich | cosy / comfortable | geh-myoot-likh | — | adj. | Das Café ist sehr gemütlich. | The café is very cosy. | Description | — | — | — | ungemütlich |
-| 4 | ungemütlich | uncomfortable / unpleasant | oon-geh-myoot-likh | — | adj. | Das Sofa ist ungemütlich. | The sofa is uncomfortable. | Description | — | — | — | gemütlich |
-| 5 | ordentlich | tidy / neat / decent | or-dent-likh | — | adj. | Sein Schreibtisch ist immer ordentlich. | His desk is always tidy. | Description | — | — | aufgeräumt | unordentlich |
-| 6 | unordentlich | untidy / messy | oon-or-dent-likh | — | adj. | Mein Zimmer ist unordentlich. | My room is untidy. | Description | — | — | — | ordentlich |
-| 7 | praktisch | practical | prak-tish | — | adj. | Diese Lösung ist sehr praktisch. | This solution is very practical. | Description | — | — | — | unpraktisch |
-| 8 | nützlich | useful | nyuts-likh | — | adj. | Das Wörterbuch ist sehr nützlich. | The dictionary is very useful. | Description | — | — | — | nutzlos |
-| 9 | nutzlos | useless | noots-lohs | — | adj. | Dieses Gerät ist total nutzlos. | This device is totally useless. | Description | — | — | — | nützlich |
-| 10 | notwendig | necessary | noht-ven-dikh | — | adj. | Das ist notwendig für die Arbeit. | That is necessary for the work. | Description | — | — | erforderlich | unnötig |
-| 11 | unnötig | unnecessary | oon-nuh-tikh | — | adj. | Das ist unnötig. | That is unnecessary. | Description | — | — | — | notwendig |
-| 12 | überraschend | surprising | yoo-ber-rash-end | — | adj. | Das ist überraschend gut! | That is surprisingly good! | Description | — | — | erstaunlich | erwartet |
-| 13 | erstaunlich | astonishing / amazing | er-shtow-nlikh | — | adj. | Das ist erstaunlich! | That is astonishing! | Description | — | — | unglaublich | erwartbar |
-| 14 | unglaublich | incredible / unbelievable | oon-glow-blikh | — | adj. | Das ist unglaublich! | That is incredible! | Description | — | — | erstaunlich | glaubwürdig |
-| 15 | einzigartig | unique | ayn-tsig-ar-tikh | — | adj. | Diese Erfahrung ist einzigartig. | This experience is unique. | Description | — | — | — | gewöhnlich |
+| 1 | modern | modern | mo-dehn | â€” | adj. | Das ist ein modernes BÃ¼rogebÃ¤ude. | That is a modern office building. | Description | â€” | â€” | zeitgemÃ¤ÃŸ | altmodisch |
+| 2 | traditionell | traditional | trah-di-tsee-oh-nel | â€” | adj. | Das ist ein traditionelles Rezept. | That is a traditional recipe. | Description | â€” | â€” | â€” | modern |
+| 3 | gemÃ¼tlich | cosy / comfortable | geh-myoot-likh | â€” | adj. | Das CafÃ© ist sehr gemÃ¼tlich. | The cafÃ© is very cosy. | Description | â€” | â€” | â€” | ungemÃ¼tlich |
+| 4 | ungemÃ¼tlich | uncomfortable / unpleasant | oon-geh-myoot-likh | â€” | adj. | Das Sofa ist ungemÃ¼tlich. | The sofa is uncomfortable. | Description | â€” | â€” | â€” | gemÃ¼tlich |
+| 5 | ordentlich | tidy / neat / decent | or-dent-likh | â€” | adj. | Sein Schreibtisch ist immer ordentlich. | His desk is always tidy. | Description | â€” | â€” | aufgerÃ¤umt | unordentlich |
+| 6 | unordentlich | untidy / messy | oon-or-dent-likh | â€” | adj. | Mein Zimmer ist unordentlich. | My room is untidy. | Description | â€” | â€” | â€” | ordentlich |
+| 7 | praktisch | practical | prak-tish | â€” | adj. | Diese LÃ¶sung ist sehr praktisch. | This solution is very practical. | Description | â€” | â€” | â€” | unpraktisch |
+| 8 | nÃ¼tzlich | useful | nyuts-likh | â€” | adj. | Das WÃ¶rterbuch ist sehr nÃ¼tzlich. | The dictionary is very useful. | Description | â€” | â€” | â€” | nutzlos |
+| 9 | nutzlos | useless | noots-lohs | â€” | adj. | Dieses GerÃ¤t ist total nutzlos. | This device is totally useless. | Description | â€” | â€” | â€” | nÃ¼tzlich |
+| 10 | notwendig | necessary | noht-ven-dikh | â€” | adj. | Das ist notwendig fÃ¼r die Arbeit. | That is necessary for the work. | Description | â€” | â€” | erforderlich | unnÃ¶tig |
+| 11 | unnÃ¶tig | unnecessary | oon-nuh-tikh | â€” | adj. | Das ist unnÃ¶tig. | That is unnecessary. | Description | â€” | â€” | â€” | notwendig |
+| 12 | Ã¼berraschend | surprising | yoo-ber-rash-end | â€” | adj. | Das ist Ã¼berraschend gut! | That is surprisingly good! | Description | â€” | â€” | erstaunlich | erwartet |
+| 13 | erstaunlich | astonishing / amazing | er-shtow-nlikh | â€” | adj. | Das ist erstaunlich! | That is astonishing! | Description | â€” | â€” | unglaublich | erwartbar |
+| 14 | unglaublich | incredible / unbelievable | oon-glow-blikh | â€” | adj. | Das ist unglaublich! | That is incredible! | Description | â€” | â€” | erstaunlich | glaubwÃ¼rdig |
+| 15 | einzigartig | unique | ayn-tsig-ar-tikh | â€” | adj. | Diese Erfahrung ist einzigartig. | This experience is unique. | Description | â€” | â€” | â€” | gewÃ¶hnlich |
 
 ---
 
@@ -30,21 +30,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 16 | offen | open / open-minded | of-en | — | adj. | Sie ist sehr offen für neue Ideen. | She is very open to new ideas. | Character | — | — | — | verschlossen |
-| 17 | verschlossen | reserved / closed off | fer-shlossen | — | adj. | Er ist oft verschlossen. | He is often reserved. | Character | — | — | — | offen |
-| 18 | spontan | spontaneous | shpon-tahn | — | adj. | Ich bin sehr spontan. | I am very spontaneous. | Character | — | — | — | planvoll |
-| 19 | zuverlässig | reliable | tsoo-fer-les-ikh | — | adj. | Sie ist absolut zuverlässig. | She is absolutely reliable. | Character | — | — | — | unzuverlässig |
-| 20 | verantwortungsbewusst | responsible | fer-ant-vor-toongs-beh-voost | — | adj. | Er ist sehr verantwortungsbewusst. | He is very responsible. | Character | — | — | — | verantwortungslos |
-| 21 | neugierig | curious | noy-ghee-rikh | — | adj. | Kinder sind von Natur aus neugierig. | Children are naturally curious. | Character | — | — | — | gleichgültig |
-| 22 | ehrgezig | ambitious | ehr-gay-tsikh | — | adj. | Sie ist sehr ehrgeizig in der Arbeit. | She is very ambitious at work. | Character | — | — | — | — |
-| 23 | hilfsbereit | helpful | hilfs-beh-ryt | — | adj. | Er ist immer hilfsbereit. | He is always helpful. | Character | — | — | — | selbstsüchtig |
-| 24 | verständnisvoll | understanding | fer-shtent-nis-fol | — | adj. | Meine Mutter ist sehr verständnisvoll. | My mother is very understanding. | Character | — | — | einfühlsam | — |
-| 25 | wissbegierig | eager to learn | vis-beh-ghee-rikh | — | adj. | Die Studentin ist sehr wissbegierig. | The student is very eager to learn. | Character | — | — | lernbegierig | — |
-| 26 | anspruchsvoll | demanding / sophisticated | an-shprooc-fol | — | adj. | Das Projekt ist sehr anspruchsvoll. | The project is very demanding. | Description | — | — | — | anspruchslos |
-| 27 | bescheiden | modest / humble | beh-shy-den | — | adj. | Er ist trotz seines Erfolgs bescheiden. | He is modest despite his success. | Character | — | — | — | arrogant |
-| 28 | selbstständig | independent | zelpst-shten-dikh | — | adj. | Meine Tochter ist sehr selbstständig. | My daughter is very independent. | Character | — | — | — | abhängig |
-| 29 | zielstrebig | determined / goal-oriented | tseel-shtray-bikh | — | adj. | Er ist sehr zielstrebig. | He is very determined. | Character | — | — | — | — |
-| 30 | geduldig | patient | geh-dool-dikh | — | adj. | Sei geduldig! | Be patient! | Character | — | — | — | ungeduldig |
+| 16 | offen | open / open-minded | of-en | â€” | adj. | Sie ist sehr offen fÃ¼r neue Ideen. | She is very open to new ideas. | Character | â€” | â€” | â€” | verschlossen |
+| 17 | verschlossen | reserved / closed off | fer-shlossen | â€” | adj. | Er ist oft verschlossen. | He is often reserved. | Character | â€” | â€” | â€” | offen |
+| 18 | spontan | spontaneous | shpon-tahn | â€” | adj. | Ich bin sehr spontan. | I am very spontaneous. | Character | â€” | â€” | â€” | planvoll |
+| 19 | zuverlÃ¤ssig | reliable | tsoo-fer-les-ikh | â€” | adj. | Sie ist absolut zuverlÃ¤ssig. | She is absolutely reliable. | Character | â€” | â€” | â€” | unzuverlÃ¤ssig |
+| 20 | verantwortungsbewusst | responsible | fer-ant-vor-toongs-beh-voost | â€” | adj. | Er ist sehr verantwortungsbewusst. | He is very responsible. | Character | â€” | â€” | â€” | verantwortungslos |
+| 21 | neugierig | curious | noy-ghee-rikh | â€” | adj. | Kinder sind von Natur aus neugierig. | Children are naturally curious. | Character | â€” | â€” | â€” | gleichgÃ¼ltig |
+| 22 | ehrgezig | ambitious | ehr-gay-tsikh | â€” | adj. | Sie ist sehr ehrgeizig in der Arbeit. | She is very ambitious at work. | Character | â€” | â€” | â€” | â€” |
+| 23 | hilfsbereit | helpful | hilfs-beh-ryt | â€” | adj. | Er ist immer hilfsbereit. | He is always helpful. | Character | â€” | â€” | â€” | selbstsÃ¼chtig |
+| 24 | verstÃ¤ndnisvoll | understanding | fer-shtent-nis-fol | â€” | adj. | Meine Mutter ist sehr verstÃ¤ndnisvoll. | My mother is very understanding. | Character | â€” | â€” | einfÃ¼hlsam | â€” |
+| 25 | wissbegierig | eager to learn | vis-beh-ghee-rikh | â€” | adj. | Die Studentin ist sehr wissbegierig. | The student is very eager to learn. | Character | â€” | â€” | lernbegierig | â€” |
+| 26 | anspruchsvoll | demanding / sophisticated | an-shprooc-fol | â€” | adj. | Das Projekt ist sehr anspruchsvoll. | The project is very demanding. | Description | â€” | â€” | â€” | anspruchslos |
+| 27 | bescheiden | modest / humble | beh-shy-den | â€” | adj. | Er ist trotz seines Erfolgs bescheiden. | He is modest despite his success. | Character | â€” | â€” | â€” | arrogant |
+| 28 | selbststÃ¤ndig | independent | zelpst-shten-dikh | â€” | adj. | Meine Tochter ist sehr selbststÃ¤ndig. | My daughter is very independent. | Character | â€” | â€” | â€” | abhÃ¤ngig |
+| 29 | zielstrebig | determined / goal-oriented | tseel-shtray-bikh | â€” | adj. | Er ist sehr zielstrebig. | He is very determined. | Character | â€” | â€” | â€” | â€” |
+| 30 | geduldig | patient | geh-dool-dikh | â€” | adj. | Sei geduldig! | Be patient! | Character | â€” | â€” | â€” | ungeduldig |
 
 ---
 
@@ -52,24 +52,24 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 31 | äußerst | extremely | oy-serst | — | adv. | Das ist äußerst wichtig. | That is extremely important. | Intensity | — | — | extrem, sehr | kaum |
-| 32 | extrem | extremely | ek-streym | — | adv. | Es ist extrem kalt heute. | It is extremely cold today. | Intensity | — | — | äußerst | kaum |
-| 33 | ziemlich | quite / fairly | tseem-likh | — | adv. | Es ist ziemlich warm heute. | It is quite warm today. | Degree | — | — | recht | kaum |
-| 34 | recht | quite / rather | rekht | — | adv. | Das war recht interessant. | That was rather interesting. | Degree | — | — | ziemlich | — |
-| 35 | kaum | barely / hardly | kowm | — | adv. | Ich habe kaum geschlafen. | I have barely slept. | Degree | — | — | fast nicht | viel |
-| 36 | überhaupt nicht | not at all | yoo-ber-howpt nikht | — | phrase | Das gefällt mir überhaupt nicht. | I don't like that at all. | Negation | — | — | gar nicht | sehr |
-| 37 | gar nicht | not at all | gar nikht | — | phrase | Das stimmt gar nicht. | That's not at all correct. | Negation | — | — | überhaupt nicht | völlig |
-| 38 | völlig | completely / totally | ful-ikh | — | adv. | Das ist völlig falsch. | That is completely wrong. | Intensity | — | — | ganz, total | — |
-| 39 | beinahe | almost / nearly | by-nah-heh | — | adv. | Ich wäre beinahe gestürzt. | I almost fell. | Approximation | — | — | fast | — |
-| 40 | immerhin | at least / after all | im-er-hin | — | adv. | Immerhin habe ich die Prüfung bestanden. | At least I passed the exam. | Concession | — | — | wenigstens, zumindest | — |
-| 41 | wenigstens | at least | veh-nikh-stens | — | adv. | Wenigstens hat es nicht geregnet. | At least it didn't rain. | Concession | — | — | zumindest, immerhin | — |
-| 42 | zumindest | at least | tsoo-min-dest | — | adv. | Du hättest zumindest anrufen können. | You could have at least called. | Concession | — | — | immerhin | — |
-| 43 | tatsächlich | actually / indeed / in fact | tat-zekh-likh | — | adv. | Das ist tatsächlich wahr. | That is actually true. | Emphasis | — | — | wirklich, in der Tat | — |
-| 44 | schließlich | finally / after all | shlee-slikh | — | adv. | Schließlich haben wir es geschafft. | We finally managed it. | Sequence | — | — | letztendlich, am Ende | — |
-| 45 | übrigens | by the way | yoo-bri-gens | — | adv. | Übrigens, das war toll. | By the way, that was great. | Discourse | — | — | nebenbei | — |
-| 46 | eigentlich | actually / in fact | ay-gent-likh | — | adv. | Eigentlich wollte ich früher kommen. | I actually wanted to come earlier. | Contrast | — | — | tatsächlich | — |
-| 47 | anscheinend | apparently | an-shy-nend | — | adv. | Er ist anscheinend krank. | He is apparently sick. | Inference | — | — | offenbar, offensichtlich | — |
-| 48 | offensichtlich | obviously / clearly | of-en-zikht-likh | — | adv. | Das ist offensichtlich ein Fehler. | That is obviously a mistake. | Inference | — | — | anscheinend, offenbar | — |
+| 31 | Ã¤uÃŸerst | extremely | oy-serst | â€” | adv. | Das ist Ã¤uÃŸerst wichtig. | That is extremely important. | Intensity | â€” | â€” | extrem, sehr | kaum |
+| 32 | extrem | extremely | ek-streym | â€” | adv. | Es ist extrem kalt heute. | It is extremely cold today. | Intensity | â€” | â€” | Ã¤uÃŸerst | kaum |
+| 33 | ziemlich | quite / fairly | tseem-likh | â€” | adv. | Es ist ziemlich warm heute. | It is quite warm today. | Degree | â€” | â€” | recht | kaum |
+| 34 | recht | quite / rather | rekht | â€” | adv. | Das war recht interessant. | That was rather interesting. | Degree | â€” | â€” | ziemlich | â€” |
+| 35 | kaum | barely / hardly | kowm | â€” | adv. | Ich habe kaum geschlafen. | I have barely slept. | Degree | â€” | â€” | fast nicht | viel |
+| 36 | Ã¼berhaupt nicht | not at all | yoo-ber-howpt nikht | â€” | phrase | Das gefÃ¤llt mir Ã¼berhaupt nicht. | I don't like that at all. | Negation | â€” | â€” | gar nicht | sehr |
+| 37 | gar nicht | not at all | gar nikht | â€” | phrase | Das stimmt gar nicht. | That's not at all correct. | Negation | â€” | â€” | Ã¼berhaupt nicht | vÃ¶llig |
+| 38 | vÃ¶llig | completely / totally | ful-ikh | â€” | adv. | Das ist vÃ¶llig falsch. | That is completely wrong. | Intensity | â€” | â€” | ganz, total | â€” |
+| 39 | beinahe | almost / nearly | by-nah-heh | â€” | adv. | Ich wÃ¤re beinahe gestÃ¼rzt. | I almost fell. | Approximation | â€” | â€” | fast | â€” |
+| 40 | immerhin | at least / after all | im-er-hin | â€” | adv. | Immerhin habe ich die PrÃ¼fung bestanden. | At least I passed the exam. | Concession | â€” | â€” | wenigstens, zumindest | â€” |
+| 41 | wenigstens | at least | veh-nikh-stens | â€” | adv. | Wenigstens hat es nicht geregnet. | At least it didn't rain. | Concession | â€” | â€” | zumindest, immerhin | â€” |
+| 42 | zumindest | at least | tsoo-min-dest | â€” | adv. | Du hÃ¤ttest zumindest anrufen kÃ¶nnen. | You could have at least called. | Concession | â€” | â€” | immerhin | â€” |
+| 43 | tatsÃ¤chlich | actually / indeed / in fact | tat-zekh-likh | â€” | adv. | Das ist tatsÃ¤chlich wahr. | That is actually true. | Emphasis | â€” | â€” | wirklich, in der Tat | â€” |
+| 44 | schlieÃŸlich | finally / after all | shlee-slikh | â€” | adv. | SchlieÃŸlich haben wir es geschafft. | We finally managed it. | Sequence | â€” | â€” | letztendlich, am Ende | â€” |
+| 45 | Ã¼brigens | by the way | yoo-bri-gens | â€” | adv. | Ãœbrigens, das war toll. | By the way, that was great. | Discourse | â€” | â€” | nebenbei | â€” |
+| 46 | eigentlich | actually / in fact | ay-gent-likh | â€” | adv. | Eigentlich wollte ich frÃ¼her kommen. | I actually wanted to come earlier. | Contrast | â€” | â€” | tatsÃ¤chlich | â€” |
+| 47 | anscheinend | apparently | an-shy-nend | â€” | adv. | Er ist anscheinend krank. | He is apparently sick. | Inference | â€” | â€” | offenbar, offensichtlich | â€” |
+| 48 | offensichtlich | obviously / clearly | of-en-zikht-likh | â€” | adv. | Das ist offensichtlich ein Fehler. | That is obviously a mistake. | Inference | â€” | â€” | anscheinend, offenbar | â€” |
 
 ---
 
@@ -77,18 +77,18 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 49 | zuerst | first / at first | tsoo-eyrst | — | adv. | Zuerst frühstücke ich. | First I have breakfast. | Sequence | — | — | erstens | zuletzt |
-| 50 | danach | afterwards | dah-nakh | — | adv. | Ich frühstücke, danach gehe ich. | I have breakfast, afterwards I go. | Sequence | — | — | dann, anschließend | vorher |
-| 51 | anschließend | subsequently / afterwards | an-shlees-end | — | adv. | Anschließend gehen wir spazieren. | Subsequently we go for a walk. | Sequence | — | — | danach | vorher |
-| 52 | vorher | beforehand / previously | for-hehr | — | adv. | Ich hatte vorher keine Ahnung. | I had no idea beforehand. | Sequence | — | — | davor, zuvor | nachher, danach |
-| 53 | nachher | afterwards / later | nakh-hehr | — | adv. | Ich mache das nachher. | I'll do that afterwards. | Sequence | — | — | danach | vorher |
-| 54 | zunächst | first of all / initially | tsoo-nekh-st | — | adv. | Zunächst möchte ich mich vorstellen. | First of all I would like to introduce myself. | Sequence | — | — | zuerst | schließlich |
-| 55 | letztendlich | ultimately / in the end | letst-ent-likh | — | adv. | Letztendlich war es die richtige Entscheidung. | Ultimately it was the right decision. | Conclusion | — | — | schließlich | — |
-| 56 | regelmäßig | regularly | reh-gel-meh-sikh | — | adv. | Ich trainiere regelmäßig. | I train regularly. | Frequency | — | — | — | unregelmäßig |
-| 57 | unregelmäßig | irregularly | oon-reh-gel-meh-sikh | — | adv. | Er schläft unregelmäßig. | He sleeps irregularly. | Frequency | — | — | — | regelmäßig |
-| 58 | gelegentlich | occasionally | geh-leh-gent-likh | — | adv. | Ich esse gelegentlich Fleisch. | I occasionally eat meat. | Frequency | — | — | manchmal | nie, immer |
-| 59 | ständig | constantly / continuously | shten-dikh | — | adv. | Das Telefon klingelt ständig. | The phone rings constantly. | Frequency | — | — | dauernd, immer | — |
-| 60 | dauernd | constantly / always | dow-ernd | — | adv. | Er kommt dauernd zu spät. | He is constantly late. | Frequency | — | — | ständig | — |
+| 49 | zuerst | first / at first | tsoo-eyrst | â€” | adv. | Zuerst frÃ¼hstÃ¼cke ich. | First I have breakfast. | Sequence | â€” | â€” | erstens | zuletzt |
+| 50 | danach | afterwards | dah-nakh | â€” | adv. | Ich frÃ¼hstÃ¼cke, danach gehe ich. | I have breakfast, afterwards I go. | Sequence | â€” | â€” | dann, anschlieÃŸend | vorher |
+| 51 | anschlieÃŸend | subsequently / afterwards | an-shlees-end | â€” | adv. | AnschlieÃŸend gehen wir spazieren. | Subsequently we go for a walk. | Sequence | â€” | â€” | danach | vorher |
+| 52 | vorher | beforehand / previously | for-hehr | â€” | adv. | Ich hatte vorher keine Ahnung. | I had no idea beforehand. | Sequence | â€” | â€” | davor, zuvor | nachher, danach |
+| 53 | nachher | afterwards / later | nakh-hehr | â€” | adv. | Ich mache das nachher. | I'll do that afterwards. | Sequence | â€” | â€” | danach | vorher |
+| 54 | zunÃ¤chst | first of all / initially | tsoo-nekh-st | â€” | adv. | ZunÃ¤chst mÃ¶chte ich mich vorstellen. | First of all I would like to introduce myself. | Sequence | â€” | â€” | zuerst | schlieÃŸlich |
+| 55 | letztendlich | ultimately / in the end | letst-ent-likh | â€” | adv. | Letztendlich war es die richtige Entscheidung. | Ultimately it was the right decision. | Conclusion | â€” | â€” | schlieÃŸlich | â€” |
+| 56 | regelmÃ¤ÃŸig | regularly | reh-gel-meh-sikh | â€” | adv. | Ich trainiere regelmÃ¤ÃŸig. | I train regularly. | Frequency | â€” | â€” | â€” | unregelmÃ¤ÃŸig |
+| 57 | unregelmÃ¤ÃŸig | irregularly | oon-reh-gel-meh-sikh | â€” | adv. | Er schlÃ¤ft unregelmÃ¤ÃŸig. | He sleeps irregularly. | Frequency | â€” | â€” | â€” | regelmÃ¤ÃŸig |
+| 58 | gelegentlich | occasionally | geh-leh-gent-likh | â€” | adv. | Ich esse gelegentlich Fleisch. | I occasionally eat meat. | Frequency | â€” | â€” | manchmal | nie, immer |
+| 59 | stÃ¤ndig | constantly / continuously | shten-dikh | â€” | adv. | Das Telefon klingelt stÃ¤ndig. | The phone rings constantly. | Frequency | â€” | â€” | dauernd, immer | â€” |
+| 60 | dauernd | constantly / always | dow-ernd | â€” | adv. | Er kommt dauernd zu spÃ¤t. | He is constantly late. | Frequency | â€” | â€” | stÃ¤ndig | â€” |
 
 ---
 
@@ -96,16 +96,16 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 61 | ehrlich gesagt | honestly / to be honest | ehr-likh geh-zakt | — | phrase | Ehrlich gesagt, ich weiß es nicht. | Honestly, I don't know. | Opinion | — | — | offen gesagt | — |
-| 62 | meiner Meinung nach | in my opinion | my-ner my-noong nakh | — | phrase | Meiner Meinung nach ist das falsch. | In my opinion, that is wrong. | Opinion | — | — | — | — |
-| 63 | persönlich | personally | per-zuh-nlikh | — | adv. | Ich finde das persönlich nicht gut. | I personally don't find that good. | Opinion | — | — | — | — |
-| 64 | grundsätzlich | fundamentally / in principle | groont-zets-likh | — | adv. | Das ist grundsätzlich richtig. | That is fundamentally correct. | Opinion | — | — | prinzipiell | — |
-| 65 | prinzipiell | in principle / as a rule | prin-tsip-ee-el | — | adv. | Ich bin prinzipiell einverstanden. | I agree in principle. | Opinion | — | — | grundsätzlich | — |
-| 66 | natürlich | of course / naturally | nah-tyoor-likh | — | adv. | Natürlich helfe ich dir! | Of course I'll help you! | Agreement | — | — | selbstverständlich, sicher | — |
-| 67 | selbstverständlich | of course / as a matter of course | zelpst-fer-shtent-likh | — | adv. | Das ist selbstverständlich! | That goes without saying! | Agreement | — | — | natürlich | — |
-| 68 | leider | unfortunately | ly-der | — | adv. | Leider kann ich nicht kommen. | Unfortunately I can't come. | Regret | — | — | bedauerlicherweise | zum Glück |
-| 69 | zum Glück | fortunately / luckily | tsoom glyk | — | phrase | Zum Glück war niemand verletzt. | Fortunately nobody was injured. | Fortune | — | — | glücklicherweise | leider |
-| 70 | hoffentlich | hopefully | hof-ent-likh | — | adv. | Hoffentlich wird das Wetter besser. | Hopefully the weather will improve. | Hope | — | — | — | leider |
+| 61 | ehrlich gesagt | honestly / to be honest | ehr-likh geh-zakt | â€” | phrase | Ehrlich gesagt, ich weiÃŸ es nicht. | Honestly, I don't know. | Opinion | â€” | â€” | offen gesagt | â€” |
+| 62 | meiner Meinung nach | in my opinion | my-ner my-noong nakh | â€” | phrase | Meiner Meinung nach ist das falsch. | In my opinion, that is wrong. | Opinion | â€” | â€” | â€” | â€” |
+| 63 | persÃ¶nlich | personally | per-zuh-nlikh | â€” | adv. | Ich finde das persÃ¶nlich nicht gut. | I personally don't find that good. | Opinion | â€” | â€” | â€” | â€” |
+| 64 | grundsÃ¤tzlich | fundamentally / in principle | groont-zets-likh | â€” | adv. | Das ist grundsÃ¤tzlich richtig. | That is fundamentally correct. | Opinion | â€” | â€” | prinzipiell | â€” |
+| 65 | prinzipiell | in principle / as a rule | prin-tsip-ee-el | â€” | adv. | Ich bin prinzipiell einverstanden. | I agree in principle. | Opinion | â€” | â€” | grundsÃ¤tzlich | â€” |
+| 66 | natÃ¼rlich | of course / naturally | nah-tyoor-likh | â€” | adv. | NatÃ¼rlich helfe ich dir! | Of course I'll help you! | Agreement | â€” | â€” | selbstverstÃ¤ndlich, sicher | â€” |
+| 67 | selbstverstÃ¤ndlich | of course / as a matter of course | zelpst-fer-shtent-likh | â€” | adv. | Das ist selbstverstÃ¤ndlich! | That goes without saying! | Agreement | â€” | â€” | natÃ¼rlich | â€” |
+| 68 | leider | unfortunately | ly-der | â€” | adv. | Leider kann ich nicht kommen. | Unfortunately I can't come. | Regret | â€” | â€” | bedauerlicherweise | zum GlÃ¼ck |
+| 69 | zum GlÃ¼ck | fortunately / luckily | tsoom glyk | â€” | phrase | Zum GlÃ¼ck war niemand verletzt. | Fortunately nobody was injured. | Fortune | â€” | â€” | glÃ¼cklicherweise | leider |
+| 70 | hoffentlich | hopefully | hof-ent-likh | â€” | adv. | Hoffentlich wird das Wetter besser. | Hopefully the weather will improve. | Hope | â€” | â€” | â€” | leider |
 
 ---
 
@@ -113,16 +113,16 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 71 | größer als | bigger than | gruh-ser als | — | phrase | Berlin ist größer als München. | Berlin is bigger than Munich. | Comparison | — | — | — | kleiner als |
-| 72 | kleiner als | smaller than | klyne-er als | — | phrase | München ist kleiner als Berlin. | Munich is smaller than Berlin. | Comparison | — | — | — | größer als |
-| 73 | besser als | better than | bes-er als | — | phrase | Das ist besser als das andere. | That is better than the other. | Comparison | — | — | — | schlechter als |
-| 74 | schlechter als | worse than | shlekh-ter als | — | phrase | Das ist schlechter als erwartet. | That is worse than expected. | Comparison | — | — | — | besser als |
-| 75 | genauso … wie | just as … as | geh-now-zoh vee | — | conj. | Sie ist genauso alt wie ich. | She is just as old as me. | Comparison | — | — | — | — |
-| 76 | nicht so … wie | not as … as | nikht zoh vee | — | conj. | Es ist nicht so kalt wie gestern. | It is not as cold as yesterday. | Comparison | — | — | — | — |
-| 77 | viel … als | much more … than | feel als | — | phrase | Er ist viel größer als ich. | He is much taller than me. | Comparison | — | — | — | — |
-| 78 | je … desto | the more … the more | yeh des-toh | — | conj. | Je mehr ich lerne, desto besser werde ich. | The more I learn, the better I become. | Comparison | — | — | — | — |
-| 79 | am meisten | the most | am mys-ten | — | superlative | Was stört dich am meisten? | What bothers you the most? | Superlative | — | — | — | am wenigsten |
-| 80 | am besten | best | am bes-ten | — | superlative | Das schmeckt am besten! | That tastes best! | Superlative | — | — | — | am schlechtesten |
+| 71 | grÃ¶ÃŸer als | bigger than | gruh-ser als | â€” | phrase | Berlin ist grÃ¶ÃŸer als MÃ¼nchen. | Berlin is bigger than Munich. | Comparison | â€” | â€” | â€” | kleiner als |
+| 72 | kleiner als | smaller than | klyne-er als | â€” | phrase | MÃ¼nchen ist kleiner als Berlin. | Munich is smaller than Berlin. | Comparison | â€” | â€” | â€” | grÃ¶ÃŸer als |
+| 73 | besser als | better than | bes-er als | â€” | phrase | Das ist besser als das andere. | That is better than the other. | Comparison | â€” | â€” | â€” | schlechter als |
+| 74 | schlechter als | worse than | shlekh-ter als | â€” | phrase | Das ist schlechter als erwartet. | That is worse than expected. | Comparison | â€” | â€” | â€” | besser als |
+| 75 | genauso â€¦ wie | just as â€¦ as | geh-now-zoh vee | â€” | conj. | Sie ist genauso alt wie ich. | She is just as old as me. | Comparison | â€” | â€” | â€” | â€” |
+| 76 | nicht so â€¦ wie | not as â€¦ as | nikht zoh vee | â€” | conj. | Es ist nicht so kalt wie gestern. | It is not as cold as yesterday. | Comparison | â€” | â€” | â€” | â€” |
+| 77 | viel â€¦ als | much more â€¦ than | feel als | â€” | phrase | Er ist viel grÃ¶ÃŸer als ich. | He is much taller than me. | Comparison | â€” | â€” | â€” | â€” |
+| 78 | je â€¦ desto | the more â€¦ the more | yeh des-toh | â€” | conj. | Je mehr ich lerne, desto besser werde ich. | The more I learn, the better I become. | Comparison | â€” | â€” | â€” | â€” |
+| 79 | am meisten | the most | am mys-ten | â€” | superlative | Was stÃ¶rt dich am meisten? | What bothers you the most? | Superlative | â€” | â€” | â€” | am wenigsten |
+| 80 | am besten | best | am bes-ten | â€” | superlative | Das schmeckt am besten! | That tastes best! | Superlative | â€” | â€” | â€” | am schlechtesten |
 
 ---
 
@@ -130,16 +130,16 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 81 | damit | with it / so that | dah-mit | — | adv. | Was machst du damit? | What do you do with it? | Reference | — | — | — | — |
-| 82 | dafür | for it / in return | dah-fyoor | — | adv. | Ich zahle dafür. | I pay for it. | Reference | — | — | — | dagegen |
-| 83 | dagegen | against it / on the other hand | dah-geh-gen | — | adv. | Ich habe nichts dagegen. | I have nothing against it. | Reference | — | — | — | dafür |
-| 84 | darüber | about it / over it | dah-ryoo-ber | — | adv. | Ich freue mich darüber. | I'm happy about it. | Reference | — | — | — | — |
-| 85 | darunter | under it / among them | dah-roon-ter | — | adv. | Darunter befinden sich Dokumente. | Among them are documents. | Reference | — | — | — | — |
-| 86 | dabei | while doing so / with it | dah-by | — | adv. | Ich bin dabei! | I'm in! / I'm there! | Reference | — | — | — | — |
-| 87 | davon | of it / from it | dah-fon | — | adv. | Ich weiß davon nichts. | I know nothing of it. | Reference | — | — | — | — |
-| 88 | dazu | to that / for that purpose | dah-tsoo | — | adv. | Was sagst du dazu? | What do you say to that? | Reference | — | — | — | — |
-| 89 | danach | after that / afterwards | dah-nakh | — | adv. | Ich kümmere mich danach darum. | I'll take care of it afterwards. | Reference | — | — | dann | davor |
-| 90 | davor | before that | dah-for | — | adv. | Was war davor? | What was before that? | Reference | — | — | — | danach |
+| 81 | damit | with it / so that | dah-mit | â€” | adv. | Was machst du damit? | What do you do with it? | Reference | â€” | â€” | â€” | â€” |
+| 82 | dafÃ¼r | for it / in return | dah-fyoor | â€” | adv. | Ich zahle dafÃ¼r. | I pay for it. | Reference | â€” | â€” | â€” | dagegen |
+| 83 | dagegen | against it / on the other hand | dah-geh-gen | â€” | adv. | Ich habe nichts dagegen. | I have nothing against it. | Reference | â€” | â€” | â€” | dafÃ¼r |
+| 84 | darÃ¼ber | about it / over it | dah-ryoo-ber | â€” | adv. | Ich freue mich darÃ¼ber. | I'm happy about it. | Reference | â€” | â€” | â€” | â€” |
+| 85 | darunter | under it / among them | dah-roon-ter | â€” | adv. | Darunter befinden sich Dokumente. | Among them are documents. | Reference | â€” | â€” | â€” | â€” |
+| 86 | dabei | while doing so / with it | dah-by | â€” | adv. | Ich bin dabei! | I'm in! / I'm there! | Reference | â€” | â€” | â€” | â€” |
+| 87 | davon | of it / from it | dah-fon | â€” | adv. | Ich weiÃŸ davon nichts. | I know nothing of it. | Reference | â€” | â€” | â€” | â€” |
+| 88 | dazu | to that / for that purpose | dah-tsoo | â€” | adv. | Was sagst du dazu? | What do you say to that? | Reference | â€” | â€” | â€” | â€” |
+| 89 | danach | after that / afterwards | dah-nakh | â€” | adv. | Ich kÃ¼mmere mich danach darum. | I'll take care of it afterwards. | Reference | â€” | â€” | dann | davor |
+| 90 | davor | before that | dah-for | â€” | adv. | Was war davor? | What was before that? | Reference | â€” | â€” | â€” | danach |
 
 ---
 
@@ -147,13 +147,13 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 91 | gut gelaunt | in a good mood | goot geh-lownt | — | phrase | Er ist heute gut gelaunt. | He is in a good mood today. | Mood | — | — | — | schlecht gelaunt |
-| 92 | schlecht gelaunt | in a bad mood | shlekht geh-lownt | — | phrase | Sie ist schlecht gelaunt. | She is in a bad mood. | Mood | — | — | — | gut gelaunt |
-| 93 | gut ausgeruht | well rested | goot ows-geh-root | — | phrase | Ich bin gut ausgeruht. | I am well rested. | Health | — | — | — | erschöpft |
-| 94 | in guter Verfassung | in good shape / condition | in goo-ter fer-fas-oong | — | phrase | Ich bin in guter Verfassung. | I am in good shape. | Health | — | — | — | in schlechter Verfassung |
-| 95 | auf der sicheren Seite | on the safe side | owf dehr zi-khe-ren zy-teh | — | phrase | Ich bin auf der sicheren Seite. | I am on the safe side. | Safety | — | — | — | riskant |
-| 96 | unter Druck | under pressure | oon-ter drook | — | phrase | Ich stehe unter Druck. | I am under pressure. | Work | — | — | — | entspannt |
-| 97 | auf dem Laufenden | up to date | owf dehm lowf-en-den | — | phrase | Bin ich auf dem Laufenden? | Am I up to date? | Information | — | — | — | veraltet |
-| 98 | im Stich lassen | to let down / leave in the lurch | im shtikh las-en | — | phrase | Er hat mich im Stich gelassen. | He let me down. | Relationships | — | — | — | unterstützen |
-| 99 | auf Anhieb | right away / at first try | owf an-heep | — | phrase | Ich habe es auf Anhieb verstanden. | I understood it right away. | Success | — | — | — | — |
-| 100 | mitten in | in the middle of | mit-en in | — | phrase | Mitten in der Arbeit klingelt das Telefon. | In the middle of work the phone rings. | Description | — | — | — | — |
+| 91 | gut gelaunt | in a good mood | goot geh-lownt | â€” | phrase | Er ist heute gut gelaunt. | He is in a good mood today. | Mood | â€” | â€” | â€” | schlecht gelaunt |
+| 92 | schlecht gelaunt | in a bad mood | shlekht geh-lownt | â€” | phrase | Sie ist schlecht gelaunt. | She is in a bad mood. | Mood | â€” | â€” | â€” | gut gelaunt |
+| 93 | gut ausgeruht | well rested | goot ows-geh-root | â€” | phrase | Ich bin gut ausgeruht. | I am well rested. | Health | â€” | â€” | â€” | erschÃ¶pft |
+| 94 | in guter Verfassung | in good shape / condition | in goo-ter fer-fas-oong | â€” | phrase | Ich bin in guter Verfassung. | I am in good shape. | Health | â€” | â€” | â€” | in schlechter Verfassung |
+| 95 | auf der sicheren Seite | on the safe side | owf dehr zi-khe-ren zy-teh | â€” | phrase | Ich bin auf der sicheren Seite. | I am on the safe side. | Safety | â€” | â€” | â€” | riskant |
+| 96 | unter Druck | under pressure | oon-ter drook | â€” | phrase | Ich stehe unter Druck. | I am under pressure. | Work | â€” | â€” | â€” | entspannt |
+| 97 | auf dem Laufenden | up to date | owf dehm lowf-en-den | â€” | phrase | Bin ich auf dem Laufenden? | Am I up to date? | Information | â€” | â€” | â€” | veraltet |
+| 98 | im Stich lassen | to let down / leave in the lurch | im shtikh las-en | â€” | phrase | Er hat mich im Stich gelassen. | He let me down. | Relationships | â€” | â€” | â€” | unterstÃ¼tzen |
+| 99 | auf Anhieb | right away / at first try | owf an-heep | â€” | phrase | Ich habe es auf Anhieb verstanden. | I understood it right away. | Success | â€” | â€” | â€” | â€” |
+| 100 | mitten in | in the middle of | mit-en in | â€” | phrase | Mitten in der Arbeit klingelt das Telefon. | In the middle of work the phone rings. | Description | â€” | â€” | â€” | â€” |

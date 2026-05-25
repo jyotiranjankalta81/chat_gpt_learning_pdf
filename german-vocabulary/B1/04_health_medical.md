@@ -1,4 +1,4 @@
-# B1 — Health & Medical (Gesundheit & Medizin)
+# B1 â€” Health & Medical (Gesundheit & Medizin)
 
 > ~120 entries covering the German healthcare system, medical specialities, hospital vocabulary, and health management.
 
@@ -8,18 +8,18 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 1 | Gesundheitssystem | healthcare system | geh-zoont-hyts-zys-tehm | das | n. | Das deutsche Gesundheitssystem ist eines der besten weltweit. | The German healthcare system is one of the best in the world. | Healthcare | — | — | — | — |
-| 2 | Krankenversicherung | health insurance | kran-ken-fer-zi-khe-roong | die | n. | In Deutschland ist Krankenversicherung Pflicht. | In Germany, health insurance is compulsory. | Healthcare | — | gesetzliche/private KV | — | — |
-| 3 | Kassenarzt | panel doctor (GKV) | kas-en-artst | der | n. | Ich gehe zum Kassenarzt für die Behandlung. | I go to the panel doctor for treatment. | Healthcare | Kassenärzte | — | — | Privatarzt |
-| 4 | Privatarzt | private doctor | pree-vaht-artst | der | n. | Der Privatarzt hat kürzere Wartezeiten. | The private doctor has shorter waiting times. | Healthcare | Privatärzte | — | — | Kassenarzt |
-| 5 | Wartezeit | waiting time | var-teh-tsyt | die | n. | Die Wartezeit beim Facharzt ist lang. | The waiting time at the specialist is long. | Healthcare | Wartezeiten | — | — | — |
-| 6 | Überweisung | referral | yoo-ber-vy-zoong | die | n. | Ich brauche eine Überweisung zum Kardiologen. | I need a referral to the cardiologist. | Healthcare | Überweisungen | — | — | — |
-| 7 | Rezept einlösen | to fill a prescription | reh-tsept ayn-luh-zen | — | phrase | Ich löse das Rezept in der Apotheke ein. | I fill the prescription at the pharmacy. | Healthcare | — | — | — | — |
-| 8 | Zuzahlung | co-payment | tsoo-tsah-loong | die | n. | Ich zahle eine Zuzahlung von 10 Euro. | I pay a co-payment of 10 euros. | Healthcare | Zuzahlungen | — | — | — |
-| 9 | kassenärztliche Vereinigung (KV) | association of statutory health insurance physicians | kas-en-ehrtst-likh-eh fer-ayn-i-goong | die | n. | Die KV verwaltet die Kassenbeiträge. | The KV administers the insurance contributions. | Healthcare | — | — | — | — |
-| 10 | Vorsorgeuntersuchung | preventive check-up | for-zor-geh-oon-ter-zoo-khoong | die | n. | Ich gehe zur jährlichen Vorsorgeuntersuchung. | I go to the annual preventive check-up. | Healthcare | Vorsorgeuntersuchungen | — | Check-up | — |
-| 11 | Gesundheitsamt | public health office | geh-zoont-hyts-amt | das | n. | Das Gesundheitsamt ist für Impfungen zuständig. | The public health office is responsible for vaccinations. | Healthcare | Gesundheitsämter | — | — | — |
-| 12 | Pflegeheim | nursing home / care home | pfleh-geh-hyme | das | n. | Meine Oma lebt im Pflegeheim. | My grandma lives in the care home. | Healthcare | Pflegeheime | — | — | — |
+| 1 | Gesundheitssystem | healthcare system | geh-zoont-hyts-zys-tehm | das | n. | Das deutsche Gesundheitssystem ist eines der besten weltweit. | The German healthcare system is one of the best in the world. | Healthcare | â€” | â€” | â€” | â€” |
+| 2 | Krankenversicherung | health insurance | kran-ken-fer-zi-khe-roong | die | n. | In Deutschland ist Krankenversicherung Pflicht. | In Germany, health insurance is compulsory. | Healthcare | â€” | gesetzliche/private KV | â€” | â€” |
+| 3 | Kassenarzt | panel doctor (GKV) | kas-en-artst | der | n. | Ich gehe zum Kassenarzt fÃ¼r die Behandlung. | I go to the panel doctor for treatment. | Healthcare | KassenÃ¤rzte | â€” | â€” | Privatarzt |
+| 4 | Privatarzt | private doctor | pree-vaht-artst | der | n. | Der Privatarzt hat kÃ¼rzere Wartezeiten. | The private doctor has shorter waiting times. | Healthcare | PrivatÃ¤rzte | â€” | â€” | Kassenarzt |
+| 5 | Wartezeit | waiting time | var-teh-tsyt | die | n. | Die Wartezeit beim Facharzt ist lang. | The waiting time at the specialist is long. | Healthcare | Wartezeiten | â€” | â€” | â€” |
+| 6 | Ãœberweisung | referral | yoo-ber-vy-zoong | die | n. | Ich brauche eine Ãœberweisung zum Kardiologen. | I need a referral to the cardiologist. | Healthcare | Ãœberweisungen | â€” | â€” | â€” |
+| 7 | Rezept einlÃ¶sen | to fill a prescription | reh-tsept ayn-luh-zen | â€” | phrase | Ich lÃ¶se das Rezept in der Apotheke ein. | I fill the prescription at the pharmacy. | Healthcare | â€” | â€” | â€” | â€” |
+| 8 | Zuzahlung | co-payment | tsoo-tsah-loong | die | n. | Ich zahle eine Zuzahlung von 10 Euro. | I pay a co-payment of 10 euros. | Healthcare | Zuzahlungen | â€” | â€” | â€” |
+| 9 | kassenÃ¤rztliche Vereinigung (KV) | association of statutory health insurance physicians | kas-en-ehrtst-likh-eh fer-ayn-i-goong | die | n. | Die KV verwaltet die KassenbeitrÃ¤ge. | The KV administers the insurance contributions. | Healthcare | â€” | â€” | â€” | â€” |
+| 10 | Vorsorgeuntersuchung | preventive check-up | for-zor-geh-oon-ter-zoo-khoong | die | n. | Ich gehe zur jÃ¤hrlichen Vorsorgeuntersuchung. | I go to the annual preventive check-up. | Healthcare | Vorsorgeuntersuchungen | â€” | Check-up | â€” |
+| 11 | Gesundheitsamt | public health office | geh-zoont-hyts-amt | das | n. | Das Gesundheitsamt ist fÃ¼r Impfungen zustÃ¤ndig. | The public health office is responsible for vaccinations. | Healthcare | GesundheitsÃ¤mter | â€” | â€” | â€” |
+| 12 | Pflegeheim | nursing home / care home | pfleh-geh-hyme | das | n. | Meine Oma lebt im Pflegeheim. | My grandma lives in the care home. | Healthcare | Pflegeheime | â€” | â€” | â€” |
 
 ---
 
@@ -27,20 +27,20 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 13 | Allgemeinmedizin | general medicine | al-geh-myne-meh-di-tseen | die | n. | Mein Hausarzt praktiziert Allgemeinmedizin. | My GP practices general medicine. | Medicine | — | — | — | Fachmedizin |
-| 14 | Innere Medizin | internal medicine | in-neh-reh meh-di-tseen | die | n. | Ich gehe zum Internisten. | I go to the internist. | Medicine | — | — | — | — |
-| 15 | Chirurgie | surgery | shee-roor-ghee | die | n. | Die Chirurgie dauert drei Stunden. | The surgery takes three hours. | Medicine | — | — | Operation | — |
-| 16 | Orthopädie | orthopaedics | or-toh-peh-dee | die | n. | Ich habe Schmerzen und gehe zur Orthopädie. | I have pain and go to orthopaedics. | Medicine | — | — | — | — |
-| 17 | Kardiologie | cardiology | kar-dee-oh-loh-ghee | die | n. | Der Kardiologe untersucht mein Herz. | The cardiologist examines my heart. | Medicine | — | — | — | — |
-| 18 | Neurologie | neurology | noy-roh-loh-ghee | die | n. | Ich gehe zur Neurologie wegen Kopfschmerzen. | I go to neurology because of headaches. | Medicine | — | — | — | — |
-| 19 | Psychiatrie | psychiatry | psyoo-khee-ah-tree | die | n. | Ich suche Hilfe in der Psychiatrie. | I seek help from psychiatry. | Medicine | — | — | — | — |
-| 20 | Dermatologie | dermatology | dehr-mah-toh-loh-ghee | die | n. | Der Dermatologe behandelt Hautprobleme. | The dermatologist treats skin problems. | Medicine | — | — | — | — |
-| 21 | Gynäkologie | gynaecology | gyoo-neh-koh-loh-ghee | die | n. | Ich gehe zur Gynäkologin zur Vorsorge. | I go to the gynaecologist for a check-up. | Medicine | — | — | — | — |
-| 22 | Pädiatrie | paediatrics | peh-dee-ah-tree | die | n. | Das Kind wird beim Kinderarzt behandelt. | The child is treated at the paediatrician. | Medicine | — | — | Kinderheilkunde | — |
-| 23 | Zahnmedizin | dentistry | tsahn-meh-di-tseen | die | n. | Mein Zahnarzt praktiziert Zahnmedizin. | My dentist practices dentistry. | Medicine | — | — | — | — |
-| 24 | Augenheilkunde | ophthalmology | ow-gen-hyle-koon-deh | die | n. | Ich gehe zum Augenarzt. | I go to the ophthalmologist. | Medicine | — | — | Ophthalmologie | — |
-| 25 | Onkologie | oncology | on-koh-loh-ghee | die | n. | Die Onkologie behandelt Krebserkrankungen. | Oncology treats cancer diseases. | Medicine | — | — | Krebsmedizin | — |
-| 26 | Notfallmedizin | emergency medicine | noht-fal-meh-di-tseen | die | n. | Der Notfallmediziner hat schnell reagiert. | The emergency physician reacted quickly. | Medicine | — | — | Notaufnahme | — |
+| 13 | Allgemeinmedizin | general medicine | al-geh-myne-meh-di-tseen | die | n. | Mein Hausarzt praktiziert Allgemeinmedizin. | My GP practices general medicine. | Medicine | â€” | â€” | â€” | Fachmedizin |
+| 14 | Innere Medizin | internal medicine | in-neh-reh meh-di-tseen | die | n. | Ich gehe zum Internisten. | I go to the internist. | Medicine | â€” | â€” | â€” | â€” |
+| 15 | Chirurgie | surgery | shee-roor-ghee | die | n. | Die Chirurgie dauert drei Stunden. | The surgery takes three hours. | Medicine | â€” | â€” | Operation | â€” |
+| 16 | OrthopÃ¤die | orthopaedics | or-toh-peh-dee | die | n. | Ich habe Schmerzen und gehe zur OrthopÃ¤die. | I have pain and go to orthopaedics. | Medicine | â€” | â€” | â€” | â€” |
+| 17 | Kardiologie | cardiology | kar-dee-oh-loh-ghee | die | n. | Der Kardiologe untersucht mein Herz. | The cardiologist examines my heart. | Medicine | â€” | â€” | â€” | â€” |
+| 18 | Neurologie | neurology | noy-roh-loh-ghee | die | n. | Ich gehe zur Neurologie wegen Kopfschmerzen. | I go to neurology because of headaches. | Medicine | â€” | â€” | â€” | â€” |
+| 19 | Psychiatrie | psychiatry | psyoo-khee-ah-tree | die | n. | Ich suche Hilfe in der Psychiatrie. | I seek help from psychiatry. | Medicine | â€” | â€” | â€” | â€” |
+| 20 | Dermatologie | dermatology | dehr-mah-toh-loh-ghee | die | n. | Der Dermatologe behandelt Hautprobleme. | The dermatologist treats skin problems. | Medicine | â€” | â€” | â€” | â€” |
+| 21 | GynÃ¤kologie | gynaecology | gyoo-neh-koh-loh-ghee | die | n. | Ich gehe zur GynÃ¤kologin zur Vorsorge. | I go to the gynaecologist for a check-up. | Medicine | â€” | â€” | â€” | â€” |
+| 22 | PÃ¤diatrie | paediatrics | peh-dee-ah-tree | die | n. | Das Kind wird beim Kinderarzt behandelt. | The child is treated at the paediatrician. | Medicine | â€” | â€” | Kinderheilkunde | â€” |
+| 23 | Zahnmedizin | dentistry | tsahn-meh-di-tseen | die | n. | Mein Zahnarzt praktiziert Zahnmedizin. | My dentist practices dentistry. | Medicine | â€” | â€” | â€” | â€” |
+| 24 | Augenheilkunde | ophthalmology | ow-gen-hyle-koon-deh | die | n. | Ich gehe zum Augenarzt. | I go to the ophthalmologist. | Medicine | â€” | â€” | Ophthalmologie | â€” |
+| 25 | Onkologie | oncology | on-koh-loh-ghee | die | n. | Die Onkologie behandelt Krebserkrankungen. | Oncology treats cancer diseases. | Medicine | â€” | â€” | Krebsmedizin | â€” |
+| 26 | Notfallmedizin | emergency medicine | noht-fal-meh-di-tseen | die | n. | Der Notfallmediziner hat schnell reagiert. | The emergency physician reacted quickly. | Medicine | â€” | â€” | Notaufnahme | â€” |
 
 ---
 
@@ -48,23 +48,23 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 27 | Klinik | clinic / hospital | klee-nik | die | n. | Ich werde in eine Spezialklinik überwiesen. | I am referred to a specialist clinic. | Healthcare | Kliniken | — | Krankenhaus | — |
-| 28 | Station | ward | shtah-tsee-ohn | die | n. | Ich liege auf Station 5. | I am on ward 5. | Hospital | Stationen | Innere Station | — | Ambulanz |
-| 29 | Intensivstation | intensive care unit (ICU) | in-ten-zeef-shtah-tsee-ohn | die | n. | Er liegt auf der Intensivstation. | He is in the intensive care unit. | Hospital | Intensivstationen | — | ITS | — |
-| 30 | Chirurg | surgeon | shee-roork | der | n. | Der Chirurg führt die Operation durch. | The surgeon performs the operation. | Hospital | Chirurgen | — | — | — |
-| 31 | Krankenpfleger / Krankenschwester | nurse (m/f) | kran-ken-pfleh-ger | der / die | n. | Die Krankenpflegerin ist sehr fürsorglich. | The nurse is very caring. | Hospital | — | — | Pflegefachkraft | — |
-| 32 | Anästhesist | anaesthesiologist | ah-nes-teh-zeest | der | n. | Der Anästhesist gibt die Narkose. | The anaesthesiologist administers the anaesthetic. | Hospital | Anästhesisten | — | — | — |
-| 33 | Narkose | anaesthesia / general anaesthetic | nar-koh-zeh | die | n. | Ich bekomme eine Vollnarkose. | I receive a general anaesthetic. | Hospital | — | Narkose geben | — | — |
-| 34 | Betäubung | local anaesthetic / numbing | beh-toy-boong | die | n. | Der Zahnarzt gibt eine Betäubung. | The dentist administers a local anaesthetic. | Medical | — | — | Lokalanästhesie | — |
-| 35 | Aufnahme | admission / intake | owf-nah-meh | die | n. | Die Aufnahme ins Krankenhaus erfolgt um 8 Uhr. | Hospital admission takes place at 8 o'clock. | Hospital | — | — | — | Entlassung |
-| 36 | Entlassung | discharge | ent-las-oong | die | n. | Die Entlassung aus dem Krankenhaus ist morgen. | Discharge from the hospital is tomorrow. | Hospital | Entlassungen | — | — | Aufnahme |
-| 37 | Krankenbett | hospital bed | kran-ken-bet | das | n. | Das Krankenbett ist verstellbar. | The hospital bed is adjustable. | Hospital | Krankenbetten | — | — | — |
-| 38 | Infusion | infusion / drip | in-foo-zee-ohn | die | n. | Ich bekomme eine Infusion. | I receive an infusion/drip. | Hospital | Infusionen | — | — | — |
-| 39 | Bluttransfusion | blood transfusion | bloot-trans-foo-zee-ohn | die | n. | Er braucht eine Bluttransfusion. | He needs a blood transfusion. | Hospital | Bluttransfusionen | — | — | — |
-| 40 | Rollstuhl | wheelchair | rol-shtool | der | n. | Mein Vater ist auf einen Rollstuhl angewiesen. | My father is dependent on a wheelchair. | Healthcare | Rollstühle | — | — | — |
-| 41 | Krücken | crutches | krook-en | — | n. (pl.) | Ich muss nach der OP Krücken benutzen. | I have to use crutches after the operation. | Healthcare | — | — | — | — |
-| 42 | Gipsverband | plaster cast | gips-fer-bant | der | n. | Mein Arm ist im Gipsverband. | My arm is in a plaster cast. | Healthcare | Gipsverbände | — | Gips | — |
-| 43 | Physiotherapie | physiotherapy | fyoo-zee-oh-teh-rah-pee | die | n. | Ich mache Physiotherapie nach der Operation. | I do physiotherapy after the operation. | Healthcare | — | — | Krankengymnastik | — |
+| 27 | Klinik | clinic / hospital | klee-nik | die | n. | Ich werde in eine Spezialklinik Ã¼berwiesen. | I am referred to a specialist clinic. | Healthcare | Kliniken | â€” | Krankenhaus | â€” |
+| 28 | Station | ward | shtah-tsee-ohn | die | n. | Ich liege auf Station 5. | I am on ward 5. | Hospital | Stationen | Innere Station | â€” | Ambulanz |
+| 29 | Intensivstation | intensive care unit (ICU) | in-ten-zeef-shtah-tsee-ohn | die | n. | Er liegt auf der Intensivstation. | He is in the intensive care unit. | Hospital | Intensivstationen | â€” | ITS | â€” |
+| 30 | Chirurg | surgeon | shee-roork | der | n. | Der Chirurg fÃ¼hrt die Operation durch. | The surgeon performs the operation. | Hospital | Chirurgen | â€” | â€” | â€” |
+| 31 | Krankenpfleger / Krankenschwester | nurse (m/f) | kran-ken-pfleh-ger | der / die | n. | Die Krankenpflegerin ist sehr fÃ¼rsorglich. | The nurse is very caring. | Hospital | â€” | â€” | Pflegefachkraft | â€” |
+| 32 | AnÃ¤sthesist | anaesthesiologist | ah-nes-teh-zeest | der | n. | Der AnÃ¤sthesist gibt die Narkose. | The anaesthesiologist administers the anaesthetic. | Hospital | AnÃ¤sthesisten | â€” | â€” | â€” |
+| 33 | Narkose | anaesthesia / general anaesthetic | nar-koh-zeh | die | n. | Ich bekomme eine Vollnarkose. | I receive a general anaesthetic. | Hospital | â€” | Narkose geben | â€” | â€” |
+| 34 | BetÃ¤ubung | local anaesthetic / numbing | beh-toy-boong | die | n. | Der Zahnarzt gibt eine BetÃ¤ubung. | The dentist administers a local anaesthetic. | Medical | â€” | â€” | LokalanÃ¤sthesie | â€” |
+| 35 | Aufnahme | admission / intake | owf-nah-meh | die | n. | Die Aufnahme ins Krankenhaus erfolgt um 8 Uhr. | Hospital admission takes place at 8 o'clock. | Hospital | â€” | â€” | â€” | Entlassung |
+| 36 | Entlassung | discharge | ent-las-oong | die | n. | Die Entlassung aus dem Krankenhaus ist morgen. | Discharge from the hospital is tomorrow. | Hospital | Entlassungen | â€” | â€” | Aufnahme |
+| 37 | Krankenbett | hospital bed | kran-ken-bet | das | n. | Das Krankenbett ist verstellbar. | The hospital bed is adjustable. | Hospital | Krankenbetten | â€” | â€” | â€” |
+| 38 | Infusion | infusion / drip | in-foo-zee-ohn | die | n. | Ich bekomme eine Infusion. | I receive an infusion/drip. | Hospital | Infusionen | â€” | â€” | â€” |
+| 39 | Bluttransfusion | blood transfusion | bloot-trans-foo-zee-ohn | die | n. | Er braucht eine Bluttransfusion. | He needs a blood transfusion. | Hospital | Bluttransfusionen | â€” | â€” | â€” |
+| 40 | Rollstuhl | wheelchair | rol-shtool | der | n. | Mein Vater ist auf einen Rollstuhl angewiesen. | My father is dependent on a wheelchair. | Healthcare | RollstÃ¼hle | â€” | â€” | â€” |
+| 41 | KrÃ¼cken | crutches | krook-en | â€” | n. (pl.) | Ich muss nach der OP KrÃ¼cken benutzen. | I have to use crutches after the operation. | Healthcare | â€” | â€” | â€” | â€” |
+| 42 | Gipsverband | plaster cast | gips-fer-bant | der | n. | Mein Arm ist im Gipsverband. | My arm is in a plaster cast. | Healthcare | GipsverbÃ¤nde | â€” | Gips | â€” |
+| 43 | Physiotherapie | physiotherapy | fyoo-zee-oh-teh-rah-pee | die | n. | Ich mache Physiotherapie nach der Operation. | I do physiotherapy after the operation. | Healthcare | â€” | â€” | Krankengymnastik | â€” |
 
 ---
 
@@ -72,22 +72,22 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 44 | Erkrankung | illness / disease | er-kran-koong | die | n. | Er leidet an einer chronischen Erkrankung. | He suffers from a chronic illness. | Medical | Erkrankungen | — | Krankheit | — |
-| 45 | chronisch | chronic | kroh-nish | — | adj. | Ich habe chronische Rückenschmerzen. | I have chronic back pain. | Medical | — | chronische Erkrankung | — | akut |
-| 46 | akut | acute | ah-koot | — | adj. | Es ist eine akute Entzündung. | It is an acute inflammation. | Medical | — | akute Erkrankung | — | chronisch |
-| 47 | Entzündung | inflammation | ent-tsyn-doong | die | n. | Ich habe eine Entzündung im Hals. | I have an inflammation in my throat. | Medical | Entzündungen | — | — | — |
-| 48 | Infektion | infection | in-fek-tsee-ohn | die | n. | Er hat eine bakterielle Infektion. | He has a bacterial infection. | Medical | Infektionen | — | — | — |
-| 49 | Viren | viruses | vee-ren | — | n. (pl.) | Das Virus ist sehr ansteckend. | The virus is very contagious. | Medical | Viren | — | — | — |
-| 50 | Bakterien | bacteria | bak-teh-ree-en | — | n. (pl.) | Die Infektion wird durch Bakterien verursacht. | The infection is caused by bacteria. | Medical | — | — | — | — |
-| 51 | ansteckend | contagious / infectious | an-shtek-end | — | adj. | Diese Krankheit ist sehr ansteckend. | This illness is very contagious. | Medical | — | — | infektiös | nicht ansteckend |
-| 52 | Krebs | cancer | krehps | der | n. | Er kämpft gegen Krebs. | He is fighting cancer. | Medical | — | an Krebs erkrankt | Karzinom | — |
-| 53 | Herzerkrankung | heart disease | hehrts-er-kran-koong | die | n. | Herzerkrankungen sind häufig. | Heart diseases are common. | Medical | Herzerkrankungen | — | — | — |
-| 54 | Diabetes mellitus | diabetes mellitus | dee-ah-beh-tes mel-i-toos | der | n. | Er hat Diabetes Typ 2. | He has Type 2 diabetes. | Medical | — | — | — | — |
-| 55 | Asthma | asthma | ast-mah | das | n. | Sie leidet an Asthma. | She suffers from asthma. | Medical | — | Asthmaanfall | — | — |
-| 56 | Rheuma | rheumatism | roy-mah | das | n. | Ich habe Rheuma in den Gelenken. | I have rheumatism in my joints. | Medical | — | — | — | — |
-| 57 | Osteoporose | osteoporosis | os-teh-oh-poh-roh-zeh | die | n. | Osteoporose betrifft vor allem Frauen. | Osteoporosis mainly affects women. | Medical | — | — | — | — |
-| 58 | Burnout | burnout | burn-owt | der | n. | Er wurde wegen Burnout krankgeschrieben. | He was signed off sick with burnout. | Mental health | — | — | — | — |
-| 59 | Depression | depression | deh-pres-zee-ohn | die | n. | Depressionen sind behandelbar. | Depressions are treatable. | Mental health | Depressionen | — | — | — |
+| 44 | Erkrankung | illness / disease | er-kran-koong | die | n. | Er leidet an einer chronischen Erkrankung. | He suffers from a chronic illness. | Medical | Erkrankungen | â€” | Krankheit | â€” |
+| 45 | chronisch | chronic | kroh-nish | â€” | adj. | Ich habe chronische RÃ¼ckenschmerzen. | I have chronic back pain. | Medical | â€” | chronische Erkrankung | â€” | akut |
+| 46 | akut | acute | ah-koot | â€” | adj. | Es ist eine akute EntzÃ¼ndung. | It is an acute inflammation. | Medical | â€” | akute Erkrankung | â€” | chronisch |
+| 47 | EntzÃ¼ndung | inflammation | ent-tsyn-doong | die | n. | Ich habe eine EntzÃ¼ndung im Hals. | I have an inflammation in my throat. | Medical | EntzÃ¼ndungen | â€” | â€” | â€” |
+| 48 | Infektion | infection | in-fek-tsee-ohn | die | n. | Er hat eine bakterielle Infektion. | He has a bacterial infection. | Medical | Infektionen | â€” | â€” | â€” |
+| 49 | Viren | viruses | vee-ren | â€” | n. (pl.) | Das Virus ist sehr ansteckend. | The virus is very contagious. | Medical | Viren | â€” | â€” | â€” |
+| 50 | Bakterien | bacteria | bak-teh-ree-en | â€” | n. (pl.) | Die Infektion wird durch Bakterien verursacht. | The infection is caused by bacteria. | Medical | â€” | â€” | â€” | â€” |
+| 51 | ansteckend | contagious / infectious | an-shtek-end | â€” | adj. | Diese Krankheit ist sehr ansteckend. | This illness is very contagious. | Medical | â€” | â€” | infektiÃ¶s | nicht ansteckend |
+| 52 | Krebs | cancer | krehps | der | n. | Er kÃ¤mpft gegen Krebs. | He is fighting cancer. | Medical | â€” | an Krebs erkrankt | Karzinom | â€” |
+| 53 | Herzerkrankung | heart disease | hehrts-er-kran-koong | die | n. | Herzerkrankungen sind hÃ¤ufig. | Heart diseases are common. | Medical | Herzerkrankungen | â€” | â€” | â€” |
+| 54 | Diabetes mellitus | diabetes mellitus | dee-ah-beh-tes mel-i-toos | der | n. | Er hat Diabetes Typ 2. | He has Type 2 diabetes. | Medical | â€” | â€” | â€” | â€” |
+| 55 | Asthma | asthma | ast-mah | das | n. | Sie leidet an Asthma. | She suffers from asthma. | Medical | â€” | Asthmaanfall | â€” | â€” |
+| 56 | Rheuma | rheumatism | roy-mah | das | n. | Ich habe Rheuma in den Gelenken. | I have rheumatism in my joints. | Medical | â€” | â€” | â€” | â€” |
+| 57 | Osteoporose | osteoporosis | os-teh-oh-poh-roh-zeh | die | n. | Osteoporose betrifft vor allem Frauen. | Osteoporosis mainly affects women. | Medical | â€” | â€” | â€” | â€” |
+| 58 | Burnout | burnout | burn-owt | der | n. | Er wurde wegen Burnout krankgeschrieben. | He was signed off sick with burnout. | Mental health | â€” | â€” | â€” | â€” |
+| 59 | Depression | depression | deh-pres-zee-ohn | die | n. | Depressionen sind behandelbar. | Depressions are treatable. | Mental health | Depressionen | â€” | â€” | â€” |
 
 ---
 
@@ -95,18 +95,18 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 60 | Blutuntersuchung | blood test / blood analysis | bloot-oon-ter-zoo-khoong | die | n. | Ich mache eine Blutuntersuchung. | I have a blood test. | Medical | Blutuntersuchungen | — | Bluttest | — |
-| 61 | Ultraschall | ultrasound | ool-trah-shal | der | n. | Der Ultraschall zeigt alles in Ordnung. | The ultrasound shows everything is fine. | Medical | — | Ultraschall machen | — | — |
-| 62 | MRT (Magnetresonanztomographie) | MRI | em-ehr-teh | das | n. | Das MRT zeigt keine Auffälligkeiten. | The MRI shows no abnormalities. | Medical | — | MRT-Aufnahme | — | — |
-| 63 | CT (Computertomographie) | CT scan | tseh-teh | das | n. | Das CT zeigt einen kleinen Tumor. | The CT scan shows a small tumour. | Medical | — | — | — | — |
-| 64 | EKG (Elektrokardiogramm) | ECG | eh-kah-geh | das | n. | Das EKG ist unauffällig. | The ECG is unremarkable. | Medical | — | EKG aufzeichnen | — | — |
-| 65 | Biopsie | biopsy | bee-op-zee | die | n. | Eine Biopsie wird zur Diagnose entnommen. | A biopsy is taken for diagnosis. | Medical | Biopsien | — | — | — |
-| 66 | Blutdruck messen | to measure blood pressure | bloot-drook mes-en | — | phrase | Bitte messen Sie meinen Blutdruck. | Please measure my blood pressure. | Medical | — | — | — | — |
-| 67 | Laborwerte | lab values / test results | lah-bor-vehr-teh | — | n. (pl.) | Meine Laborwerte sind normal. | My lab values are normal. | Medical | — | — | — | — |
-| 68 | Befund | findings / result | beh-foont | der | n. | Der Befund ist unauffällig. | The findings are unremarkable. | Medical | Befunde | ärztlicher Befund | — | — |
-| 69 | Attest | medical certificate | ah-test | das | n. | Ich brauche ein ärztliches Attest. | I need a medical certificate. | Medical | Atteste | — | Krankschreibung | — |
-| 70 | Krankschreibung | sick note / sick leave certificate | krank-shry-boong | die | n. | Ich brauche eine Krankschreibung. | I need a sick note. | Medical | Krankschreibungen | krankgeschrieben sein | — | — |
-| 71 | Impfschutz | vaccination protection | impf-shoots | der | n. | Mein Impfschutz ist aktuell. | My vaccination protection is up to date. | Prevention | — | — | — | — |
+| 60 | Blutuntersuchung | blood test / blood analysis | bloot-oon-ter-zoo-khoong | die | n. | Ich mache eine Blutuntersuchung. | I have a blood test. | Medical | Blutuntersuchungen | â€” | Bluttest | â€” |
+| 61 | Ultraschall | ultrasound | ool-trah-shal | der | n. | Der Ultraschall zeigt alles in Ordnung. | The ultrasound shows everything is fine. | Medical | â€” | Ultraschall machen | â€” | â€” |
+| 62 | MRT (Magnetresonanztomographie) | MRI | em-ehr-teh | das | n. | Das MRT zeigt keine AuffÃ¤lligkeiten. | The MRI shows no abnormalities. | Medical | â€” | MRT-Aufnahme | â€” | â€” |
+| 63 | CT (Computertomographie) | CT scan | tseh-teh | das | n. | Das CT zeigt einen kleinen Tumor. | The CT scan shows a small tumour. | Medical | â€” | â€” | â€” | â€” |
+| 64 | EKG (Elektrokardiogramm) | ECG | eh-kah-geh | das | n. | Das EKG ist unauffÃ¤llig. | The ECG is unremarkable. | Medical | â€” | EKG aufzeichnen | â€” | â€” |
+| 65 | Biopsie | biopsy | bee-op-zee | die | n. | Eine Biopsie wird zur Diagnose entnommen. | A biopsy is taken for diagnosis. | Medical | Biopsien | â€” | â€” | â€” |
+| 66 | Blutdruck messen | to measure blood pressure | bloot-drook mes-en | â€” | phrase | Bitte messen Sie meinen Blutdruck. | Please measure my blood pressure. | Medical | â€” | â€” | â€” | â€” |
+| 67 | Laborwerte | lab values / test results | lah-bor-vehr-teh | â€” | n. (pl.) | Meine Laborwerte sind normal. | My lab values are normal. | Medical | â€” | â€” | â€” | â€” |
+| 68 | Befund | findings / result | beh-foont | der | n. | Der Befund ist unauffÃ¤llig. | The findings are unremarkable. | Medical | Befunde | Ã¤rztlicher Befund | â€” | â€” |
+| 69 | Attest | medical certificate | ah-test | das | n. | Ich brauche ein Ã¤rztliches Attest. | I need a medical certificate. | Medical | Atteste | â€” | Krankschreibung | â€” |
+| 70 | Krankschreibung | sick note / sick leave certificate | krank-shry-boong | die | n. | Ich brauche eine Krankschreibung. | I need a sick note. | Medical | Krankschreibungen | krankgeschrieben sein | â€” | â€” |
+| 71 | Impfschutz | vaccination protection | impf-shoots | der | n. | Mein Impfschutz ist aktuell. | My vaccination protection is up to date. | Prevention | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -114,16 +114,16 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 72 | Wirkstoff | active ingredient | verk-shtof | der | n. | Der Wirkstoff heißt Ibuprofen. | The active ingredient is called Ibuprofen. | Pharmacy | Wirkstoffe | — | — | — |
-| 73 | Beipackzettel | package insert / leaflet | by-pak-tset-el | der | n. | Ich lese den Beipackzettel. | I read the package insert. | Pharmacy | Beipackzettel | — | Gebrauchsanweisung | — |
-| 74 | Wechselwirkung | drug interaction | vek-sel-veer-koong | die | n. | Ich frage den Arzt nach Wechselwirkungen. | I ask the doctor about drug interactions. | Pharmacy | Wechselwirkungen | — | — | — |
-| 75 | Kontraindikation | contraindication | kon-trah-in-di-kah-tsee-ohn | die | n. | Gibt es Kontraindikationen? | Are there contraindications? | Pharmacy | Kontraindikationen | — | — | — |
-| 76 | Placebo | placebo | plah-tseh-boh | das | n. | In der Studie wurde ein Placebo verwendet. | A placebo was used in the study. | Medical | Placebos | — | — | Verum |
-| 77 | Rehabilitation | rehabilitation | reh-hah-bi-li-tah-tsee-ohn | die | n. | Nach dem Herzinfarkt folgt Rehabilitation. | After the heart attack, rehabilitation follows. | Medical | — | — | Reha | — |
-| 78 | Ergotherapie | occupational therapy | er-goh-teh-rah-pee | die | n. | Ich mache Ergotherapie nach dem Schlaganfall. | I do occupational therapy after the stroke. | Medical | — | — | — | — |
-| 79 | Logopädie | speech therapy | loh-goh-peh-dee | die | n. | Das Kind braucht Logopädie. | The child needs speech therapy. | Medical | — | — | Sprachtherapie | — |
-| 80 | Homöopathie | homeopathy | hoh-muh-oh-pah-tee | die | n. | Ich nutze Homöopathie als Ergänzung. | I use homeopathy as a supplement. | Alternative medicine | — | — | — | Schulmedizin |
-| 81 | Naturheilkunde | naturopathy | nah-toor-hyle-koon-deh | die | n. | Naturheilkunde bietet alternative Behandlungen. | Naturopathy offers alternative treatments. | Alternative medicine | — | — | — | Schulmedizin |
+| 72 | Wirkstoff | active ingredient | verk-shtof | der | n. | Der Wirkstoff heiÃŸt Ibuprofen. | The active ingredient is called Ibuprofen. | Pharmacy | Wirkstoffe | â€” | â€” | â€” |
+| 73 | Beipackzettel | package insert / leaflet | by-pak-tset-el | der | n. | Ich lese den Beipackzettel. | I read the package insert. | Pharmacy | Beipackzettel | â€” | Gebrauchsanweisung | â€” |
+| 74 | Wechselwirkung | drug interaction | vek-sel-veer-koong | die | n. | Ich frage den Arzt nach Wechselwirkungen. | I ask the doctor about drug interactions. | Pharmacy | Wechselwirkungen | â€” | â€” | â€” |
+| 75 | Kontraindikation | contraindication | kon-trah-in-di-kah-tsee-ohn | die | n. | Gibt es Kontraindikationen? | Are there contraindications? | Pharmacy | Kontraindikationen | â€” | â€” | â€” |
+| 76 | Placebo | placebo | plah-tseh-boh | das | n. | In der Studie wurde ein Placebo verwendet. | A placebo was used in the study. | Medical | Placebos | â€” | â€” | Verum |
+| 77 | Rehabilitation | rehabilitation | reh-hah-bi-li-tah-tsee-ohn | die | n. | Nach dem Herzinfarkt folgt Rehabilitation. | After the heart attack, rehabilitation follows. | Medical | â€” | â€” | Reha | â€” |
+| 78 | Ergotherapie | occupational therapy | er-goh-teh-rah-pee | die | n. | Ich mache Ergotherapie nach dem Schlaganfall. | I do occupational therapy after the stroke. | Medical | â€” | â€” | â€” | â€” |
+| 79 | LogopÃ¤die | speech therapy | loh-goh-peh-dee | die | n. | Das Kind braucht LogopÃ¤die. | The child needs speech therapy. | Medical | â€” | â€” | Sprachtherapie | â€” |
+| 80 | HomÃ¶opathie | homeopathy | hoh-muh-oh-pah-tee | die | n. | Ich nutze HomÃ¶opathie als ErgÃ¤nzung. | I use homeopathy as a supplement. | Alternative medicine | â€” | â€” | â€” | Schulmedizin |
+| 81 | Naturheilkunde | naturopathy | nah-toor-hyle-koon-deh | die | n. | Naturheilkunde bietet alternative Behandlungen. | Naturopathy offers alternative treatments. | Alternative medicine | â€” | â€” | â€” | Schulmedizin |
 
 ---
 
@@ -131,17 +131,17 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 82 | Fitnessstudio | gym / fitness centre | fit-nes-shtoo-dee-oh | das | n. | Ich trainiere dreimal pro Woche im Fitnessstudio. | I train three times a week at the gym. | Fitness | Fitnessstudios | — | Gym | — |
-| 83 | Ausdauertraining | endurance training | ows-dow-er-tray-ning | das | n. | Ausdauertraining stärkt das Herz. | Endurance training strengthens the heart. | Fitness | — | — | Cardio | — |
-| 84 | Krafttraining | strength training | kraft-tray-ning | das | n. | Krafttraining baut Muskeln auf. | Strength training builds muscles. | Fitness | — | — | Gewichtheben | — |
-| 85 | Yoga | yoga | yoh-gah | das | n. | Yoga ist gut für Körper und Geist. | Yoga is good for body and mind. | Fitness | — | Yoga machen | — | — |
-| 86 | Meditation | meditation | meh-di-tah-tsee-ohn | die | n. | Tägliche Meditation reduziert Stress. | Daily meditation reduces stress. | Wellbeing | — | meditieren | — | — |
-| 87 | Schlafqualität | sleep quality | shlahf-kvah-li-teht | die | n. | Gute Schlafqualität ist wichtig für die Gesundheit. | Good sleep quality is important for health. | Wellbeing | — | — | — | — |
-| 88 | Ernährungsberatung | nutritional counselling | er-neh-roongs-beh-rah-toong | die | n. | Ich gehe zur Ernährungsberatung. | I go to nutritional counselling. | Wellbeing | — | — | — | — |
-| 89 | Body-Mass-Index (BMI) | BMI | beh-em-ee | der | n. | Mein BMI liegt im Normalbereich. | My BMI is within the normal range. | Health | — | — | — | — |
-| 90 | Übergewicht | being overweight | yoo-ber-geh-vikht | das | n. | Übergewicht erhöht das Risiko für Erkrankungen. | Being overweight increases the risk of illnesses. | Health | — | — | — | Untergewicht |
-| 91 | Untergewicht | being underweight | oon-ter-geh-vikht | das | n. | Untergewicht kann gefährlich sein. | Being underweight can be dangerous. | Health | — | — | — | Übergewicht |
-| 92 | ausgewogene Ernährung | balanced diet | ows-geh-voh-geh-neh er-neh-roong | — | phrase | Eine ausgewogene Ernährung ist wichtig. | A balanced diet is important. | Health | — | — | — | Mangelernährung |
+| 82 | Fitnessstudio | gym / fitness centre | fit-nes-shtoo-dee-oh | das | n. | Ich trainiere dreimal pro Woche im Fitnessstudio. | I train three times a week at the gym. | Fitness | Fitnessstudios | â€” | Gym | â€” |
+| 83 | Ausdauertraining | endurance training | ows-dow-er-tray-ning | das | n. | Ausdauertraining stÃ¤rkt das Herz. | Endurance training strengthens the heart. | Fitness | â€” | â€” | Cardio | â€” |
+| 84 | Krafttraining | strength training | kraft-tray-ning | das | n. | Krafttraining baut Muskeln auf. | Strength training builds muscles. | Fitness | â€” | â€” | Gewichtheben | â€” |
+| 85 | Yoga | yoga | yoh-gah | das | n. | Yoga ist gut fÃ¼r KÃ¶rper und Geist. | Yoga is good for body and mind. | Fitness | â€” | Yoga machen | â€” | â€” |
+| 86 | Meditation | meditation | meh-di-tah-tsee-ohn | die | n. | TÃ¤gliche Meditation reduziert Stress. | Daily meditation reduces stress. | Wellbeing | â€” | meditieren | â€” | â€” |
+| 87 | SchlafqualitÃ¤t | sleep quality | shlahf-kvah-li-teht | die | n. | Gute SchlafqualitÃ¤t ist wichtig fÃ¼r die Gesundheit. | Good sleep quality is important for health. | Wellbeing | â€” | â€” | â€” | â€” |
+| 88 | ErnÃ¤hrungsberatung | nutritional counselling | er-neh-roongs-beh-rah-toong | die | n. | Ich gehe zur ErnÃ¤hrungsberatung. | I go to nutritional counselling. | Wellbeing | â€” | â€” | â€” | â€” |
+| 89 | Body-Mass-Index (BMI) | BMI | beh-em-ee | der | n. | Mein BMI liegt im Normalbereich. | My BMI is within the normal range. | Health | â€” | â€” | â€” | â€” |
+| 90 | Ãœbergewicht | being overweight | yoo-ber-geh-vikht | das | n. | Ãœbergewicht erhÃ¶ht das Risiko fÃ¼r Erkrankungen. | Being overweight increases the risk of illnesses. | Health | â€” | â€” | â€” | Untergewicht |
+| 91 | Untergewicht | being underweight | oon-ter-geh-vikht | das | n. | Untergewicht kann gefÃ¤hrlich sein. | Being underweight can be dangerous. | Health | â€” | â€” | â€” | Ãœbergewicht |
+| 92 | ausgewogene ErnÃ¤hrung | balanced diet | ows-geh-voh-geh-neh er-neh-roong | â€” | phrase | Eine ausgewogene ErnÃ¤hrung ist wichtig. | A balanced diet is important. | Health | â€” | â€” | â€” | MangelernÃ¤hrung |
 
 ---
 
@@ -149,11 +149,11 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 93 | psychische Gesundheit | mental health | psyoo-khish-eh geh-zoont-hyte | — | phrase | Psychische Gesundheit ist genauso wichtig wie körperliche. | Mental health is just as important as physical. | Health | — | — | — | — |
-| 94 | Therapie | therapy | teh-rah-pee | die | n. | Ich gehe seit einem Jahr in Therapie. | I have been going to therapy for a year. | Mental health | Therapien | — | Behandlung | — |
-| 95 | Verhaltenstherapie | cognitive behavioural therapy | fer-hal-tens-teh-rah-pee | die | n. | Verhaltenstherapie hilft bei Angststörungen. | CBT helps with anxiety disorders. | Mental health | — | — | KVT | — |
-| 96 | Psychiater | psychiatrist | psyoo-khee-ah-ter | der | n. | Mein Psychiater hat das Medikament verschrieben. | My psychiatrist prescribed the medication. | Mental health | Psychiater | — | — | — |
-| 97 | Trauma | trauma | trow-mah | das | n. | Er verarbeitet ein Trauma aus seiner Kindheit. | He is processing a trauma from his childhood. | Mental health | Traumata | — | — | — |
-| 98 | Achtsamkeit | mindfulness | akht-zahm-kyte | die | n. | Achtsamkeit hilft, den Moment zu genießen. | Mindfulness helps to enjoy the present moment. | Wellbeing | — | Achtsamkeitsübungen | — | — |
-| 99 | Resilienz | resilience | reh-zi-lee-ents | die | n. | Resilienz hilft, Krisen zu überwinden. | Resilience helps to overcome crises. | Wellbeing | — | — | Widerstandsfähigkeit | — |
-| 100 | Erschöpfungssyndrom | exhaustion syndrome / burnout | er-shupf-oongs-zyn-drom | das | n. | Das Erschöpfungssyndrom ist ein ernstes Problem. | Exhaustion syndrome is a serious problem. | Health | — | — | Burnout | — |
+| 93 | psychische Gesundheit | mental health | psyoo-khish-eh geh-zoont-hyte | â€” | phrase | Psychische Gesundheit ist genauso wichtig wie kÃ¶rperliche. | Mental health is just as important as physical. | Health | â€” | â€” | â€” | â€” |
+| 94 | Therapie | therapy | teh-rah-pee | die | n. | Ich gehe seit einem Jahr in Therapie. | I have been going to therapy for a year. | Mental health | Therapien | â€” | Behandlung | â€” |
+| 95 | Verhaltenstherapie | cognitive behavioural therapy | fer-hal-tens-teh-rah-pee | die | n. | Verhaltenstherapie hilft bei AngststÃ¶rungen. | CBT helps with anxiety disorders. | Mental health | â€” | â€” | KVT | â€” |
+| 96 | Psychiater | psychiatrist | psyoo-khee-ah-ter | der | n. | Mein Psychiater hat das Medikament verschrieben. | My psychiatrist prescribed the medication. | Mental health | Psychiater | â€” | â€” | â€” |
+| 97 | Trauma | trauma | trow-mah | das | n. | Er verarbeitet ein Trauma aus seiner Kindheit. | He is processing a trauma from his childhood. | Mental health | Traumata | â€” | â€” | â€” |
+| 98 | Achtsamkeit | mindfulness | akht-zahm-kyte | die | n. | Achtsamkeit hilft, den Moment zu genieÃŸen. | Mindfulness helps to enjoy the present moment. | Wellbeing | â€” | AchtsamkeitsÃ¼bungen | â€” | â€” |
+| 99 | Resilienz | resilience | reh-zi-lee-ents | die | n. | Resilienz hilft, Krisen zu Ã¼berwinden. | Resilience helps to overcome crises. | Wellbeing | â€” | â€” | WiderstandsfÃ¤higkeit | â€” |
+| 100 | ErschÃ¶pfungssyndrom | exhaustion syndrome / burnout | er-shupf-oongs-zyn-drom | das | n. | Das ErschÃ¶pfungssyndrom ist ein ernstes Problem. | Exhaustion syndrome is a serious problem. | Health | â€” | â€” | Burnout | â€” |

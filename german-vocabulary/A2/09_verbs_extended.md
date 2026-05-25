@@ -1,4 +1,4 @@
-# A2 — Extended Verbs (Erweiterte Verben)
+# A2 â€” Extended Verbs (Erweiterte Verben)
 
 > ~100 entries covering higher-frequency verbs with complete conjugation patterns for A2 learners.
 
@@ -8,31 +8,31 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Conjugation (ich/du/er/Perfekt) | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|--------------------------------|-------------|----------|----------|
-| 1 | anrufen | to call (phone) | an-roo-fen | — | v. | Ich rufe dich morgen an. | I'll call you tomorrow. | Communication | rufe an / rufst an / ruft an / hat angerufen | — | telefonieren | auflegen |
-| 2 | aufmachen | to open | owf-makh-en | — | v. | Mach die Tür auf! | Open the door! | Actions | mache auf / machst auf / macht auf / hat aufgemacht | — | öffnen | zumachen |
-| 3 | zumachen | to close / shut | tsoo-makh-en | — | v. | Mach das Fenster zu! | Shut the window! | Actions | mache zu / machst zu / macht zu / hat zugemacht | — | schließen | aufmachen |
-| 4 | aufstehen | to get up | owf-shteh-en | — | v. | Ich stehe um 7 auf. | I get up at 7. | Daily life | stehe auf / stehst auf / steht auf / ist aufgestanden | früh aufstehen | — | schlafen gehen |
-| 5 | einschlafen | to fall asleep | ayn-shlah-fen | — | v. | Ich schlafe um 23 Uhr ein. | I fall asleep at 11 PM. | Daily life | schlafe ein / schläfst ein / schläft ein / ist eingeschlafen | schnell einschlafen | — | aufwachen |
-| 6 | aufwachen | to wake up | owf-vakh-en | — | v. | Ich wache um 6 Uhr auf. | I wake up at 6 o'clock. | Daily life | wache auf / wachst auf / wacht auf / ist aufgewacht | früh aufwachen | — | einschlafen |
-| 7 | ankommen | to arrive | an-kom-en | — | v. | Wann kommst du an? | When do you arrive? | Transport | komme an / kommst an / kommt an / ist angekommen | pünktlich ankommen | — | abfahren |
-| 8 | abfahren | to depart / leave | ab-fah-ren | — | v. | Der Zug fährt in 5 Minuten ab. | The train departs in 5 minutes. | Transport | fahre ab / fährst ab / fährt ab / ist abgefahren | — | — | ankommen |
-| 9 | einkaufen | to go shopping | ayn-kow-fen | — | v. | Ich kaufe heute Lebensmittel ein. | I buy groceries today. | Shopping | kaufe ein / kaufst ein / kauft ein / hat eingekauft | einkaufen gehen | — | — |
-| 10 | aufräumen | to tidy up | owf-roy-men | — | v. | Ich räume mein Zimmer auf. | I tidy up my room. | Housework | räume auf / räumst auf / räumt auf / hat aufgeräumt | — | — | unordentlich lassen |
-| 11 | einladen | to invite | ayn-lah-den | — | v. | Ich lade dich zum Essen ein. | I invite you for dinner. | Social | lade ein / lädst ein / lädt ein / hat eingeladen | — | — | ablehnen |
-| 12 | abholen | to pick up | ab-hoh-len | — | v. | Ich hole dich vom Bahnhof ab. | I pick you up from the station. | Transport | hole ab / holst ab / holt ab / hat abgeholt | — | — | bringen |
-| 13 | zurückgeben | to return / give back | tsoo-ruk-geh-ben | — | v. | Ich gebe das Buch zurück. | I return the book. | Actions | gebe zurück / gibst zurück / hat zurückgegeben | — | — | behalten |
-| 14 | anziehen | to put on (clothes) | an-tsee-en | — | v. | Ich ziehe einen Pullover an. | I put on a pullover. | Clothing | ziehe an / ziehst an / zieht an / hat angezogen | sich anziehen | — | ausziehen |
-| 15 | ausziehen | to take off (clothes) | ows-tsee-en | — | v. | Ich ziehe die Jacke aus. | I take off the jacket. | Clothing | ziehe aus / ziehst aus / zieht aus / hat ausgezogen | — | — | anziehen |
-| 16 | vorstellen | to introduce / present | for-shtel-en | — | v. | Ich stelle mich vor. | I introduce myself. | Social | stelle vor / stellst vor / stellt vor / hat vorgestellt | sich vorstellen | — | — |
-| 17 | aufhören | to stop | owf-huh-ren | — | v. | Hör auf zu lachen! | Stop laughing! | Actions | höre auf / hörst auf / hört auf / hat aufgehört | — | — | anfangen |
-| 18 | anfangen | to start / begin | an-fang-en | — | v. | Wann fängst du an? | When do you start? | Actions | fange an / fängst an / fängt an / hat angefangen | — | beginnen | aufhören |
-| 19 | umsteigen | to change (transit) | oom-shty-gen | — | v. | Du musst in Mannheim umsteigen. | You must change in Mannheim. | Transport | steige um / steigst um / steigt um / ist umgestiegen | — | — | — |
-| 20 | einsteigen | to board / get on | ayn-shty-gen | — | v. | Einsteigen bitte! | All aboard please! | Transport | steige ein / steigst ein / steigt ein / ist eingestiegen | — | — | aussteigen |
-| 21 | aussteigen | to get off / alight | ows-shty-gen | — | v. | Ich steige an der nächsten Haltestelle aus. | I get off at the next stop. | Transport | steige aus / steigst aus / steigt aus / ist ausgestiegen | — | — | einsteigen |
-| 22 | mitnehmen | to take with | mit-neh-men | — | v. | Kannst du mich mitnehmen? | Can you take me with you? | Transport | nehme mit / nimmst mit / nimmt mit / hat mitgenommen | — | — | zurücklassen |
-| 23 | anmelden | to register | an-mel-den | — | v. | Ich melde mich beim Amt an. | I register at the office. | Admin | melde an / meldest an / meldet an / hat angemeldet | — | — | abmelden |
-| 24 | abmelden | to deregister | ab-mel-den | — | v. | Ich melde mich beim Amt ab. | I deregister at the office. | Admin | melde ab / meldest ab / meldet ab / hat abgemeldet | — | — | anmelden |
-| 25 | weitermachen | to continue | vy-ter-makh-en | — | v. | Mach weiter so! | Keep it up! | Actions | mache weiter / machst weiter / macht weiter / hat weitergemacht | — | fortführen | aufhören |
+| 1 | anrufen | to call (phone) | an-roo-fen | â€” | v. | Ich rufe dich morgen an. | I'll call you tomorrow. | Communication | rufe an / rufst an / ruft an / hat angerufen | â€” | telefonieren | auflegen |
+| 2 | aufmachen | to open | owf-makh-en | â€” | v. | Mach die TÃ¼r auf! | Open the door! | Actions | mache auf / machst auf / macht auf / hat aufgemacht | â€” | Ã¶ffnen | zumachen |
+| 3 | zumachen | to close / shut | tsoo-makh-en | â€” | v. | Mach das Fenster zu! | Shut the window! | Actions | mache zu / machst zu / macht zu / hat zugemacht | â€” | schlieÃŸen | aufmachen |
+| 4 | aufstehen | to get up | owf-shteh-en | â€” | v. | Ich stehe um 7 auf. | I get up at 7. | Daily life | stehe auf / stehst auf / steht auf / ist aufgestanden | frÃ¼h aufstehen | â€” | schlafen gehen |
+| 5 | einschlafen | to fall asleep | ayn-shlah-fen | â€” | v. | Ich schlafe um 23 Uhr ein. | I fall asleep at 11 PM. | Daily life | schlafe ein / schlÃ¤fst ein / schlÃ¤ft ein / ist eingeschlafen | schnell einschlafen | â€” | aufwachen |
+| 6 | aufwachen | to wake up | owf-vakh-en | â€” | v. | Ich wache um 6 Uhr auf. | I wake up at 6 o'clock. | Daily life | wache auf / wachst auf / wacht auf / ist aufgewacht | frÃ¼h aufwachen | â€” | einschlafen |
+| 7 | ankommen | to arrive | an-kom-en | â€” | v. | Wann kommst du an? | When do you arrive? | Transport | komme an / kommst an / kommt an / ist angekommen | pÃ¼nktlich ankommen | â€” | abfahren |
+| 8 | abfahren | to depart / leave | ab-fah-ren | â€” | v. | Der Zug fÃ¤hrt in 5 Minuten ab. | The train departs in 5 minutes. | Transport | fahre ab / fÃ¤hrst ab / fÃ¤hrt ab / ist abgefahren | â€” | â€” | ankommen |
+| 9 | einkaufen | to go shopping | ayn-kow-fen | â€” | v. | Ich kaufe heute Lebensmittel ein. | I buy groceries today. | Shopping | kaufe ein / kaufst ein / kauft ein / hat eingekauft | einkaufen gehen | â€” | â€” |
+| 10 | aufrÃ¤umen | to tidy up | owf-roy-men | â€” | v. | Ich rÃ¤ume mein Zimmer auf. | I tidy up my room. | Housework | rÃ¤ume auf / rÃ¤umst auf / rÃ¤umt auf / hat aufgerÃ¤umt | â€” | â€” | unordentlich lassen |
+| 11 | einladen | to invite | ayn-lah-den | â€” | v. | Ich lade dich zum Essen ein. | I invite you for dinner. | Social | lade ein / lÃ¤dst ein / lÃ¤dt ein / hat eingeladen | â€” | â€” | ablehnen |
+| 12 | abholen | to pick up | ab-hoh-len | â€” | v. | Ich hole dich vom Bahnhof ab. | I pick you up from the station. | Transport | hole ab / holst ab / holt ab / hat abgeholt | â€” | â€” | bringen |
+| 13 | zurÃ¼ckgeben | to return / give back | tsoo-ruk-geh-ben | â€” | v. | Ich gebe das Buch zurÃ¼ck. | I return the book. | Actions | gebe zurÃ¼ck / gibst zurÃ¼ck / hat zurÃ¼ckgegeben | â€” | â€” | behalten |
+| 14 | anziehen | to put on (clothes) | an-tsee-en | â€” | v. | Ich ziehe einen Pullover an. | I put on a pullover. | Clothing | ziehe an / ziehst an / zieht an / hat angezogen | sich anziehen | â€” | ausziehen |
+| 15 | ausziehen | to take off (clothes) | ows-tsee-en | â€” | v. | Ich ziehe die Jacke aus. | I take off the jacket. | Clothing | ziehe aus / ziehst aus / zieht aus / hat ausgezogen | â€” | â€” | anziehen |
+| 16 | vorstellen | to introduce / present | for-shtel-en | â€” | v. | Ich stelle mich vor. | I introduce myself. | Social | stelle vor / stellst vor / stellt vor / hat vorgestellt | sich vorstellen | â€” | â€” |
+| 17 | aufhÃ¶ren | to stop | owf-huh-ren | â€” | v. | HÃ¶r auf zu lachen! | Stop laughing! | Actions | hÃ¶re auf / hÃ¶rst auf / hÃ¶rt auf / hat aufgehÃ¶rt | â€” | â€” | anfangen |
+| 18 | anfangen | to start / begin | an-fang-en | â€” | v. | Wann fÃ¤ngst du an? | When do you start? | Actions | fange an / fÃ¤ngst an / fÃ¤ngt an / hat angefangen | â€” | beginnen | aufhÃ¶ren |
+| 19 | umsteigen | to change (transit) | oom-shty-gen | â€” | v. | Du musst in Mannheim umsteigen. | You must change in Mannheim. | Transport | steige um / steigst um / steigt um / ist umgestiegen | â€” | â€” | â€” |
+| 20 | einsteigen | to board / get on | ayn-shty-gen | â€” | v. | Einsteigen bitte! | All aboard please! | Transport | steige ein / steigst ein / steigt ein / ist eingestiegen | â€” | â€” | aussteigen |
+| 21 | aussteigen | to get off / alight | ows-shty-gen | â€” | v. | Ich steige an der nÃ¤chsten Haltestelle aus. | I get off at the next stop. | Transport | steige aus / steigst aus / steigt aus / ist ausgestiegen | â€” | â€” | einsteigen |
+| 22 | mitnehmen | to take with | mit-neh-men | â€” | v. | Kannst du mich mitnehmen? | Can you take me with you? | Transport | nehme mit / nimmst mit / nimmt mit / hat mitgenommen | â€” | â€” | zurÃ¼cklassen |
+| 23 | anmelden | to register | an-mel-den | â€” | v. | Ich melde mich beim Amt an. | I register at the office. | Admin | melde an / meldest an / meldet an / hat angemeldet | â€” | â€” | abmelden |
+| 24 | abmelden | to deregister | ab-mel-den | â€” | v. | Ich melde mich beim Amt ab. | I deregister at the office. | Admin | melde ab / meldest ab / meldet ab / hat abgemeldet | â€” | â€” | anmelden |
+| 25 | weitermachen | to continue | vy-ter-makh-en | â€” | v. | Mach weiter so! | Keep it up! | Actions | mache weiter / machst weiter / macht weiter / hat weitergemacht | â€” | fortfÃ¼hren | aufhÃ¶ren |
 
 ---
 
@@ -40,21 +40,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Conjugation (ich/du/er) | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|------------------------|-------------|----------|----------|
-| 26 | sich vorstellen | to introduce oneself | zikh for-shtel-en | — | v. | Ich stelle mich vor. | I introduce myself. | Social | stelle mich vor / stellst dich vor / stellt sich vor | — | — | — |
-| 27 | sich waschen | to wash oneself | zikh vash-en | — | v. | Ich wasche mich morgens. | I wash myself in the morning. | Daily life | wasche mich / wäschst dich / wäscht sich | — | — | — |
-| 28 | sich rasieren | to shave | zikh rah-zee-ren | — | v. | Ich rasiere mich täglich. | I shave daily. | Daily life | rasiere mich / rasierst dich / rasiert sich | — | — | — |
-| 29 | sich kämmen | to comb one's hair | zikh kem-en | — | v. | Ich kämme mich vor dem Spiegel. | I comb my hair in front of the mirror. | Daily life | kämme mich / kämmst dich / kämmt sich | — | — | — |
-| 30 | sich schminken | to put on make-up | zikh shmink-en | — | v. | Sie schminkt sich täglich. | She puts on make-up daily. | Daily life | schminke mich / schminkst dich / schminkt sich | — | — | — |
-| 31 | sich setzen | to sit down | zikh zet-sen | — | v. | Setz dich bitte! | Please sit down! | Daily life | setze mich / setzt dich / setzt sich | — | — | aufstehen |
-| 32 | sich legen | to lie down | zikh leh-gen | — | v. | Ich lege mich kurz hin. | I lie down briefly. | Daily life | lege mich / legst dich / legt sich | — | — | aufstehen |
-| 33 | sich freuen | to be happy / look forward | zikh froyren | — | v. | Ich freue mich auf das Wochenende. | I look forward to the weekend. | Feelings | freue mich / freust dich / freut sich | sich freuen auf/über | — | — |
-| 34 | sich ärgern | to be annoyed | zikh ehr-gern | — | v. | Ich ärgere mich über den Stau. | I am annoyed about the traffic jam. | Feelings | ärgere mich / ärgerst dich / ärgert sich | — | — | sich freuen |
-| 35 | sich erholen | to recover / relax | zikh er-hoh-len | — | v. | Ich erholt mich im Urlaub. | I recover on holiday. | Health | erhole mich / erholst dich / erholt sich | — | — | — |
-| 36 | sich beeilen | to hurry up | zikh beh-ay-len | — | v. | Beeil dich! Wir sind spät. | Hurry up! We are late. | Actions | beeil mich / beeilst dich / beeilt sich | — | — | sich Zeit nehmen |
-| 37 | sich kümmern um | to take care of | zikh kym-ern oom | — | v. | Ich kümmere mich um die Kinder. | I take care of the children. | Responsibility | kümmere mich / kümmerst dich | — | — | vernachlässigen |
-| 38 | sich erinnern an | to remember | zikh er-in-ern an | — | v. | Ich erinnere mich an unsere erste Begegnung. | I remember our first meeting. | Memory | erinnere mich / erinnerst dich | — | — | vergessen |
-| 39 | sich interessieren für | to be interested in | zikh in-teh-res-ee-ren fyoor | — | v. | Ich interessiere mich für Kunst. | I am interested in art. | Preference | interessiere mich / interessierst dich | — | — | — |
-| 40 | sich entscheiden | to decide | zikh ent-shy-den | — | v. | Ich entscheide mich für das rote Kleid. | I decide on the red dress. | Decision | entscheide mich / entscheidest dich | — | — | — |
+| 26 | sich vorstellen | to introduce oneself | zikh for-shtel-en | â€” | v. | Ich stelle mich vor. | I introduce myself. | Social | stelle mich vor / stellst dich vor / stellt sich vor | â€” | â€” | â€” |
+| 27 | sich waschen | to wash oneself | zikh vash-en | â€” | v. | Ich wasche mich morgens. | I wash myself in the morning. | Daily life | wasche mich / wÃ¤schst dich / wÃ¤scht sich | â€” | â€” | â€” |
+| 28 | sich rasieren | to shave | zikh rah-zee-ren | â€” | v. | Ich rasiere mich tÃ¤glich. | I shave daily. | Daily life | rasiere mich / rasierst dich / rasiert sich | â€” | â€” | â€” |
+| 29 | sich kÃ¤mmen | to comb one's hair | zikh kem-en | â€” | v. | Ich kÃ¤mme mich vor dem Spiegel. | I comb my hair in front of the mirror. | Daily life | kÃ¤mme mich / kÃ¤mmst dich / kÃ¤mmt sich | â€” | â€” | â€” |
+| 30 | sich schminken | to put on make-up | zikh shmink-en | â€” | v. | Sie schminkt sich tÃ¤glich. | She puts on make-up daily. | Daily life | schminke mich / schminkst dich / schminkt sich | â€” | â€” | â€” |
+| 31 | sich setzen | to sit down | zikh zet-sen | â€” | v. | Setz dich bitte! | Please sit down! | Daily life | setze mich / setzt dich / setzt sich | â€” | â€” | aufstehen |
+| 32 | sich legen | to lie down | zikh leh-gen | â€” | v. | Ich lege mich kurz hin. | I lie down briefly. | Daily life | lege mich / legst dich / legt sich | â€” | â€” | aufstehen |
+| 33 | sich freuen | to be happy / look forward | zikh froyren | â€” | v. | Ich freue mich auf das Wochenende. | I look forward to the weekend. | Feelings | freue mich / freust dich / freut sich | sich freuen auf/Ã¼ber | â€” | â€” |
+| 34 | sich Ã¤rgern | to be annoyed | zikh ehr-gern | â€” | v. | Ich Ã¤rgere mich Ã¼ber den Stau. | I am annoyed about the traffic jam. | Feelings | Ã¤rgere mich / Ã¤rgerst dich / Ã¤rgert sich | â€” | â€” | sich freuen |
+| 35 | sich erholen | to recover / relax | zikh er-hoh-len | â€” | v. | Ich erholt mich im Urlaub. | I recover on holiday. | Health | erhole mich / erholst dich / erholt sich | â€” | â€” | â€” |
+| 36 | sich beeilen | to hurry up | zikh beh-ay-len | â€” | v. | Beeil dich! Wir sind spÃ¤t. | Hurry up! We are late. | Actions | beeil mich / beeilst dich / beeilt sich | â€” | â€” | sich Zeit nehmen |
+| 37 | sich kÃ¼mmern um | to take care of | zikh kym-ern oom | â€” | v. | Ich kÃ¼mmere mich um die Kinder. | I take care of the children. | Responsibility | kÃ¼mmere mich / kÃ¼mmerst dich | â€” | â€” | vernachlÃ¤ssigen |
+| 38 | sich erinnern an | to remember | zikh er-in-ern an | â€” | v. | Ich erinnere mich an unsere erste Begegnung. | I remember our first meeting. | Memory | erinnere mich / erinnerst dich | â€” | â€” | vergessen |
+| 39 | sich interessieren fÃ¼r | to be interested in | zikh in-teh-res-ee-ren fyoor | â€” | v. | Ich interessiere mich fÃ¼r Kunst. | I am interested in art. | Preference | interessiere mich / interessierst dich | â€” | â€” | â€” |
+| 40 | sich entscheiden | to decide | zikh ent-shy-den | â€” | v. | Ich entscheide mich fÃ¼r das rote Kleid. | I decide on the red dress. | Decision | entscheide mich / entscheidest dich | â€” | â€” | â€” |
 
 ---
 
@@ -62,14 +62,14 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Conjugation pattern | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|---------------------|-------------|----------|----------|
-| 41 | können | can / be able to | ku-nen | — | v. | Ich kann gut schwimmen. | I can swim well. | Ability | kann/kannst/kann/können/könnt/können | — | — | nicht können |
-| 42 | müssen | must / have to | myoo-sen | — | v. | Ich muss um 8 Uhr aufstehen. | I have to get up at 8. | Obligation | muss/musst/muss/müssen/müsst/müssen | — | — | dürfen nicht |
-| 43 | dürfen | may / be allowed | dyoor-fen | — | v. | Darf ich hier rauchen? | May I smoke here? | Permission | darf/darfst/darf/dürfen/dürft/dürfen | — | — | müssen |
-| 44 | sollen | should / supposed to | zol-en | — | v. | Ich soll um 9 Uhr da sein. | I am supposed to be there at 9. | Obligation | soll/sollst/soll/sollen/sollt/sollen | — | — | — |
-| 45 | wollen | to want to | vol-en | — | v. | Ich will ins Kino gehen. | I want to go to the cinema. | Desire | will/willst/will/wollen/wollt/wollen | — | — | — |
-| 46 | möchten | would like to | muk-ten | — | v. | Ich möchte einen Kaffee. | I would like a coffee. | Polite wish | möchte/möchtest/möchte/möchten/möchtet/möchten | — | — | — |
-| 47 | mögen | to like | moh-gen | — | v. | Ich mag keine Spinnen. | I don't like spiders. | Preference | mag/magst/mag/mögen/mögt/mögen | — | — | nicht mögen |
-| 48 | lassen | to let / allow / have done | las-en | — | v. | Ich lasse das Auto reparieren. | I have the car repaired. | Causative | lasse/lässt/lässt/lassen/lasst/lassen | — | — | — |
+| 41 | kÃ¶nnen | can / be able to | ku-nen | â€” | v. | Ich kann gut schwimmen. | I can swim well. | Ability | kann/kannst/kann/kÃ¶nnen/kÃ¶nnt/kÃ¶nnen | â€” | â€” | nicht kÃ¶nnen |
+| 42 | mÃ¼ssen | must / have to | myoo-sen | â€” | v. | Ich muss um 8 Uhr aufstehen. | I have to get up at 8. | Obligation | muss/musst/muss/mÃ¼ssen/mÃ¼sst/mÃ¼ssen | â€” | â€” | dÃ¼rfen nicht |
+| 43 | dÃ¼rfen | may / be allowed | dyoor-fen | â€” | v. | Darf ich hier rauchen? | May I smoke here? | Permission | darf/darfst/darf/dÃ¼rfen/dÃ¼rft/dÃ¼rfen | â€” | â€” | mÃ¼ssen |
+| 44 | sollen | should / supposed to | zol-en | â€” | v. | Ich soll um 9 Uhr da sein. | I am supposed to be there at 9. | Obligation | soll/sollst/soll/sollen/sollt/sollen | â€” | â€” | â€” |
+| 45 | wollen | to want to | vol-en | â€” | v. | Ich will ins Kino gehen. | I want to go to the cinema. | Desire | will/willst/will/wollen/wollt/wollen | â€” | â€” | â€” |
+| 46 | mÃ¶chten | would like to | muk-ten | â€” | v. | Ich mÃ¶chte einen Kaffee. | I would like a coffee. | Polite wish | mÃ¶chte/mÃ¶chtest/mÃ¶chte/mÃ¶chten/mÃ¶chtet/mÃ¶chten | â€” | â€” | â€” |
+| 47 | mÃ¶gen | to like | moh-gen | â€” | v. | Ich mag keine Spinnen. | I don't like spiders. | Preference | mag/magst/mag/mÃ¶gen/mÃ¶gt/mÃ¶gen | â€” | â€” | nicht mÃ¶gen |
+| 48 | lassen | to let / allow / have done | las-en | â€” | v. | Ich lasse das Auto reparieren. | I have the car repaired. | Causative | lasse/lÃ¤sst/lÃ¤sst/lassen/lasst/lassen | â€” | â€” | â€” |
 
 ---
 
@@ -77,18 +77,18 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Conjugation (ich/du/er) | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|------------------------|-------------|----------|----------|
-| 49 | sehen | to see | zeh-en | — | v. | Ich sehe einen Film. | I watch a film. | Perception | sehe/siehst/sieht | — | schauen | — |
-| 50 | hören | to hear / listen | huh-ren | — | v. | Ich höre Musik. | I listen to music. | Perception | höre/hörst/hört | zuhören | — | — |
-| 51 | fühlen | to feel | fyoo-len | — | v. | Ich fühle mich gut. | I feel well. | Perception | fühle/fühlst/fühlt | sich fühlen | — | — |
-| 52 | schmecken | to taste | shmek-en | — | v. | Das schmeckt gut! | That tastes good! | Perception | schmecke/schmeckst/schmeckt | — | — | — |
-| 53 | riechen | to smell | reekh-en | — | v. | Das riecht nach Kaffee. | That smells of coffee. | Perception | rieche/riechst/riecht | — | — | — |
-| 54 | denken | to think | den-ken | — | v. | Ich denke, das ist richtig. | I think that is correct. | Cognition | denke/denkst/denkt | — | — | — |
-| 55 | glauben | to believe | glow-ben | — | v. | Ich glaube, es wird regnen. | I believe it will rain. | Cognition | glaube/glaubst/glaubt | — | denken | wissen |
-| 56 | wissen | to know (a fact) | vis-en | — | v. | Ich weiß die Antwort. | I know the answer. | Knowledge | weiß/weißt/weiß | — | — | nicht wissen |
-| 57 | kennen | to know (person/place) | ken-en | — | v. | Ich kenne Berlin gut. | I know Berlin well. | Knowledge | kenne/kennst/kennt | — | — | nicht kennen |
-| 58 | verstehen | to understand | fer-shteh-en | — | v. | Ich verstehe alles. | I understand everything. | Cognition | verstehe/verstehst/versteht | — | begreifen | missverstehen |
-| 59 | vergessen | to forget | fer-ges-en | — | v. | Ich vergesse leicht Namen. | I easily forget names. | Memory | vergesse/vergisst/vergisst | — | — | erinnern |
-| 60 | erinnern | to remember | er-in-ern | — | v. | Ich erinnere mich an alles. | I remember everything. | Memory | erinnere/erinnerst/erinnert | sich erinnern | — | vergessen |
+| 49 | sehen | to see | zeh-en | â€” | v. | Ich sehe einen Film. | I watch a film. | Perception | sehe/siehst/sieht | â€” | schauen | â€” |
+| 50 | hÃ¶ren | to hear / listen | huh-ren | â€” | v. | Ich hÃ¶re Musik. | I listen to music. | Perception | hÃ¶re/hÃ¶rst/hÃ¶rt | zuhÃ¶ren | â€” | â€” |
+| 51 | fÃ¼hlen | to feel | fyoo-len | â€” | v. | Ich fÃ¼hle mich gut. | I feel well. | Perception | fÃ¼hle/fÃ¼hlst/fÃ¼hlt | sich fÃ¼hlen | â€” | â€” |
+| 52 | schmecken | to taste | shmek-en | â€” | v. | Das schmeckt gut! | That tastes good! | Perception | schmecke/schmeckst/schmeckt | â€” | â€” | â€” |
+| 53 | riechen | to smell | reekh-en | â€” | v. | Das riecht nach Kaffee. | That smells of coffee. | Perception | rieche/riechst/riecht | â€” | â€” | â€” |
+| 54 | denken | to think | den-ken | â€” | v. | Ich denke, das ist richtig. | I think that is correct. | Cognition | denke/denkst/denkt | â€” | â€” | â€” |
+| 55 | glauben | to believe | glow-ben | â€” | v. | Ich glaube, es wird regnen. | I believe it will rain. | Cognition | glaube/glaubst/glaubt | â€” | denken | wissen |
+| 56 | wissen | to know (a fact) | vis-en | â€” | v. | Ich weiÃŸ die Antwort. | I know the answer. | Knowledge | weiÃŸ/weiÃŸt/weiÃŸ | â€” | â€” | nicht wissen |
+| 57 | kennen | to know (person/place) | ken-en | â€” | v. | Ich kenne Berlin gut. | I know Berlin well. | Knowledge | kenne/kennst/kennt | â€” | â€” | nicht kennen |
+| 58 | verstehen | to understand | fer-shteh-en | â€” | v. | Ich verstehe alles. | I understand everything. | Cognition | verstehe/verstehst/versteht | â€” | begreifen | missverstehen |
+| 59 | vergessen | to forget | fer-ges-en | â€” | v. | Ich vergesse leicht Namen. | I easily forget names. | Memory | vergesse/vergisst/vergisst | â€” | â€” | erinnern |
+| 60 | erinnern | to remember | er-in-ern | â€” | v. | Ich erinnere mich an alles. | I remember everything. | Memory | erinnere/erinnerst/erinnert | sich erinnern | â€” | vergessen |
 
 ---
 
@@ -96,21 +96,21 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Conjugation (ich/du/er) | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|------------------------|-------------|----------|----------|
-| 61 | erzählen | to tell / narrate | er-tsay-len | — | v. | Erzähl mir von deiner Reise! | Tell me about your trip! | Communication | erzähle/erzählst/erzählt | — | berichten | — |
-| 62 | beschreiben | to describe | beh-shry-ben | — | v. | Beschreibe mir das Problem. | Describe the problem to me. | Communication | beschreibe/beschreibst/beschreibt | — | — | — |
-| 63 | erklären | to explain | er-kleh-ren | — | v. | Kannst du das erklären? | Can you explain that? | Communication | erkläre/erklärst/erklärt | — | — | — |
-| 64 | fragen | to ask | frah-gen | — | v. | Darf ich fragen? | May I ask? | Communication | frage/fragst/fragt | eine Frage stellen | — | antworten |
-| 65 | antworten | to answer | ant-vor-ten | — | v. | Ich antworte sofort. | I answer immediately. | Communication | antworte/antwortest/antwortet | — | — | fragen |
-| 66 | diskutieren | to discuss | dis-koo-tee-ren | — | v. | Wir diskutieren das Thema. | We discuss the topic. | Communication | diskutiere/diskutierst/diskutiert | — | besprechen | — |
-| 67 | zustimmen | to agree | tsoo-shtim-en | — | v. | Ich stimme dir zu. | I agree with you. | Communication | stimme zu/stimmst zu/stimmt zu | — | — | widersprechen |
-| 68 | widersprechen | to disagree / contradict | vee-der-shpreh-khen | — | v. | Ich muss dir widersprechen. | I have to disagree with you. | Communication | widerspreche/widersprichst/widerspricht | — | — | zustimmen |
-| 69 | vorschlagen | to suggest / propose | for-shlah-gen | — | v. | Ich schlage vor, früher anzufangen. | I suggest starting earlier. | Communication | schlage vor/schlägst vor/schlägt vor | — | empfehlen | — |
-| 70 | bestätigen | to confirm | beh-shte-ti-gen | — | v. | Bitte bestätigen Sie Ihren Termin. | Please confirm your appointment. | Communication | bestätige/bestätigst/bestätigt | — | — | verneinen |
-| 71 | versprechen | to promise | fer-shpreh-khen | — | v. | Ich verspreche, das zu tun. | I promise to do that. | Communication | verspreche/versprichst/verspricht | — | — | brechen |
-| 72 | bitten | to ask / request | bit-en | — | v. | Ich bitte Sie um Hilfe. | I ask you for help. | Communication | bitte/bittest/bittet | — | — | ablehnen |
-| 73 | danken | to thank | dan-ken | — | v. | Ich danke dir sehr. | I thank you very much. | Politeness | danke/dankst/dankt | — | — | — |
-| 74 | gratulieren | to congratulate | gra-too-lee-ren | — | v. | Ich gratuliere zum Geburtstag! | I congratulate you on your birthday! | Celebrations | gratuliere/gratulierst/gratuliert | — | — | — |
-| 75 | einladen | to invite | ayn-lah-den | — | v. | Ich lade euch zum Essen ein. | I invite you all for dinner. | Social | lade ein/lädst ein/lädt ein | — | — | ausladen |
+| 61 | erzÃ¤hlen | to tell / narrate | er-tsay-len | â€” | v. | ErzÃ¤hl mir von deiner Reise! | Tell me about your trip! | Communication | erzÃ¤hle/erzÃ¤hlst/erzÃ¤hlt | â€” | berichten | â€” |
+| 62 | beschreiben | to describe | beh-shry-ben | â€” | v. | Beschreibe mir das Problem. | Describe the problem to me. | Communication | beschreibe/beschreibst/beschreibt | â€” | â€” | â€” |
+| 63 | erklÃ¤ren | to explain | er-kleh-ren | â€” | v. | Kannst du das erklÃ¤ren? | Can you explain that? | Communication | erklÃ¤re/erklÃ¤rst/erklÃ¤rt | â€” | â€” | â€” |
+| 64 | fragen | to ask | frah-gen | â€” | v. | Darf ich fragen? | May I ask? | Communication | frage/fragst/fragt | eine Frage stellen | â€” | antworten |
+| 65 | antworten | to answer | ant-vor-ten | â€” | v. | Ich antworte sofort. | I answer immediately. | Communication | antworte/antwortest/antwortet | â€” | â€” | fragen |
+| 66 | diskutieren | to discuss | dis-koo-tee-ren | â€” | v. | Wir diskutieren das Thema. | We discuss the topic. | Communication | diskutiere/diskutierst/diskutiert | â€” | besprechen | â€” |
+| 67 | zustimmen | to agree | tsoo-shtim-en | â€” | v. | Ich stimme dir zu. | I agree with you. | Communication | stimme zu/stimmst zu/stimmt zu | â€” | â€” | widersprechen |
+| 68 | widersprechen | to disagree / contradict | vee-der-shpreh-khen | â€” | v. | Ich muss dir widersprechen. | I have to disagree with you. | Communication | widerspreche/widersprichst/widerspricht | â€” | â€” | zustimmen |
+| 69 | vorschlagen | to suggest / propose | for-shlah-gen | â€” | v. | Ich schlage vor, frÃ¼her anzufangen. | I suggest starting earlier. | Communication | schlage vor/schlÃ¤gst vor/schlÃ¤gt vor | â€” | empfehlen | â€” |
+| 70 | bestÃ¤tigen | to confirm | beh-shte-ti-gen | â€” | v. | Bitte bestÃ¤tigen Sie Ihren Termin. | Please confirm your appointment. | Communication | bestÃ¤tige/bestÃ¤tigst/bestÃ¤tigt | â€” | â€” | verneinen |
+| 71 | versprechen | to promise | fer-shpreh-khen | â€” | v. | Ich verspreche, das zu tun. | I promise to do that. | Communication | verspreche/versprichst/verspricht | â€” | â€” | brechen |
+| 72 | bitten | to ask / request | bit-en | â€” | v. | Ich bitte Sie um Hilfe. | I ask you for help. | Communication | bitte/bittest/bittet | â€” | â€” | ablehnen |
+| 73 | danken | to thank | dan-ken | â€” | v. | Ich danke dir sehr. | I thank you very much. | Politeness | danke/dankst/dankt | â€” | â€” | â€” |
+| 74 | gratulieren | to congratulate | gra-too-lee-ren | â€” | v. | Ich gratuliere zum Geburtstag! | I congratulate you on your birthday! | Celebrations | gratuliere/gratulierst/gratuliert | â€” | â€” | â€” |
+| 75 | einladen | to invite | ayn-lah-den | â€” | v. | Ich lade euch zum Essen ein. | I invite you all for dinner. | Social | lade ein/lÃ¤dst ein/lÃ¤dt ein | â€” | â€” | ausladen |
 
 ---
 
@@ -118,35 +118,35 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Conjugation (ich/du/er) | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|------------------------|-------------|----------|----------|
-| 76 | beginnen | to begin | beh-gin-en | — | v. | Der Kurs beginnt um 9 Uhr. | The course begins at 9. | Actions | beginne/beginnst/beginnt | — | anfangen | beenden |
-| 77 | beenden | to finish / end | beh-en-den | — | v. | Ich beende die Arbeit um 17 Uhr. | I finish work at 5 PM. | Actions | beende/beendest/beendet | — | — | beginnen |
-| 78 | wechseln | to change / switch | vek-seln | — | v. | Ich wechsle meinen Job. | I change my job. | Actions | wechsle/wechselst/wechselt | — | — | — |
-| 79 | tauschen | to swap / exchange | tow-shen | — | v. | Können wir tauschen? | Can we swap? | Actions | tausche/tauschst/tauscht | — | — | — |
-| 80 | teilen | to share / divide | ty-len | — | v. | Ich teile das mit dir. | I share that with you. | Actions | teile/teilst/teilt | — | — | behalten |
-| 81 | sammeln | to collect | zam-eln | — | v. | Ich sammle Briefmarken. | I collect stamps. | Hobby | sammle/sammelst/sammelt | — | — | — |
-| 82 | wiederholen | to repeat / review | vee-der-hoh-len | — | v. | Ich wiederhole den Stoff. | I review the material. | Learning | wiederhole/wiederholst | — | — | — |
-| 83 | üben | to practise | yoo-ben | — | v. | Ich übe täglich Deutsch. | I practise German daily. | Learning | übe/übst/übt | — | trainieren | — |
-| 84 | versuchen | to try / attempt | fer-zoo-khen | — | v. | Ich versuche es nochmal. | I try again. | Actions | versuche/versuchst/versucht | — | — | aufgeben |
-| 85 | schaffen | to manage / achieve | shaf-en | — | v. | Ich schaffe das! | I can do that! | Actions | schaffe/schaffst/schafft | — | — | nicht schaffen |
-| 86 | entscheiden | to decide | ent-shy-den | — | v. | Ich entscheide mich. | I make a decision. | Actions | entscheide/entscheidest/entscheidet | — | — | — |
-| 87 | planen | to plan | plah-nen | — | v. | Ich plane die Reise. | I plan the trip. | Actions | plane/planst/plant | — | — | improvisieren |
-| 88 | prüfen | to check / test | pryoo-fen | — | v. | Ich prüfe den Kontostand. | I check the account balance. | Actions | prüfe/prüfst/prüft | — | — | — |
-| 89 | organisieren | to organise | or-ga-ni-zee-ren | — | v. | Ich organisiere das Event. | I organise the event. | Actions | organisiere/organisierst | — | — | — |
-| 90 | vorhaben | to plan / intend | for-hah-ben | — | v. | Was hast du vor? | What are you planning? | Actions | habe vor / hast vor / hat vor | — | planen | — |
+| 76 | beginnen | to begin | beh-gin-en | â€” | v. | Der Kurs beginnt um 9 Uhr. | The course begins at 9. | Actions | beginne/beginnst/beginnt | â€” | anfangen | beenden |
+| 77 | beenden | to finish / end | beh-en-den | â€” | v. | Ich beende die Arbeit um 17 Uhr. | I finish work at 5 PM. | Actions | beende/beendest/beendet | â€” | â€” | beginnen |
+| 78 | wechseln | to change / switch | vek-seln | â€” | v. | Ich wechsle meinen Job. | I change my job. | Actions | wechsle/wechselst/wechselt | â€” | â€” | â€” |
+| 79 | tauschen | to swap / exchange | tow-shen | â€” | v. | KÃ¶nnen wir tauschen? | Can we swap? | Actions | tausche/tauschst/tauscht | â€” | â€” | â€” |
+| 80 | teilen | to share / divide | ty-len | â€” | v. | Ich teile das mit dir. | I share that with you. | Actions | teile/teilst/teilt | â€” | â€” | behalten |
+| 81 | sammeln | to collect | zam-eln | â€” | v. | Ich sammle Briefmarken. | I collect stamps. | Hobby | sammle/sammelst/sammelt | â€” | â€” | â€” |
+| 82 | wiederholen | to repeat / review | vee-der-hoh-len | â€” | v. | Ich wiederhole den Stoff. | I review the material. | Learning | wiederhole/wiederholst | â€” | â€” | â€” |
+| 83 | Ã¼ben | to practise | yoo-ben | â€” | v. | Ich Ã¼be tÃ¤glich Deutsch. | I practise German daily. | Learning | Ã¼be/Ã¼bst/Ã¼bt | â€” | trainieren | â€” |
+| 84 | versuchen | to try / attempt | fer-zoo-khen | â€” | v. | Ich versuche es nochmal. | I try again. | Actions | versuche/versuchst/versucht | â€” | â€” | aufgeben |
+| 85 | schaffen | to manage / achieve | shaf-en | â€” | v. | Ich schaffe das! | I can do that! | Actions | schaffe/schaffst/schafft | â€” | â€” | nicht schaffen |
+| 86 | entscheiden | to decide | ent-shy-den | â€” | v. | Ich entscheide mich. | I make a decision. | Actions | entscheide/entscheidest/entscheidet | â€” | â€” | â€” |
+| 87 | planen | to plan | plah-nen | â€” | v. | Ich plane die Reise. | I plan the trip. | Actions | plane/planst/plant | â€” | â€” | improvisieren |
+| 88 | prÃ¼fen | to check / test | pryoo-fen | â€” | v. | Ich prÃ¼fe den Kontostand. | I check the account balance. | Actions | prÃ¼fe/prÃ¼fst/prÃ¼ft | â€” | â€” | â€” |
+| 89 | organisieren | to organise | or-ga-ni-zee-ren | â€” | v. | Ich organisiere das Event. | I organise the event. | Actions | organisiere/organisierst | â€” | â€” | â€” |
+| 90 | vorhaben | to plan / intend | for-hah-ben | â€” | v. | Was hast du vor? | What are you planning? | Actions | habe vor / hast vor / hat vor | â€” | planen | â€” |
 
 ---
 
-## Section 7: Inseparable Prefix Verbs (Untrennbare Präfixverben)
+## Section 7: Inseparable Prefix Verbs (Untrennbare PrÃ¤fixverben)
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Conjugation (ich/du/er) | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|------------------------|-------------|----------|----------|
-| 91 | besuchen | to visit | beh-zoo-khen | — | v. | Ich besuche meine Eltern. | I visit my parents. | Actions | besuche/besuchst/besucht | — | — | — |
-| 92 | berichten | to report | beh-rikht-en | — | v. | Ich berichte über die Neuigkeiten. | I report on the news. | Communication | berichte/berichtest/berichtet | — | erzählen | — |
-| 93 | gehören | to belong to | geh-huh-ren | — | v. | Das gehört mir. | That belongs to me. | Possession | gehöre/gehörst/gehört | — | — | — |
-| 94 | gefallen | to please / like | geh-fal-en | — | v. | Das gefällt mir sehr. | I like that very much. | Preference | gefalle/gefällst/gefällt | — | mögen | missfallen |
-| 95 | gewinnen | to win | geh-vin-en | — | v. | Wir haben das Spiel gewonnen! | We won the game! | Competition | gewinne/gewinnst/gewinnt | — | — | verlieren |
-| 96 | verlieren | to lose | fer-lee-ren | — | v. | Ich habe mein Ticket verloren. | I lost my ticket. | Actions | verliere/verlierst/verliert | — | — | finden, gewinnen |
-| 97 | verdienen | to earn / deserve | fer-dee-nen | — | v. | Er verdient gut. | He earns well. | Work | verdiene/verdienst/verdient | — | — | — |
-| 98 | verstehen | to understand | fer-shteh-en | — | v. | Ich verstehe alles. | I understand everything. | Cognition | verstehe/verstehst/versteht | — | — | missverstehen |
-| 99 | entschuldigen | to excuse / apologise | ent-shool-di-gen | — | v. | Ich entschuldige mich. | I apologise. | Politeness | entschuldige/entschuldigst | — | — | — |
-| 100 | empfehlen | to recommend | emp-feh-len | — | v. | Ich empfehle das Restaurant. | I recommend the restaurant. | Communication | empfehle/empfiehlst/empfiehlt | — | — | abraten |
+| 91 | besuchen | to visit | beh-zoo-khen | â€” | v. | Ich besuche meine Eltern. | I visit my parents. | Actions | besuche/besuchst/besucht | â€” | â€” | â€” |
+| 92 | berichten | to report | beh-rikht-en | â€” | v. | Ich berichte Ã¼ber die Neuigkeiten. | I report on the news. | Communication | berichte/berichtest/berichtet | â€” | erzÃ¤hlen | â€” |
+| 93 | gehÃ¶ren | to belong to | geh-huh-ren | â€” | v. | Das gehÃ¶rt mir. | That belongs to me. | Possession | gehÃ¶re/gehÃ¶rst/gehÃ¶rt | â€” | â€” | â€” |
+| 94 | gefallen | to please / like | geh-fal-en | â€” | v. | Das gefÃ¤llt mir sehr. | I like that very much. | Preference | gefalle/gefÃ¤llst/gefÃ¤llt | â€” | mÃ¶gen | missfallen |
+| 95 | gewinnen | to win | geh-vin-en | â€” | v. | Wir haben das Spiel gewonnen! | We won the game! | Competition | gewinne/gewinnst/gewinnt | â€” | â€” | verlieren |
+| 96 | verlieren | to lose | fer-lee-ren | â€” | v. | Ich habe mein Ticket verloren. | I lost my ticket. | Actions | verliere/verlierst/verliert | â€” | â€” | finden, gewinnen |
+| 97 | verdienen | to earn / deserve | fer-dee-nen | â€” | v. | Er verdient gut. | He earns well. | Work | verdiene/verdienst/verdient | â€” | â€” | â€” |
+| 98 | verstehen | to understand | fer-shteh-en | â€” | v. | Ich verstehe alles. | I understand everything. | Cognition | verstehe/verstehst/versteht | â€” | â€” | missverstehen |
+| 99 | entschuldigen | to excuse / apologise | ent-shool-di-gen | â€” | v. | Ich entschuldige mich. | I apologise. | Politeness | entschuldige/entschuldigst | â€” | â€” | â€” |
+| 100 | empfehlen | to recommend | emp-feh-len | â€” | v. | Ich empfehle das Restaurant. | I recommend the restaurant. | Communication | empfehle/empfiehlst/empfiehlt | â€” | â€” | abraten |

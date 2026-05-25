@@ -1,4 +1,4 @@
-# Complete German Vocabulary Learning System (A1–C1)
+# Complete German Vocabulary Learning System (A1â€“C1)
 
 > A comprehensive CEFR-aligned German vocabulary reference with ~15,000 words and phrases, optimized for real-life use, professional communication, and fluency in Germany.
 
@@ -112,11 +112,11 @@ Each vocabulary table uses the following columns:
 
 ## Key Learning Priorities
 
-1. **Spoken German first** — all vocabulary chosen for conversational use
-2. **Germany workplace communication** — office, meetings, emails
-3. **Daily integration vocabulary** — banking, renting, healthcare, transport
-4. **Technical and professional** — Cloud, DevOps, AI, software engineering
-5. **Natural conversational fluency** — collocations, idioms, register
+1. **Spoken German first** â€” all vocabulary chosen for conversational use
+2. **Germany workplace communication** â€” office, meetings, emails
+3. **Daily integration vocabulary** â€” banking, renting, healthcare, transport
+4. **Technical and professional** â€” Cloud, DevOps, AI, software engineering
+5. **Natural conversational fluency** â€” collocations, idioms, register
 
 ---
 

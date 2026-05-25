@@ -1,4 +1,4 @@
-# B1 — Environment & Nature (Umwelt & Natur)
+# B1 â€” Environment & Nature (Umwelt & Natur)
 
 > ~100 entries covering environment, sustainability, ecology, climate, and German nature vocabulary.
 
@@ -8,62 +8,62 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 1 | Klimawandel | climate change | klee-mah-van-del | der | n. | Der Klimawandel ist die größte Herausforderung. | Climate change is the greatest challenge. | Environment | — | Klimawandel bekämpfen | — | — |
-| 2 | Erderwärmung | global warming | ehrd-er-vehr-moong | die | n. | Die Erderwärmung nimmt zu. | Global warming is increasing. | Environment | — | — | — | Abkühlung |
-| 3 | Treibhauseffekt | greenhouse effect | tryp-hows-ef-fekt | der | n. | Der Treibhauseffekt verursacht Erwärmung. | The greenhouse effect causes warming. | Environment | — | — | — | — |
-| 4 | CO?-Ausstoß | CO? emissions | tseh-oh-tsvay-ows-shtohs | der | n. | Der CO?-Ausstoß muss gesenkt werden. | CO? emissions must be reduced. | Environment | — | — | — | — |
-| 5 | Luftverschmutzung | air pollution | looft-fer-shmoot-soong | die | n. | Luftverschmutzung schadet der Gesundheit. | Air pollution harms health. | Environment | — | — | — | — |
-| 6 | Wasserverschmutzung | water pollution | vas-er-fer-shmoot-soong | die | n. | Wasserverschmutzung bedroht Fische. | Water pollution threatens fish. | Environment | — | — | — | — |
-| 7 | Bodenverschmutzung | soil pollution | boh-den-fer-shmoot-soong | die | n. | Plastik verursacht Bodenverschmutzung. | Plastic causes soil pollution. | Environment | — | — | — | — |
-| 8 | Plastikverschmutzung | plastic pollution | plas-tik-fer-shmoot-soong | die | n. | Plastikverschmutzung ist ein globales Problem. | Plastic pollution is a global problem. | Environment | — | — | — | — |
-| 9 | Artensterben | species extinction | ar-ten-shtehr-ben | das | n. | Das Artensterben beschleunigt sich. | Species extinction is accelerating. | Environment | — | — | Artenschwund | — |
-| 10 | Waldsterben | forest dieback / dying forests | valt-shtehr-ben | das | n. | Das Waldsterben bedroht die Wälder. | Forest dieback threatens the forests. | Environment | — | — | — | — |
-| 11 | Abholzung | deforestation | ab-hol-tsoong | die | n. | Abholzung des Regenwaldes ist ein Problem. | Deforestation of the rainforest is a problem. | Environment | — | — | — | Aufforstung |
-| 12 | Aufforstung | reforestation | owf-fors-toong | die | n. | Aufforstungsprojekte pflanzen Millionen Bäume. | Reforestation projects plant millions of trees. | Environment | — | — | — | Abholzung |
-| 13 | Meeresspiegel | sea level | meh-res-shpee-gel | der | n. | Der Meeresspiegel steigt. | Sea levels are rising. | Environment | — | — | — | — |
-| 14 | Überschwemmung | flood | yoo-ber-shvem-oong | die | n. | Überschwemmungen werden häufiger. | Floods are becoming more frequent. | Environment | Überschwemmungen | — | Hochwasser, Flut | — |
-| 15 | Dürre | drought | dyoo-reh | die | n. | Dürren bedrohen die Landwirtschaft. | Droughts threaten agriculture. | Environment | Dürren | — | Trockenheit | — |
+| 1 | Klimawandel | climate change | klee-mah-van-del | der | n. | Der Klimawandel ist die grÃ¶ÃŸte Herausforderung. | Climate change is the greatest challenge. | Environment | â€” | Klimawandel bekÃ¤mpfen | â€” | â€” |
+| 2 | ErderwÃ¤rmung | global warming | ehrd-er-vehr-moong | die | n. | Die ErderwÃ¤rmung nimmt zu. | Global warming is increasing. | Environment | â€” | â€” | â€” | AbkÃ¼hlung |
+| 3 | Treibhauseffekt | greenhouse effect | tryp-hows-ef-fekt | der | n. | Der Treibhauseffekt verursacht ErwÃ¤rmung. | The greenhouse effect causes warming. | Environment | â€” | â€” | â€” | â€” |
+| 4 | CO?-AusstoÃŸ | CO? emissions | tseh-oh-tsvay-ows-shtohs | der | n. | Der CO?-AusstoÃŸ muss gesenkt werden. | CO? emissions must be reduced. | Environment | â€” | â€” | â€” | â€” |
+| 5 | Luftverschmutzung | air pollution | looft-fer-shmoot-soong | die | n. | Luftverschmutzung schadet der Gesundheit. | Air pollution harms health. | Environment | â€” | â€” | â€” | â€” |
+| 6 | Wasserverschmutzung | water pollution | vas-er-fer-shmoot-soong | die | n. | Wasserverschmutzung bedroht Fische. | Water pollution threatens fish. | Environment | â€” | â€” | â€” | â€” |
+| 7 | Bodenverschmutzung | soil pollution | boh-den-fer-shmoot-soong | die | n. | Plastik verursacht Bodenverschmutzung. | Plastic causes soil pollution. | Environment | â€” | â€” | â€” | â€” |
+| 8 | Plastikverschmutzung | plastic pollution | plas-tik-fer-shmoot-soong | die | n. | Plastikverschmutzung ist ein globales Problem. | Plastic pollution is a global problem. | Environment | â€” | â€” | â€” | â€” |
+| 9 | Artensterben | species extinction | ar-ten-shtehr-ben | das | n. | Das Artensterben beschleunigt sich. | Species extinction is accelerating. | Environment | â€” | â€” | Artenschwund | â€” |
+| 10 | Waldsterben | forest dieback / dying forests | valt-shtehr-ben | das | n. | Das Waldsterben bedroht die WÃ¤lder. | Forest dieback threatens the forests. | Environment | â€” | â€” | â€” | â€” |
+| 11 | Abholzung | deforestation | ab-hol-tsoong | die | n. | Abholzung des Regenwaldes ist ein Problem. | Deforestation of the rainforest is a problem. | Environment | â€” | â€” | â€” | Aufforstung |
+| 12 | Aufforstung | reforestation | owf-fors-toong | die | n. | Aufforstungsprojekte pflanzen Millionen BÃ¤ume. | Reforestation projects plant millions of trees. | Environment | â€” | â€” | â€” | Abholzung |
+| 13 | Meeresspiegel | sea level | meh-res-shpee-gel | der | n. | Der Meeresspiegel steigt. | Sea levels are rising. | Environment | â€” | â€” | â€” | â€” |
+| 14 | Ãœberschwemmung | flood | yoo-ber-shvem-oong | die | n. | Ãœberschwemmungen werden hÃ¤ufiger. | Floods are becoming more frequent. | Environment | Ãœberschwemmungen | â€” | Hochwasser, Flut | â€” |
+| 15 | DÃ¼rre | drought | dyoo-reh | die | n. | DÃ¼rren bedrohen die Landwirtschaft. | Droughts threaten agriculture. | Environment | DÃ¼rren | â€” | Trockenheit | â€” |
 
 ---
 
-## Section 2: Sustainability & Solutions (Nachhaltigkeit & Lösungen)
+## Section 2: Sustainability & Solutions (Nachhaltigkeit & LÃ¶sungen)
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 16 | Nachhaltigkeit | sustainability | nakh-hal-tikh-kyte | die | n. | Nachhaltigkeit ist ein Kernanliegen. | Sustainability is a core concern. | Environment | — | — | — | — |
-| 17 | erneuerbare Energie | renewable energy | er-noy-er-bah-reh eh-nehr-ghee | die | n. | Erneuerbare Energie ist die Zukunft. | Renewable energy is the future. | Energy | — | — | — | fossile Energie |
-| 18 | Solarenergie | solar energy | zoh-lar-eh-nehr-ghee | die | n. | Solarenergie wird immer günstiger. | Solar energy is getting cheaper. | Energy | — | — | Photovoltaik | — |
-| 19 | Windkraft | wind power | vint-kraft | die | n. | Windkraft liefert saubere Energie. | Wind power provides clean energy. | Energy | — | Windkraftanlage | Windenergie | — |
-| 20 | Wasserkraft | hydropower | vas-er-kraft | die | n. | Wasserkraft nutzt die Energie des Wassers. | Hydropower uses the energy of water. | Energy | — | — | — | — |
-| 21 | Bioenergie | bioenergy | bee-oh-eh-nehr-ghee | die | n. | Bioenergie aus Biomasse ist umstritten. | Bioenergy from biomass is controversial. | Energy | — | — | — | — |
-| 22 | Energiewende | energy transition | eh-nehr-ghee-ven-deh | die | n. | Die Energiewende ist das wichtigste Projekt. | The energy transition is the most important project. | Energy | — | — | — | — |
-| 23 | Photovoltaik | photovoltaics / solar panels | foh-toh-vol-tah-ik | die | n. | Ich installiere Photovoltaik auf dem Dach. | I install solar panels on the roof. | Energy | — | — | Solaranlage | — |
-| 24 | Elektromobilität | electric mobility | eh-lek-troh-moh-bi-li-teht | die | n. | Elektromobilität ist die Zukunft des Verkehrs. | Electric mobility is the future of transport. | Energy | — | — | — | Verbrennermotor |
-| 25 | Kreislaufwirtschaft | circular economy | krys-lowf-virt-shaft | die | n. | Die Kreislaufwirtschaft reduziert Abfall. | The circular economy reduces waste. | Environment | — | — | — | Wegwerfgesellschaft |
-| 26 | Abfallvermeidung | waste avoidance | ab-fal-fer-my-doong | die | n. | Abfallvermeidung ist besser als Recycling. | Waste avoidance is better than recycling. | Environment | — | — | — | Abfallerzeugung |
-| 27 | Zero Waste | zero waste | tzeh-roh-vehst | — | n. | Ich lebe nach dem Zero-Waste-Prinzip. | I live by the zero waste principle. | Environment | — | — | — | — |
-| 28 | Kompost | compost | kom-post | der | n. | Ich kompostiere Küchenabfälle. | I compost kitchen waste. | Environment | — | Kompost anlegen | — | — |
-| 29 | Biomüll | organic waste | bee-oh-myool | der | n. | Biomüll kommt in die braune Tonne. | Organic waste goes in the brown bin. | Recycling | — | — | — | — |
-| 30 | Mülltrennung | waste separation | myool-tren-noong | die | n. | In Deutschland ist Mülltrennung Pflicht. | In Germany waste separation is compulsory. | Recycling | — | Müll trennen | — | — |
+| 16 | Nachhaltigkeit | sustainability | nakh-hal-tikh-kyte | die | n. | Nachhaltigkeit ist ein Kernanliegen. | Sustainability is a core concern. | Environment | â€” | â€” | â€” | â€” |
+| 17 | erneuerbare Energie | renewable energy | er-noy-er-bah-reh eh-nehr-ghee | die | n. | Erneuerbare Energie ist die Zukunft. | Renewable energy is the future. | Energy | â€” | â€” | â€” | fossile Energie |
+| 18 | Solarenergie | solar energy | zoh-lar-eh-nehr-ghee | die | n. | Solarenergie wird immer gÃ¼nstiger. | Solar energy is getting cheaper. | Energy | â€” | â€” | Photovoltaik | â€” |
+| 19 | Windkraft | wind power | vint-kraft | die | n. | Windkraft liefert saubere Energie. | Wind power provides clean energy. | Energy | â€” | Windkraftanlage | Windenergie | â€” |
+| 20 | Wasserkraft | hydropower | vas-er-kraft | die | n. | Wasserkraft nutzt die Energie des Wassers. | Hydropower uses the energy of water. | Energy | â€” | â€” | â€” | â€” |
+| 21 | Bioenergie | bioenergy | bee-oh-eh-nehr-ghee | die | n. | Bioenergie aus Biomasse ist umstritten. | Bioenergy from biomass is controversial. | Energy | â€” | â€” | â€” | â€” |
+| 22 | Energiewende | energy transition | eh-nehr-ghee-ven-deh | die | n. | Die Energiewende ist das wichtigste Projekt. | The energy transition is the most important project. | Energy | â€” | â€” | â€” | â€” |
+| 23 | Photovoltaik | photovoltaics / solar panels | foh-toh-vol-tah-ik | die | n. | Ich installiere Photovoltaik auf dem Dach. | I install solar panels on the roof. | Energy | â€” | â€” | Solaranlage | â€” |
+| 24 | ElektromobilitÃ¤t | electric mobility | eh-lek-troh-moh-bi-li-teht | die | n. | ElektromobilitÃ¤t ist die Zukunft des Verkehrs. | Electric mobility is the future of transport. | Energy | â€” | â€” | â€” | Verbrennermotor |
+| 25 | Kreislaufwirtschaft | circular economy | krys-lowf-virt-shaft | die | n. | Die Kreislaufwirtschaft reduziert Abfall. | The circular economy reduces waste. | Environment | â€” | â€” | â€” | Wegwerfgesellschaft |
+| 26 | Abfallvermeidung | waste avoidance | ab-fal-fer-my-doong | die | n. | Abfallvermeidung ist besser als Recycling. | Waste avoidance is better than recycling. | Environment | â€” | â€” | â€” | Abfallerzeugung |
+| 27 | Zero Waste | zero waste | tzeh-roh-vehst | â€” | n. | Ich lebe nach dem Zero-Waste-Prinzip. | I live by the zero waste principle. | Environment | â€” | â€” | â€” | â€” |
+| 28 | Kompost | compost | kom-post | der | n. | Ich kompostiere KÃ¼chenabfÃ¤lle. | I compost kitchen waste. | Environment | â€” | Kompost anlegen | â€” | â€” |
+| 29 | BiomÃ¼ll | organic waste | bee-oh-myool | der | n. | BiomÃ¼ll kommt in die braune Tonne. | Organic waste goes in the brown bin. | Recycling | â€” | â€” | â€” | â€” |
+| 30 | MÃ¼lltrennung | waste separation | myool-tren-noong | die | n. | In Deutschland ist MÃ¼lltrennung Pflicht. | In Germany waste separation is compulsory. | Recycling | â€” | MÃ¼ll trennen | â€” | â€” |
 
 ---
 
-## Section 3: Ecology & Biodiversity (Ökologie & Artenvielfalt)
+## Section 3: Ecology & Biodiversity (Ã–kologie & Artenvielfalt)
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 31 | Ökosystem | ecosystem | u-koh-zys-tehm | das | n. | Das Ökosystem des Regenwaldes ist fragil. | The rainforest ecosystem is fragile. | Ecology | Ökosysteme | — | — | — |
-| 32 | Biodiversität | biodiversity | bee-oh-di-ver-zi-teht | die | n. | Biodiversität muss geschützt werden. | Biodiversity must be protected. | Ecology | — | — | Artenvielfalt | — |
-| 33 | Artenschutz | species protection | ar-ten-shoots | der | n. | Artenschutz ist wichtig für das Ökosystem. | Species protection is important for the ecosystem. | Ecology | — | — | — | — |
-| 34 | bedrohte Art | endangered species | beh-droh-teh art | — | phrase | Der Pandabär ist eine bedrohte Art. | The panda bear is an endangered species. | Ecology | — | — | — | — |
-| 35 | Rote Liste | Red List | roh-teh lis-teh | — | phrase | Diese Art steht auf der Roten Liste. | This species is on the Red List. | Ecology | — | — | — | — |
-| 36 | Bestäuber | pollinator | beh-shtoy-ber | der | n. | Bienen sind wichtige Bestäuber. | Bees are important pollinators. | Ecology | Bestäuber | — | — | — |
-| 37 | Bienenpopulation | bee population | bee-nen-poh-poo-lah-tsee-ohn | die | n. | Die Bienenpopulation ist gefährdet. | The bee population is endangered. | Ecology | — | — | — | — |
-| 38 | Insektensterben | insect die-off | in-zek-ten-shtehr-ben | das | n. | Das Insektensterben bedroht die Nahrungskette. | The insect die-off threatens the food chain. | Ecology | — | — | — | — |
-| 39 | Nahrungskette | food chain | nah-roongs-ket-teh | die | n. | Der Mensch steht an der Spitze der Nahrungskette. | Humans are at the top of the food chain. | Ecology | Nahrungsketten | — | — | — |
-| 40 | invasive Arten | invasive species | in-vah-zee-veh ar-ten | — | n. (pl.) | Invasive Arten bedrohen einheimische Tiere. | Invasive species threaten native animals. | Ecology | — | — | — | einheimische Arten |
-| 41 | Naturschutzgebiet | nature reserve | nah-toor-shoots-geh-beet | das | n. | Im Naturschutzgebiet darf man nicht campen. | In the nature reserve camping is not allowed. | Ecology | Naturschutzgebiete | — | — | — |
-| 42 | Biosphärenreservat | biosphere reserve | bee-oh-shfeh-ren-reh-zer-vaht | das | n. | Das Biosphärenreservat schützt seltene Arten. | The biosphere reserve protects rare species. | Ecology | Biosphärenreservate | — | — | — |
+| 31 | Ã–kosystem | ecosystem | u-koh-zys-tehm | das | n. | Das Ã–kosystem des Regenwaldes ist fragil. | The rainforest ecosystem is fragile. | Ecology | Ã–kosysteme | â€” | â€” | â€” |
+| 32 | BiodiversitÃ¤t | biodiversity | bee-oh-di-ver-zi-teht | die | n. | BiodiversitÃ¤t muss geschÃ¼tzt werden. | Biodiversity must be protected. | Ecology | â€” | â€” | Artenvielfalt | â€” |
+| 33 | Artenschutz | species protection | ar-ten-shoots | der | n. | Artenschutz ist wichtig fÃ¼r das Ã–kosystem. | Species protection is important for the ecosystem. | Ecology | â€” | â€” | â€” | â€” |
+| 34 | bedrohte Art | endangered species | beh-droh-teh art | â€” | phrase | Der PandabÃ¤r ist eine bedrohte Art. | The panda bear is an endangered species. | Ecology | â€” | â€” | â€” | â€” |
+| 35 | Rote Liste | Red List | roh-teh lis-teh | â€” | phrase | Diese Art steht auf der Roten Liste. | This species is on the Red List. | Ecology | â€” | â€” | â€” | â€” |
+| 36 | BestÃ¤uber | pollinator | beh-shtoy-ber | der | n. | Bienen sind wichtige BestÃ¤uber. | Bees are important pollinators. | Ecology | BestÃ¤uber | â€” | â€” | â€” |
+| 37 | Bienenpopulation | bee population | bee-nen-poh-poo-lah-tsee-ohn | die | n. | Die Bienenpopulation ist gefÃ¤hrdet. | The bee population is endangered. | Ecology | â€” | â€” | â€” | â€” |
+| 38 | Insektensterben | insect die-off | in-zek-ten-shtehr-ben | das | n. | Das Insektensterben bedroht die Nahrungskette. | The insect die-off threatens the food chain. | Ecology | â€” | â€” | â€” | â€” |
+| 39 | Nahrungskette | food chain | nah-roongs-ket-teh | die | n. | Der Mensch steht an der Spitze der Nahrungskette. | Humans are at the top of the food chain. | Ecology | Nahrungsketten | â€” | â€” | â€” |
+| 40 | invasive Arten | invasive species | in-vah-zee-veh ar-ten | â€” | n. (pl.) | Invasive Arten bedrohen einheimische Tiere. | Invasive species threaten native animals. | Ecology | â€” | â€” | â€” | einheimische Arten |
+| 41 | Naturschutzgebiet | nature reserve | nah-toor-shoots-geh-beet | das | n. | Im Naturschutzgebiet darf man nicht campen. | In the nature reserve camping is not allowed. | Ecology | Naturschutzgebiete | â€” | â€” | â€” |
+| 42 | BiosphÃ¤renreservat | biosphere reserve | bee-oh-shfeh-ren-reh-zer-vaht | das | n. | Das BiosphÃ¤renreservat schÃ¼tzt seltene Arten. | The biosphere reserve protects rare species. | Ecology | BiosphÃ¤renreservate | â€” | â€” | â€” |
 
 ---
 
@@ -71,14 +71,14 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 43 | Klimaschutz | climate protection | klee-mah-shoots | der | n. | Klimaschutz ist Aufgabe der Politik. | Climate protection is the task of politics. | Policy | — | — | — | — |
-| 44 | Klimavertrag von Paris | Paris Climate Agreement | klee-mah-fer-trahk fon pa-ree | der | n. | Deutschland hat den Klimavertrag unterzeichnet. | Germany has signed the climate agreement. | Policy | — | — | Pariser Abkommen | — |
-| 45 | CO?-Steuer | carbon tax | tseh-oh-tsvay-shtoy-er | die | n. | Die CO?-Steuer soll den Verbrauch senken. | The carbon tax is intended to reduce consumption. | Policy | — | — | — | — |
-| 46 | Emissionshandel | emissions trading | eh-mi-see-ohns-han-del | der | n. | Emissionshandel macht CO? teurer. | Emissions trading makes CO? more expensive. | Policy | — | — | — | — |
-| 47 | Bundesumweltministerium | Federal Ministry for the Environment | boon-des-oom-velt-mi-nis-teh-ree-oom | das | n. | Das Bundesumweltministerium macht Umweltgesetze. | The Federal Ministry for the Environment makes environmental laws. | Policy | — | — | — | — |
-| 48 | Atomausstieg | nuclear phase-out | ah-tohm-ows-shteeg | der | n. | Deutschland hat den Atomausstieg vollzogen. | Germany has completed the nuclear phase-out. | Policy | — | — | — | Atomenergie |
-| 49 | Kohleausstieg | coal phase-out | koh-leh-ows-shteeg | der | n. | Der Kohleausstieg ist bis 2030 geplant. | The coal phase-out is planned by 2030. | Policy | — | — | — | — |
-| 50 | Elektroauto-Förderung | electric car subsidy | eh-lek-troh-ow-toh-fur-de-roong | die | n. | Die Elektroauto-Förderung wurde gestrichen. | The electric car subsidy was scrapped. | Policy | — | — | — | — |
+| 43 | Klimaschutz | climate protection | klee-mah-shoots | der | n. | Klimaschutz ist Aufgabe der Politik. | Climate protection is the task of politics. | Policy | â€” | â€” | â€” | â€” |
+| 44 | Klimavertrag von Paris | Paris Climate Agreement | klee-mah-fer-trahk fon pa-ree | der | n. | Deutschland hat den Klimavertrag unterzeichnet. | Germany has signed the climate agreement. | Policy | â€” | â€” | Pariser Abkommen | â€” |
+| 45 | CO?-Steuer | carbon tax | tseh-oh-tsvay-shtoy-er | die | n. | Die CO?-Steuer soll den Verbrauch senken. | The carbon tax is intended to reduce consumption. | Policy | â€” | â€” | â€” | â€” |
+| 46 | Emissionshandel | emissions trading | eh-mi-see-ohns-han-del | der | n. | Emissionshandel macht CO? teurer. | Emissions trading makes CO? more expensive. | Policy | â€” | â€” | â€” | â€” |
+| 47 | Bundesumweltministerium | Federal Ministry for the Environment | boon-des-oom-velt-mi-nis-teh-ree-oom | das | n. | Das Bundesumweltministerium macht Umweltgesetze. | The Federal Ministry for the Environment makes environmental laws. | Policy | â€” | â€” | â€” | â€” |
+| 48 | Atomausstieg | nuclear phase-out | ah-tohm-ows-shteeg | der | n. | Deutschland hat den Atomausstieg vollzogen. | Germany has completed the nuclear phase-out. | Policy | â€” | â€” | â€” | Atomenergie |
+| 49 | Kohleausstieg | coal phase-out | koh-leh-ows-shteeg | der | n. | Der Kohleausstieg ist bis 2030 geplant. | The coal phase-out is planned by 2030. | Policy | â€” | â€” | â€” | â€” |
+| 50 | Elektroauto-FÃ¶rderung | electric car subsidy | eh-lek-troh-ow-toh-fur-de-roong | die | n. | Die Elektroauto-FÃ¶rderung wurde gestrichen. | The electric car subsidy was scrapped. | Policy | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -86,14 +86,14 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 51 | Landwirtschaft | agriculture | lant-virt-shaft | die | n. | Die Landwirtschaft ist der größte Wasserverbraucher. | Agriculture is the largest water consumer. | Environment | — | ökologische Landwirtschaft | — | Industrie |
-| 52 | ökologische Landwirtschaft | organic farming | u-koh-loh-gish-eh lant-virt-shaft | die | n. | Bio-Landwirtschaft schont die Umwelt. | Organic farming protects the environment. | Environment | — | — | Biolandbau | konventionelle Landwirtschaft |
-| 53 | Pestizid | pesticide | pes-ti-tseet | das | n. | Pestizide schaden Bienen. | Pesticides harm bees. | Agriculture | Pestizide | — | — | — |
-| 54 | Düngemittel | fertiliser | dyn-geh-mi-tel | das | n. | Chemische Düngemittel belasten das Grundwasser. | Chemical fertilisers pollute the groundwater. | Agriculture | Düngemittel | — | — | Kompost |
-| 55 | Massentierhaltung | factory farming | mas-en-teer-hal-toong | die | n. | Massentierhaltung hat negative Folgen. | Factory farming has negative consequences. | Agriculture | — | — | — | artgerechte Tierhaltung |
-| 56 | Lebensmittelverschwendung | food waste | leh-bens-mi-tel-fer-shven-doong | die | n. | Lebensmittelverschwendung ist ein großes Problem. | Food waste is a big problem. | Environment | — | — | — | — |
-| 57 | Saisonprodukte | seasonal products | zy-zohn-pro-dook-teh | — | n. (pl.) | Ich kaufe Saisonprodukte aus der Region. | I buy seasonal products from the region. | Environment | — | — | — | — |
-| 58 | kurze Lieferketten | short supply chains | koorts-eh lee-fer-ket-ten | — | n. (pl.) | Kurze Lieferketten sind umweltfreundlicher. | Short supply chains are more environmentally friendly. | Environment | — | — | — | lange Lieferketten |
+| 51 | Landwirtschaft | agriculture | lant-virt-shaft | die | n. | Die Landwirtschaft ist der grÃ¶ÃŸte Wasserverbraucher. | Agriculture is the largest water consumer. | Environment | â€” | Ã¶kologische Landwirtschaft | â€” | Industrie |
+| 52 | Ã¶kologische Landwirtschaft | organic farming | u-koh-loh-gish-eh lant-virt-shaft | die | n. | Bio-Landwirtschaft schont die Umwelt. | Organic farming protects the environment. | Environment | â€” | â€” | Biolandbau | konventionelle Landwirtschaft |
+| 53 | Pestizid | pesticide | pes-ti-tseet | das | n. | Pestizide schaden Bienen. | Pesticides harm bees. | Agriculture | Pestizide | â€” | â€” | â€” |
+| 54 | DÃ¼ngemittel | fertiliser | dyn-geh-mi-tel | das | n. | Chemische DÃ¼ngemittel belasten das Grundwasser. | Chemical fertilisers pollute the groundwater. | Agriculture | DÃ¼ngemittel | â€” | â€” | Kompost |
+| 55 | Massentierhaltung | factory farming | mas-en-teer-hal-toong | die | n. | Massentierhaltung hat negative Folgen. | Factory farming has negative consequences. | Agriculture | â€” | â€” | â€” | artgerechte Tierhaltung |
+| 56 | Lebensmittelverschwendung | food waste | leh-bens-mi-tel-fer-shven-doong | die | n. | Lebensmittelverschwendung ist ein groÃŸes Problem. | Food waste is a big problem. | Environment | â€” | â€” | â€” | â€” |
+| 57 | Saisonprodukte | seasonal products | zy-zohn-pro-dook-teh | â€” | n. (pl.) | Ich kaufe Saisonprodukte aus der Region. | I buy seasonal products from the region. | Environment | â€” | â€” | â€” | â€” |
+| 58 | kurze Lieferketten | short supply chains | koorts-eh lee-fer-ket-ten | â€” | n. (pl.) | Kurze Lieferketten sind umweltfreundlicher. | Short supply chains are more environmentally friendly. | Environment | â€” | â€” | â€” | lange Lieferketten |
 
 ---
 
@@ -101,16 +101,16 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 59 | Erdbeben | earthquake | ehrd-beh-ben | das | n. | Das Erdbeben hatte eine Stärke von 6,5. | The earthquake had a magnitude of 6.5. | Natural event | Erdbeben | — | — | — |
-| 60 | Vulkanausbruch | volcanic eruption | vol-kahn-ows-brooch | der | n. | Der Vulkanausbruch war verheerend. | The volcanic eruption was devastating. | Natural event | Vulkanausbrüche | — | — | — |
-| 61 | Tornado | tornado | tor-nah-doh | der | n. | Ein Tornado zerstörte das Dorf. | A tornado destroyed the village. | Natural event | Tornados | — | — | — |
-| 62 | Hurrikan | hurricane | hoo-ri-kan | der | n. | Der Hurrikan traf die Küste mit voller Stärke. | The hurricane hit the coast at full strength. | Natural event | Hurrikans | — | — | — |
-| 63 | Tsunami | tsunami | tsoo-nah-mee | der | n. | Der Tsunami wurde durch ein Erdbeben ausgelöst. | The tsunami was triggered by an earthquake. | Natural event | Tsunamis | — | — | — |
-| 64 | Naturkatastrophe | natural disaster | nah-toor-kah-tas-troh-feh | die | n. | Die Naturkatastrophe forderte viele Opfer. | The natural disaster claimed many victims. | Natural event | Naturkatastrophen | — | — | — |
-| 65 | Hochwasser | flood / high water | hohkh-vas-er | das | n. | Das Hochwasser überflutet die Stadt. | The flood inundates the city. | Natural event | — | — | Überschwemmung | Niedrigwasser |
-| 66 | Schneesturm | snowstorm | shneh-shtoorm | der | n. | Der Schneesturm blockiert die Straßen. | The snowstorm blocks the roads. | Natural event | Schneestürme | — | Blizzard | — |
-| 67 | Hitzewelle | heat wave | hit-tseh-vel-eh | die | n. | Die Hitzewelle dauert eine Woche. | The heat wave lasts one week. | Natural event | Hitzewellen | — | — | Kälteeinbruch |
-| 68 | Hagel | hail | hah-gel | der | n. | Hagel beschädigte die Autos. | Hail damaged the cars. | Weather | — | — | — | — |
+| 59 | Erdbeben | earthquake | ehrd-beh-ben | das | n. | Das Erdbeben hatte eine StÃ¤rke von 6,5. | The earthquake had a magnitude of 6.5. | Natural event | Erdbeben | â€” | â€” | â€” |
+| 60 | Vulkanausbruch | volcanic eruption | vol-kahn-ows-brooch | der | n. | Der Vulkanausbruch war verheerend. | The volcanic eruption was devastating. | Natural event | VulkanausbrÃ¼che | â€” | â€” | â€” |
+| 61 | Tornado | tornado | tor-nah-doh | der | n. | Ein Tornado zerstÃ¶rte das Dorf. | A tornado destroyed the village. | Natural event | Tornados | â€” | â€” | â€” |
+| 62 | Hurrikan | hurricane | hoo-ri-kan | der | n. | Der Hurrikan traf die KÃ¼ste mit voller StÃ¤rke. | The hurricane hit the coast at full strength. | Natural event | Hurrikans | â€” | â€” | â€” |
+| 63 | Tsunami | tsunami | tsoo-nah-mee | der | n. | Der Tsunami wurde durch ein Erdbeben ausgelÃ¶st. | The tsunami was triggered by an earthquake. | Natural event | Tsunamis | â€” | â€” | â€” |
+| 64 | Naturkatastrophe | natural disaster | nah-toor-kah-tas-troh-feh | die | n. | Die Naturkatastrophe forderte viele Opfer. | The natural disaster claimed many victims. | Natural event | Naturkatastrophen | â€” | â€” | â€” |
+| 65 | Hochwasser | flood / high water | hohkh-vas-er | das | n. | Das Hochwasser Ã¼berflutet die Stadt. | The flood inundates the city. | Natural event | â€” | â€” | Ãœberschwemmung | Niedrigwasser |
+| 66 | Schneesturm | snowstorm | shneh-shtoorm | der | n. | Der Schneesturm blockiert die StraÃŸen. | The snowstorm blocks the roads. | Natural event | SchneestÃ¼rme | â€” | Blizzard | â€” |
+| 67 | Hitzewelle | heat wave | hit-tseh-vel-eh | die | n. | Die Hitzewelle dauert eine Woche. | The heat wave lasts one week. | Natural event | Hitzewellen | â€” | â€” | KÃ¤lteeinbruch |
+| 68 | Hagel | hail | hah-gel | der | n. | Hagel beschÃ¤digte die Autos. | Hail damaged the cars. | Weather | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -118,14 +118,14 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 69 | Naturschutz | nature conservation | nah-toor-shoots | der | n. | Naturschutz ist eine gesellschaftliche Aufgabe. | Nature conservation is a social responsibility. | Conservation | — | — | Umweltschutz | — |
-| 70 | Renaturierung | rewilding / ecological restoration | reh-nah-too-ree-roong | die | n. | Die Renaturierung des Flusses ist wichtig. | Restoring the river to its natural state is important. | Conservation | — | — | — | — |
-| 71 | Baum pflanzen | to plant a tree | bowm pflan-tsen | — | phrase | Ich pflanze jeden Herbst einen Baum. | I plant a tree every autumn. | Conservation | — | — | — | — |
-| 72 | Blühwiese | wildflower meadow | blyoo-vee-zeh | die | n. | Eine Blühwiese hilft Insekten. | A wildflower meadow helps insects. | Conservation | Blühwiesen | — | — | — |
-| 73 | Umweltaktivismus | environmental activism | oom-velt-ak-ti-vizmoos | der | n. | Ich engagiere mich im Umweltaktivismus. | I engage in environmental activism. | Conservation | — | — | — | — |
-| 74 | Fridays for Future | Fridays for Future | fry-dehz for fyoo-tschur | — | n. | Fridays for Future fordert mehr Klimaschutz. | Fridays for Future demands more climate protection. | Conservation | — | — | — | — |
-| 75 | Greenpeace | Greenpeace | green-pees | — | n. | Greenpeace protestiert gegen Umweltzerstörung. | Greenpeace protests against environmental destruction. | Conservation | — | — | — | — |
-| 76 | NABU (Naturschutzbund) | NABU (nature conservation association) | nah-boo | der | n. | Der NABU schützt die Natur in Deutschland. | NABU protects nature in Germany. | Conservation | — | — | — | — |
+| 69 | Naturschutz | nature conservation | nah-toor-shoots | der | n. | Naturschutz ist eine gesellschaftliche Aufgabe. | Nature conservation is a social responsibility. | Conservation | â€” | â€” | Umweltschutz | â€” |
+| 70 | Renaturierung | rewilding / ecological restoration | reh-nah-too-ree-roong | die | n. | Die Renaturierung des Flusses ist wichtig. | Restoring the river to its natural state is important. | Conservation | â€” | â€” | â€” | â€” |
+| 71 | Baum pflanzen | to plant a tree | bowm pflan-tsen | â€” | phrase | Ich pflanze jeden Herbst einen Baum. | I plant a tree every autumn. | Conservation | â€” | â€” | â€” | â€” |
+| 72 | BlÃ¼hwiese | wildflower meadow | blyoo-vee-zeh | die | n. | Eine BlÃ¼hwiese hilft Insekten. | A wildflower meadow helps insects. | Conservation | BlÃ¼hwiesen | â€” | â€” | â€” |
+| 73 | Umweltaktivismus | environmental activism | oom-velt-ak-ti-vizmoos | der | n. | Ich engagiere mich im Umweltaktivismus. | I engage in environmental activism. | Conservation | â€” | â€” | â€” | â€” |
+| 74 | Fridays for Future | Fridays for Future | fry-dehz for fyoo-tschur | â€” | n. | Fridays for Future fordert mehr Klimaschutz. | Fridays for Future demands more climate protection. | Conservation | â€” | â€” | â€” | â€” |
+| 75 | Greenpeace | Greenpeace | green-pees | â€” | n. | Greenpeace protestiert gegen UmweltzerstÃ¶rung. | Greenpeace protests against environmental destruction. | Conservation | â€” | â€” | â€” | â€” |
+| 76 | NABU (Naturschutzbund) | NABU (nature conservation association) | nah-boo | der | n. | Der NABU schÃ¼tzt die Natur in Deutschland. | NABU protects nature in Germany. | Conservation | â€” | â€” | â€” | â€” |
 
 ---
 
@@ -133,20 +133,20 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 77 | umweltbewusst | environmentally conscious | oom-velt-beh-voost | — | adj. | Ich lebe umweltbewusst. | I live in an environmentally conscious way. | Lifestyle | — | — | ökologisch | umweltschädlich |
-| 78 | umweltfreundlich | eco-friendly | oom-velt-froyn-dlikh | — | adj. | Das ist ein umweltfreundliches Produkt. | That is an eco-friendly product. | Lifestyle | — | — | nachhaltig | umweltschädlich |
-| 79 | umweltschädlich | harmful to the environment | oom-velt-shed-likh | — | adj. | Plastiktüten sind umweltschädlich. | Plastic bags are harmful to the environment. | Lifestyle | — | — | — | umweltfreundlich |
-| 80 | CO?-neutral | carbon neutral | tseh-oh-tsvay-noy-tral | — | adj. | Das Unternehmen ist CO?-neutral. | The company is carbon neutral. | Lifestyle | — | — | klimaneutral | CO?-intensiv |
-| 81 | Strom sparen | to save electricity | shtrohm shpah-ren | — | phrase | Ich spare Strom durch LED-Lampen. | I save electricity through LED lights. | Lifestyle | — | — | Energie sparen | Strom verschwenden |
-| 82 | Fahrrad fahren statt Auto | cycling instead of driving | fahr-raht fah-ren shtat ow-toh | — | phrase | Ich fahre Fahrrad statt Auto. | I cycle instead of driving. | Lifestyle | — | — | — | — |
-| 83 | öffentliche Verkehrsmittel nutzen | to use public transport | urf-ent-likh-eh fer-kehrs-mi-tel noo-tsen | — | phrase | Ich nutze öffentliche Verkehrsmittel. | I use public transport. | Lifestyle | — | — | — | Auto fahren |
-| 84 | Second-Hand-Kleidung | second-hand clothes | se-kont-hant-kly-doong | — | phrase | Ich kaufe Second-Hand-Kleidung. | I buy second-hand clothes. | Lifestyle | — | — | Gebrauchtkleidung | Neukleidung |
-| 85 | lokale Produkte | local products | loh-kah-leh pro-dook-teh | — | n. (pl.) | Ich kaufe lokale Produkte. | I buy local products. | Lifestyle | — | — | regionale Produkte | importierte Waren |
-| 86 | Tierwohl | animal welfare | teer-vohl | das | n. | Tierwohl ist mir beim Einkauf wichtig. | Animal welfare is important to me when shopping. | Lifestyle | — | — | — | — |
-| 87 | fair trade | fair trade | fehr-trehd | — | adj. | Ich kaufe fair-trade-Kaffee. | I buy fair trade coffee. | Lifestyle | — | — | fairer Handel | ausbeuterisch |
-| 88 | plastikfrei | plastic-free | plas-tik-fry | — | adj. | Ich lebe so plastikfrei wie möglich. | I live as plastic-free as possible. | Lifestyle | — | — | — | verpackungsintensiv |
-| 89 | Repair Café | repair café | reh-pehr-ka-feh | das | n. | Im Repair Café werden Sachen repariert statt weggeworfen. | At the repair café things are repaired instead of thrown away. | Lifestyle | — | — | — | — |
-| 90 | Sharing Economy | sharing economy | sheh-ring eh-ko-noh-mee | die | n. | Die Sharing Economy reduziert Ressourcenverbrauch. | The sharing economy reduces resource consumption. | Lifestyle | — | Carsharing, Bikesharing | — | — |
+| 77 | umweltbewusst | environmentally conscious | oom-velt-beh-voost | â€” | adj. | Ich lebe umweltbewusst. | I live in an environmentally conscious way. | Lifestyle | â€” | â€” | Ã¶kologisch | umweltschÃ¤dlich |
+| 78 | umweltfreundlich | eco-friendly | oom-velt-froyn-dlikh | â€” | adj. | Das ist ein umweltfreundliches Produkt. | That is an eco-friendly product. | Lifestyle | â€” | â€” | nachhaltig | umweltschÃ¤dlich |
+| 79 | umweltschÃ¤dlich | harmful to the environment | oom-velt-shed-likh | â€” | adj. | PlastiktÃ¼ten sind umweltschÃ¤dlich. | Plastic bags are harmful to the environment. | Lifestyle | â€” | â€” | â€” | umweltfreundlich |
+| 80 | CO?-neutral | carbon neutral | tseh-oh-tsvay-noy-tral | â€” | adj. | Das Unternehmen ist CO?-neutral. | The company is carbon neutral. | Lifestyle | â€” | â€” | klimaneutral | CO?-intensiv |
+| 81 | Strom sparen | to save electricity | shtrohm shpah-ren | â€” | phrase | Ich spare Strom durch LED-Lampen. | I save electricity through LED lights. | Lifestyle | â€” | â€” | Energie sparen | Strom verschwenden |
+| 82 | Fahrrad fahren statt Auto | cycling instead of driving | fahr-raht fah-ren shtat ow-toh | â€” | phrase | Ich fahre Fahrrad statt Auto. | I cycle instead of driving. | Lifestyle | â€” | â€” | â€” | â€” |
+| 83 | Ã¶ffentliche Verkehrsmittel nutzen | to use public transport | urf-ent-likh-eh fer-kehrs-mi-tel noo-tsen | â€” | phrase | Ich nutze Ã¶ffentliche Verkehrsmittel. | I use public transport. | Lifestyle | â€” | â€” | â€” | Auto fahren |
+| 84 | Second-Hand-Kleidung | second-hand clothes | se-kont-hant-kly-doong | â€” | phrase | Ich kaufe Second-Hand-Kleidung. | I buy second-hand clothes. | Lifestyle | â€” | â€” | Gebrauchtkleidung | Neukleidung |
+| 85 | lokale Produkte | local products | loh-kah-leh pro-dook-teh | â€” | n. (pl.) | Ich kaufe lokale Produkte. | I buy local products. | Lifestyle | â€” | â€” | regionale Produkte | importierte Waren |
+| 86 | Tierwohl | animal welfare | teer-vohl | das | n. | Tierwohl ist mir beim Einkauf wichtig. | Animal welfare is important to me when shopping. | Lifestyle | â€” | â€” | â€” | â€” |
+| 87 | fair trade | fair trade | fehr-trehd | â€” | adj. | Ich kaufe fair-trade-Kaffee. | I buy fair trade coffee. | Lifestyle | â€” | â€” | fairer Handel | ausbeuterisch |
+| 88 | plastikfrei | plastic-free | plas-tik-fry | â€” | adj. | Ich lebe so plastikfrei wie mÃ¶glich. | I live as plastic-free as possible. | Lifestyle | â€” | â€” | â€” | verpackungsintensiv |
+| 89 | Repair CafÃ© | repair cafÃ© | reh-pehr-ka-feh | das | n. | Im Repair CafÃ© werden Sachen repariert statt weggeworfen. | At the repair cafÃ© things are repaired instead of thrown away. | Lifestyle | â€” | â€” | â€” | â€” |
+| 90 | Sharing Economy | sharing economy | sheh-ring eh-ko-noh-mee | die | n. | Die Sharing Economy reduziert Ressourcenverbrauch. | The sharing economy reduces resource consumption. | Lifestyle | â€” | Carsharing, Bikesharing | â€” | â€” |
 
 ---
 
@@ -154,13 +154,13 @@
 
 | # | German | English | Pronunciation | Article | PoS | Example (DE) | Example (EN) | Context | Plural / Conj. | Collocations | Synonyms | Opposites |
 |---|--------|---------|---------------|---------|-----|-------------|-------------|---------|----------------|-------------|----------|----------|
-| 91 | Es liegt in unserer Verantwortung | It is our responsibility | es leekt in oon-ze-rer fer-ant-vor-toong | — | phrase | Es liegt in unserer Verantwortung, die Erde zu schützen. | It is our responsibility to protect the Earth. | Environmental | — | — | — | — |
-| 92 | für zukünftige Generationen | for future generations | fyoor tsoo-kynf-ti-geh geh-neh-rah-tsee-oh-nen | — | phrase | Wir schützen die Natur für zukünftige Generationen. | We protect nature for future generations. | Environmental | — | — | — | — |
-| 93 | nachhaltig leben | to live sustainably | nakh-hal-tikh leh-ben | — | phrase | Ich versuche, nachhaltiger zu leben. | I try to live more sustainably. | Environmental | — | — | — | — |
-| 94 | bewusst einkaufen | to shop consciously | beh-voost ayn-kow-fen | — | phrase | Ich kaufe bewusst und nachhaltig ein. | I shop consciously and sustainably. | Environmental | — | — | — | — |
-| 95 | Energie effizienz | energy efficiency | eh-nehr-ghee ef-fi-tsee-ents | die | n. | Energieeffizienz spart Kosten. | Energy efficiency saves costs. | Environmental | — | — | — | Energieverschwendung |
-| 96 | Klimaneutralität | climate neutrality | klee-mah-noy-trah-li-teht | die | n. | Deutschland strebt Klimaneutralität bis 2045 an. | Germany aims for climate neutrality by 2045. | Policy | — | — | — | — |
-| 97 | Nettonull | net zero | net-oh-nool | — | n. | Wir streben nach Nettonull-Emissionen. | We aim for net zero emissions. | Policy | — | — | Klimaneutralität | — |
-| 98 | Ökobilanz | ecological footprint / life cycle assessment | u-koh-bi-lants | die | n. | Die Ökobilanz von Elektroautos ist besser. | The ecological footprint of electric cars is better. | Environmental | Ökobilanzen | — | — | — |
-| 99 | Ressourcenverbrauch | resource consumption | reh-soor-tsen-fer-browkh | der | n. | Der Ressourcenverbrauch muss sinken. | Resource consumption must decrease. | Environmental | — | — | — | — |
-| 100 | ökologischer Fußabdruck | ecological footprint | u-koh-loh-gish-er foos-ab-drook | der | n. | Mein ökologischer Fußabdruck ist zu groß. | My ecological footprint is too large. | Environmental | — | — | CO?-Fußabdruck | — |
+| 91 | Es liegt in unserer Verantwortung | It is our responsibility | es leekt in oon-ze-rer fer-ant-vor-toong | â€” | phrase | Es liegt in unserer Verantwortung, die Erde zu schÃ¼tzen. | It is our responsibility to protect the Earth. | Environmental | â€” | â€” | â€” | â€” |
+| 92 | fÃ¼r zukÃ¼nftige Generationen | for future generations | fyoor tsoo-kynf-ti-geh geh-neh-rah-tsee-oh-nen | â€” | phrase | Wir schÃ¼tzen die Natur fÃ¼r zukÃ¼nftige Generationen. | We protect nature for future generations. | Environmental | â€” | â€” | â€” | â€” |
+| 93 | nachhaltig leben | to live sustainably | nakh-hal-tikh leh-ben | â€” | phrase | Ich versuche, nachhaltiger zu leben. | I try to live more sustainably. | Environmental | â€” | â€” | â€” | â€” |
+| 94 | bewusst einkaufen | to shop consciously | beh-voost ayn-kow-fen | â€” | phrase | Ich kaufe bewusst und nachhaltig ein. | I shop consciously and sustainably. | Environmental | â€” | â€” | â€” | â€” |
+| 95 | Energie effizienz | energy efficiency | eh-nehr-ghee ef-fi-tsee-ents | die | n. | Energieeffizienz spart Kosten. | Energy efficiency saves costs. | Environmental | â€” | â€” | â€” | Energieverschwendung |
+| 96 | KlimaneutralitÃ¤t | climate neutrality | klee-mah-noy-trah-li-teht | die | n. | Deutschland strebt KlimaneutralitÃ¤t bis 2045 an. | Germany aims for climate neutrality by 2045. | Policy | â€” | â€” | â€” | â€” |
+| 97 | Nettonull | net zero | net-oh-nool | â€” | n. | Wir streben nach Nettonull-Emissionen. | We aim for net zero emissions. | Policy | â€” | â€” | KlimaneutralitÃ¤t | â€” |
+| 98 | Ã–kobilanz | ecological footprint / life cycle assessment | u-koh-bi-lants | die | n. | Die Ã–kobilanz von Elektroautos ist besser. | The ecological footprint of electric cars is better. | Environmental | Ã–kobilanzen | â€” | â€” | â€” |
+| 99 | Ressourcenverbrauch | resource consumption | reh-soor-tsen-fer-browkh | der | n. | Der Ressourcenverbrauch muss sinken. | Resource consumption must decrease. | Environmental | â€” | â€” | â€” | â€” |
+| 100 | Ã¶kologischer FuÃŸabdruck | ecological footprint | u-koh-loh-gish-er foos-ab-drook | der | n. | Mein Ã¶kologischer FuÃŸabdruck ist zu groÃŸ. | My ecological footprint is too large. | Environmental | â€” | â€” | CO?-FuÃŸabdruck | â€” |
