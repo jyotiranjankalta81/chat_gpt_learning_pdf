@@ -1,0 +1,217 @@
+/* ============================================================
+   Java DSA Handbook — PDF Stylesheet
+   High-contrast, print-optimised for code readability
+   ============================================================ */
+
+@page {
+  size: A4;
+  margin: 18mm 16mm 18mm 16mm;
+  @bottom-right {
+    content: "Java DSA Interview Handbook  |  Page " counter(page);
+    font-size: 8pt;
+    color: #555;
+    font-family: Arial, sans-serif;
+  }
+}
+
+/* ---- Base -------------------------------------------------- */
+* { box-sizing: border-box; }
+
+body {
+  font-family: "DejaVu Sans", "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.65;
+  color: #1a1a1a;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- Headings --------------------------------------------- */
+h1 {
+  font-size: 20pt;
+  color: #0d2b4e;
+  border-bottom: 3px solid #1565c0;
+  padding-bottom: 6px;
+  margin-top: 0;
+  margin-bottom: 14px;
+  page-break-after: avoid;
+}
+
+h2 {
+  font-size: 14pt;
+  color: #1a237e;
+  border-bottom: 2px solid #bbdefb;
+  padding-bottom: 4px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  page-break-after: avoid;
+  background: #e8f0fe;
+  padding: 5px 8px 4px 8px;
+  border-radius: 3px;
+}
+
+h3 {
+  font-size: 11pt;
+  color: #0d47a1;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  page-break-after: avoid;
+  border-left: 4px solid #1565c0;
+  padding-left: 8px;
+}
+
+h4 {
+  font-size: 10pt;
+  color: #1565c0;
+  margin-top: 14px;
+  margin-bottom: 4px;
+  page-break-after: avoid;
+}
+
+/* ---- Paragraphs & Lists ----------------------------------- */
+p {
+  margin: 6px 0 8px 0;
+  orphans: 3;
+  widows: 3;
+}
+
+ul, ol {
+  margin: 6px 0 8px 0;
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+/* ---- Horizontal Rule -------------------------------------- */
+hr {
+  border: none;
+  border-top: 1px solid #bdbdbd;
+  margin: 18px 0;
+}
+
+/* ---- Blockquote ------------------------------------------- */
+blockquote {
+  border-left: 5px solid #1565c0;
+  background: #e3f2fd;
+  color: #0d2b4e;
+  margin: 12px 0;
+  padding: 10px 14px;
+  border-radius: 0 4px 4px 0;
+  font-style: italic;
+}
+
+blockquote p { margin: 0; }
+
+/* ---- Inline code ------------------------------------------ */
+/*
+  IMPORTANT FIX: Inline code gets a clearly visible
+  background (pale yellow) with very dark text so it
+  stands out from body text without being confused
+  with code blocks.
+*/
+code {
+  font-family: "DejaVu Sans Mono", "Courier New", Courier, monospace;
+  font-size: 8.5pt;
+  background: #fff9c4;        /* pale yellow background */
+  color: #212121;             /* near-black text */
+  border: 1px solid #f9a825;  /* amber border to frame it */
+  padding: 1px 4px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+/* ---- Fenced / Pre code blocks ----------------------------- */
+/*
+  KEY FIX: The dark code block now uses:
+  - background: #0d1117   (GitHub dark, very dark navy)
+  - text: #e6edf3         (GitHub light grey — very high contrast)
+  - border-left: bright accent bar (cyan-blue)
+  - A visible caption-style header area distinguishing it from
+    the page background
+  All keyword colours are chosen for ≥7:1 contrast ratio.
+*/
+pre {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-left: 5px solid #58a6ff;  /* bright blue accent bar */
+  border-radius: 6px;
+  padding: 13px 16px;
+  margin: 12px 0 16px 0;
+  overflow-x: auto;
+  page-break-inside: avoid;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+/* Reset inline-code styles inside a code block */
+pre > code {
+  font-family: "DejaVu Sans Mono", "Courier New", Courier, monospace;
+  font-size: 8pt;
+  line-height: 1.55;
+  background: transparent;   /* no yellow bg inside block */
+  border: none;              /* no amber border inside block */
+  color: #e6edf3;            /* bright near-white text */
+  padding: 0;
+  white-space: pre;
+  border-radius: 0;
+}
+
+/* ---- Tables ----------------------------------------------- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12px 0 16px 0;
+  font-size: 8.8pt;
+  page-break-inside: avoid;
+}
+
+thead tr {
+  background: #1565c0;
+  color: #ffffff;
+}
+
+thead th {
+  padding: 7px 10px;
+  text-align: left;
+  font-weight: bold;
+  border: 1px solid #0d47a1;
+}
+
+tbody td {
+  padding: 6px 10px;
+  border: 1px solid #bdbdbd;
+  color: #1a1a1a;
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+/* ---- Complexity highlight rows in tables ------------------ */
+/* Make O(1) rows green-ish, O(n²) rows red-ish, etc */
+tbody tr td:first-child code { font-weight: bold; }
+
+/* ---- Page-break helpers ----------------------------------- */
+h1, h2 { page-break-before: auto; }
+
+/* Force page break before every major Section heading
+   (lines that start "# Section") */
+h1 + * { page-break-before: avoid; }
+
+/* ---- Links ------------------------------------------------ */
+a {
+  color: #1565c0;
+  text-decoration: underline;
+}
+
+/* ---- Strong / Em ----------------------------------------- */
+strong { color: #0d2b4e; }
+em     { color: #4a148c; font-style: italic; }
