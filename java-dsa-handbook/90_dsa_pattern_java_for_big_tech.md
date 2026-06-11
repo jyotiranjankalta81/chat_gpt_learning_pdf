@@ -1,4 +1,4 @@
-# 90 DSA Patterns - Java 17 Interview Handbook
+# 90 DSA Pattern Java for Big Tech
 
 Production-quality Java 17 conversion of the JavaScript DSA pattern set.
 

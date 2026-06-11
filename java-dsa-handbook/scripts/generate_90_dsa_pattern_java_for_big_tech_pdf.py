@@ -23,8 +23,8 @@ from reportlab.platypus import (
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MD_PATH = ROOT / "90_DSA_Patterns_Java17.md"
-PDF_PATH = ROOT / "90_DSA_Patterns_Java17.pdf"
+MD_PATH = ROOT / "90_dsa_pattern_java_for_big_tech.md"
+PDF_PATH = ROOT / "90_dsa_pattern_java_for_big_tech.pdf"
 
 
 @dataclass(frozen=True)
@@ -1575,7 +1575,7 @@ def dry_run(pattern: Pattern) -> str:
 def build_markdown() -> str:
     lines: list[str] = []
     lines.extend([
-        "# 90 DSA Patterns - Java 17 Interview Handbook",
+        "# 90 DSA Pattern Java for Big Tech",
         "",
         "Production-quality Java 17 conversion of the JavaScript DSA pattern set.",
         "",
@@ -1678,12 +1678,12 @@ def markdown_to_pdf(markdown: str) -> None:
         leftMargin=1.2 * cm,
         topMargin=1.2 * cm,
         bottomMargin=1.2 * cm,
-        title="90 DSA Patterns - Java 17 Interview Handbook",
+        title="90 DSA Pattern Java for Big Tech",
     )
     story = [
         Spacer(1, 4 * cm),
         Paragraph("90 DSA Patterns", styles["CoverTitle"]),
-        Paragraph("Java 17 Interview Handbook", styles["CoverTitle"]),
+        Paragraph("Java 17 for Big Tech Interviews", styles["CoverTitle"]),
         Paragraph("Production-quality Java templates with signals, dry runs, pitfalls, and related LeetCode problems.", styles["CoverSub"]),
         PageBreak(),
     ]
