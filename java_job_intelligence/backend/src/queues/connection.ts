@@ -1,3 +1,7 @@
-import IORedis from 'ioredis';
+import type { ConnectionOptions } from 'bullmq';
 import { env } from '../config/env.js';
-export const redisConnection = new IORedis({ host: env.REDIS_HOST, port: env.REDIS_PORT, password: env.REDIS_PASSWORD || undefined, maxRetriesPerRequest: null });
+export const redisConnectionOptions: ConnectionOptions = {
+  host: env.REDIS_HOST,
+  port: env.REDIS_PORT,
+  password: env.REDIS_PASSWORD || undefined
+};
