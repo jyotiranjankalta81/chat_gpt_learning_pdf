@@ -1,0 +1,11 @@
+import mongoose from 'mongoose';
+import { MongoMemoryServer } from 'mongodb-memory-server';
+import request from 'supertest';
+import { afterAll, beforeAll, describe, expect, it } from 'vitest';
+import { createApp } from '../../app.js';
+import { CompanyModel } from '../../models/company.model.js';
+import { JobModel } from '../../models/job.model.js';
+let mongo: MongoMemoryServer;
+beforeAll(async () => { mongo = await MongoMemoryServer.create(); await mongoose.connect(mongo.getUri()); const company = await CompanyModel.create({ name: 'Google', website: 'https://google.com', careerUrl: 'https://careers.google.com', industry: 'Technology', country: 'US', indiaPresence: true, active: true }); await JobModel.create({ jobId: 'g-1', companyId: company._id, title: 'Java Backend Developer', location: 'Bengaluru, India', employmentType: 'Full-time', experienceMin: 2, experienceMax: 5, skills: ['Java', 'Spring Boot'], applyUrl: 'https://example.com/g-1', jobDescription: 'Java Spring Boot job', source: 'test', lastSeenAt: new Date(), isActive: true, postedDate: new Date() }); });
+afterAll(async () => { await mongoose.disconnect(); await mongo.stop(); });
+describe('jobs routes', () => { it('lists jobs with pagination', async () => { const response = await request(createApp()).get('/api/jobs').expect(200); expect(response.body.total).toBe(1); expect(response.body.items[0].title).toBe('Java Backend Developer'); }); it('returns dashboard stats', async () => { const response = await request(createApp()).get('/api/stats').expect(200); expect(response.body.totalJobs).toBe(1); }); });

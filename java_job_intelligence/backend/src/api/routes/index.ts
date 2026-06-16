@@ -1,0 +1,12 @@
+import { Router } from 'express';
+import swaggerUi from 'swagger-ui-express';
+import { openApiSpec } from '../../config/swagger.js';
+import { companyRoutes } from './company.routes.js';
+import { exportRoutes } from './export.routes.js';
+import { jobRoutes } from './job.routes.js';
+import { statsRoutes } from './stats.routes.js';
+import { syncRoutes } from './sync.routes.js';
+export const apiRouter = Router();
+apiRouter.get('/health', (_req, res) => res.json({ status: 'ok', service: 'java-job-intelligence' }));
+apiRouter.use('/docs', swaggerUi.serve, swaggerUi.setup(openApiSpec));
+apiRouter.use('/jobs', jobRoutes); apiRouter.use('/companies', companyRoutes); apiRouter.use('/stats', statsRoutes); apiRouter.use('/export', exportRoutes); apiRouter.use('/sync', syncRoutes);

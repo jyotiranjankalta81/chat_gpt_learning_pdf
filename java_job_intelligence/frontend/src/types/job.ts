@@ -1,0 +1,5 @@
+export interface Company { _id: string; name: string; website: string; careerUrl: string; industry: string; country: string; indiaPresence: boolean; active: boolean; }
+export interface Job { _id: string; jobId: string; companyId: Company | string; title: string; location: string; employmentType: string; experienceMin: number; experienceMax: number; skills: string[]; salary?: string; postedDate?: string; applyUrl: string; jobDescription: string; source: string; lastSeenAt: string; isActive: boolean; }
+export interface PaginatedJobs { items: Job[]; page: number; limit: number; total: number; totalPages: number; }
+export interface DashboardStats { totalJobs: number; byCompany: Array<{ name: string; count: number }>; byCity: Array<{ city: string; count: number }>; byExperience: Array<{ range: string; count: number }>; recentlyAdded: Job[]; topHiringCompanies: Array<{ name: string; count: number }>; }
+export interface JobFilters { search?: string; companyId?: string; location?: string; skill?: string; experienceMin?: number | string; experienceMax?: number | string; postedFrom?: string; postedTo?: string; page?: number; limit?: number; }

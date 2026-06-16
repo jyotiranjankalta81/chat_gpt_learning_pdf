@@ -1,0 +1,5 @@
+import { describe, expect, it } from 'vitest';
+import { JobMatchingService } from '../../services/jobMatching.service.js';
+import type { ProviderJobInput } from '../../types.js';
+const baseJob: ProviderJobInput = { companyName: 'Google', jobId: '1', title: 'Java Backend Developer', location: 'Bengaluru, India', employmentType: 'Full-time', experienceMin: 2, experienceMax: 5, skills: ['Java', 'Spring Boot'], postedDate: new Date(), applyUrl: 'https://example.com/job/1', jobDescription: 'Build Java Spring Boot microservices with Kafka and Redis.', source: 'test' };
+describe('JobMatchingService', () => { const service = new JobMatchingService(); it('accepts matching Java jobs in India with 2-5 years experience', () => { expect(service.isTargetJob(baseJob)).toBe(true); }); it('rejects internships and management roles', () => { expect(service.isTargetJob({ ...baseJob, title: 'Java Intern' })).toBe(false); expect(service.isTargetJob({ ...baseJob, title: 'Engineering Manager Java' })).toBe(false); }); it('rejects jobs outside target experience overlap', () => { expect(service.isTargetJob({ ...baseJob, experienceMin: 6, experienceMax: 8 })).toBe(false); }); });

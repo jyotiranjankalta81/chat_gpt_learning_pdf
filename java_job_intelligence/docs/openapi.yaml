@@ -1,0 +1,27 @@
+openapi: 3.0.3
+info: { title: Java Job Intelligence Platform API, version: 1.0.0 }
+servers: [{ url: http://localhost:4000/api }]
+paths:
+  /jobs:
+    get:
+      summary: List Java jobs
+      responses: { '200': { description: Paginated jobs } }
+  /jobs/{id}:
+    get:
+      summary: Get job by id
+      parameters: [{ in: path, name: id, required: true, schema: { type: string } }]
+      responses: { '200': { description: Job detail }, '404': { description: Not found } }
+  /companies:
+    get: { summary: List companies, responses: { '200': { description: Companies } } }
+  /stats:
+    get: { summary: Dashboard stats, responses: { '200': { description: Stats } } }
+  /export/excel:
+    get: { summary: Export Excel report, responses: { '200': { description: Excel file } } }
+  /sync:
+    post:
+      summary: Enqueue sync
+      security: [{ bearerAuth: [] }]
+      responses: { '202': { description: Sync queued } }
+components:
+  securitySchemes:
+    bearerAuth: { type: http, scheme: bearer, bearerFormat: JWT }

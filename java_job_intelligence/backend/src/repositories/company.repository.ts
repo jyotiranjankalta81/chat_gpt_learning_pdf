@@ -1,0 +1,3 @@
+import { CompanyModel } from '../models/company.model.js';
+import type { CompanyDTO } from '../types.js';
+export class CompanyRepository { async upsertMany(companies: CompanyDTO[]): Promise<void> { if (!companies.length) return; await CompanyModel.bulkWrite(companies.map((company) => ({ updateOne: { filter: { name: company.name }, update: { $set: company }, upsert: true } }))); } async findActive(): Promise<CompanyDTO[]> { return CompanyModel.find({ active: true, indiaPresence: true }).sort({ name: 1 }).lean(); } async findAll(): Promise<CompanyDTO[]> { return CompanyModel.find().sort({ name: 1 }).lean(); } async findByName(name: string): Promise<CompanyDTO | null> { return CompanyModel.findOne({ name }).lean(); } }
