@@ -18,6 +18,7 @@
 | 4 | [DSA Pattern System](./Section4-DSA-Patterns/) | 15 complete patterns with templates |
 | 5 | [Interview Preparation](./Section5-Interview-Prep/) | FAANG mindset, communication, strategy |
 | 6 | [1-Month Roadmap](./Section6-1Month-Roadmap/) | Daily schedule, LeetCode list, company focus |
+| 7 | [DSA Mathematics](./Section7-DSA-Mathematics/complete-dsa-mathematics-handbook.md) | Algebra, number theory, combinatorics, geometry, graph math, DP math |
 | - | [Cheat Sheets](./CheatSheets/) | Quick reference, complexity tables |
 | - | [Code Templates](./code-templates/) | Reusable Java templates |
 
@@ -104,6 +105,11 @@ java-dsa-handbook/
 ├── Section6-1Month-Roadmap/
 │   ├── 01-daily-schedule.md
 │   └── 02-leetcode-high-roi-list.md
+├── Section7-DSA-Mathematics/
+│   ├── complete-dsa-mathematics-handbook.md
+│   ├── generate_math_pdf.py
+│   └── PDFs/
+│       └── Complete_DSA_Mathematics_Handbook.pdf
 ├── CheatSheets/
 │   ├── complexity-cheatsheet.md
 │   ├── pattern-recognition-guide.md
