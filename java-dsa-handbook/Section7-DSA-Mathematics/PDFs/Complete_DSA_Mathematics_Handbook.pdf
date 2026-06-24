@@ -1,0 +1,4027 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R] /Count 25 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 3929 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(COMPLETE DSA MATHEMATICS HANDBOOK) Tj
+T*
+() Tj
+T*
+(*Mathematical formulas, invariants, and pattern-recognition triggers for coding interviews, LeetCode,) Tj
+T*
+(  Codeforces, FAANG-style interviews, and system-level coding assessments.*) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(HOW TO USE THIS HANDBOOK) Tj
+T*
+() Tj
+T*
+(Every card is written in the same interview-first format:) Tj
+T*
+() Tj
+T*
+(  1. FORMULA - the exact formula or invariant.) Tj
+T*
+(  2. CONCEPT - what it means in simple language.) Tj
+T*
+(  3. INTUITION - why it works.) Tj
+T*
+(  4. DSA CONNECTION - which data structures and algorithms use it.) Tj
+T*
+(  5. INTERVIEW PROBLEMS - famous problems where it appears.) Tj
+T*
+(  6. PATTERN RECOGNITION - trigger words that should make the formula appear in your mind.) Tj
+T*
+(  7. VISUALIZATION - a small diagram or concrete example.) Tj
+T*
+(  8. COMMON MISTAKES - bugs and traps candidates hit.) Tj
+T*
+(  9. MEMORY TRICK - a quick recall shortcut.) Tj
+T*
+(  10. IMPLEMENTATION IMPACT - how it changes brute force into an optimal approach.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(FAST PATTERN TRIGGER INDEX) Tj
+T*
+() Tj
+T*
+(| If you see... | Think... |) Tj
+T*
+(|---|---|) Tj
+T*
+(| "range sum", "subarray sum", "sum between i and j" | Prefix sums |) Tj
+T*
+(| "range add", "many updates then queries" | Difference array |) Tj
+T*
+(| "divisible by k", "same remainder", "multiple of k" | Prefix modulo + frequency map |) Tj
+T*
+(| "gcd", "coprime", "linear combination" | Euclidean algorithm / Bezout |) Tj
+T*
+(| "mod inverse", "divide under modulo" | Extended Euclid or Fermat |) Tj
+T*
+(| "count ways", "choose", "arrange" | Combinatorics |) Tj
+T*
+(| "balanced parentheses", "unique BSTs", "non-crossing" | Catalan numbers |) Tj
+T*
+(| "appears twice except one" | XOR cancellation |) Tj
+T*
+(| "power of two" | n > 0 && \(n & \(n - 1\)\) == 0 |) Tj
+T*
+(| "kth bit", "subset state", "visited set" | Bit masks |) Tj
+T*
+(| "orientation", "left turn", "convex hull" | Cross product |) Tj
+T*
+(| "tree with n nodes" | Edges = n - 1 |) Tj
+T*
+(| "DAG dependency order" | Topological sort invariant |) Tj
+T*
+(| "minimum possible maximum", "capacity", "answer exists?" | Binary search on answer |) Tj
+T*
+(| "overlapping subproblems" | DP recurrence |) Tj
+T*
+(| "divide by half each step" | Logarithms |) Tj
+T*
+(| "recurrence T\(n\) = aT\(n/b\) + f\(n\)" | Master theorem |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(PART 1: CORE ALGEBRA) Tj
+T*
+() Tj
+T*
+(  1. ARITHMETIC PROGRESSION: NTH TERM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: a_n = a_1 + \(n - 1\)d.) Tj
+T*
+(  2. CONCEPT: The nth value in a sequence where every step adds the same difference d.) Tj
+T*
+(  3. INTUITION: Starting at a_1, reaching the nth item requires n - 1 jumps, and each jump changes the) Tj
+T*
+(    value by d.) Tj
+T*
+(  4. DSA CONNECTION: Arrays, arithmetic sequences, missing numbers, binary search on positions,) Tj
+T*
+(    simulation compression.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Missing Number \(LC 268\), Arithmetic Slices \(LC 413\), Can Make Arithmetic) Tj
+T*
+(    Progression \(LC 1502\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If values increase by a constant gap, or positions map linearly to values, use) Tj
+T*
+(    AP.) Tj
+T*
+(  7. VISUALIZATION: 2, 5, 8, 11 has a_1 = 2, d = 3; item 4 is 2 + 3*3 = 11.) Tj
+T*
+(  8. COMMON MISTAKES: Using nd instead of \(n - 1\)d; mixing 0-indexed and 1-indexed formulas.) Tj
+T*
+(  9. MEMORY TRICK: "First plus jumps"; there are one fewer jumps than items.) Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Replaces iterative stepping over all positions with O\(1\) direct) Tj
+T*
+(    computation.) Tj
+T*
+() Tj
+T*
+(  2. ARITHMETIC PROGRESSION: SUM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: S_n = n\(a_1 + a_n\) / 2 = n\(2a_1 + \(n - 1\)d\) / 2.) Tj
+T*
+(  2. CONCEPT: The total of equally spaced numbers.) Tj
+T*
+(  3. INTUITION: Pair the first and last terms: each pair sums to a_1 + a_n, and there are n / 2 pairs.) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 5080 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  4. DSA CONNECTION: Prefix sum shortcuts, missing number, checksum validation, loop counting.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Missing Number \(LC 268\), Arrange Coins \(LC 441\), Minimum Moves to Equal Array) Tj
+T*
+(    Elements \(LC 453\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If a brute force loop adds 1 + 2 + ... + n or evenly spaced values, replace) Tj
+T*
+(    with AP sum.) Tj
+T*
+(  7. VISUALIZATION: 1 + 2 + 3 + 4 = \(1 + 4\) + \(2 + 3\) = 5 + 5 = 10.) Tj
+T*
+(  8. COMMON MISTAKES: Integer overflow in n * \(n + 1\); cast to long before multiplying.) Tj
+T*
+(  9. MEMORY TRICK: "Average times count"; average is \(first + last\) / 2.) Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Turns O\(n\) summation into O\(1\), often preventing TLE for n up to 10^9.) Tj
+T*
+() Tj
+T*
+(  3. STANDARD SUMMATIONS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: sum_{i=1..n} i = n\(n + 1\)/2; sum i^2 = n\(n + 1\)\(2n + 1\)/6; sum i^3 = [n\(n + 1\)/2]^2.) Tj
+T*
+(  2. CONCEPT: Closed forms for common loop totals.) Tj
+T*
+(  3. INTUITION: Linear sums pair symmetrically; square and cube sums come from polynomial telescoping.) Tj
+T*
+(  4. DSA CONNECTION: Complexity analysis, counting pairs/triples, DP precomputation, math puzzles.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Sum of Square Numbers \(LC 633\), Count Good Triplets variants, nested-loop) Tj
+T*
+(    analysis.) Tj
+T*
+(  6. PATTERN RECOGNITION: If loop work grows as i, i^2, or cumulative nested loops, use these sums.) Tj
+T*
+(  7. VISUALIZATION: Nested loop for i in 1..n: for j in 1..i does 1 + 2 + ... + n operations.) Tj
+T*
+(  8. COMMON MISTAKES: Treating sum i^2 as O\(n^2\) instead of exact n\(n+1\)\(2n+1\)/6; overflow.) Tj
+T*
+(  9. MEMORY TRICK: 1, 2, 3 powers have formulas with increasing polynomial degree: 2, 3, 4.) Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Gives exact counts for optimization and allows direct formulas instead of) Tj
+T*
+(    loops.) Tj
+T*
+() Tj
+T*
+(  4. GEOMETRIC PROGRESSION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: a_n = a_1 r^\(n - 1\) and S_n = a_1\(r^n - 1\)/\(r - 1\) for r != 1.) Tj
+T*
+(  2. CONCEPT: A sequence where each term multiplies by a constant ratio.) Tj
+T*
+(  3. INTUITION: Every step scales the previous value, so repeated multiplication becomes an exponent.) Tj
+T*
+(  4. DSA CONNECTION: Binary search halving, exponential search, hashing powers, tree levels, amortized) Tj
+T*
+(    growth.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Pow\(x,n\) \(LC 50\), Capacity/halving problems, Count Complete Tree Nodes \(LC) Tj
+T*
+(    222\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If a value doubles, halves, or multiplies by a fixed ratio, think GP.) Tj
+T*
+(  7. VISUALIZATION: 1, 2, 4, 8, 16; level h in a binary tree has up to 2^h nodes.) Tj
+T*
+(  8. COMMON MISTAKES: Forgetting r = 1 special case; floating precision with non-integer ratios.) Tj
+T*
+(  9. MEMORY TRICK: "Repeated multiply becomes power.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Converts repeated multiplication loops into fast exponentiation or) Tj
+T*
+(    logarithmic reasoning.) Tj
+T*
+() Tj
+T*
+(  5. TELESCOPING DIFFERENCE FORMULA) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: sum_{i=l..r} \(b_i - b_{i-1}\) = b_r - b_{l-1}.) Tj
+T*
+(  2. CONCEPT: Consecutive middle terms cancel.) Tj
+T*
+(  3. INTUITION: Expanding gives \(b_l - b_{l-1}\) + \(b_{l+1} - b_l\) + ...; every internal +b_i cancels a) Tj
+T*
+(    -b_i.) Tj
+T*
+(  4. DSA CONNECTION: Difference arrays, prefix sums, amortized analysis, potential functions.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Range Addition \(LC 370\), Corporate Flight Bookings \(LC 1109\), Car Pooling \(LC) Tj
+T*
+(    1094\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If updates affect intervals but final values are needed, store boundary) Tj
+T*
+(    changes.) Tj
+T*
+(  7. VISUALIZATION: Add +5 on [2,4]: diff has +5 at 2 and -5 at 5; prefix carries the value through the) Tj
+T*
+(    interval.) Tj
+T*
+(  8. COMMON MISTAKES: Forgetting to subtract at r + 1; array bounds at the final index.) Tj
+T*
+(  9. MEMORY TRICK: "Start the rain at l, stop it after r.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Turns O\(qn\) range updates into O\(q + n\).) Tj
+T*
+() Tj
+T*
+(  6. EXPONENT LAWS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: a^m a^n = a^\(m+n\), a^m / a^n = a^\(m-n\), \(a^m\)^n = a^\(mn\), a^0 = 1.) Tj
+T*
+(  2. CONCEPT: Exponents count repeated multiplication.) Tj
+T*
+(  3. INTUITION: Multiplying powers concatenates multiplication chains; powering a power repeats the) Tj
+T*
+(    chain.) Tj
+T*
+(  4. DSA CONNECTION: Fast power, rolling hash powers, complexity growth, binary lifting.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Pow\(x,n\) \(LC 50\), Super Pow \(LC 372\), string hashing tasks.) Tj
+T*
+(  6. PATTERN RECOGNITION: If repeated multiplication appears, group powers by exponent rules.) Tj
+T*
+(  7. VISUALIZATION: 2^3 * 2^2 = \(2*2*2\)*\(2*2\) = 2^5.) Tj
+T*
+(  8. COMMON MISTAKES: Applying exponent laws to addition, such as \(a + b\)^2 = a^2 + b^2 which is false.) Tj
+T*
+(  9. MEMORY TRICK: Same base: multiply means add exponents.) Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Enables O\(log n\) exponentiation instead of O\(n\).) Tj
+T*
+() Tj
+T*
+(  7. LOGARITHM LAWS) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 4858 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+() Tj
+T*
+(  1. FORMULA: log_b\(xy\) = log_b x + log_b y; log_b\(x^k\) = k log_b x; log_b x = log_c x / log_c b.) Tj
+T*
+(  2. CONCEPT: Logs answer "how many times do I multiply or divide by the base?") Tj
+T*
+(  3. INTUITION: A logarithm is the inverse of exponentiation, so product and power rules reverse) Tj
+T*
+(    exponent laws.) Tj
+T*
+(  4. DSA CONNECTION: Binary search, heap height, balanced trees, divide and conquer, complexity) Tj
+T*
+(    analysis.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Binary Search \(LC 704\), Search Insert Position \(LC 35\), Kth Smallest in BST \(LC) Tj
+T*
+(    230\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If a search space is repeatedly divided by a constant, complexity is) Tj
+T*
+(    logarithmic.) Tj
+T*
+(  7. VISUALIZATION: n = 1024; halving reaches 1 in 10 steps because 2^10 = 1024.) Tj
+T*
+(  8. COMMON MISTAKES: Ignoring base in implementation when exact counts matter; in Big O, constant bases) Tj
+T*
+(    collapse.) Tj
+T*
+(  9. MEMORY TRICK: "Log counts cuts.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Justifies replacing linear scan with binary search or balanced-tree) Tj
+T*
+(    operations.) Tj
+T*
+() Tj
+T*
+(  8. FLOOR AND CEILING DIVISION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: For integers a, b > 0, floor\(a/b\) = a / b; ceil\(a/b\) = \(a + b - 1\) / b.) Tj
+T*
+(  2. CONCEPT: Ceiling division counts how many full buckets of size b are needed to cover a items.) Tj
+T*
+(  3. INTUITION: Adding b - 1 pushes any non-zero remainder into the next bucket.) Tj
+T*
+(  4. DSA CONNECTION: Binary search on answer, pagination, batching, partitioning arrays, rate/capacity) Tj
+T*
+(    problems.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Koko Eating Bananas \(LC 875\), Minimum Limit of Balls in a Bag \(LC 1760\),) Tj
+T*
+(    Capacity to Ship Packages \(LC 1011\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If the problem asks "how many groups/operations of size k?", use ceiling) Tj
+T*
+(    division.) Tj
+T*
+(  7. VISUALIZATION: 10 items in boxes of 3: \(10 + 2\) / 3 = 4 boxes.) Tj
+T*
+(  8. COMMON MISTAKES: Using floating point Math.ceil and losing precision; negative numbers require) Tj
+T*
+(    language-aware handling.) Tj
+T*
+(  9. MEMORY TRICK: "Add one less than the bucket.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Makes feasibility checks O\(n\) and exact inside binary search.) Tj
+T*
+() Tj
+T*
+(  9. INCLUSION-EXCLUSION PRINCIPLE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: |A union B| = |A| + |B| - |A intersect B|; for three sets, add singles, subtract pairs,) Tj
+T*
+(    add triple intersection.) Tj
+T*
+(  2. CONCEPT: Count everything, then remove double-counted overlap.) Tj
+T*
+(  3. INTUITION: Elements in both sets are counted once from A and once from B, so subtract one copy.) Tj
+T*
+(  4. DSA CONNECTION: Counting, bitmask enumeration, combinatorics, DP over sets, probability.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Numbers With Repeated Digits \(LC 1012\), Vowel Strings counting variants, ugly) Tj
+T*
+(    number counting variants.) Tj
+T*
+(  6. PATTERN RECOGNITION: If categories overlap and "or" appears, use inclusion-exclusion.) Tj
+T*
+(  7. VISUALIZATION: Students who know Java or Python = Java + Python - both.) Tj
+T*
+(  8. COMMON MISTAKES: Forgetting higher-order intersections; subtracting disjoint groups unnecessarily.) Tj
+T*
+(  9. MEMORY TRICK: "Add odds, subtract evens" by intersection size.) Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Converts complex overcounted enumeration into direct counting or bitmask) Tj
+T*
+(    iteration.) Tj
+T*
+() Tj
+T*
+(  10. MATHEMATICAL INDUCTION AND LOOP INVARIANTS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Prove P\(0\) true, then prove P\(k\) -> P\(k+1\); therefore P\(n\) is true for all n >= 0.) Tj
+T*
+(  2. CONCEPT: A correctness proof for recursive algorithms and loops.) Tj
+T*
+(  3. INTUITION: If the first domino falls and every domino knocks the next, all dominoes fall.) Tj
+T*
+(  4. DSA CONNECTION: Recursion, DP, binary search invariants, greedy exchange arguments, tree) Tj
+T*
+(    algorithms.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Merge Sort correctness, Binary Search correctness, Climbing Stairs \(LC 70\),) Tj
+T*
+(    House Robber \(LC 198\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If correctness depends on "after every iteration this remains true", state an) Tj
+T*
+(    invariant.) Tj
+T*
+(  7. VISUALIZATION: Prefix loop invariant: after processing index i, the answer is correct for) Tj
+T*
+(    arr[0..i].) Tj
+T*
+(  8. COMMON MISTAKES: Proving only the sample case; not proving initialization, maintenance, and) Tj
+T*
+(    termination.) Tj
+T*
+(  9. MEMORY TRICK: "Start, stay, stop": initialize, maintain, conclude.) Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Prevents off-by-one errors and makes binary search / DP transitions) Tj
+T*
+(    reliable.) Tj
+T*
+() Tj
+T*
+(  11. ABSOLUTE DIFFERENCE AND TRIANGLE INEQUALITY) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: |a - b| >= 0; |a - c| <= |a - b| + |b - c|.) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 5133 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  2. CONCEPT: Direct distance is never longer than going through an intermediate point.) Tj
+T*
+(  3. INTUITION: Moving from a to c via b cannot beat the straight one-dimensional distance.) Tj
+T*
+(  4. DSA CONNECTION: Greedy, two pointers, sorting by distance, median minimization, shortest paths.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Minimum Moves to Equal Array Elements II \(LC 462\), 3Sum Closest \(LC 16\), Assign) Tj
+T*
+(    Cookies \(LC 455\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If the objective sums absolute distances, sort and look for medians or two) Tj
+T*
+(    pointers.) Tj
+T*
+(  7. VISUALIZATION: On a line, 1 -> 7 has distance 6; going 1 -> 3 -> 7 gives 2 + 4 = 6.) Tj
+T*
+(  8. COMMON MISTAKES: Using mean instead of median for absolute-distance minimization.) Tj
+T*
+(  9. MEMORY TRICK: "Absolute wants median; squares want mean.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Reduces search over all targets to a median or sorted greedy strategy.) Tj
+T*
+() Tj
+T*
+(  12. MINIMUM AND MAXIMUM IDENTITIES) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: max\(a,b\) = \(a + b + |a - b|\)/2; min\(a,b\) = \(a + b - |a - b|\)/2.) Tj
+T*
+(  2. CONCEPT: The absolute difference separates the larger and smaller values.) Tj
+T*
+(  3. INTUITION: a + b contains both numbers; adding the gap selects the larger twice, subtracting) Tj
+T*
+(    selects the smaller twice.) Tj
+T*
+(  4. DSA CONNECTION: Math puzzles, branchless logic, DP transitions, interval merging.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Best Time to Buy and Sell Stock \(LC 121\), max/min DP variants, Kadane variants.) Tj
+T*
+(  6. PATTERN RECOGNITION: If a formula can be simplified by separating larger and smaller terms, use) Tj
+T*
+(    min/max identities.) Tj
+T*
+(  7. VISUALIZATION: a=8,b=3: \(11 + 5\)/2 = 8, \(11 - 5\)/2 = 3.) Tj
+T*
+(  8. COMMON MISTAKES: Overflow from a + b; branchless formulas are usually less safe than Math.max.) Tj
+T*
+(  9. MEMORY TRICK: "Plus gap is max, minus gap is min.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Helps derive greedy formulas, though normal code should prefer clear) Tj
+T*
+(    min/max calls.) Tj
+T*
+() Tj
+T*
+(PART 2: PREFIX SUM MATHEMATICS) Tj
+T*
+() Tj
+T*
+(  13. PREFIX SUM DEFINITION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: pref[0] = 0; pref[i + 1] = pref[i] + arr[i].) Tj
+T*
+(  2. CONCEPT: pref[i] stores the sum before index i.) Tj
+T*
+(  3. INTUITION: Every prefix extends the previous prefix by one new element.) Tj
+T*
+(  4. DSA CONNECTION: Arrays, range queries, sliding window, DP, hash maps.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Range Sum Query Immutable \(LC 303\), Running Sum \(LC 1480\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If many queries ask for sums over intervals, precompute prefixes.) Tj
+T*
+(  7. VISUALIZATION: arr=[2,4,1]; pref=[0,2,6,7].) Tj
+T*
+(  8. COMMON MISTAKES: Using pref[i] as including arr[i] in one place and excluding it in another.) Tj
+T*
+(  9. MEMORY TRICK: pref length is n + 1; index means "items consumed.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Turns each range sum from O\(length\) into O\(1\) after O\(n\) preprocessing.) Tj
+T*
+() Tj
+T*
+(  14. RANGE SUM FROM PREFIX) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: sum\(l,r\) = pref[r + 1] - pref[l] for inclusive 0-indexed [l,r].) Tj
+T*
+(  2. CONCEPT: Remove the sum before l from the sum before r + 1.) Tj
+T*
+(  3. INTUITION: The prefix to r contains unwanted left part plus target interval; subtraction isolates) Tj
+T*
+(    the interval.) Tj
+T*
+(  4. DSA CONNECTION: Range queries, subarray optimization, immutable query structures.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Range Sum Query \(LC 303\), Product of Array Except Self \(LC 238\) via) Tj
+T*
+(    prefix/suffix idea.) Tj
+T*
+(  6. PATTERN RECOGNITION: If query asks "between l and r inclusive", use two prefix values.) Tj
+T*
+(  7. VISUALIZATION: arr=[3,1,4,2], pref=[0,3,4,8,10]; sum [1,3] = 10 - 3 = 7.) Tj
+T*
+(  8. COMMON MISTAKES: Writing pref[r] - pref[l] and dropping arr[r].) Tj
+T*
+(  9. MEMORY TRICK: "Right endpoint needs plus one.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Enables O\(n + q\) instead of O\(nq\).) Tj
+T*
+() Tj
+T*
+(  15. SUBARRAY SUM EQUALS TARGET) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: sum\(j+1..i\) = pref[i] - pref[j]; need pref[j] = pref[i] - target.) Tj
+T*
+(  2. CONCEPT: A previous prefix determines whether the current index closes a target-sum subarray.) Tj
+T*
+(  3. INTUITION: If removing an earlier prefix leaves exactly target, the interval between them is valid.) Tj
+T*
+(  4. DSA CONNECTION: HashMap, prefix sum, arrays with negative numbers.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Subarray Sum Equals K \(LC 560\), Path Sum III \(LC 437\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If subarray sums can include negative values, sliding window may fail; use) Tj
+T*
+(    prefix + map.) Tj
+T*
+(  7. VISUALIZATION: Current prefix 10, target 6; if old prefix 4 exists, middle sum is 6.) Tj
+T*
+(  8. COMMON MISTAKES: Forgetting initial frequency freq[0] = 1; using set when counts are needed.) Tj
+T*
+(  9. MEMORY TRICK: "Current minus target must have happened before.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Reduces O\(n^2\) subarray enumeration to O\(n\).) Tj
+T*
+() Tj
+T*
+(  16. PREFIX MODULO REMAINDER) Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 5236 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+() Tj
+T*
+(  1. FORMULA: \(pref[i] - pref[j]\) % k = 0 iff pref[i] % k = pref[j] % k.) Tj
+T*
+(  2. CONCEPT: Two prefixes with the same remainder differ by a multiple of k.) Tj
+T*
+(  3. INTUITION: Congruent numbers have a difference divisible by the modulus.) Tj
+T*
+(  4. DSA CONNECTION: Prefix sums, HashMap frequencies, modular arithmetic.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Continuous Subarray Sum \(LC 523\), Subarray Sums Divisible by K \(LC 974\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Words like divisible, remainder, multiple, modulo, or k with subarrays should) Tj
+T*
+(    trigger this.) Tj
+T*
+(  7. VISUALIZATION: Prefix remainders: 1, 3, 1; the two 1s enclose a sum divisible by k.) Tj
+T*
+(  8. COMMON MISTAKES: Not normalizing negative remainders with \(rem % k + k\) % k.) Tj
+T*
+(  9. MEMORY TRICK: "Same remainder means divisible gap.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Converts O\(n^2\) divisibility checks into O\(n\) remainder counting.) Tj
+T*
+() Tj
+T*
+(  17. COUNT SUBARRAYS DIVISIBLE BY K) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: If a remainder appears c times, it contributes C\(c,2\) = c\(c - 1\)/2 subarrays.) Tj
+T*
+(  2. CONCEPT: Any pair of equal prefix remainders forms a divisible subarray.) Tj
+T*
+(  3. INTUITION: Choose two prefix positions with the same remainder; their difference is divisible by k.) Tj
+T*
+(  4. DSA CONNECTION: HashMap, combinatorics, prefix modulo.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Subarray Sums Divisible by K \(LC 974\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If asked for count, store frequencies rather than earliest index.) Tj
+T*
+(  7. VISUALIZATION: Remainder 2 appears at prefix indices [0,3,6]; pairs are \(0,3\), \(0,6\), \(3,6\).) Tj
+T*
+(  8. COMMON MISTAKES: Counting only existence; not adding current frequency before incrementing.) Tj
+T*
+(  9. MEMORY TRICK: "Equal remainders pair up.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: O\(n\) counting instead of checking all O\(n^2\) subarrays.) Tj
+T*
+() Tj
+T*
+(  18. DIFFERENCE ARRAY FOR RANGE ADD) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: To add v on [l,r]: diff[l] += v; diff[r + 1] -= v; final arr[i] = arr[i-1] + diff[i].) Tj
+T*
+(  2. CONCEPT: Mark where an interval effect starts and where it stops.) Tj
+T*
+(  3. INTUITION: Prefixing the difference array carries active updates across their covered ranges.) Tj
+T*
+(  4. DSA CONNECTION: Arrays, sweep line, range updates, offline processing.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Range Addition \(LC 370\), Corporate Flight Bookings \(LC 1109\), Car Pooling \(LC) Tj
+T*
+(    1094\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Many range updates with final array or point queries should trigger diff) Tj
+T*
+(    arrays.) Tj
+T*
+(  7. VISUALIZATION: +3 on [1,3]: diff [0,+3,0,0,-3]; prefix gives [0,3,3,3,0].) Tj
+T*
+(  8. COMMON MISTAKES: Allocating only n slots when writing r + 1; check bounds.) Tj
+T*
+(  9. MEMORY TRICK: "Open bracket adds, closing bracket subtracts.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Turns O\(updates * range length\) into O\(updates + n\).) Tj
+T*
+() Tj
+T*
+(  19. SWEEP LINE EVENT DIFFERENCE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Active count at position x is sum events[t] for all t <= x.) Tj
+T*
+(  2. CONCEPT: Intervals become start/end events.) Tj
+T*
+(  3. INTUITION: When scanning left to right, starts increase the active set and ends decrease it.) Tj
+T*
+(  4. DSA CONNECTION: Sorting, TreeMap, priority queue, interval problems.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Meeting Rooms II \(LC 253\), My Calendar variants, Car Pooling \(LC 1094\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If intervals overlap and you need max simultaneous items, sweep events.) Tj
+T*
+(  7. VISUALIZATION: Meeting [10,20\) adds +1 at 10, -1 at 20.) Tj
+T*
+(  8. COMMON MISTAKES: Handling equal start/end times incorrectly; half-open intervals [start,end\) avoid) Tj
+T*
+(    double counting.) Tj
+T*
+(  9. MEMORY TRICK: "Timeline is a prefix sum over events.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Reduces pairwise interval overlap checks from O\(n^2\) to O\(n log n\).) Tj
+T*
+() Tj
+T*
+(  20. 2D PREFIX SUM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: ps[i+1][j+1] = grid[i][j] + ps[i][j+1] + ps[i+1][j] - ps[i][j].) Tj
+T*
+(  2. CONCEPT: Store the sum of the rectangle from origin to each cell.) Tj
+T*
+(  3. INTUITION: Add top and left rectangles, but their overlap was counted twice, so subtract it once.) Tj
+T*
+(  4. DSA CONNECTION: Matrix range queries, image processing, DP grids.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Range Sum Query 2D Immutable \(LC 304\), Max Sum of Rectangle No Larger Than K) Tj
+T*
+(    \(LC 363\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If many rectangle sum queries appear, build 2D prefix sums.) Tj
+T*
+(  7. VISUALIZATION: Current rectangle = top block + left block + cell - top-left overlap.) Tj
+T*
+(  8. COMMON MISTAKES: Forgetting the overlap subtraction; off-by-one when using n+1 by m+1 arrays.) Tj
+T*
+(  9. MEMORY TRICK: "Add top and left, subtract the corner.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Makes rectangle sum O\(1\) after O\(nm\) preprocessing.) Tj
+T*
+() Tj
+T*
+(  21. RECTANGLE SUM FORMULA) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: sum\(r1,c1,r2,c2\) = ps[r2+1][c2+1] - ps[r1][c2+1] - ps[r2+1][c1] + ps[r1][c1].) Tj
+T*
+(  2. CONCEPT: Use inclusion-exclusion to isolate a target rectangle.) Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 4830 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  3. INTUITION: Start with everything up to bottom-right, remove above and left, then add back the) Tj
+T*
+(    removed overlap.) Tj
+T*
+(  4. DSA CONNECTION: 2D prefix, matrix DP, geometry-style grid counting.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Range Sum Query 2D \(LC 304\), Count Square Submatrices variants.) Tj
+T*
+(  6. PATTERN RECOGNITION: Query has two row bounds and two column bounds.) Tj
+T*
+(  7. VISUALIZATION: Big rectangle - top strip - left strip + top-left corner.) Tj
+T*
+(  8. COMMON MISTAKES: Reversing row/column; missing +1 on bottom/right because prefix is exclusive.) Tj
+T*
+(  9. MEMORY TRICK: "Big minus two strips plus corner.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Avoids scanning O\(area\) cells for every query.) Tj
+T*
+() Tj
+T*
+(  22. 2D DIFFERENCE ARRAY) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Add v to rectangle [r1..r2][c1..c2]: d[r1][c1]+=v, d[r2+1][c1]-=v, d[r1][c2+1]-=v,) Tj
+T*
+(    d[r2+1][c2+1]+=v.) Tj
+T*
+(  2. CONCEPT: Rectangle updates can be represented by four corners.) Tj
+T*
+(  3. INTUITION: Prefixing rows and columns spreads the update across the rectangle; corner corrections) Tj
+T*
+(    stop the spread.) Tj
+T*
+(  4. DSA CONNECTION: Grid updates, offline queries, image/matrix problems.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Range Addition II variants, Stamp/painting grid problems.) Tj
+T*
+(  6. PATTERN RECOGNITION: Many rectangle additions followed by final grid reconstruction.) Tj
+T*
+(  7. VISUALIZATION: One corner starts the paint, two corners stop horizontal/vertical bleed, last corner) Tj
+T*
+(    restores the outside.) Tj
+T*
+(  8. COMMON MISTAKES: Wrong signs at opposite corners; not allocating sentinel row/column.) Tj
+T*
+(  9. MEMORY TRICK: "Plus, minus, minus, plus around the rectangle.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Converts O\(qnm\) updates into O\(q + nm\).) Tj
+T*
+() Tj
+T*
+(  23. PREFIX XOR) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: xor\(l,r\) = px[r + 1] ^ px[l].) Tj
+T*
+(  2. CONCEPT: XOR prefix works like sum prefix because equal values cancel.) Tj
+T*
+(  3. INTUITION: a ^ a = 0; everything before l appears twice and disappears.) Tj
+T*
+(  4. DSA CONNECTION: Bit manipulation, arrays, tries, subarray XOR queries.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: XOR Queries of a Subarray \(LC 1310\), Count Triplets That Can Form Two Arrays of) Tj
+T*
+(    Equal XOR \(LC 1442\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If interval operation is XOR, use prefix XOR.) Tj
+T*
+(  7. VISUALIZATION: px[r+1] = before ^ target; XOR with before leaves target.) Tj
+T*
+(  8. COMMON MISTAKES: Using addition-style subtraction; XOR inverse is XOR itself.) Tj
+T*
+(  9. MEMORY TRICK: "XOR undoes itself.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Range XOR becomes O\(1\) per query.) Tj
+T*
+() Tj
+T*
+(  24. KADANE'S MAXIMUM SUBARRAY) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: bestEndingHere = max\(x, bestEndingHere + x\); answer = max\(answer, bestEndingHere\).) Tj
+T*
+(  2. CONCEPT: The best subarray ending at the current index either starts here or extends the previous) Tj
+T*
+(    best ending.) Tj
+T*
+(  3. INTUITION: A negative previous contribution should be discarded because it only hurts future sums.) Tj
+T*
+(  4. DSA CONNECTION: DP, arrays, greedy, prefix sums.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Maximum Subarray \(LC 53\), Maximum Product Subarray \(LC 152 variant\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If asked for maximum contiguous sum, think Kadane.) Tj
+T*
+(  7. VISUALIZATION: Running sum below zero is like carrying debt; restart after debt.) Tj
+T*
+(  8. COMMON MISTAKES: Returning 0 for all-negative arrays when non-empty subarray is required.) Tj
+T*
+(  9. MEMORY TRICK: "Extend if helpful, restart if harmful.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Replaces O\(n^2\) all-subarray sums with O\(n\).) Tj
+T*
+() Tj
+T*
+(PART 3: MODULAR ARITHMETIC) Tj
+T*
+() Tj
+T*
+(  25. MODULAR NORMALIZATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: norm\(x, m\) = \(\(x % m\) + m\) % m.) Tj
+T*
+(  2. CONCEPT: Convert any integer to a canonical remainder in [0, m - 1].) Tj
+T*
+(  3. INTUITION: Adding m does not change congruence, but fixes negative language remainders.) Tj
+T*
+(  4. DSA CONNECTION: Prefix modulo, hash functions, circular arrays, number theory.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Subarray Sums Divisible by K \(LC 974\), Robot bounded/circular movement) Tj
+T*
+(    variants.) Tj
+T*
+(  6. PATTERN RECOGNITION: If values can be negative and % appears, normalize.) Tj
+T*
+(  7. VISUALIZATION: -1 mod 5 should be 4; Java gives -1, so \(-1 + 5\) % 5 = 4.) Tj
+T*
+(  8. COMMON MISTAKES: Assuming % is mathematical modulo in every language.) Tj
+T*
+(  9. MEMORY TRICK: "Mod, add mod, mod again.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Prevents missing HashMap buckets and wrong array indexes.) Tj
+T*
+() Tj
+T*
+(  26. CONGRUENCE RELATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: a == b \(mod m\) iff m divides a - b.) Tj
+T*
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 5336 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  2. CONCEPT: Two numbers have the same remainder under modulus m.) Tj
+T*
+(  3. INTUITION: Numbers in the same remainder class differ by whole cycles of length m.) Tj
+T*
+(  4. DSA CONNECTION: Prefix modulo, CRT, cycle detection, circular arrays.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Continuous Subarray Sum \(LC 523\), Happy Number \(LC 202\) cycle reasoning.) Tj
+T*
+(  6. PATTERN RECOGNITION: Same remainder, clock arithmetic, cyclic position, or divisibility by m.) Tj
+T*
+(  7. VISUALIZATION: On a 12-hour clock, 15 and 3 land at the same position.) Tj
+T*
+(  8. COMMON MISTAKES: Comparing raw values instead of normalized remainders.) Tj
+T*
+(  9. MEMORY TRICK: "Same clock position.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Lets you group infinite integers into m finite buckets.) Tj
+T*
+() Tj
+T*
+(  27. MODULAR ADDITION AND MULTIPLICATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: \(a + b\) % m = \(\(a % m\) + \(b % m\)\) % m; \(ab\) % m = \(\(a % m\)\(b % m\)\) % m.) Tj
+T*
+(  2. CONCEPT: You can reduce operands before arithmetic.) Tj
+T*
+(  3. INTUITION: Removing multiples of m from operands cannot affect the final remainder.) Tj
+T*
+(  4. DSA CONNECTION: DP counts, combinatorics modulo 1e9+7, rolling hash.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Count Vowels Permutation \(LC 1220\), Number of Ways problems, Dice Roll DP.) Tj
+T*
+(  6. PATTERN RECOGNITION: If answers are huge and problem says modulo, reduce at every step.) Tj
+T*
+(  7. VISUALIZATION: Keep only the clock position after every move instead of tracking full laps.) Tj
+T*
+(  8. COMMON MISTAKES: Applying modulo only at the end and overflowing long/int.) Tj
+T*
+(  9. MEMORY TRICK: "Reduce early, reduce often.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Keeps DP/counting values bounded and safe.) Tj
+T*
+() Tj
+T*
+(  28. FAST EXPONENTIATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: If n is even, a^n = \(a^\(n/2\)\)^2; if odd, a^n = a * a^\(n-1\).) Tj
+T*
+(  2. CONCEPT: Exponentiation by squaring.) Tj
+T*
+(  3. INTUITION: Binary representation of the exponent tells which squared powers are needed.) Tj
+T*
+(  4. DSA CONNECTION: Number theory, modular inverse, matrix exponentiation, hashing.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Pow\(x,n\) \(LC 50\), Super Pow \(LC 372\), Fibonacci via matrix exponentiation.) Tj
+T*
+(  6. PATTERN RECOGNITION: Large exponent such as 10^9 or modulo power.) Tj
+T*
+(  7. VISUALIZATION: 3^13 = 3^\(8+4+1\) = 3^8 * 3^4 * 3.) Tj
+T*
+(  8. COMMON MISTAKES: Not handling negative exponents or Integer.MIN_VALUE overflow when negating.) Tj
+T*
+(  9. MEMORY TRICK: "Square the base, halve the exponent.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Reduces O\(n\) multiplication to O\(log n\).) Tj
+T*
+() Tj
+T*
+(  29. PRIME NUMBER DEFINITION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: p is prime iff its only positive divisors are 1 and p.) Tj
+T*
+(  2. CONCEPT: A prime is an indivisible building block of integers greater than 1.) Tj
+T*
+(  3. INTUITION: If n = ab, one factor is <= sqrt\(n\); test divisors only up to sqrt\(n\).) Tj
+T*
+(  4. DSA CONNECTION: Number theory, hashing, cryptography-style puzzles, sieve precomputation.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Count Primes \(LC 204\), Ugly Number variants, Prime Arrangements \(LC 1175\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Divisors, factors, coprime, primality, or "smallest prime factor".) Tj
+T*
+(  7. VISUALIZATION: For 36 = 4 * 9, one factor is below sqrt\(36\)=6.) Tj
+T*
+(  8. COMMON MISTAKES: Treating 1 as prime; looping to i*i <= n with int overflow.) Tj
+T*
+(  9. MEMORY TRICK: "Composite numbers show a small factor.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Trial division improves from O\(n\) to O\(sqrt\(n\)\).) Tj
+T*
+() Tj
+T*
+(  30. SIEVE OF ERATOSTHENES) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Mark multiples of each prime p starting at p*p.) Tj
+T*
+(  2. CONCEPT: Precompute primality for all numbers up to n.) Tj
+T*
+(  3. INTUITION: Smaller multiples of p were already marked by smaller factors.) Tj
+T*
+(  4. DSA CONNECTION: Prime counting, factorization precompute, number theory DP.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Count Primes \(LC 204\), Prime Subtraction Operation \(LC 2601\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Many prime queries up to a fixed limit.) Tj
+T*
+(  7. VISUALIZATION: For p=5, start marking 25; 10,15,20 were marked by 2 or 3.) Tj
+T*
+(  8. COMMON MISTAKES: Starting at 2p and doing extra work; wrong inclusive/exclusive bound for < n.) Tj
+T*
+(  9. MEMORY TRICK: "Prime starts crossing at its square.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Builds primes up to n in O\(n log log n\), far faster than repeated trial) Tj
+T*
+(    division.) Tj
+T*
+() Tj
+T*
+(  31. GCD AND EUCLIDEAN ALGORITHM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: gcd\(a,b\) = gcd\(b, a % b\) and gcd\(a,0\) = |a|.) Tj
+T*
+(  2. CONCEPT: The greatest common divisor is the largest number dividing both.) Tj
+T*
+(  3. INTUITION: Any divisor of a and b also divides a - qb, so remainder preserves common divisors.) Tj
+T*
+(  4. DSA CONNECTION: Number theory, fractions, graph/grid step normalization, array gcd.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Greatest Common Divisor of Strings \(LC 1071\), Minimum Operations to Make Array) Tj
+T*
+(    GCD Equal to One variants.) Tj
+T*
+(  6. PATTERN RECOGNITION: Common divisor, reduce fraction, repeated pattern length, coprime.) Tj
+T*
+(  7. VISUALIZATION: gcd\(48,18\) -> gcd\(18,12\) -> gcd\(12,6\) -> 6.) Tj
+T*
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 4716 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  8. COMMON MISTAKES: Not using absolute values; recursion stack is usually fine but iterative is) Tj
+T*
+(    simple.) Tj
+T*
+(  9. MEMORY TRICK: "Remainder keeps the gcd.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Computes gcd in O\(log min\(a,b\)\).) Tj
+T*
+() Tj
+T*
+(  32. LCM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: lcm\(a,b\) = |a / gcd\(a,b\) * b|.) Tj
+T*
+(  2. CONCEPT: The smallest positive number divisible by both a and b.) Tj
+T*
+(  3. INTUITION: a*b contains both prime factorizations, but common factors are counted twice; divide by) Tj
+T*
+(    gcd once.) Tj
+T*
+(  4. DSA CONNECTION: Periods, cycles, scheduling, CRT preconditions.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Smallest Even Multiple \(LC 2413\), Replace Non-Coprime Numbers in Array \(LC) Tj
+T*
+(    2197\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Synchronizing cycles or finding first common multiple.) Tj
+T*
+(  7. VISUALIZATION: lcm\(12,18\) = 12/6*18 = 36.) Tj
+T*
+(  8. COMMON MISTAKES: Multiplying before dividing and overflowing.) Tj
+T*
+(  9. MEMORY TRICK: "LCM is product corrected by GCD.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Avoids scanning multiples one by one.) Tj
+T*
+() Tj
+T*
+(  33. EXTENDED EUCLIDEAN ALGORITHM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Finds integers x,y such that ax + by = gcd\(a,b\).) Tj
+T*
+(  2. CONCEPT: The gcd can be expressed as a linear combination of the two numbers.) Tj
+T*
+(  3. INTUITION: Back-substitute remainders from Euclid's algorithm until gcd is written using original) Tj
+T*
+(    a,b.) Tj
+T*
+(  4. DSA CONNECTION: Modular inverse, Diophantine equations, CRT.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Modular inverse in combinatorics, linear congruence competitive-programming) Tj
+T*
+(    tasks.) Tj
+T*
+(  6. PATTERN RECOGNITION: "Find x such that ax == 1 mod m" or "integer solution to ax + by = c".) Tj
+T*
+(  7. VISUALIZATION: gcd\(30,12\)=6; 6 = 30 - 2*12.) Tj
+T*
+(  8. COMMON MISTAKES: Sign errors during coefficient updates; forgetting inverse exists only when gcd is) Tj
+T*
+(    1.) Tj
+T*
+(  9. MEMORY TRICK: "Euclid gives gcd; extended Euclid gives the recipe.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Enables O\(log m\) modular division when inverse exists.) Tj
+T*
+() Tj
+T*
+(  34. MODULAR INVERSE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: a^{-1} mod m is x such that ax == 1 \(mod m\); exists iff gcd\(a,m\)=1.) Tj
+T*
+(  2. CONCEPT: Division under modulo is multiplication by an inverse.) Tj
+T*
+(  3. INTUITION: From Bezout, if ax + my = 1, then ax == 1 mod m.) Tj
+T*
+(  4. DSA CONNECTION: Combinations modulo prime, probability modulo, CRT, hashing.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Count Anagrams, nCr modulo prime, Codeforces combinatorics problems.) Tj
+T*
+(  6. PATTERN RECOGNITION: If formula has division and final answer modulo, find modular inverse.) Tj
+T*
+(  7. VISUALIZATION: Mod 7, inverse of 3 is 5 because 3*5 = 15 == 1.) Tj
+T*
+(  8. COMMON MISTAKES: Using integer division under modulo; trying inverse when numbers are not coprime.) Tj
+T*
+(  9. MEMORY TRICK: "Modulo division is multiply by undo.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Makes factorial-based combinations O\(1\) after preprocessing.) Tj
+T*
+() Tj
+T*
+(  35. FERMAT AND EULER THEOREMS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: If p is prime and a % p != 0, a^\(p-1\) == 1 mod p; more generally a^phi\(m\) == 1 mod m when) Tj
+T*
+(    gcd\(a,m\)=1.) Tj
+T*
+(  2. CONCEPT: Powers cycle inside the multiplicative group modulo m.) Tj
+T*
+(  3. INTUITION: Multiplying all non-zero residues by a coprime a permutes the same residue set.) Tj
+T*
+(  4. DSA CONNECTION: Modular inverse, exponent reduction, number theory.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Super Pow \(LC 372\), combinatorics modulo 1e9+7.) Tj
+T*
+(  6. PATTERN RECOGNITION: Prime modulus and inverse: use a^\(p-2\) mod p.) Tj
+T*
+(  7. VISUALIZATION: Mod 5, powers of 2 cycle: 2,4,3,1.) Tj
+T*
+(  8. COMMON MISTAKES: Applying Fermat when modulus is not prime or a divisible by p.) Tj
+T*
+(  9. MEMORY TRICK: "Prime inverse exponent is p minus 2.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Computes inverse with fast power in O\(log p\).) Tj
+T*
+() Tj
+T*
+(  36. EULER TOTIENT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: If n = product p_i^{e_i}, then phi\(n\) = n * product\(1 - 1/p_i\).) Tj
+T*
+(  2. CONCEPT: phi\(n\) counts integers in [1,n] that are coprime to n.) Tj
+T*
+(  3. INTUITION: For each prime factor p, remove multiples of p; inclusion-exclusion over prime factors) Tj
+T*
+(    gives the product.) Tj
+T*
+(  4. DSA CONNECTION: Euler theorem, CRT, counting coprime pairs.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Count coprime numbers, modular exponent reduction tasks.) Tj
+T*
+(  6. PATTERN RECOGNITION: If a problem counts residues coprime to n, use phi.) Tj
+T*
+(  7. VISUALIZATION: phi\(12\)=4: 1,5,7,11.) Tj
+T*
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 5038 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  8. COMMON MISTAKES: Forgetting distinct prime factors only in the product.) Tj
+T*
+(  9. MEMORY TRICK: "Start with n, discount each prime factor.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Avoids checking gcd for every number when factorization is available.) Tj
+T*
+() Tj
+T*
+(  37. CHINESE REMAINDER THEOREM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: For pairwise coprime moduli m_i, system x == a_i mod m_i has a unique solution modulo M =) Tj
+T*
+(    product m_i.) Tj
+T*
+(  2. CONCEPT: Independent remainder constraints combine into one modulo system.) Tj
+T*
+(  3. INTUITION: Coprime cycles align exactly once over their product period.) Tj
+T*
+(  4. DSA CONNECTION: Number theory, scheduling cycles, modular reconstruction.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Bus schedule variants, Codeforces CRT tasks.) Tj
+T*
+(  6. PATTERN RECOGNITION: Multiple congruences with different moduli.) Tj
+T*
+(  7. VISUALIZATION: x == 2 mod 3, x == 3 mod 5; solution is 8 mod 15.) Tj
+T*
+(  8. COMMON MISTAKES: Assuming CRT works unchanged for non-coprime moduli; must check compatibility.) Tj
+T*
+(  9. MEMORY TRICK: "Coprime clocks meet once per product.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Replaces brute force search over huge ranges with modular construction.) Tj
+T*
+() Tj
+T*
+(  38. LINEAR DIOPHANTINE EQUATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: ax + by = c has integer solutions iff gcd\(a,b\) divides c.) Tj
+T*
+(  2. CONCEPT: Only multiples of the gcd can be formed by integer combinations of a and b.) Tj
+T*
+(  3. INTUITION: Every combination is divisible by gcd; Bezout proves every multiple of gcd is reachable.) Tj
+T*
+(  4. DSA CONNECTION: Number theory, coin reachability, modular equations.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Water and Jug Problem \(LC 365\), coin combination reachability variants.) Tj
+T*
+(  6. PATTERN RECOGNITION: "Can measure exactly c using containers a and b" or ax + by = target.) Tj
+T*
+(  7. VISUALIZATION: With jugs 3 and 5, gcd is 1, so any target up to capacity constraints may be) Tj
+T*
+(    reachable.) Tj
+T*
+(  8. COMMON MISTAKES: Ignoring extra bounds like total capacity in jug problems.) Tj
+T*
+(  9. MEMORY TRICK: "Reachable amounts are gcd multiples.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Turns state-space BFS into O\(log n\) math when only reachability is asked.) Tj
+T*
+() Tj
+T*
+(  39. POLYNOMIAL ROLLING HASH) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: H\(s\) = sum s[i] * base^i mod mod; substring hash normalized by subtracting prefix and) Tj
+T*
+(    multiplying inverse power.) Tj
+T*
+(  2. CONCEPT: Encode strings as modular polynomials.) Tj
+T*
+(  3. INTUITION: Characters at different positions get different powers, so order affects the hash.) Tj
+T*
+(  4. DSA CONNECTION: Strings, Rabin-Karp, duplicate substring, hash sets.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Longest Duplicate Substring \(LC 1044\), Repeated DNA Sequences \(LC 187\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Need fast substring equality checks many times.) Tj
+T*
+(  7. VISUALIZATION: "abc" becomes a + b*B + c*B^2.) Tj
+T*
+(  8. COMMON MISTAKES: Hash collisions; use double hash or verify strings when required.) Tj
+T*
+(  9. MEMORY TRICK: "String as a number in base B.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Substring comparisons go from O\(length\) to O\(1\) average after) Tj
+T*
+(    preprocessing.) Tj
+T*
+() Tj
+T*
+(PART 4: COMBINATORICS) Tj
+T*
+() Tj
+T*
+(  40. PRODUCT AND SUM RULES) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Independent choices multiply: total = a*b; disjoint alternatives add: total = a + b.) Tj
+T*
+(  2. CONCEPT: Multiply stages, add alternatives.) Tj
+T*
+(  3. INTUITION: For every first choice, there are all second choices; alternatives do not overlap.) Tj
+T*
+(  4. DSA CONNECTION: Backtracking, counting DP, probability, combinatorics.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Letter Combinations of a Phone Number \(LC 17\), Decode Ways \(LC 91\).) Tj
+T*
+(  6. PATTERN RECOGNITION: "For each choice, choose another" means multiply; "either this or that" means) Tj
+T*
+(    add.) Tj
+T*
+(  7. VISUALIZATION: 3 shirts and 2 pants make 3*2 = 6 outfits.) Tj
+T*
+(  8. COMMON MISTAKES: Multiplying overlapping alternatives or adding independent stages.) Tj
+T*
+(  9. MEMORY TRICK: "AND multiplies; OR adds" when cases are independent/disjoint.) Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Leads to recurrence counts without enumerating every object.) Tj
+T*
+() Tj
+T*
+(  41. FACTORIAL) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: n! = n*\(n-1\)*...*1; 0! = 1.) Tj
+T*
+(  2. CONCEPT: Number of ways to order n distinct items.) Tj
+T*
+(  3. INTUITION: First slot has n choices, next has n-1, and so on.) Tj
+T*
+(  4. DSA CONNECTION: Permutations, backtracking, combinatorics modulo prime.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Permutations \(LC 46\), Next Permutation \(LC 31\), Count Anagrams.) Tj
+T*
+(  6. PATTERN RECOGNITION: If every object is used exactly once in an ordering, think factorial.) Tj
+T*
+(  7. VISUALIZATION: ABC permutations: ABC, ACB, BAC, BCA, CAB, CBA = 3!.) Tj
+T*
+(  8. COMMON MISTAKES: Forgetting factorial growth explodes; 13! exceeds 32-bit int.) Tj
+T*
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 4759 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  9. MEMORY TRICK: "Fill slots from left to right.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Helps identify when brute-force permutation generation is infeasible.) Tj
+T*
+() Tj
+T*
+(  42. PERMUTATIONS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: P\(n,k\) = n!/\(n-k\)!.) Tj
+T*
+(  2. CONCEPT: Number of ordered selections of k items from n.) Tj
+T*
+(  3. INTUITION: Fill k ordered slots: n choices, then n-1, down to n-k+1.) Tj
+T*
+(  4. DSA CONNECTION: Backtracking, top-k arrangements, scheduling.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Permutations II \(LC 47\), Beautiful Arrangement \(LC 526\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If order matters and not all items must be selected, use permutations.) Tj
+T*
+(  7. VISUALIZATION: Choose 2 ordered letters from A,B,C: AB, AC, BA, BC, CA, CB.) Tj
+T*
+(  8. COMMON MISTAKES: Using combinations when order matters.) Tj
+T*
+(  9. MEMORY TRICK: "Permutation cares about position.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Bounds backtracking search and motivates pruning/memoization.) Tj
+T*
+() Tj
+T*
+(  43. COMBINATIONS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: C\(n,k\) = n! / \(k!\(n-k\)!\).) Tj
+T*
+(  2. CONCEPT: Number of unordered selections of k items from n.) Tj
+T*
+(  3. INTUITION: Start with ordered selections, then divide by the k! orders inside each chosen group.) Tj
+T*
+(  4. DSA CONNECTION: Counting, binomial DP, subset generation, probability.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Combinations \(LC 77\), Combination Sum variants, Pascal's Triangle \(LC 118\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If order does not matter and only membership matters, use combinations.) Tj
+T*
+(  7. VISUALIZATION: From A,B,C, choosing 2 gives AB, AC, BC; AB and BA are the same choice.) Tj
+T*
+(  8. COMMON MISTAKES: Not using symmetry C\(n,k\)=C\(n,n-k\) to reduce computation.) Tj
+T*
+(  9. MEMORY TRICK: "Choose ignores order.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Allows direct counts instead of enumerating all subsets.) Tj
+T*
+() Tj
+T*
+(  44. BINOMIAL THEOREM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: \(x + y\)^n = sum_{k=0..n} C\(n,k\)x^\(n-k\)y^k.) Tj
+T*
+(  2. CONCEPT: Expansion coefficients count how many ways each term appears.) Tj
+T*
+(  3. INTUITION: In each of n factors choose either x or y; choosing k y's gives coefficient C\(n,k\).) Tj
+T*
+(  4. DSA CONNECTION: Combinatorics, probability, subset counts, polynomial DP.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Unique Paths \(LC 62\), binomial probability/counting tasks.) Tj
+T*
+(  6. PATTERN RECOGNITION: If each step has two types and order count matters only by number of one type,) Tj
+T*
+(    use binomial coefficients.) Tj
+T*
+(  7. VISUALIZATION: \(x+y\)^3 = xxx + xxy + xyx + yxx + xyy + yxy + yyx + yyy.) Tj
+T*
+(  8. COMMON MISTAKES: Treating coefficient as 1 for middle terms.) Tj
+T*
+(  9. MEMORY TRICK: "Coefficient counts choices of y positions.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Turns path/count problems into O\(1\) or O\(k\) combinatorics after precompute.) Tj
+T*
+() Tj
+T*
+(  45. PASCAL IDENTITY) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: C\(n,k\) = C\(n-1,k-1\) + C\(n-1,k\).) Tj
+T*
+(  2. CONCEPT: A combination either includes a chosen special item or it does not.) Tj
+T*
+(  3. INTUITION: Split all k-subsets by whether they contain item n.) Tj
+T*
+(  4. DSA CONNECTION: DP, Pascal triangle, binomial coefficients.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Pascal's Triangle \(LC 118\), Unique Paths \(LC 62\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If count can split into "take" and "skip", use Pascal-style recurrence.) Tj
+T*
+(  7. VISUALIZATION: Triangle row value is sum of two parents above it.) Tj
+T*
+(  8. COMMON MISTAKES: Wrong base cases: C\(n,0\)=C\(n,n\)=1.) Tj
+T*
+(  9. MEMORY TRICK: "Choose me or do not choose me.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Computes combinations with O\(nk\) DP when factorial inverse is not) Tj
+T*
+(    available.) Tj
+T*
+() Tj
+T*
+(  46. POWER SET COUNT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Number of subsets of n items is 2^n.) Tj
+T*
+(  2. CONCEPT: Every item has two choices: included or excluded.) Tj
+T*
+(  3. INTUITION: Product rule over n independent yes/no decisions.) Tj
+T*
+(  4. DSA CONNECTION: Backtracking, bitmasking, subset DP.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Subsets \(LC 78\), Partition Equal Subset Sum \(LC 416\), Maximum Product of Word) Tj
+T*
+(    Lengths \(LC 318\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If every element can be picked or skipped, expect 2^n.) Tj
+T*
+(  7. VISUALIZATION: For {a,b}, subsets are {}, {a}, {b}, {a,b}.) Tj
+T*
+(  8. COMMON MISTAKES: Trying subset enumeration for n=40 without meet-in-the-middle or DP.) Tj
+T*
+(  9. MEMORY TRICK: "Each item is a bit.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Guides whether bitmask enumeration is feasible \(n <= 20 often\).) Tj
+T*
+() Tj
+T*
+(  47. CATALAN NUMBERS) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 5251 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  1. FORMULA: C_n = \(1/\(n+1\)\) * binom\(2n,n\) and C_n = sum_{i=0..n-1} C_i C_{n-1-i}.) Tj
+T*
+(  2. CONCEPT: Counts recursively nested non-crossing structures.) Tj
+T*
+(  3. INTUITION: Pick a root/pair; left side has i elements and right side has n-1-i, independent Catalan) Tj
+T*
+(    subproblems.) Tj
+T*
+(  4. DSA CONNECTION: DP, trees, parentheses, stack-valid sequences.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Unique Binary Search Trees \(LC 96\), Generate Parentheses \(LC 22\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Balanced parentheses, unique BSTs, triangulations, non-crossing handshakes.) Tj
+T*
+(  7. VISUALIZATION: For BST root r, smaller keys form left subtree and larger keys form right subtree.) Tj
+T*
+(  8. COMMON MISTAKES: Confusing Catalan with 2^n; Catalan is smaller but still grows fast.) Tj
+T*
+(  9. MEMORY TRICK: "Catalan counts balanced/nested shapes.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Gives O\(n^2\) DP for counts instead of enumerating all structures.) Tj
+T*
+() Tj
+T*
+(  48. STARS AND BARS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Nonnegative solutions to x_1 + ... + x_k = n are C\(n+k-1, k-1\).) Tj
+T*
+(  2. CONCEPT: Distribute identical items into distinct boxes.) Tj
+T*
+(  3. INTUITION: Arrange n stars and k-1 bars; bars split stars among boxes.) Tj
+T*
+(  4. DSA CONNECTION: Counting DP, combinatorics, integer partitions with constraints.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Coin distribution/counting variants, Codeforces distribution tasks.) Tj
+T*
+(  6. PATTERN RECOGNITION: "Distribute n identical things among k groups" with nonnegative amounts.) Tj
+T*
+(  7. VISUALIZATION: *|| means \(3,2,0\) for 5 items into 3 boxes.) Tj
+T*
+(  8. COMMON MISTAKES: Using this when items are distinct or boxes are identical; constraints need) Tj
+T*
+(    inclusion-exclusion/DP.) Tj
+T*
+(  9. MEMORY TRICK: "Stars are items; bars are dividers.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Replaces recursive distribution enumeration with one combination.) Tj
+T*
+() Tj
+T*
+(  49. MULTINOMIAL AND ANAGRAMS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Distinct permutations with counts c_1..c_m: n! / \(c_1! c_2! ... c_m!\).) Tj
+T*
+(  2. CONCEPT: Repeated equal items make many permutations indistinguishable.) Tj
+T*
+(  3. INTUITION: Start with n! arrangements, then divide by internal swaps among identical copies.) Tj
+T*
+(  4. DSA CONNECTION: String counting, HashMap frequencies, combinatorics modulo.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Group Anagrams \(LC 49 concept\), Count Anagrams, permutation duplicate variants.) Tj
+T*
+(  6. PATTERN RECOGNITION: If letters/items repeat and order matters, divide by duplicate factorials.) Tj
+T*
+(  7. VISUALIZATION: "AAB" has 3!/2! = 3: AAB, ABA, BAA.) Tj
+T*
+(  8. COMMON MISTAKES: Forgetting modular inverse for division under modulo.) Tj
+T*
+(  9. MEMORY TRICK: "Divide by swaps you cannot see.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Counts unique arrangements without generating duplicates.) Tj
+T*
+() Tj
+T*
+(  50. DERANGEMENTS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: !n = \(n - 1\)\(!\(n - 1\) + !\(n - 2\)\); approximately n!/e.) Tj
+T*
+(  2. CONCEPT: Number of permutations where no item stays in its original position.) Tj
+T*
+(  3. INTUITION: Place item 1 into someone else's spot; that creates either a two-cycle or a longer) Tj
+T*
+(    chain.) Tj
+T*
+(  4. DSA CONNECTION: DP, combinatorics, matching constraints.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Find the Derangement of An Array \(LC 634\).) Tj
+T*
+(  6. PATTERN RECOGNITION: "No fixed point", "no one gets own item".) Tj
+T*
+(  7. VISUALIZATION: For 3 items, derangements are 231 and 312.) Tj
+T*
+(  8. COMMON MISTAKES: Using n! - n instead of inclusion-exclusion/DP.) Tj
+T*
+(  9. MEMORY TRICK: "Nobody sits in their own seat.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Direct recurrence avoids enumerating all permutations.) Tj
+T*
+() Tj
+T*
+(  51. PIGEONHOLE PRINCIPLE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Placing n+1 objects into n boxes forces some box to contain at least 2 objects.) Tj
+T*
+(  2. CONCEPT: Too many objects for too few categories guarantees collision.) Tj
+T*
+(  3. INTUITION: If every box had at most one object, total capacity would be only n.) Tj
+T*
+(  4. DSA CONNECTION: Duplicate detection, cycle detection, hashing, proofs.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Find the Duplicate Number \(LC 287\), Contains Duplicate variants.) Tj
+T*
+(  6. PATTERN RECOGNITION: Values range has fewer possibilities than number of items.) Tj
+T*
+(  7. VISUALIZATION: 367 people guarantee two share a birthday in a non-leap year.) Tj
+T*
+(  8. COMMON MISTAKES: It proves existence, not location; still need an algorithm to find the duplicate.) Tj
+T*
+(  9. MEMORY TRICK: "More pigeons than holes means sharing.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Justifies binary search on value or Floyd cycle for duplicate problems.) Tj
+T*
+() Tj
+T*
+(  52. PROBABILITY BASICS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: P\(A\) = favorable / total; P\(not A\)=1-P\(A\); P\(A union B\)=P\(A\)+P\(B\)-P\(A intersect B\).) Tj
+T*
+(  2. CONCEPT: Probability is normalized counting.) Tj
+T*
+(  3. INTUITION: Events partition the sample space; complements and inclusion-exclusion avoid) Tj
+T*
+(    overcounting.) Tj
+T*
+(  4. DSA CONNECTION: Randomized algorithms, expected value, DP probability.) Tj
+T*
+ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 4837 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  5. INTERVIEW PROBLEMS: Random Pick Index \(LC 398\), Random Pick with Weight \(LC 528\), New 21 Game \(LC) Tj
+T*
+(    837\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Random choice, expected attempts, weighted sampling.) Tj
+T*
+(  7. VISUALIZATION: Six-sided die: P\(even\)=3/6=1/2.) Tj
+T*
+(  8. COMMON MISTAKES: Assuming independence when events are dependent.) Tj
+T*
+(  9. MEMORY TRICK: "Probability is count divided by universe.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Leads to prefix-weight sampling and probability DP instead of simulation.) Tj
+T*
+() Tj
+T*
+(  53. EXPECTED VALUE LINEARITY) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: E[X + Y] = E[X] + E[Y], even if X and Y are dependent.) Tj
+T*
+(  2. CONCEPT: Average total equals sum of average contributions.) Tj
+T*
+(  3. INTUITION: Summing outcomes and averaging can be swapped.) Tj
+T*
+(  4. DSA CONNECTION: Randomized algorithms, hashing analysis, coupon/collision problems.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: RandomizedSet \(LC 380\) reasoning, reservoir sampling, expected comparisons in) Tj
+T*
+(    quicksort.) Tj
+T*
+(  6. PATTERN RECOGNITION: Count total number of events by defining indicator variables.) Tj
+T*
+(  7. VISUALIZATION: Expected number of heads in 10 coin flips is sum of ten 1/2 indicators = 5.) Tj
+T*
+(  8. COMMON MISTAKES: Thinking independence is required for linearity.) Tj
+T*
+(  9. MEMORY TRICK: "Expectation adds even when variables do not behave.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Simplifies probabilistic analysis and avoids enumerating all outcomes.) Tj
+T*
+() Tj
+T*
+(PART 5: BIT MANIPULATION) Tj
+T*
+() Tj
+T*
+(  54. XOR IDENTITIES) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: x ^ x = 0; x ^ 0 = x; XOR is associative and commutative.) Tj
+T*
+(  2. CONCEPT: Equal values cancel under XOR.) Tj
+T*
+(  3. INTUITION: Each bit toggled twice returns to its original value.) Tj
+T*
+(  4. DSA CONNECTION: Bit manipulation, prefix XOR, missing/single number.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Single Number \(LC 136\), Missing Number \(LC 268\), Single Number III \(LC 260\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If all elements appear twice except one or two, think XOR.) Tj
+T*
+(  7. VISUALIZATION: 5 ^ 7 ^ 5 = 7 because the two 5s cancel.) Tj
+T*
+(  8. COMMON MISTAKES: XOR only cancels equal values an even number of times; triples need bit counting.) Tj
+T*
+(  9. MEMORY TRICK: "XOR is toggle; toggle twice cancels.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Finds unique elements in O\(n\) time and O\(1\) space.) Tj
+T*
+() Tj
+T*
+(  55. AND AND OR MASK MEANING) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: x & mask keeps selected bits; x | mask forces selected bits to 1.) Tj
+T*
+(  2. CONCEPT: AND filters bits; OR adds bits.) Tj
+T*
+(  3. INTUITION: 1 & bit = bit, 0 & bit = 0; 1 | bit = 1.) Tj
+T*
+(  4. DSA CONNECTION: Bit masks, permissions, state compression, tries.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Maximum Product of Word Lengths \(LC 318\), Bitwise ORs of Subarrays \(LC 898\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If a set has small universe size, represent membership with bits.) Tj
+T*
+(  7. VISUALIZATION: Letters in word "abc" -> mask bits 000...0111.) Tj
+T*
+(  8. COMMON MISTAKES: Using OR to test membership; use \(mask & bit\) != 0.) Tj
+T*
+(  9. MEMORY TRICK: "AND asks; OR adds.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Set operations become O\(1\) word-level bit operations.) Tj
+T*
+() Tj
+T*
+(  56. LEFT AND RIGHT SHIFT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: x << k = x * 2^k; for nonnegative integers, x >> k = floor\(x / 2^k\).) Tj
+T*
+(  2. CONCEPT: Shifts move bits by powers of two.) Tj
+T*
+(  3. INTUITION: Binary place values are powers of two; moving left increases place value.) Tj
+T*
+(  4. DSA CONNECTION: Bit masks, binary lifting, heap indexing, subset counts.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Counting Bits \(LC 338\), Power of Two \(LC 231\), bitmask DP tasks.) Tj
+T*
+(  6. PATTERN RECOGNITION: Need 2^k, kth bit, or divide/multiply by two.) Tj
+T*
+(  7. VISUALIZATION: Binary 101 \(5\) shifted left one becomes 1010 \(10\).) Tj
+T*
+(  8. COMMON MISTAKES: Signed right shift behavior for negative numbers; shift count overflow.) Tj
+T*
+(  9. MEMORY TRICK: "Left grows, right shrinks.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Creates masks and state counts instantly.) Tj
+T*
+() Tj
+T*
+(  57. POWER OF TWO TEST) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: n > 0 && \(n & \(n - 1\)\) == 0.) Tj
+T*
+(  2. CONCEPT: Powers of two have exactly one set bit.) Tj
+T*
+(  3. INTUITION: Subtracting 1 turns the single set bit into zeros above and ones below; AND clears) Tj
+T*
+(    everything.) Tj
+T*
+(  4. DSA CONNECTION: Bit tricks, heap/capacity sizing, binary properties.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Power of Two \(LC 231\), Power of Four \(LC 342\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If only one bit should be set, use n & \(n-1\).) Tj
+T*
+(  7. VISUALIZATION: 8=1000, 7=0111; AND is 0000.) Tj
+T*
+ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 4751 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  8. COMMON MISTAKES: Forgetting n > 0; zero also gives \(0 & -1\) == 0.) Tj
+T*
+(  9. MEMORY TRICK: "Power of two loses its only one.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: O\(1\) test instead of repeated division by 2.) Tj
+T*
+() Tj
+T*
+(  58. LOWBIT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: lowbit\(x\) = x & -x.) Tj
+T*
+(  2. CONCEPT: Extract the lowest set bit.) Tj
+T*
+(  3. INTUITION: Two's complement -x flips bits and adds 1, leaving only the rightmost 1 aligned.) Tj
+T*
+(  4. DSA CONNECTION: Fenwick Tree, bit decomposition, subset iteration.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Fenwick Tree range sum, Single Number III \(LC 260\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Need to isolate the first differing bit or Fenwick parent jump.) Tj
+T*
+(  7. VISUALIZATION: x=101100; x & -x = 000100.) Tj
+T*
+(  8. COMMON MISTAKES: Confusing lowest set bit with index; use bit count or trailing zeros for index.) Tj
+T*
+(  9. MEMORY TRICK: "x and negative x keeps the last 1.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Enables O\(log n\) Fenwick updates/queries.) Tj
+T*
+() Tj
+T*
+(  59. CLEAR LOWEST SET BIT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: x = x & \(x - 1\).) Tj
+T*
+(  2. CONCEPT: Remove the lowest 1 bit from x.) Tj
+T*
+(  3. INTUITION: x - 1 flips the lowest 1 to 0 and all lower zeros to 1; AND clears only that bit.) Tj
+T*
+(  4. DSA CONNECTION: Popcount, subset loops, bit hacks.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Number of 1 Bits \(LC 191\), Counting Bits \(LC 338\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Need to iterate set bits only.) Tj
+T*
+(  7. VISUALIZATION: 110100 -> 110000 -> 100000 -> 000000.) Tj
+T*
+(  8. COMMON MISTAKES: Looping 32 times when number of set bits is much smaller.) Tj
+T*
+(  9. MEMORY TRICK: "n-1 bites off the last 1.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Popcount runs O\(number of set bits\) instead of fixed bit width.) Tj
+T*
+() Tj
+T*
+(  60. KTH BIT OPERATIONS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Set: mask | \(1<<k\); clear: mask & ~\(1<<k\); toggle: mask ^ \(1<<k\); test: \(mask>>k\)&1.) Tj
+T*
+(  2. CONCEPT: Use a one-bit mask to manipulate one position.) Tj
+T*
+(  3. INTUITION: Bitwise operators affect only positions where the helper mask has 1.) Tj
+T*
+(  4. DSA CONNECTION: Bitmask DP, visited sets, subset generation.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Subsets \(LC 78\), Maximum Product of Word Lengths \(LC 318\), TSP-style DP.) Tj
+T*
+(  6. PATTERN RECOGNITION: State contains yes/no flags for at most 20 to 30 items.) Tj
+T*
+(  7. VISUALIZATION: To set bit 2: 0101 | 0100 = 0101 if already set, else it becomes set.) Tj
+T*
+(  8. COMMON MISTAKES: Missing parentheses: 1 << k + 1 means 1 << \(k+1\) in many languages.) Tj
+T*
+(  9. MEMORY TRICK: "Build a flashlight at bit k.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Replaces boolean arrays/sets with compact integers and faster transitions.) Tj
+T*
+() Tj
+T*
+(  61. SUBSET ENUMERATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Iterate mask from 0 to \(1<<n\)-1; bit i indicates whether item i is included.) Tj
+T*
+(  2. CONCEPT: Every subset corresponds to one binary number.) Tj
+T*
+(  3. INTUITION: n independent include/exclude choices form n bits, so there are 2^n masks.) Tj
+T*
+(  4. DSA CONNECTION: Backtracking, meet-in-the-middle, bitmask DP.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Subsets \(LC 78\), Partition to K Equal Sum Subsets \(LC 698\), Maximum Students) Tj
+T*
+(    Taking Exam \(LC 1349\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Small n and all subsets/states must be considered.) Tj
+T*
+(  7. VISUALIZATION: For n=3, mask 101 means choose items 0 and 2.) Tj
+T*
+(  8. COMMON MISTAKES: Overflow when 1<<n uses int and n >= 31; use long if needed.) Tj
+T*
+(  9. MEMORY TRICK: "A subset is a binary barcode.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Provides iterative enumeration and O\(1\) membership checks.) Tj
+T*
+() Tj
+T*
+(  62. SUBMASK ENUMERATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: for \(sub = mask; sub > 0; sub = \(sub - 1\) & mask\).) Tj
+T*
+(  2. CONCEPT: Iterate all subsets of a given mask.) Tj
+T*
+(  3. INTUITION: Subtracting 1 moves to the next lower bit pattern; AND keeps only bits allowed by mask.) Tj
+T*
+(  4. DSA CONNECTION: SOS DP, subset convolution, partition DP.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Minimum Incompatibility \(LC 1681\), bitmask partitioning problems.) Tj
+T*
+(  6. PATTERN RECOGNITION: Need to split a state mask into chosen subset and remainder.) Tj
+T*
+(  7. VISUALIZATION: Mask 1011 generates 1011,1010,1001,1000,0011,....) Tj
+T*
+(  8. COMMON MISTAKES: Forgetting to process sub=0 separately when needed.) Tj
+T*
+(  9. MEMORY TRICK: "Subtract then clamp to mask.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Enumerates valid submasks directly rather than scanning all 2^n masks each) Tj
+T*
+(    time.) Tj
+T*
+() Tj
+T*
+(  63. BITMASK DP STATE COUNT) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 4779 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  1. FORMULA: states = 2^n; common transition cost O\(2^n * n\) or O\(3^n\) with submasks.) Tj
+T*
+(  2. CONCEPT: Bitmask DP stores an answer for every subset.) Tj
+T*
+(  3. INTUITION: Each item can be present or absent in a state.) Tj
+T*
+(  4. DSA CONNECTION: DP, graph Hamiltonian paths, assignment, TSP.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Shortest Path Visiting All Nodes \(LC 847\), Can I Win \(LC 464\), TSP variants.) Tj
+T*
+(  6. PATTERN RECOGNITION: n <= 20, visited-set state, all subsets.) Tj
+T*
+(  7. VISUALIZATION: dp[mask][last] means "best result after visiting exactly mask and ending at last.") Tj
+T*
+(  8. COMMON MISTAKES: Trying bitmask DP with n=30+; memory explodes.) Tj
+T*
+(  9. MEMORY TRICK: "Small n can become state bits.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Converts exponential recursion with repeated states into memoized 2^n) Tj
+T*
+(    states.) Tj
+T*
+() Tj
+T*
+(PART 6: GEOMETRY) Tj
+T*
+() Tj
+T*
+(  64. EUCLIDEAN DISTANCE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: dist\(\(x1,y1\),\(x2,y2\)\) = sqrt\(\(x2-x1\)^2 + \(y2-y1\)^2\).) Tj
+T*
+(  2. CONCEPT: Straight-line distance between two points.) Tj
+T*
+(  3. INTUITION: Horizontal and vertical differences form a right triangle.) Tj
+T*
+(  4. DSA CONNECTION: Geometry, nearest points, graph edge weights.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: K Closest Points to Origin \(LC 973\), Min Cost to Connect Points \(LC 1584) Tj
+T*
+(    variant with Manhattan\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Coordinate points with "closest", "distance", "radius".) Tj
+T*
+(  7. VISUALIZATION: From \(0,0\) to \(3,4\), distance is 5.) Tj
+T*
+(  8. COMMON MISTAKES: Computing sqrt unnecessarily; compare squared distances to avoid floating error.) Tj
+T*
+(  9. MEMORY TRICK: "Distance is Pythagoras on deltas.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Squared distance keeps comparisons O\(1\), integer, and precise.) Tj
+T*
+() Tj
+T*
+(  65. MIDPOINT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: mid = \(\(x1+x2\)/2, \(y1+y2\)/2\).) Tj
+T*
+(  2. CONCEPT: Point halfway between two points.) Tj
+T*
+(  3. INTUITION: Average each coordinate independently.) Tj
+T*
+(  4. DSA CONNECTION: Geometry, binary search on coordinates, divide and conquer.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Symmetry/reflection point problems, rectangle center checks.) Tj
+T*
+(  6. PATTERN RECOGNITION: Need center, reflection, or pair symmetry.) Tj
+T*
+(  7. VISUALIZATION: Midpoint of \(2,4\) and \(8,10\) is \(5,7\).) Tj
+T*
+(  8. COMMON MISTAKES: Integer division losing .5; use doubled coordinates for exact hash keys.) Tj
+T*
+(  9. MEMORY TRICK: "Midpoint is coordinate average.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Enables O\(n\) symmetry checks by comparing paired sums instead of floats.) Tj
+T*
+() Tj
+T*
+(  66. PYTHAGOREAN THEOREM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: For a right triangle, a^2 + b^2 = c^2.) Tj
+T*
+(  2. CONCEPT: Relates legs and hypotenuse.) Tj
+T*
+(  3. INTUITION: The square on the hypotenuse has area equal to the sum of squares on the legs.) Tj
+T*
+(  4. DSA CONNECTION: Distance, grid geometry, right-triangle counting.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Valid Square \(LC 593\), Detect Squares \(LC 2013\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Right angle, square validation, perpendicular distances.) Tj
+T*
+(  7. VISUALIZATION: 3-4-5 triangle: 9 + 16 = 25.) Tj
+T*
+(  8. COMMON MISTAKES: Floating comparison after square root; compare squared lengths.) Tj
+T*
+(  9. MEMORY TRICK: "Leg squares add to hypotenuse square.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Avoids expensive and imprecise square roots in geometry checks.) Tj
+T*
+() Tj
+T*
+(  67. LINE SLOPE AND EQUATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: slope = \(y2-y1\)/\(x2-x1\); line: Ax + By + C = 0.) Tj
+T*
+(  2. CONCEPT: Slope describes steepness; standard form handles vertical lines.) Tj
+T*
+(  3. INTUITION: Slope is rise over run; all points on a line satisfy one linear equation.) Tj
+T*
+(  4. DSA CONNECTION: Geometry hashing, collinearity, line sweep.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Max Points on a Line \(LC 149\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Collinear points or same line grouping.) Tj
+T*
+(  7. VISUALIZATION: Points \(0,0\),\(2,2\),\(3,3\) all have slope 1.) Tj
+T*
+(  8. COMMON MISTAKES: Using floating slopes as map keys; normalize \(dy/g, dx/g\) with gcd.) Tj
+T*
+(  9. MEMORY TRICK: "Slope is rise/run; hash as reduced pair.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Turns O\(n^3\) collinearity into O\(n^2\) grouping.) Tj
+T*
+() Tj
+T*
+(  68. DOT PRODUCT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: u dot v = ux*vx + uy*vy = |u||v|cos\(theta\).) Tj
+T*
+(  2. CONCEPT: Measures alignment between vectors.) Tj
+T*
+(  3. INTUITION: Projection of one vector onto another scales by cosine of the angle.) Tj
+T*
+(  4. DSA CONNECTION: Angles, projections, perpendicular checks, geometry optimization.) Tj
+T*
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 4993 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  5. INTERVIEW PROBLEMS: Valid Square \(LC 593\), angle sorting geometry tasks.) Tj
+T*
+(  6. PATTERN RECOGNITION: Need angle type: acute, right, obtuse, or projection.) Tj
+T*
+(  7. VISUALIZATION: If u dot v = 0, vectors are perpendicular.) Tj
+T*
+(  8. COMMON MISTAKES: Mistaking dot product for cross product orientation.) Tj
+T*
+(  9. MEMORY TRICK: "Dot tells how much same direction.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Tests right angles in O\(1\) without trigonometry.) Tj
+T*
+() Tj
+T*
+(  69. CROSS PRODUCT AND ORIENTATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: cross\(b-a, c-a\) = \(bx-ax\)\(cy-ay\) - \(by-ay\)\(cx-ax\).) Tj
+T*
+(  2. CONCEPT: Sign tells whether turn a -> b -> c is left, right, or collinear.) Tj
+T*
+(  3. INTUITION: Cross product is signed parallelogram area.) Tj
+T*
+(  4. DSA CONNECTION: Convex hull, segment intersection, polygon area.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Erect the Fence \(LC 587\), Line Reflection \(LC 356\).) Tj
+T*
+(  6. PATTERN RECOGNITION: "clockwise", "counterclockwise", "left turn", "convex".) Tj
+T*
+(  7. VISUALIZATION: Positive cross means c lies to the left of directed edge a->b.) Tj
+T*
+(  8. COMMON MISTAKES: Reversing argument order and flipping the sign.) Tj
+T*
+(  9. MEMORY TRICK: "Cross sign is turn sign.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Enables robust integer geometry without computing angles.) Tj
+T*
+() Tj
+T*
+(  70. TRIANGLE AREA) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: area = |cross\(b-a, c-a\)| / 2.) Tj
+T*
+(  2. CONCEPT: Triangle area is half the parallelogram area.) Tj
+T*
+(  3. INTUITION: Two copies of the triangle form a parallelogram spanned by the vectors.) Tj
+T*
+(  4. DSA CONNECTION: Geometry, collinearity, polygon algorithms.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Largest Triangle Area \(LC 812\), convex hull tasks.) Tj
+T*
+(  6. PATTERN RECOGNITION: Three points and area/collinearity.) Tj
+T*
+(  7. VISUALIZATION: If cross is 0, area is 0, so points are collinear.) Tj
+T*
+(  8. COMMON MISTAKES: Losing .5 with integer division; store doubled area when possible.) Tj
+T*
+(  9. MEMORY TRICK: "Triangle is half a cross.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: O\(1\) exact area comparisons using doubled area.) Tj
+T*
+() Tj
+T*
+(  71. SHOELACE POLYGON AREA) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: area = |sum\(x_i*y_{i+1} - y_i*x_{i+1}\)| / 2.) Tj
+T*
+(  2. CONCEPT: Computes area of a polygon from ordered vertices.) Tj
+T*
+(  3. INTUITION: Decompose polygon into signed triangles from the origin; internal parts cancel.) Tj
+T*
+(  4. DSA CONNECTION: Computational geometry, convex hull, lattice polygons.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Polygon area tasks, Erect the Fence follow-ups.) Tj
+T*
+(  6. PATTERN RECOGNITION: Ordered polygon vertices and area.) Tj
+T*
+(  7. VISUALIZATION: Multiply diagonally down and subtract diagonally up, like tying shoelaces.) Tj
+T*
+(  8. COMMON MISTAKES: Vertices must be in boundary order; unordered points do not work.) Tj
+T*
+(  9. MEMORY TRICK: "Down products minus up products.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Computes polygon area in O\(n\).) Tj
+T*
+() Tj
+T*
+(  72. RECTANGLE AND CIRCLE AREA) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Rectangle area w*h; circle area pi*r^2; circumference 2*pi*r.) Tj
+T*
+(  2. CONCEPT: Basic area formulas for geometric bounds.) Tj
+T*
+(  3. INTUITION: Rectangle tiles by unit squares; circle area grows with square of radius.) Tj
+T*
+(  4. DSA CONNECTION: Geometry, bounding boxes, spatial indexing.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Rectangle Overlap \(LC 836\), Rectangle Area \(LC 223\), Random Point in) Tj
+T*
+(    Non-overlapping Rectangles \(LC 497\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Axis-aligned rectangles, radius constraints, overlap area.) Tj
+T*
+(  7. VISUALIZATION: Overlap width is max\(0, min\(r1,r2\)-max\(l1,l2\)\).) Tj
+T*
+(  8. COMMON MISTAKES: Negative overlap dimensions; always clamp to zero.) Tj
+T*
+(  9. MEMORY TRICK: "Overlap is intersection of x-intervals times y-intervals.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: O\(1\) rectangle overlap/area checks.) Tj
+T*
+() Tj
+T*
+(  73. MANHATTAN AND CHEBYSHEV DISTANCE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Manhattan |x1-x2| + |y1-y2|; Chebyshev max\(|dx|, |dy|\).) Tj
+T*
+(  2. CONCEPT: Manhattan counts grid moves in 4 directions; Chebyshev counts king moves in 8 directions.) Tj
+T*
+(  3. INTUITION: Without diagonals, horizontal and vertical costs add; with diagonals, the larger delta) Tj
+T*
+(    dominates.) Tj
+T*
+(  4. DSA CONNECTION: Grids, BFS heuristics, nearest point, transforms.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Min Cost to Connect Points \(LC 1584\), Escape the Ghosts \(LC 789\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Grid movement with/without diagonals.) Tj
+T*
+(  7. VISUALIZATION: From \(0,0\) to \(3,4\): Manhattan 7, Chebyshev 4.) Tj
+T*
+(  8. COMMON MISTAKES: Using Euclidean distance for grid step counts.) Tj
+T*
+(  9. MEMORY TRICK: "City blocks add; king moves max.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Provides exact O\(1\) movement cost without BFS when no obstacles exist.) Tj
+T*
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 4708 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+() Tj
+T*
+(  74. SEGMENT INTERSECTION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Segments intersect if orientations straddle: orient\(a,b,c\)*orient\(a,b,d\) <= 0 and) Tj
+T*
+(    orient\(c,d,a\)*orient\(c,d,b\) <= 0, plus bounding-box checks for collinear cases.) Tj
+T*
+(  2. CONCEPT: Each segment's endpoints must lie on opposite sides of the other segment, or touch.) Tj
+T*
+(  3. INTUITION: A crossing means the line through one segment separates the endpoints of the other.) Tj
+T*
+(  4. DSA CONNECTION: Geometry, sweep line, collision detection.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Rectangle/line intersection variants, computational geometry interviews.) Tj
+T*
+(  6. PATTERN RECOGNITION: Need to know whether two line segments touch/cross.) Tj
+T*
+(  7. VISUALIZATION: An X shape has endpoints alternating sides.) Tj
+T*
+(  8. COMMON MISTAKES: Ignoring collinear overlap and endpoint touching.) Tj
+T*
+(  9. MEMORY TRICK: "Both pairs must straddle.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: O\(1\) segment test used inside O\(n log n\) sweep algorithms.) Tj
+T*
+() Tj
+T*
+(  75. CONVEX HULL TURN INVARIANT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: In monotonic chain, while last three points make a non-left turn, pop the middle point.) Tj
+T*
+(  2. CONCEPT: Convex hull boundary must keep consistent turns.) Tj
+T*
+(  3. INTUITION: A point that creates an inward/right turn cannot be on the outer convex boundary.) Tj
+T*
+(  4. DSA CONNECTION: Geometry, stack, sorting.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Erect the Fence \(LC 587\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Need outer boundary enclosing all points.) Tj
+T*
+(  7. VISUALIZATION: Rubber band around nails touches only convex outer nails.) Tj
+T*
+(  8. COMMON MISTAKES: Handling collinear boundary points incorrectly depending on whether all boundary) Tj
+T*
+(    points are required.) Tj
+T*
+(  9. MEMORY TRICK: "Hull stack only keeps outward turns.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Computes hull in O\(n log n\) due to sorting, O\(n\) scan after sort.) Tj
+T*
+() Tj
+T*
+(PART 7: TREES AND GRAPHS MATHEMATICS) Tj
+T*
+() Tj
+T*
+(  76. TREE EDGE COUNT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: A tree with n nodes has n - 1 edges.) Tj
+T*
+(  2. CONCEPT: A connected acyclic graph has exactly one fewer edge than nodes.) Tj
+T*
+(  3. INTUITION: Start with one node and add each new node with exactly one connecting edge.) Tj
+T*
+(  4. DSA CONNECTION: Trees, DFS, BFS, Union Find, graph validation.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Graph Valid Tree \(LC 261\), Redundant Connection \(LC 684\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If graph should be a tree, check connected and edges n-1.) Tj
+T*
+(  7. VISUALIZATION: 5 nodes in a chain need 4 links.) Tj
+T*
+(  8. COMMON MISTAKES: Edge count alone is not sufficient; graph also must be connected.) Tj
+T*
+(  9. MEMORY TRICK: "Tree edges trail nodes by one.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Quickly rejects invalid graph before DFS/DSU.) Tj
+T*
+() Tj
+T*
+(  77. BINARY TREE LEVEL COUNTS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Maximum nodes at level h is 2^h if root level is 0.) Tj
+T*
+(  2. CONCEPT: Each level can double the previous level.) Tj
+T*
+(  3. INTUITION: Every node has at most two children.) Tj
+T*
+(  4. DSA CONNECTION: Binary trees, heaps, BFS level order.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Binary Tree Level Order Traversal \(LC 102\), Maximum Depth \(LC 104\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Complete/perfect binary tree or level-size reasoning.) Tj
+T*
+(  7. VISUALIZATION: Levels: 1, 2, 4, 8, ....) Tj
+T*
+(  8. COMMON MISTAKES: Mixing height as nodes count vs edge count.) Tj
+T*
+(  9. MEMORY TRICK: "Binary doubles by level.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Bounds memory for BFS queues and heap sizes.) Tj
+T*
+() Tj
+T*
+(  78. PERFECT BINARY TREE NODE COUNT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Height h by edges has nodes 2^\(h+1\) - 1; leaves 2^h.) Tj
+T*
+(  2. CONCEPT: A perfect tree has every level completely full.) Tj
+T*
+(  3. INTUITION: Sum levels 1 + 2 + ... + 2^h, a geometric series.) Tj
+T*
+(  4. DSA CONNECTION: Trees, heaps, segment trees.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Count Complete Tree Nodes \(LC 222\), Populating Next Right Pointers \(LC 116\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Full levels or complete/perfect tree constraints.) Tj
+T*
+(  7. VISUALIZATION: Height 2: 1 + 2 + 4 = 7.) Tj
+T*
+(  8. COMMON MISTAKES: Using 2^h - 1 with inconsistent height definition.) Tj
+T*
+(  9. MEMORY TRICK: "Full binary tree nodes are next power of two minus one.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Allows subtree counts in O\(1\) once height equality proves perfection.) Tj
+T*
+() Tj
+T*
+(  79. HEAP ARRAY INDEXING) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: 0-indexed: parent \(i - 1\)/2, left 2i + 1, right 2i + 2.) Tj
+T*
+ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 5020 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  2. CONCEPT: Complete binary tree stored level-order in an array.) Tj
+T*
+(  3. INTUITION: Each level fills left to right, so children positions follow arithmetic offsets.) Tj
+T*
+(  4. DSA CONNECTION: Heap, priority queue, heap sort.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Kth Largest Element \(LC 215\), Merge k Sorted Lists \(LC 23\), Top K Frequent) Tj
+T*
+(    Elements \(LC 347\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Complete tree with priority ordering.) Tj
+T*
+(  7. VISUALIZATION: Index 0 has children 1,2; index 1 has 3,4.) Tj
+T*
+(  8. COMMON MISTAKES: Mixing 1-indexed formulas \(parent=i/2, children 2i,2i+1\) with 0-indexed arrays.) Tj
+T*
+(  9. MEMORY TRICK: "Children are double plus one/two.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Removes pointer overhead and gives O\(log n\) push/pop.) Tj
+T*
+() Tj
+T*
+(  80. BST INORDER INVARIANT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: For every node, all left keys < node.key < all right keys; inorder traversal is sorted.) Tj
+T*
+(  2. CONCEPT: BST structure encodes sorted order.) Tj
+T*
+(  3. INTUITION: Recursively, left subtree produces smaller values, then node, then larger values.) Tj
+T*
+(  4. DSA CONNECTION: BST, TreeMap, binary search tree validation, kth element.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Validate BST \(LC 98\), Kth Smallest in BST \(LC 230\), Recover BST \(LC 99\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Need sorted order from a tree or validate range constraints.) Tj
+T*
+(  7. VISUALIZATION: Inorder of BST [left, root, right] outputs increasing sequence.) Tj
+T*
+(  8. COMMON MISTAKES: Checking only immediate children instead of min/max ancestor bounds.) Tj
+T*
+(  9. MEMORY TRICK: "Inorder turns BST into sorted array.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Enables O\(h\) search and O\(n\) sorted traversal without sorting.) Tj
+T*
+() Tj
+T*
+(  81. SEGMENT TREE SIZE AND INTERVALS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Segment tree over n items uses at most 4n nodes; each query/update touches O\(log n\)) Tj
+T*
+(    levels.) Tj
+T*
+(  2. CONCEPT: Recursively split array intervals in half.) Tj
+T*
+(  3. INTUITION: The tree height is logarithmic and total nodes are bounded by a constant multiple of) Tj
+T*
+(    leaves.) Tj
+T*
+(  4. DSA CONNECTION: Segment tree, range min/max/sum, lazy propagation.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Range Sum Query Mutable \(LC 307\), Count of Smaller Numbers After Self \(LC 315\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Many online point updates and range queries.) Tj
+T*
+(  7. VISUALIZATION: Root [0,n-1], children [0,mid] and [mid+1,n-1].) Tj
+T*
+(  8. COMMON MISTAKES: Building too small an array; lazy propagation mistakes on partial overlaps.) Tj
+T*
+(  9. MEMORY TRICK: "Four n is the safe segment tree box.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Converts updates + queries from O\(n\) each to O\(log n\).) Tj
+T*
+() Tj
+T*
+(  82. FENWICK TREE PREFIX FORMULA) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Update index i: i += i & -i; query prefix: i -= i & -i.) Tj
+T*
+(  2. CONCEPT: Each index stores a range whose length is its lowbit.) Tj
+T*
+(  3. INTUITION: Lowbit jumps move to the next responsible bucket or parent bucket.) Tj
+T*
+(  4. DSA CONNECTION: Fenwick tree, prefix sums with updates, inversion counting.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Count of Smaller Numbers After Self \(LC 315\), Range Sum Query Mutable \(LC 307\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Need point updates and prefix/range sum queries with compact code.) Tj
+T*
+(  7. VISUALIZATION: Index 12 \(1100\) stores a block of length 4.) Tj
+T*
+(  8. COMMON MISTAKES: Fenwick is usually 1-indexed; 0-indexed use needs care.) Tj
+T*
+(  9. MEMORY TRICK: "Lowbit is bucket size.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: O\(log n\) update/query with simpler implementation than segment tree for) Tj
+T*
+(    sums.) Tj
+T*
+() Tj
+T*
+(  83. UNDIRECTED DEGREE SUM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: sum degrees = 2E.) Tj
+T*
+(  2. CONCEPT: Every undirected edge contributes 1 degree to each endpoint.) Tj
+T*
+(  3. INTUITION: Counting edge endpoints counts each edge twice.) Tj
+T*
+(  4. DSA CONNECTION: Graphs, Euler path, graph validation.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Find Center of Star Graph \(LC 1791\), graph degree problems.) Tj
+T*
+(  6. PATTERN RECOGNITION: Degree counts in an undirected graph.) Tj
+T*
+(  7. VISUALIZATION: Edge \(u,v\) adds one mark at u and one at v.) Tj
+T*
+(  8. COMMON MISTAKES: Forgetting self-loops contribute 2 in undirected degree.) Tj
+T*
+(  9. MEMORY TRICK: "Edges have two ends.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Enables O\(n+E\) degree-based algorithms and sanity checks.) Tj
+T*
+() Tj
+T*
+(  84. DIRECTED DEGREE SUM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: sum indegree = sum outdegree = E.) Tj
+T*
+(  2. CONCEPT: Every directed edge leaves one node and enters one node.) Tj
+T*
+(  3. INTUITION: Count edges by their tails or by their heads; both count each edge once.) Tj
+T*
+(  4. DSA CONNECTION: Topological sort, Euler path, graph modeling.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Course Schedule \(LC 207\), Reconstruct Itinerary \(LC 332\).) Tj
+T*
+ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 36 0 R >>
+endobj
+38 0 obj
+<< /Length 5040 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  6. PATTERN RECOGNITION: Directed dependencies or prerequisites.) Tj
+T*
+(  7. VISUALIZATION: u -> v increments out[u] and in[v].) Tj
+T*
+(  8. COMMON MISTAKES: Reversing edge direction in prerequisite problems.) Tj
+T*
+(  9. MEMORY TRICK: "Every arrow has one tail and one head.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Supports O\(V+E\) topological processing.) Tj
+T*
+() Tj
+T*
+(  85. COMPLETE GRAPH EDGE COUNT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Undirected complete graph: E = n\(n - 1\)/2; directed without self-loops: E = n\(n - 1\).) Tj
+T*
+(  2. CONCEPT: Every pair of vertices is connected.) Tj
+T*
+(  3. INTUITION: Choose unordered pairs for undirected; ordered pairs for directed.) Tj
+T*
+(  4. DSA CONNECTION: Graph density, adjacency matrix, MST, pair counting.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Network connection variants, pairwise distance graphs.) Tj
+T*
+(  6. PATTERN RECOGNITION: All pairs of nodes/items interact.) Tj
+T*
+(  7. VISUALIZATION: 4 nodes have 6 undirected pair edges.) Tj
+T*
+(  8. COMMON MISTAKES: Double-counting undirected edges.) Tj
+T*
+(  9. MEMORY TRICK: "Complete graph is choose two.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Identifies O\(n^2\) unavoidable pair generation in dense graphs.) Tj
+T*
+() Tj
+T*
+(  86. CONNECTED COMPONENTS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: In an undirected graph, each successful union reduces component count by 1; final) Tj
+T*
+(    components = n - successfulUnions.) Tj
+T*
+(  2. CONCEPT: Components are maximal connected groups.) Tj
+T*
+(  3. INTUITION: Joining two previously separate groups merges them into one.) Tj
+T*
+(  4. DSA CONNECTION: Union Find, DFS/BFS, graph connectivity.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Number of Connected Components \(LC 323\), Number of Provinces \(LC 547\), Accounts) Tj
+T*
+(    Merge \(LC 721\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Groups, connectivity, equivalence relations.) Tj
+T*
+(  7. VISUALIZATION: Start with isolated dots; every bridge between groups reduces island count.) Tj
+T*
+(  8. COMMON MISTAKES: Decrementing component count when unioning nodes already in same component.) Tj
+T*
+(  9. MEMORY TRICK: "Only new bridges reduce islands.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: DSU gives near O\(1\) amortized connectivity operations.) Tj
+T*
+() Tj
+T*
+(  87. DAG TOPOLOGICAL INVARIANT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: A graph is a DAG iff it has a topological order; every edge u -> v has pos[u] < pos[v].) Tj
+T*
+(  2. CONCEPT: Dependencies can be ordered only when there is no cycle.) Tj
+T*
+(  3. INTUITION: A cycle would require some node to come before itself.) Tj
+T*
+(  4. DSA CONNECTION: Graphs, scheduling, DP on DAGs, build systems.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Course Schedule \(LC 207\), Course Schedule II \(LC 210\), Alien Dictionary.) Tj
+T*
+(  6. PATTERN RECOGNITION: Prerequisites, dependencies, "must happen before".) Tj
+T*
+(  7. VISUALIZATION: Remove zero-indegree nodes layer by layer.) Tj
+T*
+(  8. COMMON MISTAKES: Treating visited DFS alone as cycle detection without recursion-stack state.) Tj
+T*
+(  9. MEMORY TRICK: "DAG means dependency line has no loop.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Topological sort turns recursive dependency resolution into O\(V+E\).) Tj
+T*
+() Tj
+T*
+(  88. BIPARTITE GRAPH INVARIANT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: A graph is bipartite iff it has no odd cycle.) Tj
+T*
+(  2. CONCEPT: Vertices can be colored with two colors so every edge crosses colors.) Tj
+T*
+(  3. INTUITION: Alternating colors around a cycle works only for even length; odd length creates a) Tj
+T*
+(    conflict.) Tj
+T*
+(  4. DSA CONNECTION: BFS/DFS coloring, matching, graph validation.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Is Graph Bipartite? \(LC 785\), Possible Bipartition \(LC 886\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Split into two groups with dislikes/conflicts.) Tj
+T*
+(  7. VISUALIZATION: A triangle cannot be 2-colored because the third edge connects same colors.) Tj
+T*
+(  8. COMMON MISTAKES: Not checking disconnected components.) Tj
+T*
+(  9. MEMORY TRICK: "Odd cycle breaks two teams.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: O\(V+E\) coloring replaces exponential group assignment.) Tj
+T*
+() Tj
+T*
+(  89. EULER PATH AND CIRCUIT) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Undirected Euler circuit: all degrees even; Euler path: exactly 0 or 2 odd-degree) Tj
+T*
+(    vertices, and graph connected over nonzero-degree nodes.) Tj
+T*
+(  2. CONCEPT: Traverse every edge exactly once.) Tj
+T*
+(  3. INTUITION: Every time you enter a middle vertex, you must leave using a different unused edge; odd) Tj
+T*
+(    vertices can only be endpoints.) Tj
+T*
+(  4. DSA CONNECTION: Graph traversal, Hierholzer algorithm, itinerary reconstruction.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Reconstruct Itinerary \(LC 332\), Valid Arrangement of Pairs \(LC 2097\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Use every edge/ticket/pair exactly once.) Tj
+T*
+(  7. VISUALIZATION: Edges pair up as enter/exit at internal vertices.) Tj
+T*
+(  8. COMMON MISTAKES: Confusing Euler path \(edges once\) with Hamiltonian path \(vertices once\).) Tj
+T*
+ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 38 0 R >>
+endobj
+40 0 obj
+<< /Length 5007 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  9. MEMORY TRICK: "Euler cares about edges.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Degree checks and Hierholzer solve in O\(E log E\) or O\(E\).) Tj
+T*
+() Tj
+T*
+(  90. MST CUT AND CYCLE PROPERTIES) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Cut property: the lightest edge crossing any cut is safe; cycle property: the heaviest) Tj
+T*
+(    edge on a cycle is not needed in some MST.) Tj
+T*
+(  2. CONCEPT: MST choices are justified by cuts and cycles.) Tj
+T*
+(  3. INTUITION: If a cheaper crossing edge exists, replacing a heavier one keeps connectivity and) Tj
+T*
+(    reduces cost.) Tj
+T*
+(  4. DSA CONNECTION: Graphs, Kruskal, Prim, Union Find.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Min Cost to Connect Points \(LC 1584\), Connecting Cities With Minimum Cost.) Tj
+T*
+(  6. PATTERN RECOGNITION: Need connect all nodes with minimum total edge weight.) Tj
+T*
+(  7. VISUALIZATION: Among edges crossing a partition, pick the cheapest bridge.) Tj
+T*
+(  8. COMMON MISTAKES: Applying MST to shortest path; MST minimizes total network, not path distance.) Tj
+T*
+(  9. MEMORY TRICK: "Cheapest bridge across a cut is safe.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Greedy MST algorithms run in O\(E log E\) instead of checking all spanning) Tj
+T*
+(    trees.) Tj
+T*
+() Tj
+T*
+(  91. SHORTEST PATH RELAXATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: If dist[v] > dist[u] + w\(u,v\), set dist[v] = dist[u] + w\(u,v\).) Tj
+T*
+(  2. CONCEPT: Improve the best known distance through an edge.) Tj
+T*
+(  3. INTUITION: A path to u plus edge u->v is a candidate path to v.) Tj
+T*
+(  4. DSA CONNECTION: Dijkstra, Bellman-Ford, DAG shortest path.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Network Delay Time \(LC 743\), Cheapest Flights Within K Stops \(LC 787\), Path) Tj
+T*
+(    With Minimum Effort \(LC 1631\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Weighted graph, minimum cost/distance.) Tj
+T*
+(  7. VISUALIZATION: Distance labels shrink when a better route is discovered.) Tj
+T*
+(  8. COMMON MISTAKES: Using Dijkstra with negative edges; not skipping stale priority queue entries.) Tj
+T*
+(  9. MEMORY TRICK: "Relax means try a better route.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Gives O\(E log V\) Dijkstra with heap for nonnegative weights.) Tj
+T*
+() Tj
+T*
+(PART 8: BINARY SEARCH MATHEMATICS) Tj
+T*
+() Tj
+T*
+(  92. SEARCH SPACE HALVING) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: After t halvings, remaining size is n / 2^t; need t >= ceil\(log2 n\).) Tj
+T*
+(  2. CONCEPT: Binary search discards half the candidates each step.) Tj
+T*
+(  3. INTUITION: Repeated division by 2 reaches 1 after logarithmically many cuts.) Tj
+T*
+(  4. DSA CONNECTION: Binary search, balanced trees, heaps, divide and conquer.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Binary Search \(LC 704\), Search in Rotated Sorted Array \(LC 33\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Sorted data or monotonic decision.) Tj
+T*
+(  7. VISUALIZATION: 1024 elements -> 512 -> 256 -> ... -> 1 in 10 cuts.) Tj
+T*
+(  8. COMMON MISTAKES: Infinite loops from wrong boundary updates.) Tj
+T*
+(  9. MEMORY TRICK: "Half, half, half means log.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Converts O\(n\) search to O\(log n\).) Tj
+T*
+() Tj
+T*
+(  93. MONOTONIC PREDICATE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Find first i where P\(i\)=true when sequence is false false ... true true.) Tj
+T*
+(  2. CONCEPT: Binary search can locate the boundary between false and true.) Tj
+T*
+(  3. INTUITION: Testing mid tells which side still contains the transition.) Tj
+T*
+(  4. DSA CONNECTION: Binary search on answer, lower bound, feasibility checks.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: First Bad Version \(LC 278\), Find Minimum in Rotated Sorted Array \(LC 153\).) Tj
+T*
+(  6. PATTERN RECOGNITION: "Minimum x such that possible" or "first position satisfying condition".) Tj
+T*
+(  7. VISUALIZATION: F F F F T T T; binary search finds the first T.) Tj
+T*
+(  8. COMMON MISTAKES: Predicate is not truly monotonic; binary search then gives nonsense.) Tj
+T*
+(  9. MEMORY TRICK: "Binary search finds a cliff.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Turns answer search over huge numeric range into O\(log range * checkCost\).) Tj
+T*
+() Tj
+T*
+(  94. LOWER BOUND AND UPPER BOUND) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: lower_bound\(x\) first index with arr[i] >= x; upper_bound\(x\) first index with arr[i] > x.) Tj
+T*
+(  2. CONCEPT: Boundary positions in sorted arrays.) Tj
+T*
+(  3. INTUITION: Sorted order makes the predicate monotonic.) Tj
+T*
+(  4. DSA CONNECTION: Arrays, binary search, frequency counting, LIS.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Find First and Last Position \(LC 34\), Search Insert Position \(LC 35\), Longest) Tj
+T*
+(    Increasing Subsequence \(LC 300\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Need insertion point, first/last occurrence, count of values in a range.) Tj
+T*
+(  7. VISUALIZATION: In [1,2,2,2,5], lower bound of 2 is 1, upper bound is 4.) Tj
+T*
+(  8. COMMON MISTAKES: Using <= in the wrong branch; not clearly choosing first >= vs first >.) Tj
+T*
+(  9. MEMORY TRICK: "Lower allows equal; upper goes past equal.") Tj
+T*
+ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 40 0 R >>
+endobj
+42 0 obj
+<< /Length 5006 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  10. IMPLEMENTATION IMPACT: Counts duplicates in O\(log n\) instead of scanning.) Tj
+T*
+() Tj
+T*
+(  95. BINARY SEARCH ON ANSWER) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Search minimal feasible x where can\(x\) is monotonic.) Tj
+T*
+(  2. CONCEPT: Search the value domain, not an array index.) Tj
+T*
+(  3. INTUITION: If capacity/time/limit x works, any larger relaxed value often also works.) Tj
+T*
+(  4. DSA CONNECTION: Greedy feasibility, arrays, scheduling, graph thresholds.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Koko Eating Bananas \(LC 875\), Capacity to Ship Packages \(LC 1011\), Split Array) Tj
+T*
+(    Largest Sum \(LC 410\).) Tj
+T*
+(  6. PATTERN RECOGNITION: "Minimize maximum", "smallest capacity", "minimum speed", "can finish within".) Tj
+T*
+(  7. VISUALIZATION: Speeds: 1 2 3 4 5 6; maybe F F F T T T.) Tj
+T*
+(  8. COMMON MISTAKES: Weak lower/upper bounds; feasibility check accidentally non-monotonic.) Tj
+T*
+(  9. MEMORY TRICK: "Ask yes/no about the answer.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Replaces trying every possible answer with logarithmic search.) Tj
+T*
+() Tj
+T*
+(  96. REAL-VALUED BINARY SEARCH) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Repeat mid = \(lo + hi\)/2 for fixed iterations or until hi - lo < eps.) Tj
+T*
+(  2. CONCEPT: Approximate a real-valued boundary.) Tj
+T*
+(  3. INTUITION: Continuous monotonic functions still have a left/right side around the target.) Tj
+T*
+(  4. DSA CONNECTION: Geometry, numerical optimization, probability thresholds.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Minimize Max Distance to Gas Station \(LC 774\), square root variants.) Tj
+T*
+(  6. PATTERN RECOGNITION: Answer is decimal and predicate is monotonic.) Tj
+T*
+(  7. VISUALIZATION: Zoom on a number line interval until it is tiny.) Tj
+T*
+(  8. COMMON MISTAKES: Infinite loop from exact equality on doubles; use iteration count/epsilon.) Tj
+T*
+(  9. MEMORY TRICK: "Doubles need tolerance, not equality.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Solves continuous search in O\(log\(\(hi-lo\)/eps\) * checkCost\).) Tj
+T*
+() Tj
+T*
+(  97. EXPONENTIAL SEARCH BOUNDS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Try 1,2,4,8,... until predicate becomes true, then binary search previous range.) Tj
+T*
+(  2. CONCEPT: Discover an unknown upper bound logarithmically.) Tj
+T*
+(  3. INTUITION: Doubling reaches any finite answer A in ceil\(log2 A\) steps.) Tj
+T*
+(  4. DSA CONNECTION: Infinite arrays, unbounded answer search, streams.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Search in a Sorted Array of Unknown Size \(LC 702\), unbounded capacity problems.) Tj
+T*
+(  6. PATTERN RECOGNITION: No explicit upper bound but predicate eventually becomes true.) Tj
+T*
+(  7. VISUALIZATION: 1 -> 2 -> 4 -> 8 -> 16; if answer is 11, search [8,16].) Tj
+T*
+(  8. COMMON MISTAKES: Overflow during doubling; cap at max value.) Tj
+T*
+(  9. MEMORY TRICK: "Double to find the wall.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Avoids arbitrary huge bounds while keeping O\(log answer\).) Tj
+T*
+() Tj
+T*
+(  98. TERNARY SEARCH FOR UNIMODAL FUNCTIONS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: For unimodal f, compare f\(m1\) and f\(m2\) where m1 = lo + \(hi-lo\)/3, m2 = hi - \(hi-lo\)/3.) Tj
+T*
+(  2. CONCEPT: A single peak or valley allows discarding one third of the range.) Tj
+T*
+(  3. INTUITION: If f\(m1\) < f\(m2\) in a maximum search, the peak is to the right of m1.) Tj
+T*
+(  4. DSA CONNECTION: Optimization, geometry, math search.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Rare in LeetCode interviews, common in Codeforces numeric optimization.) Tj
+T*
+(  6. PATTERN RECOGNITION: Function decreases then increases, or increases then decreases, with no) Tj
+T*
+(    multiple local extrema.) Tj
+T*
+(  7. VISUALIZATION: A hill shape has one summit; compare two interior points to locate the summit side.) Tj
+T*
+(  8. COMMON MISTAKES: Using ternary search on non-unimodal functions.) Tj
+T*
+(  9. MEMORY TRICK: "One hill, cut thirds.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Optimizes continuous/discrete unimodal objectives without derivative) Tj
+T*
+(    calculus.) Tj
+T*
+() Tj
+T*
+(PART 9: DYNAMIC PROGRAMMING MATHEMATICS) Tj
+T*
+() Tj
+T*
+(  99. RECURRENCE RELATION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: dp[state] = combine\(dp[previous states]\).) Tj
+T*
+(  2. CONCEPT: Define an answer in terms of smaller answers.) Tj
+T*
+(  3. INTUITION: If optimal solution ends with a choice, remove that choice and solve the remaining) Tj
+T*
+(    subproblem.) Tj
+T*
+(  4. DSA CONNECTION: DP, recursion, memoization, graph DAG DP.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Climbing Stairs \(LC 70\), House Robber \(LC 198\), Coin Change \(LC 322\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Overlapping subproblems and choices that build from smaller cases.) Tj
+T*
+(  7. VISUALIZATION: A DP table fills cells from already-known neighbors.) Tj
+T*
+(  8. COMMON MISTAKES: Vague state definition; transition uses future/uncomputed states.) Tj
+T*
+(  9. MEMORY TRICK: "State + transition + base case.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Reduces exponential recursion to polynomial states.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 42 0 R >>
+endobj
+44 0 obj
+<< /Length 4776 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  100. DP COMPLEXITY FORMULA) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: time = number_of_states * transition_cost; space = number_of_states * value_size.) Tj
+T*
+(  2. CONCEPT: DP cost is table size times work per cell.) Tj
+T*
+(  3. INTUITION: Each state is computed once in memoized/tabulated DP.) Tj
+T*
+(  4. DSA CONNECTION: All DP, memoization, bitmask DP, tree DP.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: All DP problems, especially Coin Change \(LC 322\), Edit Distance \(LC 72\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Before coding DP, count dimensions and choices.) Tj
+T*
+(  7. VISUALIZATION: dp[i][j] table has n*m cells; if each scans k, time is O\(nmk\).) Tj
+T*
+(  8. COMMON MISTAKES: Saying O\(n\) because there is one loop in recursion; hidden states multiply.) Tj
+T*
+(  9. MEMORY TRICK: "Cells times choices.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Guides optimization from 2D to 1D or from O\(n^2\) transitions to optimized) Tj
+T*
+(    structures.) Tj
+T*
+() Tj
+T*
+(  101. FIBONACCI RECURRENCE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: F\(0\)=0, F\(1\)=1, F\(n\)=F\(n-1\)+F\(n-2\).) Tj
+T*
+(  2. CONCEPT: Current value depends on the two previous values.) Tj
+T*
+(  3. INTUITION: Many count problems end with one of two last-step choices.) Tj
+T*
+(  4. DSA CONNECTION: DP, recursion, matrix exponentiation.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Climbing Stairs \(LC 70\), Fibonacci Number \(LC 509\), Min Cost Climbing Stairs) Tj
+T*
+(    \(LC 746\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Ways to reach step n using steps of size 1 or 2.) Tj
+T*
+(  7. VISUALIZATION: To reach stair n, come from n-1 by one step or n-2 by two steps.) Tj
+T*
+(  8. COMMON MISTAKES: Exponential recursion without memoization.) Tj
+T*
+(  9. MEMORY TRICK: "Last jump was 1 or 2.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Memoization changes O\(2^n\) recursion to O\(n\), O\(1\) space with rolling) Tj
+T*
+(    variables.) Tj
+T*
+() Tj
+T*
+(  102. KNAPSACK RECURRENCE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: dp[i][w] = max\(dp[i-1][w], value[i] + dp[i-1][w-weight[i]]\) when weight[i] <= w.) Tj
+T*
+(  2. CONCEPT: For each item, choose take or skip.) Tj
+T*
+(  3. INTUITION: An optimal solution either excludes the item or includes it and solves remaining) Tj
+T*
+(    capacity.) Tj
+T*
+(  4. DSA CONNECTION: DP, subset sum, resource allocation.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Partition Equal Subset Sum \(LC 416\), Target Sum \(LC 494\), Last Stone Weight II) Tj
+T*
+(    \(LC 1049\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Choose subset under capacity/target constraint.) Tj
+T*
+(  7. VISUALIZATION: Capacity axis columns; each item row updates reachable/best capacities.) Tj
+T*
+(  8. COMMON MISTAKES: For 0/1 knapsack, iterating capacity upward in 1D and reusing the same item) Tj
+T*
+(    multiple times.) Tj
+T*
+(  9. MEMORY TRICK: "Skip or take.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Converts exponential subset enumeration to O\(nW\).) Tj
+T*
+() Tj
+T*
+(  103. LONGEST COMMON SUBSEQUENCE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: If a[i-1]==b[j-1], dp[i][j]=1+dp[i-1][j-1]; else max\(dp[i-1][j], dp[i][j-1]\).) Tj
+T*
+(  2. CONCEPT: Longest sequence preserving order in both strings.) Tj
+T*
+(  3. INTUITION: Matching last characters can be paired; otherwise drop one last character.) Tj
+T*
+(  4. DSA CONNECTION: DP, strings, diff algorithms.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Longest Common Subsequence \(LC 1143\), Delete Operation for Two Strings \(LC) Tj
+T*
+(    583\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Two strings/arrays and order matters but contiguity does not.) Tj
+T*
+(  7. VISUALIZATION: DP grid compares prefixes of both strings.) Tj
+T*
+(  8. COMMON MISTAKES: Confusing subsequence with substring; substring requires contiguity and reset on) Tj
+T*
+(    mismatch.) Tj
+T*
+(  9. MEMORY TRICK: "Match diagonally, otherwise drop one side.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: O\(nm\) DP replaces exponential subsequence enumeration.) Tj
+T*
+() Tj
+T*
+(  104. EDIT DISTANCE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: dp[i][j] = min\(delete, insert, replace\) with cost 0 if current chars match else 1.) Tj
+T*
+(  2. CONCEPT: Minimum operations to transform one prefix into another.) Tj
+T*
+(  3. INTUITION: Last operation must be insert, delete, replace, or match.) Tj
+T*
+(  4. DSA CONNECTION: DP, strings, NLP/search similarity.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Edit Distance \(LC 72\), One Edit Distance \(LC 161\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Minimum edits/conversions between two strings.) Tj
+T*
+(  7. VISUALIZATION: Grid cell \(i,j\) means transform first i chars into first j chars.) Tj
+T*
+(  8. COMMON MISTAKES: Wrong base cases: converting length i to empty costs i.) Tj
+T*
+(  9. MEMORY TRICK: "Last edit explains the cell.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: O\(nm\) DP instead of branching over all edit sequences.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 44 0 R >>
+endobj
+46 0 obj
+<< /Length 5072 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  105. GRID PATH COUNTING) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Without obstacles, paths from top-left to bottom-right are C\(\(m-1\)+\(n-1\), m-1\).) Tj
+T*
+(  2. CONCEPT: A path is an ordering of down and right moves.) Tj
+T*
+(  3. INTUITION: Choose which positions among all moves are down moves.) Tj
+T*
+(  4. DSA CONNECTION: DP, combinatorics, grid traversal.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Unique Paths \(LC 62\), Unique Paths II \(LC 63\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Move only right/down on a grid.) Tj
+T*
+(  7. VISUALIZATION: In a 3x3 grid, need 2 rights and 2 downs: C\(4,2\)=6.) Tj
+T*
+(  8. COMMON MISTAKES: Formula fails with obstacles; then use DP.) Tj
+T*
+(  9. MEMORY TRICK: "Grid path is choose positions for downs.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: O\(1\)/O\(min\(m,n\)\) combinatorics for obstacle-free grids; DP for obstacles.) Tj
+T*
+() Tj
+T*
+(  106. LONGEST INCREASING SUBSEQUENCE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: DP: dp[i]=1+max\(dp[j]\) for j<i and a[j]<a[i]; optimized tails: tails[len] = smallest tail) Tj
+T*
+(    of length len+1.) Tj
+T*
+(  2. CONCEPT: Find longest order-preserving increasing sequence.) Tj
+T*
+(  3. INTUITION: Smaller tail is always better because it leaves more room for future values.) Tj
+T*
+(  4. DSA CONNECTION: DP, binary search, patience sorting.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Longest Increasing Subsequence \(LC 300\), Russian Doll Envelopes \(LC 354\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Need increasing subsequence, not necessarily contiguous.) Tj
+T*
+(  7. VISUALIZATION: Place each number on the leftmost pile whose top is >= number.) Tj
+T*
+(  8. COMMON MISTAKES: Using non-strict comparison when problem requires strictly increasing.) Tj
+T*
+(  9. MEMORY TRICK: "Small tails keep options open.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Improves O\(n^2\) DP to O\(n log n\).) Tj
+T*
+() Tj
+T*
+(  107. INTERVAL DP) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: dp[l][r] = best over k of combine\(dp[l][k], dp[k+1][r], cost\(l,k,r\)\).) Tj
+T*
+(  2. CONCEPT: Solve every interval by splitting it.) Tj
+T*
+(  3. INTUITION: The last operation often splits the interval into independent left/right parts.) Tj
+T*
+(  4. DSA CONNECTION: DP, parsing, matrix chain multiplication, burst balloons.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Burst Balloons \(LC 312\), Minimum Cost to Cut a Stick \(LC 1547\), Palindrome) Tj
+T*
+(    Partitioning II \(LC 132\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Operations remove/merge/cut inside a contiguous interval.) Tj
+T*
+(  7. VISUALIZATION: Choose the last balloon k; left and right intervals are solved independently.) Tj
+T*
+(  8. COMMON MISTAKES: Filling intervals in wrong order; shorter intervals must be computed first.) Tj
+T*
+(  9. MEMORY TRICK: "Pick the last split.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Turns factorial operation orders into O\(n^3\) DP, sometimes optimizable.) Tj
+T*
+() Tj
+T*
+(  108. TREE DP AND REROOTING) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Down DP combines children; reroot transition moves contribution across edge: answer at) Tj
+T*
+(    child from answer at parent minus child contribution plus parent-side contribution.) Tj
+T*
+(  2. CONCEPT: Compute values for every possible root in a tree.) Tj
+T*
+(  3. INTUITION: First DFS knows subtree answers; second DFS transfers the root viewpoint across edges.) Tj
+T*
+(  4. DSA CONNECTION: Trees, DFS, DP, rerooting.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Sum of Distances in Tree \(LC 834\), Binary Tree Maximum Path Sum \(LC 124\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Need answer for every node as root or global path using subtree information.) Tj
+T*
+(  7. VISUALIZATION: Moving root from u to child v: nodes in v subtree get closer, all others get) Tj
+T*
+(    farther.) Tj
+T*
+(  8. COMMON MISTAKES: Mixing downward-only value with through-parent value.) Tj
+T*
+(  9. MEMORY TRICK: "First collect, then redistribute.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Computes all-root answers in O\(n\) instead of O\(n^2\) DFS from each node.) Tj
+T*
+() Tj
+T*
+(  109. DIGIT DP) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: dp[pos][tight][state] counts valid prefixes under an upper-bound prefix constraint.) Tj
+T*
+(  2. CONCEPT: Count numbers digit by digit without enumerating them.) Tj
+T*
+(  3. INTUITION: tight records whether the current prefix equals the bound; if not tight, remaining) Tj
+T*
+(    digits are free.) Tj
+T*
+(  4. DSA CONNECTION: DP, number theory, counting under constraints.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Number of Digit One \(LC 233\), Count Numbers with Unique Digits \(LC 357\), Digit) Tj
+T*
+(    DP competitive tasks.) Tj
+T*
+(  6. PATTERN RECOGNITION: Count integers in [0,N] satisfying digit properties.) Tj
+T*
+(  7. VISUALIZATION: While matching N=527, at prefix 52 next digit is limited; at prefix 51, future) Tj
+T*
+(    digits are free.) Tj
+T*
+(  8. COMMON MISTAKES: Mishandling leading zeros and inclusive bounds.) Tj
+T*
+(  9. MEMORY TRICK: "Tight means still glued to the bound.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Counts up to 10^18 in O\(number_of_digits * states * 10\).) Tj
+T*
+() Tj
+T*
+(  110. PROBABILITY DP) Tj
+T*
+ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 46 0 R >>
+endobj
+48 0 obj
+<< /Length 4705 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+() Tj
+T*
+(  1. FORMULA: dp[state] = sum P\(choice\) * dp[next_state] for expected/future value, or sum probabilities) Tj
+T*
+(    for distribution.) Tj
+T*
+(  2. CONCEPT: Probability transitions average over possible random outcomes.) Tj
+T*
+(  3. INTUITION: Law of total probability splits outcomes by next random event.) Tj
+T*
+(  4. DSA CONNECTION: DP, Markov chains, games, randomized processes.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: New 21 Game \(LC 837\), Knight Probability in Chessboard \(LC 688\), Soup Servings) Tj
+T*
+(    \(LC 808\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Random process with repeated states and probability of success.) Tj
+T*
+(  7. VISUALIZATION: Knight probability at a square is average of probabilities from valid previous/next) Tj
+T*
+(    moves.) Tj
+T*
+(  8. COMMON MISTAKES: Not normalizing by number/probability of moves; double-counting invalid) Tj
+T*
+(    transitions.) Tj
+T*
+(  9. MEMORY TRICK: "Probability DP is weighted sum of futures.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Replaces Monte Carlo simulation with exact polynomial DP.) Tj
+T*
+() Tj
+T*
+(PART 10: COMPLEXITY ANALYSIS) Tj
+T*
+() Tj
+T*
+(  111. BIG O DEFINITION) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: f\(n\) = O\(g\(n\)\) if there exist constants c,n0 such that f\(n\) <= c*g\(n\) for all n >= n0.) Tj
+T*
+(  2. CONCEPT: Upper-bound growth rate for large inputs.) Tj
+T*
+(  3. INTUITION: Ignore constant factors and smaller terms because dominant growth controls scalability.) Tj
+T*
+(  4. DSA CONNECTION: All algorithm analysis.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Every interview problem discussion.) Tj
+T*
+(  6. PATTERN RECOGNITION: Need to explain runtime/space as input grows.) Tj
+T*
+(  7. VISUALIZATION: 3n^2 + 10n + 5 behaves like n^2 for large n.) Tj
+T*
+(  8. COMMON MISTAKES: Calling O\(n\) "exact time"; Big O is an upper bound.) Tj
+T*
+(  9. MEMORY TRICK: "Keep the fastest-growing term.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Helps choose algorithms that fit constraints.) Tj
+T*
+() Tj
+T*
+(  112. COMMON GROWTH ORDER) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: O\(1\) < O\(log n\) < O\(n\) < O\(n log n\) < O\(n^2\) < O\(2^n\) < O\(n!\).) Tj
+T*
+(  2. CONCEPT: Standard scalability hierarchy.) Tj
+T*
+(  3. INTUITION: Polynomial, exponential, and factorial growth separate dramatically as n increases.) Tj
+T*
+(  4. DSA CONNECTION: Complexity analysis, algorithm selection.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: All performance discussions.) Tj
+T*
+(  6. PATTERN RECOGNITION: Compare constraints to feasible growth.) Tj
+T*
+(  7. VISUALIZATION: For n=1000, n^2=1,000,000, but 2^n is impossible.) Tj
+T*
+(  8. COMMON MISTAKES: Thinking O\(n log n\) and O\(n^2\) are close for large n.) Tj
+T*
+(  9. MEMORY TRICK: "Constant, log, linear, sort, square, subset, permutation.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Guides whether sorting, DP, or pruning is acceptable.) Tj
+T*
+() Tj
+T*
+(  113. LOGARITHMIC GROWTH) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Repeated division by b: iterations ceil\(log_b n\).) Tj
+T*
+(  2. CONCEPT: Logarithms count how many times input shrinks by a constant factor.) Tj
+T*
+(  3. INTUITION: After t steps, size is n/b^t; solve n/b^t <= 1.) Tj
+T*
+(  4. DSA CONNECTION: Binary search, balanced trees, heaps, divide and conquer.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Binary Search \(LC 704\), heap operations, TreeMap operations.) Tj
+T*
+(  6. PATTERN RECOGNITION: Loop does n /= 2 or search interval halves.) Tj
+T*
+(  7. VISUALIZATION: while \(n > 1\) n /= 2 runs about log2 n times.) Tj
+T*
+(  8. COMMON MISTAKES: Calling for i*=2 loops O\(n\); they are O\(log n\).) Tj
+T*
+(  9. MEMORY TRICK: "Multiply or divide loop counter means log.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Supports using balanced structures for large data.) Tj
+T*
+() Tj
+T*
+(  114. ARITHMETIC SERIES IN NESTED LOOPS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: sum_{i=1..n} i = O\(n^2\).) Tj
+T*
+(  2. CONCEPT: Triangular nested loops are quadratic.) Tj
+T*
+(  3. INTUITION: Total work is half of an n by n square, still quadratic.) Tj
+T*
+(  4. DSA CONNECTION: Pair enumeration, brute-force subarrays, sorting analysis.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: 3Sum brute force, subarray enumeration problems.) Tj
+T*
+(  6. PATTERN RECOGNITION: Inner loop length depends linearly on outer index.) Tj
+T*
+(  7. VISUALIZATION: Rows of lengths 1,2,3,...,n form a triangle.) Tj
+T*
+(  8. COMMON MISTAKES: Thinking it is O\(n\) because there is one nested loop but not full square.) Tj
+T*
+(  9. MEMORY TRICK: "Triangle is still square order.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Motivates prefix sums, hash maps, sorting, or two pointers to beat O\(n^2\).) Tj
+T*
+() Tj
+T*
+(  115. GEOMETRIC SERIES IN ALGORITHMS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: n + n/2 + n/4 + ... < 2n.) Tj
+T*
+ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 48 0 R >>
+endobj
+50 0 obj
+<< /Length 5232 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  2. CONCEPT: Work that halves each level sums to linear.) Tj
+T*
+(  3. INTUITION: The tail never exceeds the first term times a constant.) Tj
+T*
+(  4. DSA CONNECTION: Divide and conquer, recursion trees, amortized resizing.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Binary search variants, tree traversals, dynamic array resizing analysis.) Tj
+T*
+(  6. PATTERN RECOGNITION: Each level has shrinking total work by constant factor.) Tj
+T*
+(  7. VISUALIZATION: 16 + 8 + 4 + 2 + 1 = 31 < 32.) Tj
+T*
+(  8. COMMON MISTAKES: Assuming all recursive algorithms are O\(n log n\); some geometric sums are O\(n\).) Tj
+T*
+(  9. MEMORY TRICK: "Halving sum is less than double.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Explains linear amortized behavior and divide-and-conquer costs.) Tj
+T*
+() Tj
+T*
+(  116. RECURSION TREE) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Total time = sum of work over all recursion levels.) Tj
+T*
+(  2. CONCEPT: Expand a recurrence as a tree of subproblems.) Tj
+T*
+(  3. INTUITION: Each recursive call contributes local work; add across levels until base cases.) Tj
+T*
+(  4. DSA CONNECTION: Merge sort, quicksort, DFS recursion, divide and conquer.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Sort List \(LC 148\), Merge k Sorted Lists \(LC 23\), recursive tree problems.) Tj
+T*
+(  6. PATTERN RECOGNITION: Recurrence has multiple calls or shrinking sizes.) Tj
+T*
+(  7. VISUALIZATION: Merge sort: each level totals O\(n\), and there are O\(log n\) levels.) Tj
+T*
+(  8. COMMON MISTAKES: Counting only one branch instead of all branches.) Tj
+T*
+(  9. MEMORY TRICK: "Cost per level times number of levels.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Gives accurate complexity before optimizing recursion.) Tj
+T*
+() Tj
+T*
+(  117. MASTER THEOREM) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: For T\(n\)=aT\(n/b\)+f\(n\), compare f\(n\) with n^\(log_b a\).) Tj
+T*
+(  2. CONCEPT: Solves common divide-and-conquer recurrences.) Tj
+T*
+(  3. INTUITION: n^\(log_b a\) represents total leaf pressure; f\(n\) represents per-level combine pressure.) Tj
+T*
+(  4. DSA CONNECTION: Sorting, divide and conquer, binary splitting algorithms.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Merge Sort, Binary Search, Karatsuba-style discussions.) Tj
+T*
+(  6. PATTERN RECOGNITION: Same-size subproblems plus combine work.) Tj
+T*
+(  7. VISUALIZATION: Merge sort: a=2,b=2,f\(n\)=n; compare with n^\(log_2 2\)=n, so O\(n log n\).) Tj
+T*
+(  8. COMMON MISTAKES: Applying Master theorem to uneven splits or non-polynomial irregular recurrences.) Tj
+T*
+(  9. MEMORY TRICK: "Compare combine work to leaf work.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Quickly classifies divide-and-conquer performance.) Tj
+T*
+() Tj
+T*
+(  118. AMORTIZED ANALYSIS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Amortized cost = total cost over sequence / number of operations.) Tj
+T*
+(  2. CONCEPT: Occasional expensive operations can average out over many cheap ones.) Tj
+T*
+(  3. INTUITION: Expensive resize/rebuild is paid for by many previous simple operations.) Tj
+T*
+(  4. DSA CONNECTION: Dynamic arrays, hash tables, stacks, queues, DSU.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Min Stack \(LC 155\), Implement Queue using Stacks \(LC 232\), RandomizedSet \(LC) Tj
+T*
+(    380\).) Tj
+T*
+(  6. PATTERN RECOGNITION: A data structure occasionally resizes, rebuilds, or compresses paths.) Tj
+T*
+(  7. VISUALIZATION: Dynamic array doubles capacity; copying after sizes 1,2,4,8 sums below 2n.) Tj
+T*
+(  8. COMMON MISTAKES: Confusing amortized O\(1\) with worst-case O\(1\).) Tj
+T*
+(  9. MEMORY TRICK: "Spread the spike over the sequence.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Justifies practical O\(1\) append/hash operations.) Tj
+T*
+() Tj
+T*
+(  119. SORTING LOWER BOUND) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Comparison sorting needs Omega\(n log n\) comparisons in the worst case.) Tj
+T*
+(  2. CONCEPT: Any comparison sort must distinguish among n! possible orders.) Tj
+T*
+(  3. INTUITION: A comparison decision tree with height h has at most 2^h leaves; need 2^h >= n!.) Tj
+T*
+(  4. DSA CONNECTION: Sorting, selection, lower-bound reasoning.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Sort an Array \(LC 912\), Kth Largest Element \(LC 215\).) Tj
+T*
+(  6. PATTERN RECOGNITION: If only comparisons are allowed, do not expect better than O\(n log n\) full) Tj
+T*
+(    sort.) Tj
+T*
+(  7. VISUALIZATION: Every possible permutation must end at a different leaf in the comparison tree.) Tj
+T*
+(  8. COMMON MISTAKES: Sorting when selection/top-k would solve in O\(n\) or O\(n log k\).) Tj
+T*
+(  9. MEMORY TRICK: "Sorting must identify one of n! orders.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Motivates heap/quickselect/counting sort when full comparison sorting is) Tj
+T*
+(    unnecessary or keys are bounded.) Tj
+T*
+() Tj
+T*
+(  120. CONSTRAINT-TO-COMPLEXITY HEURISTIC) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Rough feasible operations: 10^8 simple operations per second in compiled languages;) Tj
+T*
+(    interview Java usually aim lower.) Tj
+T*
+(  2. CONCEPT: Input size suggests acceptable complexity.) Tj
+T*
+(  3. INTUITION: Algorithms must fit both asymptotic growth and constant factors.) Tj
+T*
+(  4. DSA CONNECTION: Choosing between brute force, DP, sorting, greedy, graph algorithms.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: All timed coding assessments.) Tj
+T*
+ET
+endstream
+endobj
+51 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 50 0 R >>
+endobj
+52 0 obj
+<< /Length 4095 >>
+stream
+BT
+/F1 8.3 Tf
+36 806 Td
+10.5 TL
+(  6. PATTERN RECOGNITION: Read constraints before choosing approach.) Tj
+T*
+(  7. VISUALIZATION: n <= 20 may allow 2^n; n <= 10^5 usually needs O\(n log n\) or O\(n\).) Tj
+T*
+(  8. COMMON MISTAKES: Designing O\(n^2\) for n=10^5.) Tj
+T*
+(  9. MEMORY TRICK: "Constraints whisper the algorithm.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Prevents overengineering small constraints and under-optimizing large ones.) Tj
+T*
+() Tj
+T*
+(  121. HASH TABLE EXPECTED COMPLEXITY) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: Expected O\(1\) insert/find/delete under good hashing and bounded load factor; worst-case) Tj
+T*
+(    O\(n\).) Tj
+T*
+(  2. CONCEPT: Hashing spreads keys into buckets.) Tj
+T*
+(  3. INTUITION: With uniform distribution, each bucket has constant expected length.) Tj
+T*
+(  4. DSA CONNECTION: HashMap, HashSet, frequency counting, prefix maps.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Two Sum \(LC 1\), Longest Consecutive Sequence \(LC 128\), Subarray Sum Equals K) Tj
+T*
+(    \(LC 560\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Need fast membership, frequency, or first-seen lookup.) Tj
+T*
+(  7. VISUALIZATION: Keys are balls thrown into many buckets; low load means few collisions.) Tj
+T*
+(  8. COMMON MISTAKES: Ignoring worst-case collision attacks in system-level settings; mutating keys) Tj
+T*
+(    after insertion.) Tj
+T*
+(  9. MEMORY TRICK: "HashMap trades order for average O\(1\).") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Replaces nested searches with single-pass lookup patterns.) Tj
+T*
+() Tj
+T*
+(  122. NUMERIC OVERFLOW BOUNDS) Tj
+T*
+() Tj
+T*
+(  1. FORMULA: 32-bit signed int max 2^31 - 1; 64-bit signed long max 2^63 - 1.) Tj
+T*
+(  2. CONCEPT: Fixed-width integers wrap or overflow beyond their range.) Tj
+T*
+(  3. INTUITION: Bits store finite states; arithmetic can exceed representable values.) Tj
+T*
+(  4. DSA CONNECTION: Binary search midpoints, products, sums, modular arithmetic.) Tj
+T*
+(  5. INTERVIEW PROBLEMS: Reverse Integer \(LC 7\), Pow\(x,n\) \(LC 50\), mySqrt \(LC 69\).) Tj
+T*
+(  6. PATTERN RECOGNITION: Multiplication of values up to 10^9, summing many ints, midpoint calculation.) Tj
+T*
+(  7. VISUALIZATION: mid = \(lo + hi\) / 2 can overflow; lo + \(hi - lo\)/2 is safe.) Tj
+T*
+(  8. COMMON MISTAKES: Casting after multiplication; cast before: \(long\)a * b.) Tj
+T*
+(  9. MEMORY TRICK: "Widen before multiply.") Tj
+T*
+(  10. IMPLEMENTATION IMPACT: Prevents silent wrong answers in otherwise correct algorithms.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(FINAL RECOGNITION MAP) Tj
+T*
+() Tj
+T*
+(| Problem smell | Mathematical core | Typical optimal tool |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| Many range sums | Prefix difference | Prefix sum / Fenwick / segment tree |) Tj
+T*
+(| Many range updates | Telescoping boundaries | Difference array / lazy segment tree |) Tj
+T*
+(| Divisibility of subarray sum | Congruent prefixes | Prefix modulo frequency map |) Tj
+T*
+(| Count arrangements | Product rule, factorials, nCr | Combinatorics / DP |) Tj
+T*
+(| Duplicate existence by range | Pigeonhole | Floyd cycle / binary search on value |) Tj
+T*
+(| Unique among pairs | XOR cancellation | XOR scan |) Tj
+T*
+(| Small visited set | Subsets = bit masks | Bitmask DP |) Tj
+T*
+(| Points and turns | Cross product sign | Convex hull / intersection |) Tj
+T*
+(| Tree validity | Edges = nodes - 1 + connected | DFS / DSU |) Tj
+T*
+(| Dependencies | DAG topological invariant | Topological sort |) Tj
+T*
+(| Minimum feasible capacity | Monotonic predicate | Binary search on answer |) Tj
+T*
+(| Recursive overlapping choices | Recurrence relation | DP |) Tj
+T*
+(| Divide and conquer recurrence | Recursion tree | Master theorem |) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(CLOSING PRINCIPLE) Tj
+T*
+() Tj
+T*
+(Most hard DSA problems become manageable when you translate the story into one of these mathematical) Tj
+T*
+(  objects: a prefix, a remainder class, a set, a bit mask, a graph invariant, a monotonic predicate, or a) Tj
+T*
+(  recurrence. The interview skill is not memorizing isolated formulas; it is recognizing which invariant) Tj
+T*
+(  is hiding inside the problem statement.) Tj
+T*
+ET
+endstream
+endobj
+53 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 52 0 R >>
+endobj
+xref
+0 54
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000288 00000 n 
+0000000358 00000 n 
+0000004338 00000 n 
+0000004464 00000 n 
+0000009595 00000 n 
+0000009721 00000 n 
+0000014630 00000 n 
+0000014756 00000 n 
+0000019941 00000 n 
+0000020069 00000 n 
+0000025357 00000 n 
+0000025485 00000 n 
+0000030367 00000 n 
+0000030495 00000 n 
+0000035883 00000 n 
+0000036011 00000 n 
+0000040779 00000 n 
+0000040907 00000 n 
+0000045997 00000 n 
+0000046125 00000 n 
+0000050936 00000 n 
+0000051064 00000 n 
+0000056367 00000 n 
+0000056495 00000 n 
+0000061384 00000 n 
+0000061512 00000 n 
+0000066315 00000 n 
+0000066443 00000 n 
+0000071274 00000 n 
+0000071402 00000 n 
+0000076447 00000 n 
+0000076575 00000 n 
+0000081335 00000 n 
+0000081463 00000 n 
+0000086535 00000 n 
+0000086663 00000 n 
+0000091755 00000 n 
+0000091883 00000 n 
+0000096942 00000 n 
+0000097070 00000 n 
+0000102128 00000 n 
+0000102256 00000 n 
+0000107084 00000 n 
+0000107212 00000 n 
+0000112336 00000 n 
+0000112464 00000 n 
+0000117221 00000 n 
+0000117349 00000 n 
+0000122633 00000 n 
+0000122761 00000 n 
+0000126908 00000 n 
+trailer
+<< /Size 54 /Root 1 0 R >>
+startxref
+127036
+%%EOF
