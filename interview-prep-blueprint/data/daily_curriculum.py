@@ -1453,7 +1453,7 @@ READINESS_SCORES = {
     'MongoDB': 7,
     'REST API Design': 8,
     'System Design': 4,
-    'DSA/Coding (LeetCode)': 5,
+    'DSA/Coding (LeetCode)': 9,
     'SQL/Relational DBs': 5,
     'Java Core': 4,
     'Spring Boot': 3,
@@ -1475,13 +1475,14 @@ STRENGTHS = [
     '5 years production MERN stack experience with end-to-end feature ownership',
     'Strong Node.js/Express REST API development and MongoDB schema design',
     'Solid React frontend skills enabling full-stack debugging and system thinking',
+    'DSA at 4.5/5 — strong pattern recognition; ready for high-volume Medium/Hard drills',
     'Practical deployment experience with real users and production incident handling',
     'Good communication skills from cross-functional MERN project delivery',
     'Fast learner — actively building Spring Boot projects to expand backend breadth',
 ]
 
 WEAKNESSES = [
-    'DSA/coding speed at 2.7/5 — needs daily timed practice for medium problems',
+    'Hard-problem speed under 25-minute interview timers still needs sharpening',
     'System design depth limited — few large-scale distributed architecture experiences',
     'Java/Spring Boot still early (3/10) — must frame as growth story with portfolio work',
     'SQL advanced patterns (windows, complex joins) rusty compared to NoSQL comfort',
@@ -1492,14 +1493,14 @@ WEAKNESSES = [
 RISKS = [
     'Over-indexing on MERN strengths while Java rounds expose Spring Boot gaps',
     '39-day timeline is aggressive for simultaneous DSA, SD, and Java ramp-up',
-    'Burnout from 6-8 hour daily study without rest days built into Final Sprint',
+    'Burnout from 35+ daily LeetCode problems without scheduled rest on Sundays',
     'Applying too early before Spring Boot project is demo-ready for Java-heavy companies',
     'System design answers may sound theoretical without quantified tradeoff analysis',
     'Behavioral stories may lack metrics if not rehearsed with specific numbers',
 ]
 
 PRIORITIES = [
-    'Daily timed DSA practice — target 2 medium problems, focus on arrays, trees, graphs',
+    'High-volume LeetCode: 15 problems Day 1 → 35+ by July 31 (~87% Medium/Hard)',
     'Build one polished Spring Boot REST project with JPA, Security, tests, and README',
     'Complete 15 system designs with back-of-envelope math and explicit tradeoffs',
     'Node.js deep-dive on event loop, streams, auth, caching — make answers automatic',

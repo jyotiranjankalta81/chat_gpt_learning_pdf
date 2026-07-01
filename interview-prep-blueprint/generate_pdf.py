@@ -55,22 +55,22 @@ FOOTER_TEXT = "Elite 39-Day Interview Blueprint  •  July 1 – August 8, 2026"
 FULL_WIDTH = 17.5 * cm
 
 DAILY_TIME_BLOCKS = [
-    ("05:30 – 06:00", "Wake, hydrate, stretch, review today's plan and priorities", "Prep"),
-    ("06:00 – 08:00", "LeetCode Block 1 — new problems, timed, whiteboard explain", "2.0h"),
-    ("08:00 – 08:30", "Breakfast and mental reset", "Break"),
-    ("08:30 – 10:30", "Backend deep-dive — Node.js or Java/Spring (alternating focus)", "2.0h"),
-    ("10:30 – 10:45", "Short break — walk, no screens", "Break"),
-    ("10:45 – 12:15", "SQL drills + hands-on exercises", "1.5h"),
-    ("12:15 – 13:00", "Lunch and light walk", "Break"),
-    ("13:00 – 14:30", "System Design / OS / Networking study block", "1.5h"),
-    ("14:30 – 14:45", "Short break", "Break"),
-    ("14:45 – 16:15", "LeetCode Block 2 — revision problems + pattern review", "1.5h"),
-    ("16:15 – 16:30", "Short break", "Break"),
-    ("16:30 – 18:00", "Behavioral STAR practice + resume tailoring", "1.5h"),
-    ("18:00 – 19:00", "Dinner and decompress", "Break"),
-    ("19:00 – 20:30", "Project work, mock interviews, or job applications", "1.5h"),
-    ("20:30 – 21:30", "Spaced repetition review + flashcards", "1.0h"),
-    ("21:30 – 22:00", "Journal progress, plan tomorrow, update tracker", "0.5h"),
+    ("05:30 – 06:00", "Wake, hydrate, stretch, review today's LeetCode targets", "Prep"),
+    ("06:00 – 08:30", "LeetCode Block 1 — new M/H problems, strict 20-min timers", "2.5h"),
+    ("08:30 – 09:00", "Breakfast and mental reset", "Break"),
+    ("09:00 – 11:00", "Backend deep-dive — Node.js or Java/Spring (alternating focus)", "2.0h"),
+    ("11:00 – 11:15", "Short break — walk, no screens", "Break"),
+    ("11:15 – 12:45", "LeetCode Block 2 — continue new problems + pattern notes", "1.5h"),
+    ("12:45 – 13:30", "Lunch and light walk", "Break"),
+    ("13:30 – 15:00", "SQL drills + hands-on exercises", "1.5h"),
+    ("15:00 – 15:15", "Short break", "Break"),
+    ("15:15 – 16:45", "System Design / OS / Networking study block", "1.5h"),
+    ("16:45 – 17:00", "Short break", "Break"),
+    ("17:00 – 18:30", "LeetCode Block 3 — revision + Hard problems from weak patterns", "1.5h"),
+    ("18:30 – 19:15", "Dinner and decompress", "Break"),
+    ("19:15 – 20:15", "Behavioral STAR practice + resume tailoring", "1.0h"),
+    ("20:15 – 21:30", "Job applications, mock interviews, or project work", "1.25h"),
+    ("21:30 – 22:00", "Spaced repetition review + update progress tracker", "0.5h"),
     ("22:00 – 22:30", "Wind down — no study screens", "Break"),
     ("22:30", "Sleep — target 7 hours for cognitive recovery", "Sleep"),
 ]
@@ -200,7 +200,7 @@ def draw_cover_page(canvas, _doc):
     canvas.setFont("Helvetica", 10)
     lines = [
         "MERN Stack Engineer → Full-Stack Backend Interview Ready",
-        "39 Days  •  13.5 Daily Study Hours  •  15 System Designs  •  300+ LeetCode Problems",
+        "39 Days  •  14 Daily Study Hours  •  15 System Designs  •  1,076 LeetCode Assignments",
         "5 Mock Interview Days  •  Behavioral STAR  •  Resume & Job Search Playbook",
     ]
     y = h * 0.30
@@ -220,7 +220,7 @@ def build_toc(styles):
     story.append(_spacer(0.4))
     entries = [
         "Section 1: Readiness Assessment",
-        "Section 2: Daily Schedule — 13.5 Study Hours",
+        "Section 2: Daily Schedule — 14 Study Hours",
         "Section 3: LeetCode Roadmap — 39 Days",
         "Section 4: Node.js Backend Curriculum",
         "Section 5: Java Spring Boot Curriculum",
@@ -292,11 +292,12 @@ def _readiness_bar(score):
 
 def build_section_2_schedule(styles):
     story = []
-    story.append(section_banner("Section 2: Daily Schedule — 13.5 Study Hours", styles))
+    story.append(section_banner("Section 2: Daily Schedule — 14 Study Hours", styles))
     story.append(_spacer(0.3))
     story.append(_p(
         "Fixed daily rhythm from <b>05:30 wake</b> to <b>22:30 sleep</b>. "
-        "Study blocks total <b>13.5 hours</b> with mandatory breaks to prevent burnout. "
+        "Study blocks total <b>14 hours</b> including 5.5h LeetCode across 3 blocks. "
+        "Volume ramps from 15 to 35+ problems/day by July 31. Mandatory breaks prevent burnout. "
         "Adjust weekend blocks slightly for mock interview days (see Section 14).",
         styles,
     ))
@@ -313,7 +314,7 @@ def build_section_2_schedule(styles):
 
     story.append(_p("Weekly Rhythm", styles, "SubTitle"))
     weekly = [
-        ["Mon–Fri", "Full 13.5h schedule; 2–3 job applications daily"],
+        ["Mon–Fri", "Full 14h schedule; 15→35+ LeetCode; 2–3 job applications daily"],
         ["Saturday", "Mock interview or deep system design day; lighter LeetCode"],
         ["Sunday", "Review week gaps; prep next week; 1 hour rest from new material"],
     ]
@@ -337,8 +338,9 @@ def build_section_3_leetcode(styles):
     story.append(section_banner("Section 3: LeetCode Roadmap — 39 Days", styles))
     story.append(_spacer(0.3))
     story.append(_p(
-        f"Complete {len(PROBLEM_DB)}-problem database organized across 39 daily assignments. "
-        f"Pattern progression follows: {', '.join(TOPIC_ORDER[:8])}… and more. "
+        f"<b>{len(PROBLEM_DB)}-problem database</b> calibrated for DSA 4.5/5. "
+        f"Volume ramps <b>15 → 35+ problems/day</b> by July 31 (~13% Easy, ~50% Medium, ~37% Hard). "
+        f"Pattern progression: {', '.join(TOPIC_ORDER[:8])}… and more. "
         "Use spaced repetition dates in the Revision column.",
         styles,
     ))
@@ -923,11 +925,12 @@ def build_section_16_progress(styles):
 
     story.append(_p("Weekly Summary Template", styles, "SubTitle"))
     weeks = [
-        ["Week 1", "Days 1–7", "Problems: __/55", "Mocks: 0", "Apps: __", "Readiness Δ: __"],
-        ["Week 2", "Days 8–14", "Problems: __/60", "Mocks: 1", "Apps: __", "Readiness Δ: __"],
-        ["Week 3", "Days 15–21", "Problems: __/65", "Mocks: 1", "Apps: __", "Readiness Δ: __"],
-        ["Week 4", "Days 22–28", "Problems: __/70", "Mocks: 1", "Apps: __", "Readiness Δ: __"],
-        ["Week 5", "Days 29–35", "Problems: __/50", "Mocks: 1", "Apps: __", "Readiness Δ: __"],
+        ["Week 1", "Days 1–7", "Problems: __/119", "Mocks: 0", "Apps: __", "Readiness Δ: __"],
+        ["Week 2", "Days 8–14", "Problems: __/152", "Mocks: 1", "Apps: __", "Readiness Δ: __"],
+        ["Week 3", "Days 15–21", "Problems: __/184", "Mocks: 1", "Apps: __", "Readiness Δ: __"],
+        ["Week 4", "Days 22–28", "Problems: __/217", "Mocks: 1", "Apps: __", "Readiness Δ: __"],
+        ["Week 5", "Days 29–35", "Problems: __/252", "Mocks: 1", "Apps: __", "Readiness Δ: __"],
+        ["Final", "Days 36–39", "Problems: __/152", "Mocks: 0", "Apps: __", "Readiness Δ: __"],
         ["Week 6", "Days 36–39", "Review only", "Mocks: 1", "Apps: __", "Final score: __"],
     ]
     story.append(std_table(

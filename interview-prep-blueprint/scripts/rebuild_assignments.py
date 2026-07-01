@@ -1,220 +1,123 @@
-"""LeetCode study roadmap: problem database and 39-day schedule.
+#!/usr/bin/env python3
+"""Rebuild DAILY_ASSIGNMENTS: Day 1 = 15 qns, Day 31 = 35+ qns, ~12% Easy, rest M/H."""
 
-Calibrated for DSA 4.5/5: Day 1 = 15 problems, Day 31 = 35 problems,
-Days 32-39 = 36-38 (revision-heavy). Difficulty mix ~13% Easy, ~50% Medium, ~37% Hard.
-"""
+import sys
+import os
 
-PROBLEM_DB = {
-    1: ("Two Sum", "E", "HashMap", "Complement lookup", 15, "167", "VH"),
+TOPIC_ORDER = [
+    "Arrays", "Strings", "HashMap", "Sorting", "Two Pointers", "Sliding Window",
+    "Binary Search", "Stack", "Queue", "Linked List", "Trees", "BST", "Heap",
+    "Trie", "Graph", "Topological Sort", "Union Find", "Backtracking", "Greedy",
+    "Intervals", "Dynamic Programming", "Advanced Graph", "Hard Interview Problems",
+]
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
+# Additional Medium/Hard interview problems to expand pool
+EXTRA_PROBLEMS = {
     2: ("Add Two Numbers", "M", "Linked List", "Digit carry chain", 25, "445", "VH"),
-    3: ("Longest Substring Without Repeating Characters", "M", "Sliding Window", "Unique char window", 25, "159", "VH"),
-    4: ("Median of Two Sorted Arrays", "H", "Binary Search", "Partition merge", 45, "295", "VH"),
-    5: ("Longest Palindromic Substring", "M", "Expand center", "Palindrome expansion", 30, "647", "VH"),
     8: ("String to Integer (atoi)", "M", "String", "Overflow handling", 25, "65", "H"),
-    11: ("Container With Most Water", "M", "Two Pointers", "Greedy shrink", 20, "42", "VH"),
     12: ("Integer to Roman", "M", "Greedy", "Symbol subtraction", 20, "13", "M"),
     13: ("Roman to Integer", "E", "String", "Pair parsing", 15, "12", "M"),
-    14: ("Longest Common Prefix", "E", "Trie / scan", "Vertical scan", 15, "208", "H"),
-    15: ("3Sum", "M", "Two Pointers", "Sorted triplets", 30, "18", "VH"),
-    16: ("3Sum Closest", "M", "Two Pointers", "Closest sum target", 25, "15", "H"),
-    17: ("Letter Combinations of a Phone Number", "M", "Backtracking", "Choice tree DFS", 25, "22", "VH"),
-    18: ("4Sum", "M", "Two Pointers", "k-sum extension", 35, "454", "H"),
-    19: ("Remove Nth Node From End of List", "M", "Linked List", "Two-pointer gap", 20, "206", "VH"),
-    20: ("Valid Parentheses", "E", "Stack", "Bracket matching", 15, "32", "VH"),
-    21: ("Merge Two Sorted Lists", "E", "Linked List", "Merge sorted lists", 15, "23", "VH"),
-    22: ("Generate Parentheses", "M", "Backtracking", "Valid paren generation", 25, "301", "VH"),
-    23: ("Merge k Sorted Lists", "H", "Heap / divide", "k-way merge", 35, "21", "VH"),
-    25: ("Reverse Nodes in k-Group", "H", "Linked List", "k-group reverse", 35, "206", "VH"),
-    26: ("Remove Duplicates from Sorted Array", "E", "Two Pointers", "In-place overwrite", 15, "80", "H"),
-    27: ("Remove Element", "E", "Two Pointers", "Partition array", 12, "283", "M"),
     28: ("Find the Index of the First Occurrence", "E", "String", "KMP / built-in", 15, "214", "H"),
-    30: ("Substring with Concatenation of All Words", "H", "Sliding Window", "Multi-word window", 40, "438", "H"),
     31: ("Next Permutation", "M", "Array", "In-place rearrange", 25, "60", "H"),
-    32: ("Longest Valid Parentheses", "H", "Stack", "Valid paren length", 35, "20", "VH"),
-    33: ("Search in Rotated Sorted Array", "M", "Binary Search", "Pivot detection", 25, "81", "VH"),
-    34: ("Find First and Last Position of Element in Sorted Array", "M", "Binary Search", "Boundary search", 25, "35", "VH"),
-    35: ("Search Insert Position", "E", "Binary Search", "Lower bound", 12, "34", "H"),
-    36: ("Valid Sudoku", "M", "HashSet", "Row/col/box sets", 25, "37", "H"),
-    37: ("Sudoku Solver", "H", "Backtracking", "Constraint propagation", 45, "36", "H"),
-    39: ("Combination Sum", "M", "Backtracking", "Unbounded combinations", 25, "40", "VH"),
     40: ("Combination Sum II", "M", "Backtracking", "No reuse combos", 25, "39", "H"),
-    41: ("First Missing Positive", "H", "Arrays", "Index placement", 30, "448", "VH"),
-    42: ("Trapping Rain Water", "H", "Two Pointers", "Left/right max", 35, "407", "VH"),
     43: ("Multiply Strings", "M", "String", "Grade-school multiply", 30, "415", "M"),
     44: ("Wildcard Matching", "H", "DP", "Pattern matching", 40, "10", "H"),
-    45: ("Jump Game II", "M", "Greedy", "Min jumps", 25, "55", "VH"),
-    46: ("Permutations", "M", "Backtracking", "Permutation generation", 25, "47", "VH"),
     47: ("Permutations II", "M", "Backtracking", "Duplicate handling", 25, "46", "H"),
     48: ("Rotate Image", "M", "Matrix", "Transpose + reverse", 20, "54", "H"),
-    49: ("Group Anagrams", "M", "HashMap", "Sorted key grouping", 20, "242", "VH"),
     50: ("Pow(x, n)", "M", "Binary Search", "Fast exponentiation", 20, "372", "H"),
-    51: ("N-Queens", "H", "Backtracking", "Constraint placement", 40, "52", "VH"),
-    53: ("Maximum Subarray", "M", "Kadane", "DP / greedy subarray", 20, "152", "VH"),
     54: ("Spiral Matrix", "M", "Matrix", "Boundary walk", 25, "59", "H"),
-    55: ("Jump Game", "M", "Greedy", "Reachability", 20, "45", "VH"),
-    56: ("Merge Intervals", "M", "Sorting", "Interval merge", 25, "57", "VH"),
-    57: ("Insert Interval", "M", "Intervals", "Merge on insert", 25, "56", "VH"),
     59: ("Spiral Matrix II", "M", "Matrix", "Fill spiral", 25, "54", "M"),
     61: ("Rotate List", "M", "Linked List", "Circular rotate", 25, "19", "M"),
     62: ("Unique Paths", "M", "DP", "Grid combinatorics", 20, "63", "VH"),
     63: ("Unique Paths II", "M", "DP", "Obstacle grid", 20, "64", "H"),
     64: ("Minimum Path Sum", "M", "DP", "Grid min sum", 20, "120", "H"),
     65: ("Valid Number", "H", "String", "State machine parse", 35, "8", "M"),
-    69: ("Sqrt(x)", "E", "Binary Search", "Integer sqrt", 12, "367", "M"),
-    70: ("Climbing Stairs", "E", "DP", "Fibonacci pattern", 12, "746", "VH"),
-    71: ("Simplify Path", "M", "Stack", "Path normalization", 20, "227", "M"),
-    72: ("Edit Distance", "M", "DP", "Levenshtein distance", 30, "1143", "VH"),
     73: ("Set Matrix Zeroes", "M", "Matrix", "In-place markers", 25, "289", "H"),
-    74: ("Search a 2D Matrix", "M", "Binary Search", "Flattened search", 20, "240", "H"),
-    75: ("Sort Colors", "M", "Dutch Flag", "Three-way partition", 20, "215", "VH"),
-    76: ("Minimum Window Substring", "H", "Sliding Window", "Cover all chars", 35, "3", "VH"),
-    78: ("Subsets", "M", "Backtracking", "Subset enumeration", 20, "90", "VH"),
-    79: ("Word Search", "M", "Backtracking", "Grid path search", 25, "212", "VH"),
     81: ("Search in Rotated Sorted Array II", "M", "Binary Search", "Duplicates", 25, "33", "H"),
     82: ("Remove Duplicates from Sorted List II", "M", "Linked List", "Skip all dupes", 20, "83", "M"),
-    84: ("Largest Rectangle in Histogram", "H", "Monotonic Stack", "Bar expansion", 35, "85", "VH"),
-    85: ("Maximal Rectangle", "H", "Monotonic Stack", "2D histogram reduce", 40, "84", "H"),
     86: ("Partition List", "M", "Linked List", "Before/after pivot", 25, "328", "M"),
     87: ("Scramble String", "H", "DP", "Recursion + memo", 40, "44", "M"),
     88: ("Merge Sorted Array", "E", "Two Pointers", "Fill from end", 15, "977", "H"),
     90: ("Subsets II", "M", "Backtracking", "Sorted dedupe", 25, "78", "H"),
     91: ("Decode Ways", "M", "DP", "String segmentation", 25, "639", "H"),
-    92: ("Reverse Linked List II", "M", "Linked List", "Partial reverse", 25, "206", "H"),
     93: ("Restore IP Addresses", "M", "Backtracking", "IP segment validation", 30, "17", "M"),
-    94: ("Binary Tree Inorder Traversal", "E", "Tree", "Inorder DFS/iter", 15, "144", "VH"),
     95: ("Unique Binary Search Trees II", "M", "Tree", "Generate all BSTs", 30, "96", "M"),
     96: ("Unique Binary Search Trees", "M", "DP", "Catalan number", 25, "95", "H"),
     97: ("Interleaving String", "M", "DP", "2D boolean DP", 30, "72", "H"),
-    98: ("Validate Binary Search Tree", "M", "BST", "Range validation", 25, "230", "VH"),
     100: ("Same Tree", "E", "Tree", "Structural compare", 10, "101", "H"),
     101: ("Symmetric Tree", "E", "Tree", "Mirror check", 12, "226", "H"),
-    102: ("Binary Tree Level Order Traversal", "M", "BFS", "Level-by-level", 20, "107", "VH"),
     103: ("Binary Tree Zigzag Level Order", "M", "Tree BFS", "Alternate direction", 25, "102", "H"),
-    104: ("Maximum Depth of Binary Tree", "E", "Tree", "Recursive depth", 10, "111", "VH"),
     105: ("Construct BT from Preorder Inorder", "M", "Tree", "Divide by root", 30, "106", "VH"),
     106: ("Construct BT from Inorder Postorder", "M", "Tree", "Postorder root", 30, "105", "H"),
-    108: ("Convert Sorted Array to Binary Search Tree", "E", "BST", "Balanced build", 15, "109", "H"),
     109: ("Convert Sorted List to BST", "M", "Tree", "Inorder simulation", 30, "108", "M"),
-    110: ("Balanced Binary Tree", "E", "Tree", "Height balance check", 15, "543", "H"),
     111: ("Minimum Depth of Binary Tree", "E", "Tree BFS", "First leaf depth", 12, "104", "H"),
     113: ("Path Sum II", "M", "Tree DFS", "All root-leaf paths", 25, "437", "H"),
     114: ("Flatten Binary Tree to Linked List", "M", "Tree", "Morris / reverse", 30, "430", "H"),
     116: ("Populating Next Right Pointers", "M", "Tree BFS", "Level connect", 25, "117", "M"),
     117: ("Populating Next Right Pointers II", "M", "Tree BFS", "Imperfect tree", 25, "116", "M"),
     120: ("Triangle", "M", "DP", "Bottom-up min path", 20, "64", "M"),
-    124: ("Binary Tree Maximum Path Sum", "H", "Tree", "Global max path", 35, "543", "VH"),
-    125: ("Valid Palindrome", "E", "Two Pointers", "Alphanumeric filter", 12, "680", "H"),
-    126: ("Word Ladder II", "H", "BFS + backtrack", "All shortest paths", 45, "127", "H"),
-    127: ("Word Ladder", "H", "BFS", "Shortest transform", 35, "126", "VH"),
-    128: ("Longest Consecutive Sequence", "M", "HashSet", "Sequence start detection", 25, "298", "VH"),
     129: ("Sum Root to Leaf Numbers", "M", "Tree DFS", "Path digit sum", 20, "437", "M"),
-    130: ("Surrounded Regions", "M", "Graph DFS", "Boundary capture", 25, "417", "H"),
-    131: ("Palindrome Partitioning", "M", "Backtracking", "Partition + palin check", 30, "5", "H"),
     132: ("Palindrome Partitioning II", "H", "DP", "Min cuts", 35, "131", "M"),
-    133: ("Clone Graph", "M", "Graph BFS/DFS", "Graph deep copy", 25, "138", "VH"),
-    134: ("Gas Station", "M", "Greedy", "Circuit feasibility", 25, "135", "H"),
     135: ("Candy", "H", "Greedy", "Two-pass ratings", 30, "134", "H"),
     136: ("Single Number", "E", "Bit", "XOR cancel", 10, "137", "H"),
     137: ("Single Number II", "M", "Bit", "Mod 3 bits", 25, "137", "H"),
-    138: ("Copy List with Random Pointer", "M", "Linked List", "HashMap clone", 30, "133", "VH"),
-    139: ("Word Break", "M", "DP", "Segmentation DP", 25, "140", "VH"),
     140: ("Word Break II", "H", "Backtracking+DP", "All segmentations", 40, "139", "H"),
-    141: ("Linked List Cycle", "E", "Fast/slow", "Cycle detection", 15, "142", "VH"),
-    142: ("Linked List Cycle II", "M", "Fast/slow", "Cycle entry point", 25, "141", "VH"),
     143: ("Reorder List", "M", "Linked List", "Mid reverse merge", 30, "234", "H"),
-    144: ("Binary Tree Preorder Traversal", "E", "Tree", "Preorder DFS/iter", 15, "94", "H"),
-    146: ("LRU Cache", "M", "HashMap + DLL", "Ordered eviction", 35, "460", "VH"),
     148: ("Sort List", "M", "Linked List", "Merge sort LL", 35, "21", "H"),
     149: ("Max Points on a Line", "H", "HashMap", "Slope counting", 35, "228", "M"),
     150: ("Evaluate Reverse Polish Notation", "M", "Stack", "RPN eval", 20, "224", "H"),
     151: ("Reverse Words in a String", "M", "String", "Two-pass reverse", 20, "186", "H"),
-    152: ("Maximum Product Subarray", "M", "DP", "Min/max product track", 25, "53", "VH"),
-    153: ("Find Minimum in Rotated Sorted Array", "M", "Binary Search", "Min in rotated", 20, "154", "VH"),
     154: ("Find Minimum in Rotated II", "H", "Binary Search", "Dupes in rotated", 30, "153", "H"),
     155: ("Min Stack", "M", "Stack", "O(1) min", 20, "716", "VH"),
     156: ("Binary Tree Upside Down", "M", "Tree", "Pointer rewrite", 25, "226", "M"),
     157: ("Read N Characters Given Read4", "E", "Array", "Buffer read", 15, "158", "M"),
     158: ("Read N Characters Given Read4 II", "H", "Array", "Multiple calls", 30, "157", "M"),
-    159: ("Longest Substring with At Most Two Distinct Characters", "M", "Sliding Window", "Distinct limit", 25, "340", "H"),
-    160: ("Intersection of Two Linked Lists", "E", "Linked List", "Pointer switch trick", 15, "141", "H"),
     161: ("One Edit Distance", "M", "String", "Edit check", 20, "72", "M"),
-    162: ("Find Peak Element", "M", "Binary Search", "Peak finding", 20, "852", "H"),
     163: ("Missing Ranges", "E", "Array", "Gap enumeration", 15, "228", "M"),
     165: ("Compare Version Numbers", "M", "String", "Segment compare", 20, "43", "M"),
     166: ("Fraction to Recurring Decimal", "M", "HashMap", "Cycle detection", 25, "141", "M"),
-    167: ("Two Sum II - Input Array Is Sorted", "M", "Two Pointers", "Sorted pair search", 15, "1", "VH"),
     173: ("Binary Search Tree Iterator", "M", "Stack", "Controlled inorder", 25, "230", "H"),
     174: ("Dungeon Game", "H", "DP", "Reverse min health", 35, "64", "M"),
-    179: ("Largest Number", "M", "Custom sort", "String concat order", 25, "921", "M"),
     186: ("Reverse Words in a String II", "M", "String", "In-place reverse", 20, "151", "M"),
     188: ("Best Time to Buy and Sell Stock IV", "H", "DP", "k transactions", 40, "123", "H"),
     189: ("Rotate Array", "M", "Array", "Reverse segments", 20, "61", "H"),
     190: ("Reverse Bits", "E", "Bit", "Bit manipulation", 12, "191", "M"),
     191: ("Number of 1 Bits", "E", "Bit", "Hamming weight", 10, "338", "H"),
-    198: ("House Robber", "M", "DP", "Linear choice DP", 20, "213", "VH"),
     199: ("Binary Tree Right Side View", "M", "Tree BFS", "Last per level", 20, "545", "H"),
-    200: ("Number of Islands", "M", "Graph DFS/BFS", "Connected components", 25, "695", "VH"),
     201: ("Bitwise AND of Numbers Range", "M", "Bit", "Common prefix", 20, "191", "M"),
     203: ("Remove Linked List Elements", "E", "Linked List", "Dummy head delete", 12, "237", "M"),
     204: ("Count Primes", "M", "Math", "Sieve of Eratosthenes", 20, "264", "M"),
     205: ("Isomorphic Strings", "E", "HashMap", "Bijection mapping", 15, "290", "M"),
-    206: ("Reverse Linked List", "E", "Linked List", "Iterative reverse", 15, "92", "VH"),
-    207: ("Course Schedule", "M", "Graph DFS", "Cycle detection", 25, "210", "VH"),
-    208: ("Implement Trie (Prefix Tree)", "M", "Trie", "Prefix tree ops", 25, "211", "VH"),
-    209: ("Minimum Size Subarray Sum", "M", "Sliding Window", "Shrinkable window", 25, "3", "VH"),
-    210: ("Course Schedule II", "M", "Topological Sort", "Order construction", 30, "207", "VH"),
-    211: ("Design Add and Search Words Data Structure", "M", "Trie", "Wildcard search", 30, "212", "H"),
-    212: ("Word Search II", "H", "Trie + DFS", "Board word search", 40, "79", "VH"),
     213: ("House Robber II", "M", "DP", "Circular robber", 25, "198", "VH"),
     214: ("Shortest Palindrome", "H", "String", "KMP prefix", 35, "5", "M"),
-    215: ("Kth Largest Element in an Array", "M", "Quickselect / heap", "Partition selection", 25, "347", "VH"),
-    216: ("Combination Sum III", "M", "Backtracking", "Fixed-size combinations", 25, "39", "M"),
     218: ("The Skyline Problem", "H", "Heap", "Sweep line", 45, "699", "H"),
     219: ("Contains Duplicate II", "E", "HashMap", "Index distance", 12, "220", "H"),
     220: ("Contains Duplicate III", "H", "Bucket/SortedSet", "Window abs diff", 35, "219", "H"),
     221: ("Maximal Square", "M", "DP", "Side length DP", 25, "85", "H"),
     224: ("Basic Calculator", "H", "Stack", "Expression + parens", 35, "227", "H"),
-    225: ("Implement Stack using Queues", "E", "Queue", "Stack from queues", 15, "232", "M"),
-    226: ("Invert Binary Tree", "E", "Tree", "Mirror swap", 12, "101", "VH"),
-    227: ("Basic Calculator II", "M", "Stack", "Expression parsing", 30, "224", "H"),
     228: ("Summary Ranges", "E", "Array", "Consecutive ranges", 15, "163", "M"),
     229: ("Majority Element II", "M", "HashMap", "Boyer-Moore II", 25, "169", "M"),
     230: ("Kth Smallest in BST", "M", "BST", "Inorder kth", 20, "98", "VH"),
     231: ("Power of Two", "E", "Bit", "n & (n-1)", 10, "326", "M"),
-    232: ("Implement Queue using Stacks", "E", "Queue", "Queue from stacks", 15, "225", "M"),
-    234: ("Palindrome Linked List", "E", "Linked List", "Find mid + reverse", 20, "206", "VH"),
-    235: ("Lowest Common Ancestor of a BST", "M", "BST", "BST LCA walk", 15, "236", "VH"),
-    236: ("Lowest Common Ancestor of a Binary Tree", "M", "Tree", "LCA postorder", 25, "235", "VH"),
     237: ("Delete Node in a Linked List", "E", "Linked List", "Copy next", 10, "19", "M"),
-    238: ("Product of Array Except Self", "M", "Prefix/Suffix", "No-division product", 25, "42", "VH"),
-    239: ("Sliding Window Maximum", "H", "Monotonic Deque", "Window max", 30, "862", "VH"),
     241: ("Different Ways to Add Parentheses", "M", "Divide Conquer", "Split operators", 30, "95", "M"),
-    242: ("Valid Anagram", "E", "HashMap", "Frequency count", 10, "438", "VH"),
-    252: ("Meeting Rooms", "E", "Sorting", "Interval overlap check", 15, "253", "VH"),
-    253: ("Meeting Rooms II", "M", "Greedy / heap", "Min rooms needed", 25, "252", "VH"),
-    269: ("Alien Dictionary", "H", "Topological Sort", "Custom order graph", 40, "210", "VH"),
-    274: ("H-Index", "M", "Counting sort", "Citation threshold", 20, "275", "M"),
-    278: ("First Bad Version", "E", "Binary Search", "First true predicate", 15, "35", "H"),
     279: ("Perfect Squares", "M", "DP/BFS", "Min squares sum", 25, "322", "H"),
     280: ("Wiggle Sort", "M", "Greedy", "Peak valley", 25, "324", "M"),
     281: ("Zigzag Iterator", "M", "Design", "Interleave lists", 25, "1424", "M"),
-    283: ("Move Zeroes", "E", "Two Pointers", "In-place compaction", 12, "27", "H"),
     285: ("Inorder Successor in BST", "M", "BST", "Successor walk", 20, "510", "M"),
     286: ("Walls and Gates", "M", "Graph BFS", "Multi-source BFS", 25, "994", "H"),
     289: ("Game of Life", "M", "Matrix", "In-place state", 25, "73", "M"),
     290: ("Word Pattern", "E", "HashMap", "Bijection check", 15, "205", "M"),
     295: ("Find Median from Data Stream", "H", "Heap", "Two heap balance", 35, "480", "VH"),
     296: ("Best Meeting Point", "H", "Math", "Manhattan median", 30, "286", "M"),
-    297: ("Serialize and Deserialize Binary Tree", "H", "Tree", "Codec design", 35, "449", "VH"),
-    300: ("Longest Increasing Subsequence", "M", "DP", "LIS O(n log n)", 30, "674", "VH"),
     301: ("Remove Invalid Parentheses", "H", "BFS/Backtrack", "Min removals", 40, "22", "H"),
     305: ("Number of Islands II", "H", "Union Find", "Dynamic connectivity", 35, "200", "M"),
     307: ("Range Sum Query Mutable", "M", "Segment Tree", "Point update", 30, "315", "M"),
     308: ("Range Sum Query 2D Mutable", "H", "Segment Tree", "2D fenwick", 40, "307", "M"),
     309: ("Best Time Buy Sell Cooldown", "M", "DP", "State machine", 25, "714", "H"),
-    310: ("Minimum Height Trees", "M", "Topological Sort", "Leaf pruning", 30, "210", "H"),
     311: ("Sparse Matrix Multiplication", "M", "Matrix", "Skip zeros", 25, "73", "M"),
-    312: ("Burst Balloons", "H", "DP", "Interval DP", 40, "1039", "H"),
     313: ("Super Ugly Number", "M", "Heap/DP", "Multi-pointer", 30, "264", "M"),
     314: ("Binary Tree Vertical Order", "M", "Tree BFS", "Column map", 25, "987", "H"),
     315: ("Count of Smaller Numbers After Self", "H", "Merge Sort/BIT", "Inversion count", 40, "493", "H"),
@@ -224,21 +127,15 @@ PROBLEM_DB = {
     319: ("Bulb Switcher", "M", "Math", "Perfect squares", 20, "1178", "M"),
     320: ("Generalized Abbreviation", "M", "Backtracking", "Bit mask abbr", 25, "78", "M"),
     322: ("Coin Change", "M", "DP", "Min coins", 25, "518", "VH"),
-    324: ("Wiggle Sort II", "M", "Sorting", "Median partition", 30, "280", "M"),
     325: ("Maximum Size Subarray Sum Equals k", "M", "HashMap", "Prefix sum", 25, "560", "H"),
     327: ("Count of Range Sum", "H", "Merge Sort", "Range count", 45, "315", "M"),
     328: ("Odd Even Linked List", "M", "Linked List", "Partition nodes", 20, "86", "M"),
-    329: ("Longest Increasing Path in a Matrix", "H", "Graph DFS + memo", "Grid longest path", 35, "300", "VH"),
     330: ("Patching Array", "H", "Greedy", "Missing coverage", 35, "45", "M"),
-    332: ("Reconstruct Itinerary", "H", "Eulerian path", "Lexicographic route", 35, "207", "VH"),
     334: ("Increasing Triplet Subsequence", "M", "Greedy", "Three pointers", 20, "300", "H"),
     337: ("House Robber III", "M", "Tree DP", "Include/exclude", 25, "198", "H"),
     338: ("Counting Bits", "M", "DP/Bit", "DP on bits", 20, "191", "H"),
-    340: ("Longest Substring with At Most K Distinct Characters", "M", "Sliding Window", "K distinct limit", 25, "159", "H"),
     341: ("Flatten Nested List Iterator", "M", "Stack/DFS", "Lazy flatten", 30, "385", "M"),
     343: ("Integer Break", "M", "DP/Math", "Max product split", 20, "279", "M"),
-    344: ("Reverse String", "E", "Two Pointers", "In-place swap", 8, "541", "M"),
-    346: ("Moving Average from Data Stream", "E", "Queue", "Fixed-size average", 15, "933", "M"),
     347: ("Top K Frequent Elements", "M", "Heap/Bucket", "Frequency top-k", 25, "692", "VH"),
     348: ("Design Tic-Tac-Toe", "M", "Design", "Row/col/diag track", 25, "794", "M"),
     349: ("Intersection of Two Arrays", "E", "HashSet", "Set intersection", 12, "350", "M"),
@@ -314,7 +211,6 @@ PROBLEM_DB = {
     447: ("Number of Boomerangs", "M", "HashMap", "Slope counting", 35, "149", "M"),
     448: ("Find Disappeared Numbers", "E", "Array", "Index marking", 20, "442", "M"),
     449: ("Serialize Deserialize BST", "M", "Tree", "BST codec", 30, "297", "M"),
-    450: ("Delete Node in a BST", "M", "BST", "BST deletion", 25, "98", "H"),
     451: ("Sort Characters By Frequency", "M", "Heap/HashMap", "Freq sort", 20, "347", "M"),
     452: ("Min Arrows Burst Balloons", "M", "Greedy", "End-point sort", 25, "435", "H"),
     453: ("Minimum Moves Equal Array", "M", "Math", "Increment/decrement", 20, "462", "M"),
@@ -335,13 +231,11 @@ PROBLEM_DB = {
     480: ("Sliding Window Median", "H", "Heap/BST", "Window median", 40, "295", "H"),
     481: ("Magical String", "M", "Greedy", "Pattern generation", 25, "390", "M"),
     483: ("Smallest Good Base", "H", "Math", "Base conversion", 40, "168", "M"),
-    485: ("Max Consecutive Ones", "E", "Linear scan", "Run length", 10, "1004", "M"),
     486: ("Predict Winner", "M", "DP", "Minimax game", 30, "464", "M"),
     487: ("Max Consecutive Ones II", "M", "Sliding Window", "Flip at most 1", 20, "1004", "M"),
     490: ("The Maze", "M", "Graph DFS/BFS", "Rolling ball", 25, "505", "M"),
     493: ("Reverse Pairs", "H", "Merge Sort", "Inversion variant", 40, "315", "H"),
     494: ("Target Sum", "M", "DP", "+/- subset", 30, "416", "VH"),
-    496: ("Next Greater Element I", "E", "Monotonic Stack", "NGE template", 15, "739", "H"),
     497: ("Random Point in Non-overlapping Rectangles", "M", "Reservoir", "Weighted pick", 30, "398", "M"),
     498: ("Diagonal Traverse", "M", "Matrix", "Diagonal walk", 25, "1424", "M"),
     499: ("Max Value of Equation", "H", "Heap", "Line equation", 35, "149", "M"),
@@ -359,7 +253,6 @@ PROBLEM_DB = {
     526: ("Beautiful Arrangement", "M", "Backtracking", "Divisibility perm", 25, "46", "M"),
     528: ("Random Pick with Weight", "M", "Binary Search", "Weighted pick", 25, "398", "H"),
     529: ("Minesweeper", "M", "Graph DFS/BFS", "Grid reveal", 25, "733", "M"),
-    530: ("Minimum Absolute Difference in BST", "E", "BST", "Inorder adjacent", 15, "783", "M"),
     531: ("Lonely Pixel I", "M", "Matrix", "Row/col scan", 20, "533", "M"),
     532: ("K-diff Pairs", "M", "HashMap", "Two sum variant", 20, "1", "M"),
     535: ("Encode and Decode TinyURL", "M", "HashMap", "Bijection encode", 20, "271", "M"),
@@ -370,7 +263,6 @@ PROBLEM_DB = {
     540: ("Single Element in Sorted Array", "M", "Binary Search", "Odd occurrence", 20, "136", "H"),
     541: ("Reverse String II", "E", "String", "Chunk reverse", 12, "344", "M"),
     542: ("01 Matrix", "M", "Graph BFS", "Nearest 0", 25, "994", "H"),
-    543: ("Diameter of Binary Tree", "E", "Tree", "Longest path", 15, "124", "VH"),
     545: ("Boundary of Binary Tree", "M", "Tree DFS", "Anti-clockwise", 25, "199", "M"),
     547: ("Number of Provinces", "M", "Union Find", "Connected comps", 25, "200", "VH"),
     548: ("Split Array with Equal Sum", "H", "Prefix Sum", "4-partition", 35, "416", "M"),
@@ -380,7 +272,6 @@ PROBLEM_DB = {
     560: ("Subarray Sum Equals K", "M", "HashMap", "Prefix count", 25, "974", "VH"),
     565: ("Array Nesting", "M", "Graph/UnionFind", "Longest cycle", 25, "684", "M"),
     567: ("Permutation in String", "M", "Sliding Window", "Anagram window", 25, "438", "H"),
-    572: ("Subtree of Another Tree", "E", "Tree", "Subtree match", 15, "100", "H"),
     576: ("Out of Boundary Paths", "M", "DP", "Grid paths mod", 30, "62", "M"),
     581: ("Shortest Unsorted Continuous Subarray", "M", "Two Pointers", "Sort boundary", 25, "280", "H"),
     583: ("Delete Operation for Two Strings", "M", "DP", "LCS delete", 25, "1143", "M"),
@@ -412,7 +303,6 @@ PROBLEM_DB = {
     665: ("Non-decreasing Array", "E", "Greedy", "One fix allowed", 15, "581", "M"),
     667: ("Beautiful Arrangement II", "M", "Greedy", "Diff sequence", 25, "526", "M"),
     668: ("Kth Smallest in Lex Order", "H", "Math", "Lex order", 35, "440", "M"),
-    669: ("Trim a Binary Search Tree", "M", "BST", "Range trim", 20, "450", "M"),
     673: ("Number of Longest Increasing Subsequence", "M", "DP", "LIS count", 30, "300", "H"),
     674: ("Longest Continuous Increasing Subsequence", "E", "Array", "Run length", 12, "300", "M"),
     675: ("Cut Off Trees for Golf Event", "H", "BFS", "Multi-target BFS", 40, "994", "M"),
@@ -420,7 +310,6 @@ PROBLEM_DB = {
     677: ("Map Sum Pairs", "M", "Trie", "Prefix sum", 25, "208", "M"),
     678: ("Valid Parenthesis String", "M", "Greedy", "Wildcard paren", 25, "32", "H"),
     679: ("24 Game", "H", "Backtracking", "Expression build", 35, "241", "M"),
-    680: ("Valid Palindrome II", "E", "Two Pointers", "One deletion allowed", 15, "125", "H"),
     684: ("Redundant Connection", "M", "Union Find", "Cycle edge", 25, "685", "H"),
     685: ("Redundant Connection II", "H", "Union Find", "Directed cycle", 35, "684", "M"),
     686: ("Repeated String Match", "M", "String", "Period check", 25, "28", "M"),
@@ -437,7 +326,6 @@ PROBLEM_DB = {
     701: ("Insert into BST", "M", "BST", "BST insert", 15, "450", "M"),
     702: ("Search in Sorted Array", "M", "Binary Search", "Unknown size", 20, "278", "M"),
     703: ("Kth Largest in Stream", "E", "Heap", "Min heap k", 15, "215", "H"),
-    704: ("Binary Search", "E", "Binary Search", "Classic template", 12, "35", "M"),
     705: ("Design HashSet", "E", "HashMap", "Basic hash set", 15, "706", "M"),
     706: ("Design HashMap", "E", "HashMap", "Basic hash map", 15, "705", "M"),
     707: ("Design Linked List", "M", "Linked List", "Full LL API", 30, "146", "M"),
@@ -458,7 +346,6 @@ PROBLEM_DB = {
     730: ("Count Different Palindromes", "H", "DP", "Distinct palins", 45, "647", "M"),
     731: ("My Calendar II", "M", "TreeMap", "Double booking", 30, "729", "M"),
     732: ("My Calendar III", "H", "TreeMap", "Triple overlap", 35, "731", "M"),
-    733: ("Flood Fill", "E", "Graph DFS/BFS", "Paint fill", 15, "200", "M"),
     735: ("Asteroid Collision", "M", "Stack", "Collision sim", 25, "739", "H"),
     736: ("Parse Lisp Expression", "H", "Stack/Recursion", "Mini interpreter", 45, "224", "M"),
     737: ("Sentence Similarity II", "M", "Union Find", "Word groups", 25, "721", "M"),
@@ -494,12 +381,10 @@ PROBLEM_DB = {
     839: ("Similar String Groups", "H", "Union Find", "Swap similarity", 35, "721", "M"),
     846: ("Hand of Straights", "M", "Greedy/HashMap", "Consecutive groups", 25, "1296", "M"),
     847: ("Shortest Path All Keys", "H", "BFS+Bitmask", "State compression", 45, "127", "M"),
-    849: ("Maximize Distance to Closest Person", "M", "Greedy", "Seat gap analysis", 20, "855", "M"),
     853: ("Car Fleet", "M", "Stack/Sort", "Fleet merge", 25, "735", "H"),
     854: ("K Similar Strings", "H", "BFS", "Swap distance", 35, "72", "M"),
     855: ("Exam Room", "M", "TreeSet", "Seat distance", 30, "849", "M"),
     856: ("Score of Parentheses", "M", "Stack", "Nested score", 20, "32", "H"),
-    860: ("Lemonade Change", "E", "Greedy", "Change making", 15, "406", "M"),
     862: ("Shortest Subarray Sum K", "H", "Monotonic Deque", "Prefix deque", 35, "239", "H"),
     863: ("All Nodes Distance K", "M", "Tree DFS+Graph", "Parent pointers", 30, "236", "M"),
     864: ("Shortest Path All Keys", "H", "BFS+Bitmask", "Keys bitmask", 45, "847", "M"),
@@ -507,7 +392,6 @@ PROBLEM_DB = {
     866: ("Prime Palindrome", "M", "Math", "Palindrome prime", 25, "204", "M"),
     871: ("Minimum Number Refueling Stops", "H", "Heap/DP", "Max heap greedy", 35, "134", "H"),
     875: ("Koko Eating Bananas", "M", "Binary Search", "Answer space", 25, "1011", "VH"),
-    876: ("Middle of the Linked List", "E", "Fast/slow", "Midpoint detection", 10, "141", "H"),
     877: ("Stone Game", "M", "DP", "Minimax piles", 25, "486", "M"),
     881: ("Boats to Save People", "M", "Two Pointers", "Greedy pair", 20, "167", "H"),
     886: ("Possible Bipartition", "M", "Graph BFS", "2-coloring", 25, "207", "H"),
@@ -524,7 +408,6 @@ PROBLEM_DB = {
     923: ("3Sum With Multiplicity", "M", "HashMap", "Count triplets", 30, "15", "H"),
     926: ("Flip String to Monotone Increasing", "M", "DP/Prefix", "Min flips", 25, "152", "H"),
     931: ("Minimum Falling Path Sum", "M", "DP", "Grid min path", 25, "64", "H"),
-    933: ("Number of Recent Calls", "E", "Queue", "Sliding window queue", 12, "346", "M"),
     934: ("Shortest Bridge", "M", "Graph DFS+BFS", "Bridge connect", 35, "200", "H"),
     935: ("Knight Dialer", "M", "DP", "Phone keypad hops", 25, "688", "H"),
     939: ("Minimum Area Rectangle", "M", "HashMap", "Diagonal pairs", 30, "149", "H"),
@@ -549,7 +432,6 @@ PROBLEM_DB = {
     1014: ("Best Sightseeing Pair", "M", "DP", "Max score pair", 20, "121", "H"),
     1024: ("Video Stitching", "M", "Greedy", "Min clips cover", 30, "45", "H"),
     1035: ("Uncrossed Lines", "M", "DP", "LCS variant", 25, "1143", "H"),
-    1046: ("Last Stone Weight", "E", "Heap", "Max-heap simulation", 15, "295", "M"),
     1048: ("Longest String Chain", "M", "DP/Sort", "Word chain", 25, "139", "H"),
     1052: ("Grumpy Bookstore Owner", "M", "Sliding Window", "Fixed window tech", 25, "1004", "H"),
     1091: ("Shortest Path Binary Matrix", "M", "Graph BFS", "8-direction", 25, "200", "H"),
@@ -557,7 +439,6 @@ PROBLEM_DB = {
     1109: ("Corporate Flight Bookings", "M", "Prefix Diff", "Range update", 20, "370", "M"),
     1130: ("Min Valid Parenthesis Remove", "M", "Stack", "Min removals", 25, "301", "H"),
     1135: ("Connecting Cities Min Cost", "M", "MST", "Kruskal/Prim", 30, "1584", "H"),
-    1136: ("Parallel Courses", "M", "Topological Sort", "Semester simulation", 25, "207", "M"),
     1143: ("Longest Common Subsequence", "M", "DP", "2D string DP", 25, "72", "VH"),
     1155: ("Number of Dice Rolls Target", "M", "DP", "Combination count", 25, "518", "M"),
     1166: ("Design File System", "M", "Trie", "Path trie", 30, "588", "M"),
@@ -605,84 +486,116 @@ PROBLEM_DB = {
 }
 
 
-DAILY_ASSIGNMENTS = {
-    1: [448, 13, 36, 56, 11, 3, 33, 71, 622, 25, 124, 23, 317, 269, 685],
-    2: [860, 70, 743, 146, 53, 5, 49, 75, 15, 159, 4, 32, 127, 295, 773, 1203],
-    3: [665, 746, 787, 281, 238, 8, 128, 179, 16, 209, 154, 84, 297, 502, 815, 305],
-    4: [485, 28, 454, 324, 18, 340, 34, 155, 362, 19, 102, 218, 839, 37, 135, 312, 126],
-    5: [724, 415, 560, 912, 167, 424, 74, 227, 92, 236, 98, 480, 2157, 51, 330, 44, 332, 308],
-    6: [136, 541, 974, 539, 611, 438, 153, 394, 138, 95, 230, 499, 465, 358, 87, 753, 363, 41],
-    7: [709, 1, 881, 567, 162, 503, 142, 103, 235, 215, 208, 130, 679, 420, 132, 847, 587, 212, 65],
-    8: [242, 252, 26, 713, 875, 739, 328, 105, 450, 767, 211, 133, 210, 980, 757, 174, 864, 699, 329, 214],
-    9: [205, 27, 35, 150, 2, 106, 669, 973, 648, 200, 310, 547, 17, 188, 715, 759, 149, 42, 30, 352],
-    10: [20, 225, 21, 109, 701, 1424, 677, 207, 802, 684, 22, 45, 57, 446, 732, 778, 220, 76, 410, 85, 987],
-    11: [108, 1046, 14, 417, 1136, 721, 39, 55, 72, 1514, 307, 274, 43, 166, 992, 719, 239, 675, 632, 996, 466, 140],
-    12: [219, 125, 69, 173, 61, 113, 285, 373, 1268, 695, 990, 46, 134, 139, 158, 391, 1851, 862, 854, 514, 296, 710],
-    13: [283, 278, 496, 82, 114, 510, 1834, 676, 797, 1319, 78, 253, 152, 1584, 301, 224, 629, 315, 770, 639, 327, 772, 730],
-    14: [157, 290, 344, 904, 1011, 385, 86, 116, 536, 1166, 994, 737, 79, 406, 198, 354, 741, 381, 940, 403, 407, 432, 440, 458],
-    15: [349, 680, 704, 388, 143, 117, 286, 947, 131, 435, 213, 1631, 348, 347, 151, 460, 483, 493, 548, 588, 668, 689, 691, 736],
-    16: [350, 922, 374, 456, 148, 129, 399, 216, 452, 300, 505, 353, 380, 161, 229, 986, 768, 871, 1383, 4, 23, 25, 32, 41, 42],
-    17: [359, 977, 232, 369, 156, 433, 40, 621, 322, 1135, 355, 641, 165, 325, 443, 1004, 51, 76, 84, 124, 127, 212, 239, 269, 295, 297],
-    18: [346, 141, 94, 490, 47, 763, 416, 1334, 379, 647, 186, 447, 581, 1456, 50, 636, 329, 332, 30, 37, 85, 126, 312, 862, 987, 992],
-    19: [933, 160, 104, 530, 529, 90, 849, 494, 382, 918, 468, 523, 948, 395, 81, 722, 430, 44, 135, 140, 154, 188, 218, 220, 224, 301, 315],
-    20: [110, 703, 733, 163, 686, 525, 2337, 487, 378, 735, 707, 199, 542, 93, 12, 518, 384, 31, 354, 410, 460, 480, 493, 632, 689, 719, 871, 980],
-    21: [387, 88, 206, 144, 565, 320, 280, 1143, 398, 48, 532, 1052, 436, 856, 708, 314, 694, 473, 1383, 1851, 502, 685, 759, 778, 1203, 65, 87, 132],
-    22: [190, 705, 392, 234, 428, 752, 526, 334, 62, 497, 54, 535, 1343, 475, 907, 1524, 429, 886, 149, 158, 174, 214, 296, 305, 308, 317, 327, 330, 352],
-    23: [191, 706, 876, 226, 909, 698, 481, 63, 519, 59, 554, 1438, 528, 1130, 437, 934, 1980, 624, 64, 358, 363, 381, 391, 403, 407, 420, 432, 440, 446, 458],
-    24: [228, 203, 543, 997, 646, 91, 729, 73, 593, 1658, 540, 1249, 449, 1091, 659, 96, 731, 137, 609, 465, 466, 483, 499, 514, 548, 587, 588, 629, 639, 668],
-    25: [237, 572, 231, 100, 1197, 667, 97, 1352, 189, 781, 1695, 658, 1762, 513, 1466, 678, 120, 1670, 201, 923, 675, 679, 691, 699, 710, 715, 730, 732, 736, 741, 753],
-    26: [101, 389, 111, 674, 939, 2009, 702, 2211, 538, 1926, 738, 221, 204, 1296, 981, 545, 769, 241, 279, 1497, 757, 768, 770, 772, 773, 815, 839, 847, 854, 864, 940, 996],
-    27: [693, 747, 910, 1991, 2131, 1283, 549, 846, 309, 289, 2353, 1539, 623, 1024, 375, 311, 2300, 652, 1642, 377, 2157, 4, 23, 25, 32, 41, 42, 51, 76, 84, 124, 127],
-    28: [1, 20, 21, 70, 313, 654, 1899, 413, 316, 662, 2279, 427, 318, 687, 486, 319, 865, 516, 337, 889, 576, 212, 239, 269, 295, 297, 329, 332, 30, 37, 85, 126, 312],
-    29: [94, 104, 141, 206, 338, 919, 583, 341, 673, 343, 688, 368, 712, 370, 714, 372, 718, 376, 740, 386, 790, 862, 987, 992, 44, 135, 140, 154, 188, 218, 220, 224, 301, 315],
-    30: [226, 234, 242, 252, 390, 799, 393, 877, 396, 931, 397, 935, 400, 983, 402, 1014, 418, 1035, 419, 1155, 421, 354, 410, 460, 480, 493, 632, 689, 719, 871, 980, 1383, 1851, 502],
-    31: [543, 14, 26, 35, 108, 442, 445, 451, 453, 457, 464, 470, 474, 477, 498, 531, 537, 556, 638, 649, 650, 692, 685, 759, 778, 1203, 65, 87, 132, 149, 158, 174, 214, 296, 305],
-    32: [110, 125, 144, 160, 278, 723, 754, 779, 792, 853, 855, 863, 866, 921, 926, 1048, 1094, 1109, 1481, 3, 5, 11, 15, 308, 317, 327, 330, 352, 358, 363, 381, 391, 403, 407, 420, 432],
-    33: [283, 496, 572, 680, 746, 17, 19, 22, 33, 34, 39, 45, 46, 49, 53, 55, 56, 57, 72, 75, 78, 79, 98, 440, 446, 458, 465, 466, 483, 499, 514, 548, 587, 588, 629, 639, 668],
-    34: [876, 28, 88, 100, 101, 102, 128, 133, 138, 139, 142, 146, 152, 153, 155, 167, 198, 200, 207, 208, 209, 210, 213, 215, 675, 679, 691, 699, 710, 715, 730, 732, 736, 741, 753, 757, 768, 770],
-    35: [111, 136, 191, 219, 392, 230, 235, 236, 238, 253, 300, 322, 347, 416, 424, 435, 494, 547, 560, 621, 721, 739, 743, 787, 772, 773, 815, 839, 847, 854, 864, 940, 996, 2157, 4, 23, 25, 32],
-    36: [703, 27, 69, 225, 232, 875, 973, 994, 1004, 1143, 2, 62, 105, 16, 18, 36, 74, 92, 130, 131, 134, 159, 162, 211, 41, 42, 51, 76, 84, 124, 127, 212, 239, 269, 295, 297, 329, 332],
-    37: [344, 346, 448, 485, 530, 227, 310, 340, 380, 394, 406, 417, 438, 450, 452, 518, 567, 647, 684, 695, 713, 763, 767, 802, 30, 37, 85, 126, 312, 862, 987, 992, 44, 135, 140, 154, 188, 218],
-    38: [704, 724, 733, 860, 922, 881, 904, 974, 986, 990, 1011, 1268, 1584, 1631, 8, 31, 40, 47, 48, 50, 54, 63, 64, 73, 220, 224, 301, 315, 354, 410, 460, 480, 493, 632, 689, 719, 871, 980],
-    39: [933, 977, 1046, 13, 157, 81, 90, 91, 96, 97, 103, 106, 113, 114, 137, 143, 148, 150, 151, 173, 189, 199, 221, 279, 1383, 1851, 502, 685, 759, 778, 1203, 65, 87, 132, 149, 158, 174, 214],
+PATTERN_TO_TOPIC = {
+    "HashMap": "HashMap", "HashSet": "HashMap", "Prefix/Suffix": "Arrays",
+    "Prefix sum": "Arrays", "Prefix + HashMap": "HashMap", "Prefix + HashMap": "HashMap",
+    "Kadane": "Arrays", "Arrays": "Arrays", "Array": "Arrays", "Matrix": "Arrays",
+    "String": "Strings", "Expand center": "Strings", "Trie / scan": "Trie",
+    "Sliding Window": "Sliding Window", "Two Pointers": "Two Pointers",
+    "Binary Search": "Binary Search", "Stack": "Stack", "Monotonic Stack": "Stack",
+    "Monotonic Deque": "Stack", "Queue": "Queue", "Linked List": "Linked List",
+    "Tree": "Trees", "Tree DFS": "Trees", "Tree BFS": "Trees", "BST": "BST",
+    "BFS": "Trees", "Heap": "Heap", "Heap / divide": "Heap", "Trie": "Trie",
+    "Graph DFS/BFS": "Graph", "Graph BFS/DFS": "Graph", "Graph DFS": "Graph",
+    "Graph BFS": "Graph", "Graph": "Graph", "Topological Sort": "Topological Sort",
+    "Union Find": "Union Find", "Backtracking": "Backtracking", "Greedy": "Greedy",
+    "Greedy / heap": "Greedy", "Sorting": "Sorting", "Intervals": "Intervals",
+    "DP": "Dynamic Programming", "DP / greedy subarray": "Dynamic Programming",
+    "Dijkstra": "Advanced Graph", "Bellman-Ford": "Advanced Graph",
+    "BFS + backtrack": "Advanced Graph", "Eulerian path": "Advanced Graph",
+    "HashMap + DLL": "Hard Interview Problems", "Design": "Hard Interview Problems",
+    "Bit": "Arrays", "Math": "Arrays", "Fast/slow": "Linked List",
+    "Divide Conquer": "Dynamic Programming", "Segment Tree": "Hard Interview Problems",
+    "Reservoir": "Hard Interview Problems", "Geometry": "Hard Interview Problems",
+    "State machine": "Dynamic Programming", "Game theory": "Dynamic Programming",
+    "Mini interpreter": "Hard Interview Problems", "Custom sort": "Sorting",
+    "Dutch Flag": "Sorting", "Merge/Quick sort": "Sorting", "Merge/Quick": "Sorting",
+    "MST": "Advanced Graph", "MST / Kruskal": "Advanced Graph", "Floyd-Warshall": "Advanced Graph",
+    "Sweep line": "Hard Interview Problems", "Line equation": "Hard Interview Problems",
+    "Bitmask": "Advanced Graph", "BFS+Bitmask": "Advanced Graph",
+    "Graph/Euler": "Advanced Graph", "Graph/UnionFind": "Graph",
+    "Graph DFS+Graph": "Graph", "Graph DFS+Memo": "Dynamic Programming",
+    "Graph DFS+BFS": "Graph", "Priority Queue": "Heap", "Heap/Two Ptr": "Heap",
+    "TreeMap": "Hard Interview Problems", "TreeSet/DP": "Hard Interview Problems",
+    "Bucket/SortedSet": "HashMap", "Inorder simulation": "BST",
+    "Controlled inorder": "BST", "Codec design": "Hard Interview Problems",
+    "RPN eval": "Stack", "Expression parsing": "Stack", "Path normalization": "Stack",
+    "Bijection mapping": "HashMap", "Bijection check": "HashMap",
+    "Freq sort": "HashMap", "Frequency count": "HashMap",
+    "Quickselect / heap": "Heap", "Heap/Binary Search": "Binary Search",
+    "Heap/BST": "Heap", "Heap/Greedy": "Greedy", "Greedy/Heap": "Greedy",
+    "Greedy/HashMap": "Greedy", "Greedy/Stack": "Stack", "Greedy shrink": "Two Pointers",
+    "Greedy pairing": "Two Pointers", "Greedy/Intervals": "Intervals",
+    "Interval scheduling": "Intervals", "Interval merge": "Intervals",
+    "Interval DP": "Dynamic Programming", "2D histogram reduce": "Stack",
+    "Bar expansion": "Stack", "Next greater element": "Stack",
+    "NGE template": "Stack", "Circular NGE": "Stack",
+    "Linear choice DP": "Dynamic Programming", "Fibonacci pattern": "Dynamic Programming",
+    "Levenshtein distance": "Dynamic Programming", "2D string DP": "Dynamic Programming",
+    "Unbounded knapsack": "Dynamic Programming", "0/1 knapsack": "Dynamic Programming",
+    "LIS O(n log n)": "Dynamic Programming", "Partition merge": "Binary Search",
+    "Answer space search": "Binary Search", "Feasibility check": "Binary Search",
+    "Boundary search": "Binary Search", "Lower bound": "Binary Search",
+    "Classic template": "Binary Search", "Pivot detection": "Binary Search",
+    "Min in rotated": "Binary Search", "Flattened search": "Binary Search",
+    "Peak finding": "Binary Search", "Integer sqrt": "Binary Search",
+    "First true predicate": "Binary Search", "Sorted pair search": "Two Pointers",
+    "Left/right max": "Two Pointers", "In-place swap": "Two Pointers",
+    "In-place overwrite": "Two Pointers", "Partition array": "Two Pointers",
+    "Alphanumeric filter": "Two Pointers", "One deletion allowed": "Two Pointers",
+    "Merge from ends": "Two Pointers", "Even-first partition": "Two Pointers",
+    "Fixed-size average": "Queue", "Sliding window queue": "Queue",
+    "Stack from queues": "Queue", "Queue from stacks": "Stack",
+    "Ring buffer": "Queue", "Double-ended ring": "Queue",
+    "Iterative reverse": "Linked List", "Dummy head merge": "Linked List",
+    "Cycle detection": "Linked List", "Cycle entry point": "Linked List",
+    "HashMap clone": "Linked List", "Two-pointer gap": "Linked List",
+    "k-group reverse": "Linked List", "Partial reverse": "Linked List",
+    "Pointer switch trick": "Linked List", "Midpoint detection": "Linked List",
+    "Find mid + reverse": "Linked List", "Merge sort LL": "Linked List",
+    "Carry propagation": "Linked List", "Mirror swap": "Trees",
+    "Recursive depth": "Trees", "Level-by-level": "Trees", "Range validation": "BST",
+    "Compare with root": "BST", "LCA postorder": "Trees", "Global max path": "Trees",
+    "Height computation": "Trees", "Inorder traversal": "BST",
+    "Connected components": "Graph", "Graph deep copy": "Graph",
+    "Cycle detection graph": "Graph", "Order construction": "Topological Sort",
+    "Safe node detection": "Topological Sort", "Shortest transform": "Advanced Graph",
+    "All shortest paths": "Advanced Graph", "Min-heap distances": "Advanced Graph",
+    "K-stop shortest path": "Advanced Graph", "Subset enumeration": "Backtracking",
+    "Unbounded combinations": "Backtracking", "Permutation generation": "Backtracking",
+    "Grid path search": "Backtracking", "Valid paren generation": "Backtracking",
+    "Constraint placement": "Backtracking", "Constraint propagation": "Backtracking",
+    "Reachability": "Greedy", "Min jumps": "Greedy", "Interval scheduling greedy": "Greedy",
+    "Min rooms needed": "Greedy", "Cooldown scheduling": "Greedy",
+    "Multi-source BFS": "Graph", "Grid flood fill": "Graph",
+    "Shortest path time": "Advanced Graph", "Capital maximization": "Heap",
+    "Two-heap median": "Heap", "k-way merge": "Heap",
+    "Wildcard search": "Trie", "Board word search": "Trie",
+    "Prefix tree ops": "Trie", "Autocomplete": "Trie",
+    "Ordered eviction": "Hard Interview Problems", "Freq eviction": "Hard Interview Problems",
+    "Expression eval": "Stack", "Multi-word window": "Sliding Window",
+    "Cover all chars": "Sliding Window", "Anagram window": "Sliding Window",
+    "Distinct limit": "Sliding Window", "K distinct limit": "Sliding Window",
+    "At-most K trick": "Sliding Window", "Flip at most K": "Sliding Window",
+    "Product window": "Sliding Window", "Fixed window freq": "Sliding Window",
+    "Window max": "Sliding Window", "Running sum count": "HashMap",
+    "Sequence start detection": "HashMap", "Sorted key grouping": "HashMap",
+    "Complement lookup": "HashMap", "Set membership": "HashMap",
+    "Bracket matching": "Stack", "Valid paren length": "Stack",
+    "Auxiliary min stack": "Stack", "Matching pairs": "Stack",
+    "Three-way partition": "Sorting", "Interval merge sort": "Sorting",
+    "Merge on insert": "Intervals", "Merge two lists intervals": "Intervals",
+    "Arrow scheduling": "Greedy", "Last occurrence map": "Greedy",
+    "Max reach tracking": "Greedy", "Circuit feasibility": "Greedy",
+    "Segmentation DP": "Dynamic Programming", "Min/max product track": "Dynamic Programming",
+    "Palindrome expansion": "Strings", "Count palindromes": "Strings",
+    "Pattern matching": "Dynamic Programming", "Subseq palindrome": "Dynamic Programming",
+    "Min cuts": "Dynamic Programming", "Interval DP burst": "Dynamic Programming",
+    "Reverse min health": "Dynamic Programming", "Grid paths mod": "Dynamic Programming",
+    "State compression": "Advanced Graph", "Board BFS": "Advanced Graph",
+    "Manhattan MST": "Advanced Graph", "Min max elevation": "Advanced Graph",
+    "Max prob path": "Advanced Graph", "All pairs shortest": "Advanced Graph",
 }
-
-
-TOPIC_ORDER = [
-    "Arrays",
-    "Strings",
-    "HashMap",
-    "Sorting",
-    "Two Pointers",
-    "Sliding Window",
-    "Binary Search",
-    "Stack",
-    "Queue",
-    "Linked List",
-    "Trees",
-    "BST",
-    "Heap",
-    "Trie",
-    "Graph",
-    "Topological Sort",
-    "Union Find",
-    "Backtracking",
-    "Greedy",
-    "Intervals",
-    "Dynamic Programming",
-    "Advanced Graph",
-    "Hard Interview Problems",
-]
-
-
-def get_problem_row(num, day_num):
-    """Return table row for a problem assigned on day_num."""
-    title, diff, pattern, concept, time_min, followup, freq = PROBLEM_DB[num]
-    offsets = [0, 2, 6, 13, 20, 29]
-    revision_dates = ", ".join(
-        f"D{day_num + o}" for o in offsets if day_num + o <= 39
-    )
-    return [num, title, diff, pattern, concept, time_min, followup, revision_dates, freq]
 
 
 def get_daily_count(day):
@@ -690,3 +603,150 @@ def get_daily_count(day):
     if day <= 31:
         return round(15 + (35 - 15) * (day - 1) / 30)
     return min(38, 35 + (day - 31))
+
+
+def build_assignments(full_db):
+    easy = [n for n, v in full_db.items() if v[1] == "E"]
+    medium = [n for n, v in full_db.items() if v[1] == "M"]
+    hard = [n for n, v in full_db.items() if v[1] == "H"]
+
+    # Sort by VH/H frequency within each tier
+    freq_order = {"VH": 0, "H": 1, "M": 2, "L": 3}
+    easy.sort(key=lambda n: freq_order.get(full_db[n][6], 9))
+    medium.sort(key=lambda n: freq_order.get(full_db[n][6], 9))
+    hard.sort(key=lambda n: freq_order.get(full_db[n][6], 9))
+
+    # Topic-ordered pools
+    topic_pools = {t: {"E": [], "M": [], "H": []} for t in TOPIC_ORDER}
+    for num, val in full_db.items():
+        diff = val[1]
+        pattern = val[2]
+        topic = PATTERN_TO_TOPIC.get(pattern, "Arrays")
+        if topic not in topic_pools:
+            topic = "Hard Interview Problems"
+        if diff in topic_pools[topic]:
+            topic_pools[topic][diff].append(num)
+
+    assignments = {}
+    used_recently = []
+    ei = mi = hi = 0
+    topic_idx = 0
+
+    def pick_from_pool(pool, idx_attr):
+        nonlocal ei, mi, hi
+        pools = [easy, medium, hard]
+        idxs = [ei, mi, hi]
+        for pi, pool_list in enumerate(pools):
+            if pool == "E" and ei < len(easy):
+                n = easy[ei]; ei += 1; return n
+            if pool == "M" and mi < len(medium):
+                n = medium[mi]; mi += 1; return n
+            if pool == "H" and hi < len(hard):
+                n = hard[hi]; hi += 1; return n
+        return None
+
+    def pick_topic_problem(diff):
+        nonlocal topic_idx
+        for _ in range(len(TOPIC_ORDER)):
+            topic = TOPIC_ORDER[topic_idx % len(TOPIC_ORDER)]
+            topic_idx += 1
+            pool = topic_pools[topic][diff]
+            while pool:
+                num = pool.pop(0)
+                if num not in used_recently[-20:]:
+                    return num
+        return None
+
+    for day in range(1, 40):
+        count = get_daily_count(day)
+        easy_n = max(1, round(count * 0.13))
+        hard_n = max(1, round(count * 0.37))
+        med_n = count - easy_n - hard_n
+        if med_n < 1:
+            med_n = 1
+            hard_n = count - easy_n - med_n
+        day_probs = []
+
+        for _ in range(easy_n):
+            n = pick_topic_problem("E") or pick_from_pool("E", None)
+            if n is None:
+                n = easy[ei % len(easy)]; ei += 1
+            day_probs.append(n)
+            used_recently.append(n)
+
+        for _ in range(med_n):
+            n = pick_topic_problem("M") or pick_from_pool("M", None)
+            if n is None:
+                n = medium[mi % len(medium)]; mi += 1
+            day_probs.append(n)
+            used_recently.append(n)
+
+        for _ in range(hard_n):
+            n = pick_topic_problem("H") or pick_from_pool("H", None)
+            if n is None:
+                n = hard[hi % len(hard)]; hi += 1
+            day_probs.append(n)
+            used_recently.append(n)
+
+        assignments[day] = day_probs
+
+    return assignments
+
+
+def main():
+    full_db = {**PROBLEM_DB, **EXTRA_PROBLEMS}
+    assignments = build_assignments(full_db)
+
+    easy_c = sum(1 for v in full_db.values() if v[1] == "E")
+    med_c = sum(1 for v in full_db.values() if v[1] == "M")
+    hard_c = sum(1 for v in full_db.values() if v[1] == "H")
+    total = sum(len(v) for v in assignments.values())
+
+    print(f"Pool: {len(full_db)} problems (E={easy_c}, M={med_c}, H={hard_c})")
+    print(f"Total assignments: {total}")
+    for d in [1, 7, 15, 31, 39]:
+        probs = assignments[d]
+        diffs = [full_db[p][1] for p in probs]
+        e = diffs.count("E"); m = diffs.count("M"); h = diffs.count("H")
+        print(f"Day {d}: {len(probs)} qns (E={e} {e/len(probs)*100:.0f}%, M={m}, H={h})")
+
+    # Write updated leetcode_roadmap.py
+    out_path = os.path.join(os.path.dirname(__file__), "..", "data", "leetcode_roadmap.py")
+    with open(out_path, "r") as f:
+        content = f.read()
+
+    # Keep everything before DAILY_ASSIGNMENTS
+    idx = content.index("DAILY_ASSIGNMENTS = {")
+    header = content[:idx]
+
+    lines = ["DAILY_ASSIGNMENTS = {"]
+    for day in range(1, 40):
+        probs = assignments[day]
+        lines.append(f"    {day}: {probs},")
+    lines.append("}")
+    lines.append("")
+
+    # Keep from TOPIC_ORDER onward
+    rest_idx = content.index("TOPIC_ORDER = [")
+    rest = content[rest_idx:]
+
+    # Merge extra problems into PROBLEM_DB in header
+    if "EXTRA merged" not in header:
+        # Find end of PROBLEM_DB
+        pdb_end = header.rindex("}")
+        extra_lines = []
+        for num in sorted(set(EXTRA_PROBLEMS.keys()) - set(PROBLEM_DB.keys())):
+            v = EXTRA_PROBLEMS[num]
+            extra_lines.append(
+                f'    {num}: ("{v[0]}", "{v[1]}", "{v[2]}", "{v[3]}", {v[4]}, "{v[5]}", "{v[6]}"),'
+            )
+        header = header[:pdb_end] + ",\n" + "\n".join(extra_lines) + "\n" + header[pdb_end:]
+
+    new_content = header + "\n".join(lines) + "\n" + rest
+    with open(out_path, "w") as f:
+        f.write(new_content)
+    print(f"Written {out_path}")
+
+
+if __name__ == "__main__":
+    main()

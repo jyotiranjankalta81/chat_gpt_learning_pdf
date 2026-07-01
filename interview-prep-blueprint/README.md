@@ -8,10 +8,11 @@ Complete interview preparation playbook for a 5+ year MERN engineer targeting No
 
 | File | Description |
 |------|-------------|
-| `Elite_39_Day_Interview_Blueprint.pdf` | 114-page polished PDF playbook |
+| `Elite_39_Day_Interview_Blueprint.pdf` | Polished PDF playbook |
 | `generate_pdf.py` | Regenerate the PDF from source data |
-| `data/leetcode_roadmap.py` | 204 curated LeetCode problems + 39-day schedule |
+| `data/leetcode_roadmap.py` | 597 problems + 1,076 daily assignments (15→35+/day) |
 | `data/daily_curriculum.py` | Daily Node.js, Java, SQL, SD, behavioral curriculum |
+| `scripts/write_roadmap.py` | Regenerate LeetCode schedule from problem pool |
 
 ## Regenerate PDF
 
@@ -21,11 +22,29 @@ pip install reportlab
 python3 generate_pdf.py
 ```
 
+## Regenerate LeetCode Schedule
+
+```bash
+cd interview-prep-blueprint/scripts
+python3 write_roadmap.py
+```
+
+## LeetCode Plan (DSA 4.5/5)
+
+| Phase | Days | Problems/Day | Difficulty Mix |
+|-------|------|--------------|----------------|
+| Start | Day 1 | 15 | ~13% Easy, ~47% Medium, ~40% Hard |
+| Ramp | Days 2–30 | 16 → 34 | ~87% Medium/Hard |
+| Peak | Day 31 (Jul 31) | 35 | ~14% Easy, ~49% Medium, ~37% Hard |
+| Final | Days 32–39 | 36–38 | Revision-heavy M/H |
+
+**Total: 1,076 problem assignments** across **597 unique problems**.
+
 ## Blueprint Contents
 
 1. Interview readiness assessment (22 skills rated 1–10)
-2. Daily schedule with exact time blocks (12–15 focused hours)
-3. 39-day LeetCode roadmap (204 problems, spaced repetition)
+2. Daily schedule with 3 LeetCode blocks (14 focused hours)
+3. 39-day LeetCode roadmap with spaced repetition
 4. Node.js backend preparation (daily topics + exercises)
 5. Java Spring Boot preparation (daily topics + exercises)
 6. SQL mastery (daily practice)
