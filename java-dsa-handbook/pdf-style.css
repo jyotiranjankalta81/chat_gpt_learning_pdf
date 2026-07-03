@@ -1,0 +1,230 @@
+/* ============================================================
+   Java DSA Handbook — PDF Stylesheet  v3
+   Full syntax highlighting — every token a distinct colour
+   Inspired by VS Code Dark+ / Catppuccin Mocha palette
+   ============================================================ */
+
+/* ---- Page layout ------------------------------------------ */
+@page {
+  size: A4;
+  margin: 18mm 15mm 18mm 15mm;
+  @bottom-right {
+    content: "Java DSA Interview Handbook  ·  Page " counter(page);
+    font-size: 7.5pt;
+    color: #6c7086;
+    font-family: "DejaVu Sans", Arial, sans-serif;
+  }
+}
+
+/* ---- Base -------------------------------------------------- */
+* { box-sizing: border-box; }
+
+body {
+  font-family: "DejaVu Sans", "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.7;
+  color: #1e1e2e;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- Headings --------------------------------------------- */
+h1 {
+  font-size: 19pt;
+  color: #1565c0;
+  border-bottom: 3px solid #1565c0;
+  padding: 0 0 6px 0;
+  margin: 0 0 14px 0;
+  page-break-after: avoid;
+}
+h2 {
+  font-size: 13pt;
+  color: #ffffff;
+  background: #1565c0;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 22px 0 10px 0;
+  page-break-after: avoid;
+}
+h3 {
+  font-size: 11pt;
+  color: #0d47a1;
+  border-left: 4px solid #42a5f5;
+  padding-left: 8px;
+  margin: 16px 0 6px 0;
+  page-break-after: avoid;
+}
+h4 {
+  font-size: 10pt;
+  color: #1565c0;
+  margin: 12px 0 4px 0;
+  page-break-after: avoid;
+}
+
+/* ---- Body text -------------------------------------------- */
+p   { margin: 5px 0 8px 0; orphans: 3; widows: 3; }
+ul, ol { margin: 5px 0 8px 0; padding-left: 20px; }
+li  { margin-bottom: 3px; }
+hr  { border: none; border-top: 1px solid #ccc; margin: 16px 0; }
+
+/* ---- Blockquote ------------------------------------------- */
+blockquote {
+  border-left: 5px solid #42a5f5;
+  background: #e3f2fd;
+  color: #0d2b4e;
+  margin: 12px 0;
+  padding: 9px 14px;
+  border-radius: 0 4px 4px 0;
+  font-style: italic;
+}
+blockquote p { margin: 0; }
+
+/* ---- Inline code  ----------------------------------------
+   Soft amber pill — clearly different from body text but NOT
+   confused with block code.
+   ---------------------------------------------------------- */
+code {
+  font-family: "DejaVu Sans Mono", "Consolas", "Courier New", monospace;
+  font-size: 8.3pt;
+  background: #fff3cd;
+  color: #6d3200;
+  border: 1px solid #f0ad4e;
+  padding: 1px 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   FENCED CODE BLOCKS  — Full syntax highlighting
+   Background: #1e1e2e  (VS Code / Catppuccin Mocha dark navy)
+   Every token type gets a UNIQUE, vivid colour.
+   ============================================================ */
+
+/* Outer wrapper div pandoc wraps highlighted blocks in */
+div.sourceCode {
+  background: #1e1e2e;
+  border: 1px solid #313244;
+  border-left: 6px solid #89b4fa;   /* bright cornflower-blue accent */
+  border-radius: 6px;
+  margin: 12px 0 18px 0;
+  padding: 0;
+  overflow-x: auto;
+  page-break-inside: avoid;
+}
+
+/* The <pre> inside the div */
+div.sourceCode > pre,
+pre.sourceCode {
+  background: #1e1e2e;
+  border: none;
+  border-radius: 6px;
+  margin: 0;
+  padding: 13px 16px;
+  overflow-x: auto;
+  page-break-inside: avoid;
+  white-space: pre;
+}
+
+/* The <code> inside the pre — base / normal text */
+div.sourceCode > pre > code,
+pre.sourceCode > code,
+pre > code.sourceCode {
+  font-family: "DejaVu Sans Mono", "Consolas", "Courier New", monospace;
+  font-size: 7.9pt;
+  line-height: 1.65;
+  /* ---- BASE TEXT: light lavender-white ---- */
+  color: #cdd6f4;
+  background: transparent;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  white-space: pre;
+}
+
+/* ============================================================
+   TOKEN COLOURS  — every span.XX class gets its own colour
+   colour palette: Catppuccin Mocha (high contrast on #1e1e2e)
+   ============================================================ */
+
+/* Normal / fallback */
+code span        { color: #cdd6f4; }
+
+/* COMMENTS  → muted grey, italic */
+code span.co     { color: #585b70; font-style: italic; }   /* // line comment   */
+code span.cv     { color: #585b70; font-style: italic; }   /* CommentVar        */
+code span.do     { color: #585b70; font-style: italic; }   /* /** doc comment   */
+
+/* KEYWORDS  → bright mauve / purple */
+code span.kw     { color: #cba6f7; font-weight: bold; }   /* int, class, void  */
+
+/* CONTROL FLOW  → vivid flamingo pink */
+code span.cf     { color: #f38ba8; font-weight: bold; }   /* if/for/switch/case/break/return */
+
+/* DATA TYPES  → cornflower blue */
+code span.dt     { color: #89b4fa; }                       /* int, String, etc  */
+
+/* BUILT-INS  → yellow */
+code span.bu     { color: #f9e2af; }                       /* System, Arrays    */
+
+/* FUNCTIONS / METHOD NAMES  → sky blue */
+code span.fu     { color: #89dceb; }                       /* println, sort     */
+
+/* STRINGS  → green */
+code span.st     { color: #a6e3a1; }                       /* "hello"           */
+code span.vs     { color: #a6e3a1; }                       /* verbatim string   */
+code span.ch     { color: #a6e3a1; }                       /* 'A' char literal  */
+
+/* NUMBERS  → peach / orange */
+code span.dv     { color: #fab387; }                       /* decimal: 42, 0    */
+code span.bn     { color: #fab387; }                       /* binary: 0b1010    */
+code span.fl     { color: #fab387; }                       /* float: 3.14       */
+code span.hl     { color: #fab387; }                       /* hex: 0xFF         */
+
+/* CONSTANTS  → teal */
+code span.cn     { color: #94e2d5; font-weight: bold; }   /* true, false, null */
+
+/* VARIABLES  → lavender-white */
+code span.va     { color: #cdd6f4; }
+
+/* OPERATORS  → red/pink so +,-,*,/ stand out */
+code span.op     { color: #f38ba8; }                       /* +  -  *  /  =  ! */
+
+/* PREPROCESSOR / ANNOTATIONS  → teal-green */
+code span.pp     { color: #94e2d5; }                       /* @Override, import */
+code span.im     { color: #94e2d5; }                       /* import            */
+
+/* ATTRIBUTES / DECORATORS  → sky */
+code span.at     { color: #89dceb; }
+
+/* ERRORS  → bright red underline */
+code span.er     { color: #f38ba8; text-decoration: underline; }
+
+/* WARNINGS / INFO  → yellow */
+code span.wa     { color: #f9e2af; font-style: italic; }
+code span.in     { color: #f9e2af; font-style: italic; }
+
+/* EXTENSION / SPECIAL  → bright blue */
+code span.ex     { color: #89b4fa; font-weight: bold; }
+
+/* OTHER  → green */
+code span.ot     { color: #a6e3a1; }
+
+/* ---- Tables ----------------------------------------------- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12px 0 16px 0;
+  font-size: 8.6pt;
+  page-break-inside: avoid;
+}
+thead tr          { background: #1565c0; color: #ffffff; }
+thead th          { padding: 7px 10px; text-align: left; font-weight: bold; border: 1px solid #0d47a1; }
+tbody td          { padding: 6px 10px; border: 1px solid #bdbdbd; color: #1a1a1a; vertical-align: top; }
+tbody tr:nth-child(even) { background: #f5f5f5; }
+tbody tr:nth-child(odd)  { background: #ffffff; }
+
+/* ---- Links ------------------------------------------------ */
+a        { color: #1565c0; text-decoration: underline; }
+strong   { color: #0d2b4e; }
+em       { color: #6a1b9a; font-style: italic; }
