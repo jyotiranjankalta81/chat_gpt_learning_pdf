@@ -1,0 +1,887 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pages 23–25</title>
+    <style>
+      :root {
+        --bg: #fbf6ff;
+        --purple: #5a2a86;
+        --purple-2: #6b2fb7;
+        --lav: #cdb7de;
+        --lav-2: #bfa6d6;
+        --card: #ffffff;
+        --shadow: 0 18px 40px rgba(15, 10, 30, 0.08);
+        --soft-shadow: 0 10px 24px rgba(15, 10, 30, 0.06);
+        --radius-lg: 22px;
+        --radius-md: 18px;
+        --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
+          "Segoe UI Emoji";
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        font-family: var(--font);
+        background: var(--bg);
+        color: #1b1b1b;
+      }
+
+      /* ===================== */
+      /* Page 23 (Development matters) */
+      /* ===================== */
+
+      .page_23_page {
+        min-height: 100vh;
+        position: relative;
+        overflow: hidden;
+        background: #ffffff;
+      }
+
+      .page_23_bg {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+      }
+
+      .page_23_wave {
+        position: absolute;
+        left: -10vw;
+        right: -10vw;
+        height: 230px;
+        border-bottom-left-radius: 65% 95%;
+        border-bottom-right-radius: 65% 95%;
+        filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.04));
+      }
+
+      .page_23_wave--top {
+        top: -40px;
+        background: radial-gradient(150% 140% at 18% 0%, #ffd24b 0%, #ffd24b 46%, transparent 47%),
+          linear-gradient(90deg, #ffffff 0%, #ffffff 52%, transparent 53%);
+      }
+
+      .page_23_wave--mid {
+        top: -30px;
+        height: 190px;
+        background: radial-gradient(140% 140% at 62% 0%, var(--purple) 0%, var(--purple) 50%, transparent 51%);
+        opacity: 0.98;
+      }
+
+      .page_23_header {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 26px 44px 10px;
+      }
+
+      .page_23_brand__logo {
+        width: min(210px, 38vw);
+        height: auto;
+      }
+
+      .page_23_decor {
+        position: absolute;
+        pointer-events: none;
+        user-select: none;
+      }
+
+      .page_23_decor--starTop {
+        top: 64px;
+        left: 300px;
+        width: 62px;
+        filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.12));
+      }
+
+      .page_23_decor--puzzle {
+        top: 16px;
+        right: 34px;
+        width: min(240px, 28vw);
+        filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.12));
+      }
+
+      .page_23_decor--kids {
+        left: 0;
+        bottom: 0;
+        width: min(740px, 72vw);
+      }
+
+      .page_23_title {
+        position: relative;
+        text-align: center;
+        margin: 4px 18px 0;
+        font-weight: 900;
+        font-size: clamp(26px, 2.4vw, 44px);
+        color: #ff7a00;
+        letter-spacing: 0.2px;
+      }
+
+      .page_23_content {
+        position: relative;
+        padding: 26px 56px 140px;
+      }
+
+      .page_23_grid {
+        max-width: 1220px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1.1fr 0.55fr;
+        gap: 56px;
+        align-items: start;
+      }
+
+      .page_23_leftTitle {
+        font-size: 34px;
+        font-weight: 900;
+        margin: 10px 0 22px;
+      }
+
+      .page_23_goals {
+        display: grid;
+        gap: 14px;
+        padding-right: 10px;
+      }
+
+      .page_23_goal {
+        background: #f7e6f0;
+        border-radius: 16px;
+        padding: 14px 22px;
+        font-size: 20px;
+        line-height: 1.35;
+        box-shadow: 0 8px 18px rgba(15, 10, 30, 0.04);
+      }
+
+      .page_23_scoreHead {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 26px;
+        justify-items: center;
+        align-items: end;
+        margin-top: 30px;
+        font-weight: 900;
+        font-size: 28px;
+      }
+
+      .page_23_scores {
+        margin-top: 30px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 22px;
+      }
+
+      .page_23_row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 26px;
+        justify-items: center;
+      }
+
+      .page_23_dot {
+        width: 54px;
+        height: 54px;
+        border-radius: 999px;
+        background: #f7e6f0;
+        box-shadow: 0 8px 18px rgba(15, 10, 30, 0.04);
+        position: relative;
+      }
+
+      .page_23_dot--checked::after {
+        content: \"\";
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: 18px;
+        height: 30px;
+        border-right: 4px solid #1b1b1b;
+        border-bottom: 4px solid #1b1b1b;
+        transform: translateY(-2px) rotate(45deg);
+      }
+
+      @media (max-width: 980px) {
+        .page_23_header {
+          padding: 18px 18px 6px;
+        }
+
+        .page_23_content {
+          padding: 18px 18px 220px;
+        }
+
+        .page_23_grid {
+          grid-template-columns: 1fr;
+          gap: 26px;
+        }
+
+        .page_23_scoreHead {
+          margin-top: 10px;
+          justify-items: start;
+          max-width: 360px;
+        }
+
+        .page_23_row,
+        .page_23_scoreHead {
+          justify-items: start;
+        }
+
+        .page_23_decor--kids {
+          width: min(740px, 94vw);
+        }
+      }
+
+      /* ===================== */
+      /* Page 24 (FS-2) */
+      /* ===================== */
+
+      .page_24_page {
+        min-height: 100vh;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .page_24_bg {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+      }
+
+      .page_24_wave {
+        position: absolute;
+        left: -10vw;
+        right: -10vw;
+        height: 230px;
+        border-bottom-left-radius: 65% 95%;
+        border-bottom-right-radius: 65% 95%;
+        filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.04));
+      }
+
+      .page_24_wave--top {
+        top: -40px;
+        background: radial-gradient(150% 140% at 18% 0%, #ffd24b 0%, #ffd24b 46%, transparent 47%),
+          linear-gradient(90deg, #ffffff 0%, #ffffff 52%, transparent 53%);
+      }
+
+      .page_24_wave--mid {
+        top: -30px;
+        height: 190px;
+        background: radial-gradient(140% 140% at 72% 0%, var(--purple) 0%, var(--purple) 50%, transparent 51%);
+        opacity: 0.98;
+      }
+
+      .page_24_header {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 28px 48px 8px;
+      }
+
+      .page_24_brand__logo {
+        width: min(210px, 38vw);
+        height: auto;
+      }
+
+      .page_24_title {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        margin-top: 10px;
+      }
+
+      .page_24_title__kid {
+        width: 116px;
+        height: auto;
+        transform: translateY(-2px);
+      }
+
+      .page_24_title__pill {
+        background: var(--purple);
+        color: #fff;
+        padding: 14px 54px;
+        border-radius: 999px;
+        font-weight: 800;
+        letter-spacing: 0.2px;
+        font-size: clamp(22px, 2.2vw, 32px);
+        box-shadow: var(--soft-shadow);
+      }
+
+      .page_24_content {
+        position: relative;
+        padding: 28px 56px 56px;
+      }
+
+      .page_24_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 44px;
+        align-items: start;
+        max-width: 1120px;
+        margin: 0 auto;
+      }
+
+      .page_24_right {
+        display: grid;
+        gap: 34px;
+      }
+
+      .page_24_card {
+        background: var(--card);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow);
+        padding: 26px;
+        position: relative;
+      }
+
+      .page_24_card--tall {
+        min-height: 720px;
+      }
+
+      .page_24_card--mid {
+        min-height: 300px;
+      }
+
+      .page_24_card__placeholder {
+        color: #b7a2c9;
+        font-weight: 800;
+        font-size: 22px;
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+
+      .page_24_card__textarea {
+        width: 100%;
+        height: calc(100% - 38px);
+        border: 0;
+        outline: none;
+        resize: none;
+        font-size: 16px;
+        line-height: 1.55;
+        color: #2a2233;
+        background: transparent;
+      }
+
+      .page_24_decor {
+        position: absolute;
+        pointer-events: none;
+        user-select: none;
+      }
+
+      .page_24_decor--sheet {
+        top: -10px;
+        right: -22px;
+        width: min(320px, 36vw);
+        transform: rotate(6deg);
+        filter: drop-shadow(0 16px 22px rgba(0, 0, 0, 0.14));
+      }
+
+      .page_24_decor--star {
+        width: 60px;
+        filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.12));
+      }
+
+      .page_24_decor--starLeft {
+        left: 86px;
+        top: 420px;
+        width: 74px;
+      }
+
+      .page_24_decor--starRight {
+        right: 186px;
+        top: 420px;
+        width: 56px;
+      }
+
+      @media (max-width: 980px) {
+        .page_24_header {
+          padding: 22px 20px 4px;
+        }
+
+        .page_24_content {
+          padding: 24px 18px 46px;
+        }
+
+        .page_24_grid {
+          grid-template-columns: 1fr;
+          gap: 20px;
+        }
+
+        .page_24_card--tall {
+          min-height: 420px;
+        }
+
+        .page_24_decor--sheet {
+          opacity: 0.9;
+          right: -8px;
+        }
+
+        .page_24_decor--starLeft,
+        .page_24_decor--starRight {
+          opacity: 0.95;
+        }
+      }
+
+      /* ===================== */
+      /* Page 25 (Conclusion) */
+      /* ===================== */
+
+      .page_25_page {
+        min-height: 100vh;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .page_25_bg {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+      }
+
+      .page_25_wave {
+        position: absolute;
+        left: -8vw;
+        right: -8vw;
+        height: 210px;
+        border-bottom-left-radius: 60% 90%;
+        border-bottom-right-radius: 60% 90%;
+        filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.04));
+      }
+
+      .page_25_wave--top {
+        top: -34px;
+        background: radial-gradient(140% 140% at 20% 0%, #ffd24b 0%, #ffd24b 44%, transparent 45%),
+          linear-gradient(90deg, #ffffff 0%, #ffffff 48%, transparent 49%);
+      }
+
+      .page_25_wave--mid {
+        top: -26px;
+        height: 168px;
+        background: radial-gradient(130% 130% at 70% 0%, #5a2a86 0%, #5a2a86 46%, transparent 47%);
+        opacity: 0.98;
+      }
+
+      .page_25_header {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 28px 48px 8px;
+      }
+
+      .page_25_brand__logo {
+        width: min(210px, 38vw);
+        height: auto;
+      }
+
+      .page_25_title {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        margin-top: 10px;
+      }
+
+      .page_25_title__kid {
+        width: 116px;
+        height: auto;
+        transform: translateY(-2px);
+      }
+
+      .page_25_title__pill {
+        background: var(--purple);
+        color: #fff;
+        padding: 14px 40px;
+        border-radius: 999px;
+        font-weight: 800;
+        letter-spacing: 0.2px;
+        font-size: clamp(22px, 2.2vw, 32px);
+        box-shadow: var(--soft-shadow);
+      }
+
+      .page_25_content {
+        position: relative;
+        padding: 28px 56px 56px;
+      }
+
+      .page_25_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 44px;
+        align-items: start;
+        max-width: 1120px;
+        margin: 0 auto;
+      }
+
+      .page_25_right {
+        display: grid;
+        gap: 22px;
+      }
+
+      .page_25_card {
+        background: var(--card);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow);
+        min-height: 440px;
+        padding: 26px;
+        position: relative;
+      }
+
+      .page_25_card__placeholder {
+        color: #b7a2c9;
+        font-weight: 800;
+        font-size: 22px;
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+
+      .page_25_card__textarea {
+        width: 100%;
+        height: calc(100% - 38px);
+        border: 0;
+        outline: none;
+        resize: none;
+        font-size: 16px;
+        line-height: 1.55;
+        color: #2a2233;
+        background: transparent;
+      }
+
+      .page_25_signature {
+        background: var(--lav-2);
+        border-radius: var(--radius-md);
+        padding: 16px 18px;
+        box-shadow: var(--soft-shadow);
+      }
+
+      .page_25_signature__body {
+        display: grid;
+        grid-template-columns: 1.25fr 0.75fr;
+        gap: 18px;
+        align-items: end;
+      }
+
+      .page_25_signature__label {
+        color: #f6f0fb;
+        font-weight: 800;
+        margin-bottom: 10px;
+      }
+
+      .page_25_signature__box {
+        background: rgba(255, 255, 255, 0.35);
+        border-radius: 12px;
+        padding: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+      }
+
+      .page_25_signature__box img {
+        width: 100%;
+        height: 74px;
+        object-fit: cover;
+        display: block;
+        border-radius: 10px;
+      }
+
+      .page_25_signature__meta {
+        margin: 0;
+        display: grid;
+        gap: 12px;
+      }
+
+      .page_25_signature__field {
+        margin: 0;
+      }
+
+      .page_25_signature__k {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 13px;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      .page_25_signature__v {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 900;
+        margin: 2px 0 0;
+      }
+
+      .page_25_decor {
+        position: absolute;
+        pointer-events: none;
+        user-select: none;
+      }
+
+      .page_25_decor--folder {
+        top: 8px;
+        right: 26px;
+        width: min(200px, 22vw);
+        transform: rotate(8deg);
+        filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.12));
+      }
+
+      .page_25_decor--star {
+        width: 54px;
+        filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.08));
+      }
+
+      .page_25_decor--star1 {
+        top: 46px;
+        left: 260px;
+        transform: rotate(-6deg);
+      }
+
+      .page_25_decor--star2 {
+        top: 180px;
+        left: 80px;
+        width: 46px;
+        transform: rotate(10deg);
+      }
+
+      .page_25_decor--boy {
+        left: 16px;
+        bottom: 24px;
+        width: min(250px, 30vw);
+      }
+
+      .page_25_decor--grad {
+        right: 58px;
+        bottom: 138px;
+        width: min(230px, 27vw);
+      }
+
+      @media (max-width: 980px) {
+        .page_25_header {
+          padding: 22px 20px 4px;
+        }
+
+        .page_25_content {
+          padding: 24px 18px 46px;
+        }
+
+        .page_25_grid {
+          grid-template-columns: 1fr;
+          gap: 20px;
+        }
+
+        .page_25_card {
+          min-height: 340px;
+        }
+
+        .page_25_decor--grad {
+          right: 12px;
+          bottom: 24px;
+          opacity: 0.95;
+        }
+
+        .page_25_decor--boy {
+          opacity: 0.9;
+        }
+
+        .page_25_decor--folder {
+          opacity: 0.9;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Page 23 first -->
+    <main class="page_23_page" aria-label="Page 23: Development matters">
+      <div class="page_23_bg">
+        <div class="page_23_wave page_23_wave--top"></div>
+        <div class="page_23_wave page_23_wave--mid"></div>
+      </div>
+
+      <header class="page_23_header">
+        <div class="page_23_brand" aria-label="Toondemy">
+          <img class="page_23_brand__logo" src="./assets/toondemy-logo.svg" alt="TOONDEMY" />
+        </div>
+
+        <img class="page_23_decor page_23_decor--puzzle" src="./assets/page23-puzzle.svg" alt="" aria-hidden="true" />
+        <img class="page_23_decor page_23_decor--starTop" src="./assets/star.svg" alt="" aria-hidden="true" />
+      </header>
+
+      <div class="page_23_title">Development matters</div>
+
+      <section class="page_23_content" aria-label="Assessment goals and ratings">
+        <div class="page_23_grid">
+          <div class="page_23_left" aria-label="Assessment Goals">
+            <div class="page_23_leftTitle">Assessment Goals</div>
+            <div class="page_23_goals" role="list">
+              <div class="page_23_goal" role="listitem">Gains more bowel and bladder control.</div>
+              <div class="page_23_goal" role="listitem">Can usually manage washing and drying hands.</div>
+              <div class="page_23_goal" role="listitem">Dress with help, e-g., put arms into open-fronted coat or shirt.</div>
+            </div>
+          </div>
+
+          <div class="page_23_right" aria-label="Ratings">
+            <div class="page_23_scoreHead">
+              <div>EM</div>
+              <div>PR</div>
+              <div>EX</div>
+            </div>
+
+            <div class="page_23_scores" aria-label="Rating dots">
+              <div class="page_23_row" aria-label="Row 1">
+                <div class="page_23_dot page_23_dot--checked" aria-label="EM checked"></div>
+                <div class="page_23_dot" aria-label="PR"></div>
+                <div class="page_23_dot" aria-label="EX"></div>
+              </div>
+              <div class="page_23_row" aria-label="Row 2">
+                <div class="page_23_dot" aria-label="EM"></div>
+                <div class="page_23_dot page_23_dot--checked" aria-label="PR checked"></div>
+                <div class="page_23_dot" aria-label="EX"></div>
+              </div>
+              <div class="page_23_row" aria-label="Row 3">
+                <div class="page_23_dot page_23_dot--checked" aria-label="EM checked"></div>
+                <div class="page_23_dot" aria-label="PR"></div>
+                <div class="page_23_dot" aria-label="EX"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img class="page_23_decor page_23_decor--kids" src="./assets/page23-kids.svg" alt="" aria-hidden="true" />
+      </section>
+    </main>
+
+    <!-- Page 24 second -->
+    <main class="page_24_page" aria-label="Page 24: FS-2">
+      <div class="page_24_bg">
+        <div class="page_24_wave page_24_wave--top"></div>
+        <div class="page_24_wave page_24_wave--mid"></div>
+      </div>
+
+      <header class="page_24_header">
+        <div class="page_24_brand" aria-label="Toondemy">
+          <img class="page_24_brand__logo" src="./assets/toondemy-logo.svg" alt="TOONDEMY" />
+        </div>
+
+        <img class="page_24_decor page_24_decor--sheet" src="./assets/letter-h-sheet.svg" alt="" aria-hidden="true" />
+      </header>
+
+      <section class="page_24_title" aria-label="FS-2">
+        <img class="page_24_title__kid" src="./assets/kid-green.svg" alt="" aria-hidden="true" />
+        <div class="page_24_title__pill">
+          <span>FS-2</span>
+        </div>
+      </section>
+
+      <section class="page_24_content" aria-label="Observation inputs">
+        <div class="page_24_grid">
+          <label class="page_24_card page_24_card--tall" aria-label="Observation left">
+            <span class="page_24_card__placeholder">Write your observation...</span>
+            <textarea class="page_24_card__textarea" aria-label="Write your observation"></textarea>
+          </label>
+
+          <div class="page_24_right">
+            <label class="page_24_card page_24_card--mid" aria-label="Observation right top">
+              <span class="page_24_card__placeholder">Write your observation...</span>
+              <textarea class="page_24_card__textarea" aria-label="Write your observation"></textarea>
+            </label>
+
+            <label class="page_24_card page_24_card--mid" aria-label="Observation right bottom">
+              <span class="page_24_card__placeholder">Write your observation...</span>
+              <textarea class="page_24_card__textarea" aria-label="Write your observation"></textarea>
+            </label>
+          </div>
+        </div>
+
+        <img class="page_24_decor page_24_decor--star page_24_decor--starLeft" src="./assets/star.svg" alt="" aria-hidden="true" />
+        <img class="page_24_decor page_24_decor--star page_24_decor--starRight" src="./assets/star.svg" alt="" aria-hidden="true" />
+      </section>
+    </main>
+
+    <!-- Page 25 second -->
+    <main class="page_25_page" aria-label="Page 25: Conclusion">
+      <div class="page_25_bg">
+        <div class="page_25_wave page_25_wave--top"></div>
+        <div class="page_25_wave page_25_wave--mid"></div>
+      </div>
+
+      <header class="page_25_header">
+        <div class="page_25_brand" aria-label="Toondemy">
+          <img class="page_25_brand__logo" src="./assets/toondemy-logo.svg" alt="TOONDEMY" />
+        </div>
+
+        <img class="page_25_decor page_25_decor--star page_25_decor--star1" src="./assets/star.svg" alt="" aria-hidden="true" />
+        <img class="page_25_decor page_25_decor--star page_25_decor--star2" src="./assets/star.svg" alt="" aria-hidden="true" />
+        <img class="page_25_decor page_25_decor--folder" src="./assets/activity-folder.svg" alt="" aria-hidden="true" />
+      </header>
+
+      <section class="page_25_title" aria-label="Conclusion">
+        <img class="page_25_title__kid" src="./assets/kid-green.svg" alt="" aria-hidden="true" />
+        <div class="page_25_title__pill">
+          <span>Conclusion</span>
+        </div>
+      </section>
+
+      <section class="page_25_content" aria-label="Conclusion inputs">
+        <div class="page_25_grid">
+          <label class="page_25_card" aria-label="Conclusion left">
+            <span class="page_25_card__placeholder">Write your conclusion...</span>
+            <textarea class="page_25_card__textarea" aria-label="Write your conclusion"></textarea>
+          </label>
+
+          <div class="page_25_right">
+            <label class="page_25_card" aria-label="Conclusion right">
+              <span class="page_25_card__placeholder">Write your conclusion...</span>
+              <textarea class="page_25_card__textarea" aria-label="Write your conclusion"></textarea>
+            </label>
+
+            <article class="page_25_signature" aria-label="Signature">
+              <div class="page_25_signature__body">
+                <div class="page_25_signature__left">
+                  <div class="page_25_signature__label">Signature</div>
+                  <div class="page_25_signature__box" role="img" aria-label="Signature image">
+                    <img src="./assets/signature-sample.svg" alt="" aria-hidden="true" />
+                  </div>
+                </div>
+
+                <dl class="page_25_signature__meta" aria-label="Signer information">
+                  <div class="page_25_signature__field">
+                    <dt class="page_25_signature__k">Name</dt>
+                    <dd class="page_25_signature__v">Anjali Kumari</dd>
+                  </div>
+                  <div class="page_25_signature__field">
+                    <dt class="page_25_signature__k">Designation</dt>
+                    <dd class="page_25_signature__v">Teacher</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <img class="page_25_decor page_25_decor--boy" src="./assets/boy-exam.svg" alt="" aria-hidden="true" />
+        <img class="page_25_decor page_25_decor--grad" src="./assets/graduate.svg" alt="" aria-hidden="true" />
+      </section>
+    </main>
+
+    <script>
+      function autosize(textarea) {
+        textarea.style.height = "auto";
+        textarea.style.height = Math.max(textarea.scrollHeight, 160) + "px";
+      }
+
+      for (const ta of document.querySelectorAll(".page_24_card__textarea, .page_25_card__textarea")) {
+        ta.addEventListener("input", () => autosize(ta));
+        autosize(ta);
+      }
+    </script>
+  </body>
+</html>

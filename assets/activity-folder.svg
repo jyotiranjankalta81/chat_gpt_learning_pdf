@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300">
+  <defs>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <g filter="url(#ds)">
+    <path d="M70 35h210l40 30h30v200H70z" fill="#ffffff" stroke="#2aa14a" stroke-width="8"/>
+    <path d="M70 35h250l30 22H70z" fill="#2aa14a"/>
+    <path d="M96 86h210v150H96z" fill="#5a2a86"/>
+    <path d="M96 86h210v56H96z" fill="#ffd24b"/>
+    <text x="110" y="125" font-family="Arial Black, Arial" font-size="26" fill="#d5f3ff">ACTIVITY</text>
+    <text x="110" y="154" font-family="Arial Black, Arial" font-size="26" fill="#d5f3ff">FOLDER</text>
+    <circle cx="270" cy="128" r="30" fill="#6cd7f0" opacity=".9"/>
+    <path d="M254 128h32M258 116h26M258 140h26" stroke="#5a2a86" stroke-width="6" stroke-linecap="round"/>
+    <g transform="translate(300 62)">
+      <rect x="0" y="0" width="90" height="80" rx="10" fill="#ffffff" stroke="#ff4b4b" stroke-width="6"/>
+      <path d="M15 18l60 0M15 38l60 0M15 58l60 0" stroke="#ff4b4b" stroke-width="6" stroke-linecap="round"/>
+      <path d="M64 20c10 8 10 20 0 28" fill="none" stroke="#ffb300" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
