@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Figma Page – HTML + CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="#">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">Brand</span>
+        </a>
+
+        <input class="nav__toggle" type="checkbox" id="nav-toggle" />
+        <label class="nav__burger" for="nav-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </label>
+
+        <nav class="nav" aria-label="Primary">
+          <a class="nav__link" href="#features">Features</a>
+          <a class="nav__link" href="#pricing">Pricing</a>
+          <a class="nav__link" href="#faq">FAQ</a>
+          <a class="nav__link" href="#contact">Contact</a>
+        </nav>
+
+        <div class="header__actions">
+          <a class="btn btn--ghost" href="#">Log in</a>
+          <a class="btn btn--primary" href="#">Get Started</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__copy">
+            <p class="badge">New • Built with raw HTML + CSS</p>
+            <h1 class="hero__title">
+              Replace this hero heading with the exact Figma copy.
+            </h1>
+            <p class="hero__subtitle">
+              This is a pixel-ready scaffold: spacing scale, typography, buttons,
+              cards, and responsive behavior are already wired.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary btn--lg" href="#pricing">Primary CTA</a>
+              <a class="btn btn--soft btn--lg" href="#features">Secondary CTA</a>
+            </div>
+
+            <div class="hero__meta">
+              <div class="stat">
+                <div class="stat__value">4.9</div>
+                <div class="stat__label">Average rating</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">10k+</div>
+                <div class="stat__label">Customers</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">24/7</div>
+                <div class="stat__label">Support</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__art" aria-hidden="true">
+            <div class="hero__card hero__card--top">
+              <div class="chip">
+                <span class="chip__dot"></span>
+                <span class="chip__text">Preview</span>
+              </div>
+              <div class="skeleton">
+                <div class="skeleton__line"></div>
+                <div class="skeleton__line"></div>
+                <div class="skeleton__line skeleton__line--short"></div>
+              </div>
+            </div>
+
+            <div class="hero__card hero__card--bottom">
+              <div class="pill">100% Responsive</div>
+              <div class="mini-grid">
+                <div class="mini-grid__cell"></div>
+                <div class="mini-grid__cell"></div>
+                <div class="mini-grid__cell"></div>
+                <div class="mini-grid__cell"></div>
+              </div>
+            </div>
+
+            <div class="glow"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Features</h2>
+            <p class="section__subtitle">
+              Swap these cards with your exact components from Figma.
+            </p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="card">
+              <div class="icon" aria-hidden="true"></div>
+              <h3 class="card__title">Feature one</h3>
+              <p class="card__text">
+                Clear hierarchy, consistent spacing, and accessible defaults.
+              </p>
+              <a class="card__link" href="#">Learn more</a>
+            </article>
+
+            <article class="card">
+              <div class="icon icon--alt" aria-hidden="true"></div>
+              <h3 class="card__title">Feature two</h3>
+              <p class="card__text">
+                CSS variables for fast theming to match Figma tokens.
+              </p>
+              <a class="card__link" href="#">Learn more</a>
+            </article>
+
+            <article class="card">
+              <div class="icon icon--alt2" aria-hidden="true"></div>
+              <h3 class="card__title">Feature three</h3>
+              <p class="card__text">
+                Responsive grid that collapses cleanly without JavaScript.
+              </p>
+              <a class="card__link" href="#">Learn more</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="pricing">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Pricing</h2>
+            <p class="section__subtitle">
+              Replace plan names/prices to match the Figma page.
+            </p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="price">
+              <h3 class="price__name">Starter</h3>
+              <p class="price__desc">For personal projects</p>
+              <div class="price__value">
+                <span class="price__amount">$9</span>
+                <span class="price__period">/mo</span>
+              </div>
+              <ul class="list">
+                <li>1 project</li>
+                <li>Email support</li>
+                <li>Basic analytics</li>
+              </ul>
+              <a class="btn btn--soft btn--block" href="#">Choose plan</a>
+            </article>
+
+            <article class="price price--featured">
+              <div class="price__badge">Popular</div>
+              <h3 class="price__name">Pro</h3>
+              <p class="price__desc">For growing teams</p>
+              <div class="price__value">
+                <span class="price__amount">$29</span>
+                <span class="price__period">/mo</span>
+              </div>
+              <ul class="list">
+                <li>Unlimited projects</li>
+                <li>Priority support</li>
+                <li>Advanced analytics</li>
+              </ul>
+              <a class="btn btn--primary btn--block" href="#">Choose plan</a>
+            </article>
+
+            <article class="price">
+              <h3 class="price__name">Business</h3>
+              <p class="price__desc">For large orgs</p>
+              <div class="price__value">
+                <span class="price__amount">$79</span>
+                <span class="price__period">/mo</span>
+              </div>
+              <ul class="list">
+                <li>SSO/SAML</li>
+                <li>Dedicated manager</li>
+                <li>Custom reporting</li>
+              </ul>
+              <a class="btn btn--soft btn--block" href="#">Choose plan</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">FAQ</h2>
+            <p class="section__subtitle">
+              Accessible accordion using <code>&lt;details&gt;</code>.
+            </p>
+          </div>
+
+          <div class="faq">
+            <details class="faq__item" open>
+              <summary class="faq__q">Can this match the Figma exactly?</summary>
+              <div class="faq__a">
+                Yes—once we have the exact tokens (colors, type sizes, spacing)
+                and assets from the Figma, this structure is ready for pixel
+                alignment.
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Is there any JavaScript?</summary>
+              <div class="faq__a">No. This is raw HTML + CSS only.</div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Does it work on mobile?</summary>
+              <div class="faq__a">
+                Yes—navigation collapses and grids stack at smaller widths.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="contact">
+        <div class="container cta__inner">
+          <div class="cta__copy">
+            <h2 class="cta__title">Ready to ship the Figma page?</h2>
+            <p class="cta__text">
+              Drop in the exact copy/assets and you’ll have a production-ready
+              static page.
+            </p>
+          </div>
+          <div class="cta__actions">
+            <a class="btn btn--primary btn--lg" href="#">Primary CTA</a>
+            <a class="btn btn--ghost btn--lg" href="#">Secondary</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a class="brand" href="#">
+            <span class="brand__mark" aria-hidden="true"></span>
+            <span class="brand__text">Brand</span>
+          </a>
+          <p class="footer__note">© <span class="year">2025</span> Brand. All rights reserved.</p>
+        </div>
+
+        <div class="footer__cols">
+          <div class="footer__col">
+            <div class="footer__title">Product</div>
+            <a class="footer__link" href="#features">Features</a>
+            <a class="footer__link" href="#pricing">Pricing</a>
+            <a class="footer__link" href="#faq">FAQ</a>
+          </div>
+          <div class="footer__col">
+            <div class="footer__title">Company</div>
+            <a class="footer__link" href="#">About</a>
+            <a class="footer__link" href="#">Careers</a>
+            <a class="footer__link" href="#">Contact</a>
+          </div>
+          <div class="footer__col">
+            <div class="footer__title">Legal</div>
+            <a class="footer__link" href="#">Privacy</a>
+            <a class="footer__link" href="#">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
